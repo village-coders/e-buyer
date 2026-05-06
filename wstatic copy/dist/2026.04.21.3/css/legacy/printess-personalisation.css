@@ -1,0 +1,276 @@
+.printess-container {
+    width: 100%;
+    float: left;
+    color: var(--printess-font-color, #000);
+
+    &.is-hidden {
+        display: none;
+    }
+
+    &.is-personalised {
+        .printess-default-cta-text {
+            display: none;
+        }
+
+        .printess-edit-cta-text {
+            display: inline;
+        }
+    }
+
+    &.hide-breakdown-costs {
+        .printess-field-breakdown-cost {
+            display: none;
+        }
+    }
+}
+
+.printess-header-container {
+    font-weight: var(--printess-header-font-weight, 600);
+    color: var(--printess-personalised-font-color, var(--printess-font-color, #000));
+}
+
+.printess-field-container {
+    color: var(--printess-personalised-font-color, var(--printess-font-color, #000));
+}
+
+.printess-field-label {
+    text-transform: capitalize;
+}
+
+.ProdDetails,
+#hotspotModal {
+    .printess-button-cta {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        background-color: #fff !important;
+        color: var(--printess-font-color, #000) !important;
+        font-weight: var(--font-weight-bold, 700);
+        font-size: var(--body-font-size, 14px);
+        font-family: var(--font-family-bold);
+        border-radius: 4px;
+        text-transform: uppercase;
+        border: 1px solid var(--printess-button-border-color, #000);
+        margin-bottom: 20px;
+    }
+}
+
+.Basket,
+.wishlist-page {
+    .printess-container {
+        margin-top: 20px;
+
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+        }
+    }
+
+    .printess-button-cta {
+        display: block;
+        background: none !important;
+        color: var(--printess-font-color, #000) !important;
+        padding: 0;
+        transform: none;
+        text-decoration: underline;
+        margin-top: 4px;
+    }
+}
+
+.Basket {
+    .product-line-card.is-line-error {
+        .printess-container {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.wishlist-page {
+    .printess-container {
+        margin: 10px 0 20px;
+    }
+}
+
+.printess-button-cta,
+.printess-edit-cta-text,
+.printess-header-container-template,
+.printess-field-container-template,
+.printess-pdp-personalised-container-template,
+.printess-pdp-personalised-container {
+    display: none;
+}
+
+#divBag,
+#divWishList {
+    .printess-button-cta {
+        display: none;
+    }
+
+    .printess-container {
+        margin: 20px 0;
+    }
+}
+
+.personalisation-applied {
+    border-radius: 4px;
+    margin: 0 0 calc(var(--spacing-unit, 4px) * 6);
+
+    .printess-pdp-personalised-container:not(.printess-pdp-personalised-container-template) {
+        display: block;
+    }
+
+    .printess-pdp-personalised-info-edit {
+        display: grid;
+        grid-template-areas: "global-icon label edit";
+        grid-template-columns: auto 1fr auto;
+        color: var(--printess-font-color, #000);
+        font-size: var(--body-font-size);
+        column-gap: 12px;
+        padding: calc(var(--spacing-unit, 4px) * 4);
+        border: 1px solid var(--printess-personalised-pdp-container, #000);
+        margin-bottom: 16px;
+    }
+
+    .printess-pdp-global-icon {
+        grid-area: global-icon;
+
+        .global-icon-tick {
+            .tick-outer {
+                fill: var(--printess-pdp-tick-outer, #000) !important;
+            }
+
+            .tick-inner {
+                fill: var(--printess-pdp-tick-inner, #fff) !important;
+            }
+        }
+    }
+
+    .printess-pdp-label {
+        grid-area: label;
+        font-weight: var(--printess-header-font-weight, 600);
+
+        [data-pdp-total-value] {
+            font-weight: normal;
+        }
+    }
+
+    .printess-pdp-remove-personalisation {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        cursor: pointer;
+        font-size: var(--body-font-size);
+        text-decoration: underline;
+    }
+
+    .printess-pdp-edit {
+        grid-area: edit;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .printess-button-cta {
+        display: none;
+    }
+}
+
+#printess-personalisation-modal {
+    position: fixed !important;
+
+    &.modal.in {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        bottom: 20px;
+        top: 20px;
+    }
+
+    .printess-personalisation-modal-dialog {
+        width: 60dvw;
+        height: 75dvh;
+        max-width: 900px;
+        max-height: 600px;
+        transform: none !important;
+        margin: 0 !important;
+
+        @media (max-width: 1300px) {
+            width: 75dvw;
+            height: 75dvh;
+        }
+
+        @media (max-width: 900px) {
+            width: 85dvw;
+            height: 85dvh;
+        }
+
+        @media (max-width: 768px) {
+            width: 95dvw;
+            height: 100%;
+            max-height: 95dvh;
+        }
+    }
+
+    .modal-content {
+        min-height: 100%;
+        width: 100%;
+    }
+
+    .modal-header {
+        height: 48px;
+        position: absolute !important;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 0;
+
+        .close {
+            top: 50%;
+            translate: 0 -50%;
+        }
+    }
+
+    .modal-body {
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        bottom: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .printess-loading:before {
+        background-color: #fff;
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 9999999;
+    }
+
+    .printess-loading:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: calc(50% - 50px);
+        translate: -50% 0;
+        width: 48px;
+        height: 48px;
+        border: 5px solid var(--printess-loader-color, #000);
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+        z-index: 99999999;
+    }
+
+    @keyframes rotation {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}

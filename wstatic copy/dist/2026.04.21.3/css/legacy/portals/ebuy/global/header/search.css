@@ -1,0 +1,228 @@
+.ToplinksGroup {
+    .container-fluid > .row > .search {
+        transition: none;
+        transform: none;
+        height: 58px;
+
+        @media (max-width: 767px) {
+            height: 60px;
+        }
+    }
+
+    .container-fluid .header-overlay.overlay.activeOverlay {
+        z-index: 3;
+    }
+
+    .search {
+        padding: 5px;
+        height: 55px;
+
+        @media (max-width: 1021px) {
+            padding: 5px 15px;
+        }
+
+        @media (min-width: 768px) {
+            height: 62px !important;
+            width: 49%;
+            padding: 10px 15px;
+        }
+
+        @media (min-width: 1022px) {
+            height: 71px !important;
+            padding-top: calc(var(--padding-unit) * 3.25);
+            padding-bottom: calc(var(--padding-unit) * 3.25);
+        }
+
+        @media (min-width: 1366px) {
+            width: 40% !important;
+        }
+
+        .dvSearch {
+            z-index: 100;
+            transition: background-color 0.25s linear 0s;
+            height: 100%;
+        }
+
+        #cmdSearch {
+            width: 38px;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            @media (max-width: 767px) {
+                height: 48px;
+                line-height: 48px;
+            }
+        }
+
+        #cmdSearch span {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            font-size: 12px;
+            vertical-align: middle;
+            background-size: 800px 800px;
+            background-position: -313px -381px;
+        }
+
+        #txtSearch {
+            border: 1px solid var(--site-dark-grey);
+            position: relative;
+            width: 100%;
+            height: 45px;
+            font-size: var(--body-font-size);
+            transition: none;
+            padding: 5px 5px 5px 38px;
+            background-color: var(--site-white);
+            color: var(--site-dark-grey);
+            caret-color: var(--site-dark-grey);
+            border-radius: 20px;
+
+            @media (min-width: 768px) and (max-width: 1021px) {
+                height: 42px;
+            }
+
+            @media (max-width: 767px) {
+                height: 48px;
+                font-size: var(--subtitle-font-size);
+            }
+        }
+
+        #txtSearch::placeholder {
+            color: var(--site-black) !important;
+            opacity: 1;
+            filter: none;
+        }
+    }
+
+    .touchenabled & .search #txtSearch {
+        font-size: var(--subtitle-font-size);
+    }
+
+    .search #txtSearch:focus,
+    .search.activeHover #txtSearch {
+        background-color: var(--site-white);
+        padding-right: calc(var(--padding-unit) * 11.75);
+        border: 1px solid var(--site-mid-grey);
+    }
+
+    #mobSearchContainer {
+        display: none;
+        background-color: var(--site-white);
+        width: 60px;
+        height: 60px;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 0;
+
+        #mobileSearchTriggerBtn {
+            background: none;
+            text-indent: 0;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+            svg {
+                width: 24px;
+                height: 24px;
+
+                path {
+                    stroke-width: 1px;
+                }
+            }
+        }
+    }
+}
+
+.dvSearch .TextBoxClear {
+    top: 0;
+    right: 0;
+    height: 44px;
+    text-align: center;
+    width: 38px;
+    line-height: 44px;
+    border: none;
+    box-shadow: none;
+    font-size: 11px;
+    font-family: inherit;
+    transform: none;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        font-size: 11px;
+        vertical-align: middle;
+        height: 30px;
+        background-size: 800px 800px;
+        background-position: -478px -381px;
+    }
+}
+
+.searchFocus .ControlWrap {
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
+
+@media (max-width: 1021px) {
+    .searchFocus .ToplinksGroup #mobSearchContainer {
+        display: block;
+        z-index: 1000;
+    }
+
+    #searchSuggestionsDropdown[data-visible="yes"] {
+        border-radius: 5px;
+        top: calc(var(--top));
+        width: calc(100vw - 30px);
+        left: 15px;
+        max-height: calc(100vh - var(--top));
+    }
+}
+
+@media (max-width: 767px) {
+    .searchFocus .ToplinksGroup .container-fluid > .row > .search,
+    .body-menu-open .ToplinksGroup .container-fluid > .row > .search {
+        z-index: 105;
+    }
+
+    .ui-autocomplete {
+        z-index: 10071 !important;
+        width: 100% !important;
+        max-height: calc(100% - 115px);
+        left: 0 !important;
+    }
+
+    .ui-autocomplete > li > .ui-corner-all {
+        padding-left: 20px;
+    }
+}
+
+.searchFocus {
+    .overlay {
+        @media (max-width: 1021px) {
+            top: 71px;
+        }
+
+        @media (max-width: 767px) {
+            top: 131px;
+        }
+    }
+
+    @media (max-width: 1021px) {
+        .bagWishBlock {
+            visibility: hidden;
+        }
+    }
+}

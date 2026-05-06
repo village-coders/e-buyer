@@ -1,0 +1,122 @@
+.BasketNew {
+    a.ContinueOn {
+        font-family: var(--default-font-family);
+        background-color: var(--site-black) !important;
+        color: var(--site-white) !important;
+
+        &:hover {
+            background-color: var(--site-dark-grey) !important;
+        }
+
+        &:focus {
+            background-color: var(--site-black);
+            outline: 1px solid var(--site-black);
+        }
+
+        &::after {
+            content: none !important;
+        }
+    }
+
+    .BasketQuantBut {
+        &::before {
+            background-image: var(--spritesheet) !important;
+            background-size: 600px 600px !important;
+        }
+
+        &.s-basket-minus-button::before {
+            background-position: -287px -284px;
+        }
+
+        &.s-basket-plus-button::before {
+            background-position: -260px -284px !important;
+        }
+    }
+
+    .deleteItemIcon {
+        background-image: var(--spritesheet) !important;
+        background-size: 600px 600px !important;
+        background-position: -361px -286px !important;
+    }
+
+    .MainOrderSummary {
+        .PromoCodeBut {
+            border: none;
+
+            a {
+                background-color: var(--site-dark-grey) !important;
+                color: var(--site-white);
+
+                &:hover {
+                    background-color: var(--site-dark-grey) !important;
+                    color: var(--site-white);
+                }
+            }
+        }
+    }
+
+    .move-to-wishlist-button {
+        border: none;
+    }
+}
+
+.Basket {
+    h1,
+    h1 span,
+    h2,
+    .elevated-cart .basket-summary-header {
+        font-weight: var(--font-weight-bold);
+        text-transform: capitalize;
+    }
+
+    h1 .totalItemsContainer .itemCount {
+        text-transform: var(--cart-heading-itemcount-text-transform, uppercase);
+    }
+
+    #divContinueSecurely.ImgButWrap a,
+    #divContinueSecurelyTop.ImgButWrap a {
+        font-weight: var(--font-weight-regular);
+    }
+
+    .elevated-cart.elevated-cart-is-empty {
+        .cart-page__primary-button {
+            background-color: var(--site-cta-background);
+            font-family: var(--default-font-family);
+            color: var(--site-cta-text) !important;
+            font-weight: var(--font-weight-bold);
+            border-radius: var(--site-cta-border-radius);
+            font-style: normal;
+            text-transform: initial;
+            letter-spacing: var(--default-letter-spacing);
+            line-height: 1;
+            padding: 15px 32px;
+
+            &:hover {
+                color: var(--site-cta-text-hover) !important;
+                background-color: var(--site-cta-background);
+            }
+        }
+    }
+}
+
+.BasketNew #BasketDiv table th.itemtotalprice .money,
+.BasketNew .productdesc .competition-entry .terms,
+.OrderSumm .TotalSumm span {
+    font-weight: var(--font-weight-regular);
+}
+
+.basket-summary-continue-button-container .ContinueOn {
+    background-color: var(--site-cta-background) !important;
+    border: var(--cart-button-border, none);
+    border-radius: var(--site-cta-border-radius);
+    font-weight: var(--site-cta-font-weight);
+    text-transform: var(--site-cta-text-transform);
+    line-height: 1;
+    padding: 14px 32px;
+    color: var(--site-cta-text) !important;
+
+    &:hover {
+        background-color: var(--site-cta-background-hover) !important;
+        color: var(--site-cta-text-hover) !important;
+    }
+}

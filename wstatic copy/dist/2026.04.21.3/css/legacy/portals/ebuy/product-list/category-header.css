@@ -1,0 +1,587 @@
+.Browse .ImgTxtContainer {
+    float: none;
+
+    .online-prices-differ-note {
+        display: none;
+    }
+}
+
+.Browse .topheadbox.col-xs-12,
+.Browse .topheadbox {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.Browse .topheadbox {
+    position: relative;
+}
+
+.Browse .HeadnCount {
+    padding: 24px 16px 0;
+}
+
+#lblCategoryCopy .catTemplate .siblingLinks,
+.topheadbox .siblingLinks {
+    padding: calc(var(--padding-unit) * 5) 0 0;
+    margin: 0 0 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#lblCategoryHeader,
+.Browse #catHeader {
+    font-size: var(--header-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--default-letter-spacing);
+    color: var(--site-black);
+    text-transform: none;
+}
+
+#lblCategoryCopy .textDesc,
+.topheadbox .textDesc {
+    text-align: left;
+}
+
+.Browse #lblCategoryCopy {
+    margin-top: 10px;
+}
+
+#catHeader {
+    .Browse & {
+        order: 2;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .categorycopyd4:has(.catTemplate.ImgCatVersion) & {
+        text-align: center;
+    }
+}
+
+.Browse .catTemplate {
+    margin: 0 auto;
+}
+
+.Browse .catTemplate.ImgCatVersion {
+    max-width: none;
+
+    @media (min-width: 1022px) {
+        .catDesc {
+            margin-top: 108px;
+        }
+    }
+}
+
+.Browse .catTemplate img {
+    width: 100%;
+    margin: 0;
+}
+
+.Browse .catTemplate .topSection {
+    padding: 0;
+}
+
+.Browse .catTemplate .bottomSection {
+    margin: 30px 0 10px;
+    padding: 0;
+    display: flex;
+}
+
+.Browse .catTemplate .bottomSection div {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Browse .catTemplate .catImg {
+    float: right;
+}
+
+.Browse .catTemplate .textDesc {
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-regular);
+    width: 100%;
+    letter-spacing: var(--default-letter-spacing);
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Browse .catTemplate .textDesc p,
+.Browse #lblCategoryCopy p {
+    margin: 0;
+    color: var(--site-black);
+    letter-spacing: var(--default-letter-spacing);
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-regular);
+    line-height: 20px;
+}
+
+.Browse .catTemplate .textDesc #catCopyMobileReadMoreLess {
+    cursor: pointer;
+}
+
+.siblingLinks {
+    .Browse .catTemplate & {
+        display: block;
+        clear: left;
+        margin: 10px 0;
+
+        span:first-of-type {
+            margin-left: 16px;
+        }
+
+        span:last-of-type {
+            margin-right: 16px;
+        }
+
+        @media (min-width: 1022px) {
+            span:first-of-type,
+            span:first-of-type a {
+                margin-left: 0;
+            }
+
+            span:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width: 1021px) {
+            padding: 0;
+        }
+    }
+
+    .Browse .catTemplate-FWC & a {
+        min-width: 0;
+    }
+
+    .Browse .catTemplate.ImgCatVersion & {
+        width: 100%;
+
+        @media (max-width: 1021px) {
+            margin-bottom: 10px;
+            order: 2;
+        }
+    }
+
+    @media (min-width: 1022px) and (max-width: 1152px) {
+        .Browse .catTemplate &,
+        .Browse .catTemplate.ImgCatVersion & {
+            width: 100%;
+        }
+
+        .Browse .catTemplate.ImgCatVersion & {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 1021px) {
+    .Browse .catTemplate.ImgCatVersion .siblingLinks {
+        margin-bottom: 10px;
+        order: 2;
+    }
+}
+
+.Browse .catTemplate .postWrap {
+    display: block;
+}
+
+.Browse .catTemplate .viewMore {
+    text-align: right;
+    padding: 0 20px;
+}
+
+.Browse .catTemplate .viewMore a span {
+    font-size: 1.2em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Browse .catTemplate .viewMore .collapsed span.OpenView,
+.Browse .catTemplate .viewMore span.ClosedView {
+    display: none;
+}
+
+.Browse .catTemplate .viewMore .collapsed span.ClosedView,
+.Browse .catTemplate .viewMore a,
+.Browse .catTemplate .viewMore span.OpenView {
+    display: inline-block;
+}
+
+.Browse .catTemplate .viewMore span.OpenView::after,
+.Browse .catTemplate .viewMore span.ClosedView::after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    vertical-align: top;
+    display: inline-block;
+    background-size: 750px 750px;
+    background-position: -170px -389px;
+}
+
+.Browse .catTemplate .viewMore span.OpenView::after {
+    background-position: -170px -417px;
+}
+
+#divsiblinglistwrapper {
+    padding: 0;
+}
+
+#divsiblinglistwrapper ul {
+    text-align: left;
+}
+
+#divsiblinglistwrapper ul li {
+    height: auto;
+    overflow: initial;
+}
+
+#lblCategoryCopy .catTemplate .siblingLinks,
+.topheadbox .siblingLinks,
+#divsiblinglistwrapper ul.ulFirst {
+    padding: calc(var(--padding-unit) * 4.5) 0 0;
+    font-size: 1em;
+    margin: 0;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#divsiblinglistwrapper ul.ulFirst {
+    display: flex;
+}
+
+#lblCategoryCopy .catTemplate .siblingLinks a,
+.topheadbox .siblingLinks a,
+#lblCategoryCopy .catTemplate-FWC .siblingLinks a,
+.catTemplate-FWC .siblingLinks a,
+#divsiblinglistwrapper ul li a {
+    line-height: 22px;
+    background-color: var(--site-white);
+    letter-spacing: var(--default-letter-spacing);
+    padding: 16px;
+    display: inline-block;
+    font-size: var(--body-font-size);
+    color: var(--site-black);
+    border: 1px solid var(--site-black);
+    text-transform: uppercase;
+    font-family: var(--default-font-family);
+    margin: 0 16px 20px 0;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+        background: var(--site-black);
+        color: var(--site-white);
+    }
+}
+
+#divsiblinglistwrapper ul li a:hover,
+#divsiblinglistwrapper ul li a:focus,
+#divsiblinglistwrapper ul li a:active {
+    text-decoration: none;
+}
+
+#lblCategoryCopy .catTemplate .siblingLinks a:active,
+.topheadbox .siblingLinks a:active,
+#divsiblinglistwrapper ul li a:active {
+    background-color: var(--site-black);
+    color: var(--site-white);
+}
+
+#lblCategoryCopy .siblingLinks,
+.topheadbox .siblingLinks,
+#divsiblinglistwrapper ul.ulFirst {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--site-dark-grey) var(--site-mid-grey);
+}
+
+#lblCategoryCopy .siblingLinks::-webkit-scrollbar,
+.topheadbox .siblingLinks::-webkit-scrollbar,
+#divsiblinglistwrapper ul.ulFirst::-webkit-scrollbar {
+    height: 5px;
+}
+
+#lblCategoryCopy .siblingLinks::-webkit-scrollbar-thumb,
+.topheadbox .siblingLinks::-webkit-scrollbar-thumb,
+#divsiblinglistwrapper ul.ulFirst::-webkit-scrollbar-thumb {
+    background: var(--site-dark-grey);
+    border-radius: 4px;
+}
+
+#lblCategoryCopy .siblingLinks::-webkit-scrollbar-track,
+.topheadbox .siblingLinks::-webkit-scrollbar-track,
+#divsiblinglistwrapper ul.ulFirst::-webkit-scrollbar-track {
+    background: var(--site-mid-grey);
+    border-radius: 4px;
+    margin: 0 0 15px;
+}
+
+.Browse .catswiperSection {
+    position: relative;
+    padding-top: 15px;
+}
+
+.Browse .catswiperSection .swiper-wrapper {
+    align-items: center;
+}
+
+.Browse .catSwiper .swiper-slide {
+    width: calc(40% - 8px);
+    margin-right: 10px;
+}
+
+.Browse .catSwiper .categoryContainer .swiper-slide a {
+    padding: 11px 5px;
+    width: 100%;
+    border: 1px solid var(--site-mid-grey);
+    color: var(--site-black);
+    border-radius: 5px;
+    background-color: var(--site-white);
+    letter-spacing: 0.03em;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 1em;
+}
+
+.Browse .catSwiper .categoryContainer .swiper-slide a:hover {
+    background-color: var(--site-mid-grey);
+    color: var(--site-black);
+}
+
+@media (min-width: 1640px) {
+    #lblCategoryHeader,
+    .Browse .catDesc,
+    #lblCategoryCopy .catTemplate .siblingLinks,
+    .topheadbox .siblingLinks,
+    .Browse .topheadbox,
+    .Browse #lblCategorySearchCopy,
+    .Browse .siblingcategory,
+    .Browse #lblCategoryCopy,
+    .Browse .HeadnCount,
+    #CategoryAcross {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Browse .catTemplate,
+    .Browse #catHeader,
+    .Browse #BreadcrumbGroup,
+    .Browse .online-prices-differ-note,
+    .Browse #FiltersAndProductsWrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Browse .catDesc,
+    #lblCategoryCopy .catTemplate .siblingLinks,
+    .topheadbox .siblingLinks,
+    .Browse .siblingcategory {
+        margin-left: 0;
+    }
+
+    .Browse .topheadbox,
+    .Browse #BreadcrumbGroup,
+    .Browse #FiltersAndProductsWrapper {
+        max-width: var(--large-container-max-width);
+    }
+}
+
+@media (min-width: 1022px) {
+    .Browse .catTemplate {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .Browse .catTemplate .postWrap {
+        position: relative;
+    }
+
+    .Browse .catTemplate .postWrap::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        z-index: 1;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .Browse .catTemplate .postWrap:hover::before {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .Browse .catTemplate.ImgCatVersion .catDesc,
+    .Browse .catTemplate.ImgCatVersion .siblingLinks,
+    .Browse .catTemplate .bottomSection .leftside {
+        padding-right: 15px;
+    }
+
+    .Browse .catTemplate .catImg,
+    .Browse .catTemplate .bottomSection .rightside {
+        padding-left: 15px;
+    }
+
+    .Browse .catTemplate:not(.ImgCatVersion) .topSection {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Browse .catTemplate .bottomSection::after,
+    .Browse .catTemplate .bottomSection::before {
+        content: normal;
+    }
+
+    .Browse .catTemplate div#ViewMoreCopy {
+        order: 1;
+        margin-top: 0 !important;
+    }
+
+    .Browse .catTemplate .catImg {
+        order: 2;
+    }
+
+    .Browse .catSwiper .swiper-slide {
+        width: calc(16.666667% - 8px);
+    }
+}
+
+@media (min-width: 1022px) and (max-width: 1152px) {
+    .Browse .catTemplate .bottomSection {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1021px) {
+    .Browse .catSwiper .swiper-slide {
+        width: calc(33.333333% - 8px);
+    }
+}
+
+@media (min-width: 768px) {
+    .catTemplate .collapse {
+        display: block !important;
+        height: auto !important;
+    }
+
+    #lblCategoryCopy .catTemplate {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Browse .catSwiper .innerContain {
+        padding: 0 50px;
+        position: relative;
+    }
+
+    .Browse .catSwiper .swiper-button-nextCat,
+    .catSwiper .swiper-button-prevCat {
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        width: 45px;
+        height: 45px;
+        z-index: 10;
+        cursor: pointer;
+        line-height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Browse .catSwiper .swiper-button-prevCat {
+        left: 0;
+    }
+
+    .Browse .catSwiper .swiper-button-nextCat {
+        right: 0;
+    }
+
+    .Browse .catSwiper .swiper-button-nextCat::before,
+    .Browse .catSwiper .swiper-button-prevCat::before {
+        content: "";
+        height: 18px;
+        width: 15px;
+        background-image: url("/images/marketing/arrows-blk.png");
+        background-position: 33% 100%;
+        background-size: 70%;
+        display: inline-block;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+    }
+
+    .Browse .catSwiper .swiper-button-prevCat::before {
+        background-position: 50% 0;
+    }
+
+    #lblCategoryCopy .catTemplate .siblingLinks a,
+    .topheadbox .siblingLinks a,
+    #divsiblinglistwrapper ul li a {
+        padding: calc(var(--padding-unit) * 2.5) calc(var(--padding-unit) * 8);
+    }
+}
+
+@media (max-width: 1021px) {
+    .Browse .catTemplate.ImgCatVersion .topSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Browse .catTemplate.ImgCatVersion .catDesc {
+        order: 1;
+    }
+
+    .Browse .catTemplate.ImgCatVersion .catImg {
+        order: 3;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1021px) {
+    #lblCategoryCopy .catTemplate .textLeft {
+        margin: 0;
+        width: 100%;
+    }
+
+    #lblCategoryCopy .catTemplate .imgRight {
+        display: none;
+    }
+
+    #lblCategoryCopy .catTemplate .siblingMore {
+        display: block !important;
+    }
+
+    .Browse #lblCategoryCopy,
+    .Browse .topheadbox {
+        border: 0;
+    }
+
+    .Browse .categorycopyd4 #catHeader {
+        position: static;
+        width: auto;
+        top: auto;
+        left: auto;
+    }
+
+    .sdlProdList.Browse #lblCategoryCopy {
+        display: flex !important;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .Browse .swiper-container.categoryContainer {
+        overflow: visible;
+    }
+}

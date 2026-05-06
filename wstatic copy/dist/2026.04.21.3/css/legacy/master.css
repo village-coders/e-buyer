@@ -1,0 +1,2839 @@
+#Body,
+p,
+a,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+html,
+blockquote,
+th,
+td,
+tr,
+legend,
+select,
+button,
+input[type="submit"],
+.prc_comment_postdatetime,
+#StoreFinderResultsAttributes ul li,
+nav#topMenu li.root .SubMenuWrapper > ul li a,
+nav#topMenu > ul li a {
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+}
+
+.registration-benefit .global-icon svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.ui-autocomplete .header,
+.swiper-active-switch,
+.swiper-pagination-switch:hover,
+#postcodeSearch #AddressMapStoreViewToggleContainer a {
+    background-color: #fff;
+}
+
+#postcodeSearch #AddressMapStoreViewToggleContainer a:hover,
+.Collectplusheaderrow {
+    background-color: #f4f4f4;
+}
+
+.QuickBuyButton,
+.QuickWishListButton,
+#divPayViaAlternativePaymentMethod a,
+.cs_sizeguide > tbody > tr:nth-child(2),
+.Help_Title {
+    color: #fff;
+}
+
+.ticketPricePrefix {
+    padding-right: 2px;
+    color: #888;
+}
+
+.SuggestedProduct > h4 a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.SuggestedProduct > h4 a span,
+.AltStratProduct > h4 a span {
+    display: block;
+}
+
+.SuggestedProduct > h4 a .PSProdBrand,
+.AltStratProduct > h4 a .AltStratBrand {
+    padding-bottom: 3px;
+}
+
+.SuggestedProduct .PSTicketSell,
+.AltStratProduct .AltStratRefPriName {
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.PSRefPrice,
+.AltStratRefPrice {
+    text-decoration: line-through;
+    color: #888;
+    display: inline-block;
+}
+
+.DeliveryText li,
+.DeliveryText li a {
+    color: #888;
+}
+
+.DeliveryText li a.FirstGroup,
+.ie7Warn {
+    color: #000;
+}
+
+.red,
+.OrderDetail .OrderDetail td.price .discount,
+#lblGiftCardValue {
+    color: #f00;
+}
+
+.loginWrap .WishListLoginText {
+    width: auto;
+    background-color: #fff2f2;
+    border: 1px solid rgba(255, 0, 0, 0.22);
+    max-height: 33px;
+    background-image: none;
+    padding: 9px 9px 9px 3px;
+    z-index: 1000 !important;
+    right: 0;
+    margin-left: 5px;
+    color: #c00 !important;
+}
+
+.dnnFormItem,
+.Login .ImgButWrap a,
+.accountFooter,
+#fieldbutton,
+.csHomeTableOuter,
+.relatedquestions,
+.ModCsPageWorldDeliveryCostsC table,
+.s-profile-fix h1,
+.AltVertOne ul,
+.AltStratImgQuick,
+.RvStratImgQuick,
+.QuickBuyButton,
+.QuickWishListButton,
+.LoaderAnim-Overlay,
+.s-logins-fix,
+.threeRow ul li a,
+.twoRow ul li a,
+.FourHovers ul li > a,
+.twoRow ul li img,
+.threeRow ul li img,
+.FourHovers ul li img,
+.FullAdvert img,
+body.no-scroll,
+body.no-scroll-dialog,
+.swiper-container,
+.swiper-container-mobile,
+.swiper-wrapper,
+.Home .pagination,
+.swiper-slide img,
+.NewProds img,
+.signup-wrapper .signupInner,
+.signup-wrapper input#signupEmail,
+.signup-wrapper input.signbut,
+.ie7WarnWrap,
+.ie7Warn,
+.ImgButWrapResponsive,
+.contact-responsive,
+.cs_sizeguide {
+    width: 100%;
+}
+
+.s-profile-fix,
+.LoginPanel {
+    width: 100% !important;
+}
+
+.AltStratImgQuick,
+.RvStratImgQuick,
+.LoaderAnim-Overlay,
+body.no-scroll,
+body.no-scroll-dialog,
+.OrderGroup .OrderColB {
+    height: 100%;
+}
+
+.HideWishList,
+.Responsivedisplaynone {
+    display: none !important;
+}
+
+.s-login-fix .existingCustomer .LoginWelcome,
+.Login fieldset legend,
+.User fieldset legend,
+.RecoverPassword fieldset legend,
+.NewProds .SideOn {
+    display: none;
+}
+
+.alert-block,
+#pstrength-container,
+.Help_Title,
+.AltStratSellPrice,
+.ui-autocomplete .header,
+.ui-autocomplete li .ui-corner-all,
+.Login .ImgButWrap,
+.CheckWrap .ImgButWrap,
+.LoaderAnim-Spin span,
+.DeliveryText li a,
+.OrderDetail .OrderDetail .address span,
+.OrderDetail .OrderDetail #InvoiceDetails div span {
+    display: block;
+}
+
+.dnnFormItem,
+.dnnRadiobutton,
+.dnnRadiobutton .mark,
+.dnnFormItem button,
+.dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnFormItem input[type="submit"],
+.dnnPrimaryAction,
+.dnnSecondaryAction,
+.dnnTertiaryAction,
+.dnnLogin .LoginTabGroup span,
+.divDotAreaSelected h2,
+#newPaymentMethod h2,
+.ImgButWrap,
+.ImgButWrap a,
+.ImgButWrap a:active,
+.ImgButWrap a:visited,
+.ImgButWrap a:link,
+.ImgButWrap a:focus,
+.Login a.SmallerButtons,
+.Login .SmallerButtons a,
+.AltStratRefPrice,
+.AltStratRefName,
+.QuickBuyButton,
+.QuickWishListButton,
+#pnlExpressCheckoutButtons #dvAmazonCheckout,
+#pnlExpressCheckoutButtons #dvPaypalCheckout,
+#pnlExpressCheckoutButtons #dvGoogleCheckout,
+#pnlExpressCheckoutButtons #dvMasterPassCheckout,
+.swiper-pagination-switch,
+.ie7Warn {
+    display: inline-block;
+}
+
+#pnlExpressCheckoutButtons #AmazonInlineWidget,
+#pnlExpressCheckoutButtons #PaypalCheckoutButton,
+#pnlExpressCheckoutButtons #GoogleCheckoutButton,
+#pnlExpressCheckoutButtons #MasterpassCheckoutButton,
+.Passwordetailsindicator {
+    display: inline;
+}
+
+.relatedquestions,
+.s-logins-fix,
+.threeRow ul li a,
+.twoRow ul li a,
+.FourHovers ul li > a,
+.swiper-slide,
+.signup-wrapper .signupInner,
+.ie7Warn .text,
+.ie7Warn .dismiss,
+.Paddingright-twenty,
+#Values,
+.loginWrap .WishListLoginText {
+    float: left;
+}
+
+.ie7Warn .dismiss button,
+.floatright,
+li.floatright,
+.Responsive #postcodeSearch #AddressMapStoreViewToggleContainer a {
+    float: right;
+}
+
+.LoginPanel,
+#cboxContent #collectInStoreConfirmationText,
+#collectPlusConfirmationText {
+    float: none;
+}
+
+.dnnFormItem,
+.AltVertOne,
+.AltStratSellPrice,
+.relatedquestions {
+    clear: both;
+}
+
+.LoaderAnim-Overlay,
+.LoaderAnim-Spin,
+body.no-scroll,
+body.no-scroll-dialog {
+    position: fixed;
+}
+
+.dnnFormItem,
+.AltVertOne ul,
+.AltVertOne .AltStratProduct,
+.AltStratImgQuick,
+.RvStratImgQuick,
+.threeRow ul li a,
+.twoRow ul li a,
+.FourHovers ul li > a,
+.swiper-container,
+.swiper-container-mobile,
+.swiper-wrapper,
+.loginWrap .WishListLoginText {
+    position: relative;
+}
+
+.s-product-sache,
+.AltStratProduct .QuickBuyButton,
+.swiper-container a.arrow-left,
+.swiper-container a.arrow-right,
+.swiper-mobile a.arrow-left,
+.swiper-mobile a.arrow-right,
+.NewProds .FlatTop {
+    position: absolute;
+}
+
+.fieldtext h3,
+#fieldbutton,
+.csHomeTableOuter,
+.csHomeTable,
+.AltVertOne .AltStratProduct,
+.Home ul.brands,
+.Home .pagination,
+.DeliveryText li,
+.ResponsiveBtn,
+.Responsive #divCheckbox,
+.Collectplusthumbs,
+.cs_sizeguide td {
+    text-align: center;
+}
+
+.ModCsPageWorldDeliveryCostsC table tr td,
+#s-shipping-confirmation-title,
+#s-delivery-options-title,
+.CancelResponsive,
+.contact-responsive,
+.cs_sizeguide > tbody > tr:nth-child(1) > td,
+.dnnFormItem {
+    text-align: left;
+}
+
+.CheckWrap .ImgButWrap,
+.signup-wrapper .signupInner .join-us-text,
+.row .OrderButtons,
+.Collectpluscanclebutton {
+    text-align: right;
+}
+
+.divDotAreaSelected h2,
+#newPaymentMethod h2,
+.Login .field,
+.csHomeTable li,
+.AltVertOne ul,
+.threeRow ul li a,
+.twoRow ul li a,
+.FourHovers ul li > a,
+body.no-scroll,
+body.no-scroll-dialog,
+.swiper-container,
+.swiper-container-mobile,
+.swiper-slide {
+    overflow: hidden;
+}
+
+.swiper-container-free-mode .swiper-wrapper,
+.swiper-wrapper,
+#addressbook-modal-background,
+.loginWrap .WishListLoginText {
+    overflow: visible;
+}
+
+#s-cards-title h1,
+.dnnFormSectionHead span {
+    border: none !important;
+}
+
+.dnnFormItem button,
+.dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnFormItem input[type="submit"],
+.dnnPrimaryAction,
+.dnnSecondaryAction,
+.dnnTertiaryAction,
+.dnnLogin .LoginTabGroup span,
+.QuickBuyButton,
+.QuickWishListButton,
+.ui-autocomplete li .ui-corner-all {
+    border: none;
+}
+
+.loginWrap .WishListLoginText,
+.ui-autocomplete li .ui-corner-all,
+.Home .pagination,
+.signup-wrapper input.signbut {
+    border-radius: 0;
+}
+
+.cs_sizeguide > tbody > tr td:last-child,
+.DeliveryText li.Group3,
+#storeInfo .ShopDay {
+    border-right: none;
+}
+
+#cboxContent #postcodeSearch,
+#cboxContent .addressMap-store-name {
+    border-bottom: none;
+}
+
+.signup-wrapper input#signupEmail,
+.OrderDetail .Orderborder,
+.OrderDetail .Orderborderlast,
+.Landingpassword {
+    border: 1px solid #ccc;
+}
+
+.ModCsPageWorldDeliveryCostsC table tr td,
+.signup-wrapper .signupInner {
+    border: 1px solid #d3d3d3;
+}
+
+.OrderDetailLine {
+    border: 1px solid #eee;
+}
+
+.Normal,
+.NormalDisabled,
+.NormalDeleted,
+.dnnFormItem button,
+.dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnFormItem input[type="submit"],
+.dnnPrimaryAction,
+.dnnSecondaryAction,
+.dnnTertiaryAction,
+.dnnLogin .LoginTabGroup span,
+.s-logins-fix,
+.FourHovers ul li h2,
+.ImgButWrap a,
+.ImgButWrap a:active,
+.ImgButWrap a:visited,
+.ImgButWrap a:link,
+.ImgButWrap a:focus,
+.ImgButWrap input,
+.RightBox h3,
+.s-profile-fix,
+.ui-autocomplete.ui-menu .ui-menu-item .ui-corner-all,
+.ui-autocomplete.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-autocomplete.ui-menu .ui-menu-item a.ui-state-active {
+    font-weight: normal;
+}
+
+.RightBox h2 a,
+.TopHeader > div > a,
+.TopHeader > div,
+.RightBox h2,
+.Help_Title,
+.csHomeTable li.header,
+.relatedquestions h4,
+.AltStratSellPrice,
+.ui-autocomplete .header,
+.ui-autocomplete.ui-menu .ui-menu-item.staticUrl a,
+.ui-autocomplete.ui-menu .ui-menu-item.staticUrl a.ui-state-hover,
+.ui-autocomplete.ui-menu .ui-menu-item.staticUrl a.ui-state-active,
+.TrackingReference,
+.signup-wrapper input.signbut,
+.OrderDetailLine .col .orderdtls a,
+#OrderDetailDiv .total .FooterItem,
+.strongTitle {
+    font-weight: bold;
+}
+
+.OrderDetail a.dnnPrimaryAction,
+.row .OrderDetail a.dnnPrimaryAction,
+#postcodeSearch #AddressMapStoreViewToggleContainer a {
+    text-transform: none;
+}
+
+.Profile a.SmallerButtons,
+#addressbook-edit-dialog a.SmallerButtons,
+.Profile .SmallerButtons a,
+#addressbook-edit-dialog .SmallerButtons a,
+.Login a.SmallerButtons,
+.Login .SmallerButtons a,
+.Responsivetextarea,
+.DefaultAddress,
+a.AltStratBrandDesc:hover,
+.loginContainer .ForgotPass a.ForgotPasswordLinkButton {
+    text-decoration: underline;
+}
+
+.RightBox h2 a,
+.TopHeader > div > a,
+.ImgButWrap a,
+.ImgButWrap a:active,
+.ImgButWrap a:visited,
+.ImgButWrap a:link,
+.ImgButWrap a:focus,
+.ImgButWrap input,
+.OrderComplete.Checkout22 a.button,
+.OrderComplete.Checkout22 a.button:visited {
+    text-decoration: none;
+}
+
+.divDotAreaSelected h2,
+#newPaymentMethod h2,
+.TopHeader p,
+#s-shipping-confirmation-title,
+#s-delivery-options-title,
+.s-profile-fix,
+.s-logins-fix,
+.Home .pagination,
+.signup-wrapper input#signupEmail,
+.OrderGroup .OrderColB {
+    margin: 0;
+}
+
+#s-shipping-confirmation-title,
+#s-delivery-options-title,
+.QuickBuyButton,
+.QuickWishListButton,
+.threeRow ul li div,
+.NewProds .LeftSide,
+.NewProds .RightSide,
+.NewProds .ProductTabs,
+.NewProds .FlatTop,
+.OrderGroup,
+.passwordWrap h1,
+.Landingpassword {
+    padding: 0;
+}
+
+.LoginPanel {
+    padding: 0 !important;
+}
+
+.row .OrderDetail .OrderDetail #InvoiceDetails #Labels,
+.row .OrderDetail .OrderDetail #InvoiceDetails #Values,
+.ui-autocomplete {
+    padding: 5px;
+}
+
+.AltStratImgQuick,
+.ModCsPageWorldDeliveryCostsC table tr td,
+.cs_sizeguide > tbody > tr:nth-child(1) > td,
+.AltStratTitle,
+.ie7Warn,
+.ie7Warn .dismiss button,
+.Padding-ten,
+#Values,
+.OrderhistorySummary .OlderOrderSeparator {
+    padding: 10px;
+}
+
+.AltVertOne .AltStratProduct {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1021px) {
+    .AltVertOne .AltStratProduct {
+        width: 200px;
+    }
+}
+
+#postcodeSearch #AddressMapStoreViewToggleContainer,
+#cboxContent .storeWrapper {
+    margin-top: 0;
+}
+
+.Profile a.SmallerButtons,
+#addressbook-edit-dialog a.SmallerButtons,
+.Profile .SmallerButtons a,
+#addressbook-edit-dialog .SmallerButtons a,
+.Login a.SmallerButtons,
+.Login .SmallerButtons a,
+ul.groupquestions,
+.txtfield,
+.OrderDetail .OrderDetail #BasketDiv,
+.ModCsPageWorldDeliveryCostsC h2,
+.AltVertOne,
+#divNavButtonsBottom {
+    margin-top: 20px;
+}
+
+.errorcomp,
+.Paddingtop-ten {
+    padding-top: 10px;
+}
+
+.Paddingtop-twenty {
+    padding-top: 20px;
+}
+
+.dnnActions li,
+.row .OrderDetail a.dnnPrimaryAction,
+.row.signup-wrapper {
+    margin-right: 0;
+}
+
+.Marginright-ten {
+    margin-right: 10px !important;
+}
+
+.Paddingright-five,
+.glyphicon-lock {
+    padding-right: 5px;
+}
+
+.Paddingright-ten {
+    padding-right: 10px;
+}
+
+.Paddingright-twenty {
+    padding-right: 20px;
+    clear: both;
+}
+
+.dnnFormItem button,
+.dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnFormItem input[type="submit"],
+.dnnPrimaryAction,
+.dnnSecondaryAction,
+.dnnTertiaryAction,
+.dnnLogin .LoginTabGroup span,
+#cboxContent .addressMap-store-name {
+    margin-bottom: 0;
+}
+
+#AddressMapSplashPageCollectPlusTextContainer h3,
+#cboxContent #postcodeSearch,
+.Collectplusheaderrow {
+    margin-bottom: 5px;
+}
+
+.Help_Title,
+ul.groupquestions,
+.twoRow,
+.threeRow,
+.FourHovers,
+.FullAdvert,
+.FourHovers ul li > a,
+.DeliveryText,
+.NewProds .LeftSide,
+.NewProds .RightSide,
+.ie7Warn,
+.Marginbottom-ten,
+.Landingpassword,
+.errorMsg li,
+#AddressMapSplashPageCollectPlusTextContainer h3 {
+    margin-bottom: 10px;
+}
+
+.loginWrap .WishListLoginText,
+.financeReturnMessage,
+.OrderButtons .ImgButWrap,
+.OrderDetail .OrderDetail #BasketDiv table {
+    margin-bottom: 15px;
+}
+
+.underlineit,
+.OrderDetail .Orderborderlast,
+.Profile a.SmallerButtons,
+#addressbook-edit-dialog a.SmallerButtons,
+.Profile .SmallerButtons a,
+#addressbook-edit-dialog .SmallerButtons a,
+.Login a.SmallerButtons,
+.Login .SmallerButtons a {
+    margin-bottom: 20px;
+}
+
+.Paddingbottom-fithteen {
+    padding-bottom: 15px;
+}
+
+.row.signup-wrapper {
+    margin-left: 0;
+}
+
+.Paddingleft-five,
+#cboxContent .addressMap-store-details {
+    padding-left: 5px;
+}
+
+.Paddingleft-ten,
+.TrackingReference,
+.signup-text,
+#litMonStoreOpenTimeLeft {
+    padding-left: 10px;
+}
+
+.Searchnoresultsicon,
+.OrderDetail .OrderDetail .OrderFooter {
+    font-size: 0.9em;
+}
+
+.TopHeader,
+.RightBox p,
+.PromoCodeInput .ImgButWrap a {
+    font-size: 1em;
+}
+
+.Profile a.SmallerButtons,
+#addressbook-edit-dialog a.SmallerButtons,
+.Profile .SmallerButtons a,
+#addressbook-edit-dialog .SmallerButtons a,
+.Login a.SmallerButtons,
+.Login .SmallerButtons a,
+.RightBox h3,
+.signup-text {
+    font-size: 1.2em;
+}
+
+.DeliveryText li,
+.Responsivetextarea,
+#OrderDetailDiv .total .FooterItem,
+.loginWrap .WishListLoginText,
+.csHomeTable li.header,
+.groupquestions a,
+.AltStratTitle,
+.TrackingReference {
+    font-size: 1.2em;
+}
+
+.AltStratSellPrice,
+.FourHovers ul li h2 {
+    font-size: 1.4em;
+}
+
+.TopHeader > div,
+.RightBox h2 {
+    font-size: 1.8em;
+}
+
+#s-shipping-noproduct-title h1 {
+    font-size: 18px;
+}
+
+#s-profile-noproduct-para {
+    font-size: 14px;
+}
+
+.searchwrap {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.searchwrap h1 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+    font-style: italic;
+}
+
+.Storefooterbutton {
+    font-size: 13px;
+}
+
+.loginWrap .WishListLoginText,
+.RightBox h3,
+.AltStratSellPrice,
+.DeliveryText li {
+    line-height: 1.2em;
+}
+
+.ChangePasswordText {
+    line-height: 1.3em;
+}
+
+.Normal,
+.NormalDisabled,
+.NormalDeleted {
+    color: inherit;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.dnnRadiobutton,
+.ImgButWrap a,
+.ImgButWrap a:active,
+.ImgButWrap a:visited,
+.ImgButWrap a:link,
+.ImgButWrap a:focus,
+.ImgButWrap input,
+.QuickBuyButton,
+.QuickWishListButton,
+.ui-autocomplete li .ui-corner-all,
+.Home .pagination,
+.OrderComplete.Checkout22 a.button {
+    cursor: pointer;
+}
+
+.UserNewReg td,
+.dnnRadiobutton img {
+    vertical-align: middle;
+}
+
+.csHomeTable li.header,
+.AltStratProduct img,
+.swiper-container,
+.swiper-container-mobile,
+.swiper-slide img,
+.loginWrap .WishListLoginText,
+.existingCustomer,
+.sdSocialControls,
+#securedByLogin {
+    height: auto;
+}
+
+#changepassp {
+    margin-bottom: 30px;
+}
+
+.divDotAreaSelected h2,
+#newPaymentMethod h2 {
+    color: #333;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.dobWrapper {
+    width: 60%;
+    display: inline-block;
+    margin-left: 1%;
+    max-width: 290px;
+}
+
+.ImgButWrap a,
+.ImgButWrap a:active,
+.ImgButWrap a:visited,
+.ImgButWrap a:link,
+.ImgButWrap a:focus,
+.ImgButWrap input {
+    font-size: 15px;
+    padding: 19px 60px;
+    filter: none;
+    line-height: 1em;
+    text-shadow: 0 0 0;
+    white-space: nowrap;
+}
+
+.Login .loginContainer .ImgButWrap a::after,
+.Login .submitWrap .ImgButWrap a::after,
+.submitBut .ImgButWrap a::after,
+.BasketNew .primary2.ImgButWrap a::after {
+    content: "";
+    padding-left: 5px;
+    color: #fff;
+    background: url("/images/core/global-sprite-sd-v4.svg") no-repeat;
+    background-size: 750px 750px;
+    background-position: -164px -188px;
+    height: 17px;
+    display: inline-block;
+    width: 100%;
+    max-width: 24px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.dnnPrimaryAction,
+.dnnFormItem input[type="submit"],
+a.dnnPrimaryAction {
+    box-shadow: none !important;
+}
+
+.dnnFormItem button,
+.dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnFormItem input[type="submit"],
+.dnnPrimaryAction,
+.dnnSecondaryAction,
+.dnnTertiaryAction,
+.dnnLogin .LoginTabGroup span {
+    min-width: 0;
+}
+
+.dnnFormItem button,
+.dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnSecondaryAction,
+a.dnnSecondaryAction,
+.dnnLogin .LoginTabGroup span,
+.dnnFormItem button:active,
+.dnnFormItem input[type="button"]:active,
+.dnnFormItem input[type="reset"]:active,
+.dnnSecondaryAction:active,
+a.dnnSecondaryAction:active,
+ul.dnnAdminTabNav li a:active {
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: none;
+}
+
+.dnnFormItem button:active,
+.dnnFormItem input[type="button"]:active,
+.dnnFormItem input[type="reset"]:active,
+.dnnSecondaryAction:active,
+a.dnnSecondaryAction:active {
+    border-color: #fff;
+}
+
+.dnnFormMessage {
+    padding: 10px 0;
+    display: block;
+    color: #e1251b !important;
+    font-size: 1.2em;
+}
+
+.recaptchaMsg.dnnFormMessage {
+    text-align: center;
+    padding: 10px;
+}
+
+.dnnFormMessage.dnnFormInfo {
+    border: 1px solid #eee;
+    background: #fafafa;
+    border-radius: 0;
+    max-width: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.dnnFormMessage.dnnFormSuccess {
+    text-align: center;
+    font-weight: bold;
+    color: #000 !important;
+    padding: 15px;
+}
+
+.dnnFormItem input,
+.dnnFormItem .dnnFormInput,
+.dnnFormItem textarea,
+.dnnFormItem select {
+    background-color: #fff;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: none;
+    padding: 10px;
+    border-radius: 0;
+    min-height: 39px;
+    border: 1px solid #999;
+    color: #606060;
+    font-size: 13px;
+}
+
+.dnnFormItem input:disabled,
+.dnnFormItem textarea:disabled,
+.dnnFormItem select:disabled {
+    background-color: #fafafa;
+    border: 1px solid #ddd !important;
+    color: #606060 !important;
+}
+
+.dnnFormItem input.error,
+.dnnFormItem .dnnFormInput.error,
+.dnnFormItem textarea.error,
+.dnnFormItem select.error {
+    border: 1px solid #ed0000;
+}
+
+.dnnFormShort input,
+.dnnFormShort .dnnFormInput,
+.dnnFormShort textarea,
+.dnnFormShort select {
+    max-width: 190px;
+}
+
+.dnnFormItem input[type="radio"],
+.dnnFormItem input[type="checkbox"] {
+    max-width: 18px;
+    min-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.dnnFormItem input[type="image"] {
+    min-height: 24px;
+    padding: 0;
+    width: auto;
+}
+
+.dnnFormItem input:focus,
+.dnnFormItem input:active,
+.dnnFormItem select:focus,
+.dnnFormItem select:active {
+    box-shadow: none;
+    border: 1px solid #000;
+    color: #3e3e3e;
+}
+
+.dnnFormItem input:invalid {
+    border: 1px solid #e1251b;
+}
+
+.DateSelectorWrap {
+    max-width: 380px;
+}
+
+.passwordNote span {
+    font-size: 13px;
+}
+
+.Login .innerBorder {
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+}
+
+.Login .innerBorder h2 {
+    font-size: 1.5em;
+    padding-bottom: 40px;
+}
+
+.Login .accountIcons > div {
+    margin-bottom: 40px;
+}
+
+.Login .accountIcons .textReg {
+    width: calc(100% - 50px);
+}
+
+.Login .accountIcons .iconReg {
+    width: 50px;
+    height: 40px;
+}
+
+.accountIcons .iconReg span {
+    background: url("/images/core/global-sprite-sd-v4.svg") no-repeat;
+    width: 100%;
+    background-size: 1400px 1400px;
+    display: block;
+    height: 100%;
+    background-position: -437px -660px;
+}
+
+.accountIcons .launchGroup .iconReg span {
+    background-position: -506px -658px;
+}
+
+.accountIcons .laterGroup .iconReg span {
+    background-position: -25px -660px;
+}
+
+.Login .accountIcons p {
+    margin: 0 0 5px;
+    font-size: 1.2em;
+}
+
+.loginContainer .ForgotPass a.ForgotPasswordLinkButton {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.Login h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Login .tcLogin {
+    padding-top: 40px;
+    font-size: 1.2em;
+}
+
+.Login .tcLogin a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Registeraccounticons {
+    font-size: 1.6em;
+}
+
+.contact-sec h3 {
+    font-size: 1.6em;
+    padding: 0 5px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.fieldtext h3 {
+    text-transform: uppercase;
+}
+
+.Profile a.SmallerButtons {
+    display: inline-block;
+}
+
+.passwordWrap h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ProfileWrap .newsletterMessage {
+    margin-bottom: 30px;
+}
+
+#pstrength-container > div {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.Profile h1 .Searchnoresultsicon {
+    padding: 4px 10px 10px 0;
+}
+
+.UserNewReg img {
+    width: 85%;
+    height: 85%;
+}
+
+.grecaptcha-badge {
+    z-index: 11000;
+}
+
+.RightBox p {
+    margin: 0;
+}
+
+.Help_Title {
+    background-color: #555;
+    padding: 10px 15px;
+    font-size: 2em;
+}
+
+.csHomeTable {
+    margin: 0 0 10px;
+    min-height: 280px;
+}
+
+.csHomeTable li.header {
+    padding: 4px 10px 8px;
+    margin-bottom: 4px;
+    line-height: 2em;
+}
+
+.csHomeTable li {
+    max-height: 34px;
+    list-style: none outside none;
+    padding: 3px 10px;
+}
+
+.relatedquestions {
+    margin: 20px 0;
+}
+
+.relatedquestions h4 {
+    padding-bottom: 4px;
+    padding-top: 8px;
+}
+
+ul.groupquestions {
+    padding-left: 15px;
+}
+
+.groupquestions li {
+    list-style: none;
+    padding-left: 16px;
+    margin-top: 6px;
+}
+
+.HorzComplete {
+    margin: 10px 0;
+}
+
+.AltStratBrandDesc {
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+}
+
+.AltStratRefSell {
+    height: 35px;
+    padding: 0 5px;
+}
+
+.AltStratTitle {
+    text-align: center;
+    margin: 0 0 10px;
+    color: #666;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.AltStratProduct img {
+    max-width: 100%;
+    width: auto;
+}
+
+.AltStratProduct .QuickBuyButton {
+    bottom: 0;
+    left: 0;
+    z-index: 975 !important;
+}
+
+.AltStratBrand {
+    clear: left;
+}
+
+.QuickBuyButton,
+.QuickWishListButton {
+    height: 18px;
+}
+
+.s-breadcrumbs-container {
+    margin: 0 0 10px;
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.s-breadcrumbs-bar > p,
+.s-breadcrumbs-bar > span,
+.s-breadcrumbs-bar > span ol li {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.s-breadcrumbs-bar > p {
+    font-size: 1em;
+}
+
+.s-breadcrumbs-bar > span ol li a,
+.s-breadcrumbs-bar > span ol li.last {
+    padding: 0 5px;
+}
+
+.s-breadcrumbs-bar > span ol li a:hover {
+    text-decoration: underline;
+}
+
+.ui-autocomplete {
+    border-radius: 0 !important;
+    border-width: 0 1px 1px !important;
+    box-shadow: 0 5px 3px -2px #ccc;
+    font-size: 1em !important;
+    position: fixed !important;
+    background: none !important;
+    background-color: #fff !important;
+    border-color: #ddd !important;
+    border-style: solid !important;
+    width: 237px;
+    z-index: 5900 !important;
+    max-height: 54vh;
+    overflow-y: auto;
+}
+
+.ui-autocomplete .header {
+    border-bottom: 1px solid #bbb;
+    cursor: default;
+    margin: 0 10px 10px;
+    padding: 10px 0;
+    font-size: 1.3em;
+}
+
+.ui-autocomplete li .ui-corner-all {
+    padding: 5px;
+    background-image: none;
+}
+
+.ui-autocomplete li.autocomplete-split-enabled {
+    border-bottom: none !important;
+}
+
+.ui-autocomplete li.autocomplete-split-enabled > .ui-corner-all {
+    padding: 10px !important;
+    font-size: 1.2em;
+}
+
+.ui-autocomplete li .ui-corner-all:hover,
+.ui-autocomplete li .ui-corner-all:focus,
+.ui-autocomplete .ui-state-focus {
+    text-decoration: underline;
+}
+
+.ui-autocomplete.ui-menu .ui-menu-item {
+    float: none;
+}
+
+.ui-autocomplete.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-autocomplete.ui-menu .ui-menu-item a.ui-state-active {
+    margin: 0;
+}
+
+.s-basket-buttons .s-basket-button-left a {
+    padding: 15px;
+}
+
+.PromoCodeInput .ImgButWrap a {
+    padding: 6px 10px;
+}
+
+#pnlExpressCheckoutButtons #dvAmazonCheckout,
+#pnlExpressCheckoutButtons #dvPaypalCheckout,
+#pnlExpressCheckoutButtons #dvGoogleCheckout,
+#pnlExpressCheckoutButtons #dvMasterPassCheckout {
+    padding: 0 4% 4% 0;
+    vertical-align: top;
+}
+
+#pnlExpressCheckoutButtons #AmazonInlineWidget,
+#pnlExpressCheckoutButtons #PaypalCheckoutButton,
+#pnlExpressCheckoutButtons #GoogleCheckoutButton,
+#pnlExpressCheckoutButtons #MasterpassCheckoutButton {
+    vertical-align: top;
+}
+
+.LoaderAnim-Overlay {
+    background: url("/images/core/overlaydefault.png") repeat scroll left top transparent;
+    left: 0;
+    opacity: 0.8;
+    top: 0;
+    z-index: 8000 !important;
+}
+
+.LoaderAnim-Spin {
+    z-index: 8100 !important;
+    left: 50%;
+    top: 50%;
+    margin-left: -35px;
+    margin-top: 30px;
+}
+
+.LoaderAnim-Spin span {
+    background: url("/images/core/spinneranim.gif") no-repeat scroll center center #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 2px #ccc;
+    height: 60px;
+    width: 70px;
+}
+
+.s-logins-fix {
+    font-size: 1.1em !important;
+}
+
+.OrderGroup h1 {
+    font-size: 2em;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #ddd;
+    margin: 15px 0;
+}
+
+.TrackingReference {
+    font-style: italic;
+}
+
+.swiper-container,
+.swiper-container-mobile {
+    margin: 0 auto 10px;
+    backface-visibility: hidden;
+    z-index: 1;
+}
+
+.swiper-wrapper {
+    transition-property: transform, left, top;
+    transition-duration: 0s;
+    transform: translate3d(0, 0, 0);
+    transition-timing-function: ease;
+    height: auto !important;
+    margin: 0 auto;
+}
+
+.swiper-free-mode > .swiper-wrapper {
+    transition-timing-function: ease-out;
+    margin: 0 auto;
+}
+
+.swiper-slide > a {
+    display: block;
+}
+
+.Home .pagination {
+    background-color: #ddd;
+    padding-top: 6px;
+    height: 24px;
+}
+
+.swiper-pagination-switch {
+    background-color: #1861a5;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    margin: 0 6px;
+}
+
+.swiper-container a.arrow-left,
+.swiper-container a.arrow-right,
+.swiper-mobile a.arrow-left,
+.swiper-mobile a.arrow-right {
+    height: 30px;
+    width: 17px;
+    top: 42%;
+    z-index: 10;
+    left: 10px;
+    background: url("/images/marketing/arrows.png") no-repeat left top;
+}
+
+.swiper-container a.arrow-right,
+.swiper-mobile a.arrow-right {
+    right: 10px;
+    left: auto;
+    background-position: left bottom;
+}
+
+.DeliveryText li {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #888;
+}
+
+.DeliveryText li.Group1 {
+    border-left: 0;
+}
+
+.NewProds .LeftSide {
+    border-left: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.NewProds .RightSide {
+    border-right: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.NewProds .FlatTop {
+    left: 0;
+    top: -10px;
+    z-index: 1;
+    width: 20%;
+}
+
+.signup-wrapper .signupInner {
+    padding: 10px 5px;
+}
+
+.signup-wrapper .signupInner .join-us-text {
+    padding-top: 3px;
+}
+
+.signup-text {
+    padding-top: 4px;
+}
+
+.signup-wrapper input#signupEmail {
+    padding: 4px 8px;
+    background-color: #fff;
+    border: 1px solid #999;
+}
+
+.signup-wrapper input#signupEmail:focus {
+    border-color: #000;
+}
+
+.signup-wrapper input#signupEmail.error {
+    border-color: #ed0000;
+}
+
+.signup-wrapper input.signbut {
+    padding: 5px 0;
+}
+
+.Landingaccount .Vieworders {
+    background-color: transparent;
+    padding: 0;
+}
+
+.Landingaccount .Vieworders a {
+    padding: 19px;
+}
+
+.ResponsiveBtn {
+    float: right;
+}
+
+.Responsivetextarea {
+    padding: 16px 0 8px;
+}
+
+.PaddingDefaultCards {
+    padding: 4px 4px 0;
+}
+
+.underlineit {
+    border-bottom: 1px solid #ccc;
+}
+
+.UnderlineitRegistration {
+    margin: 25px 0 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.UnderlineitRegistrationLast {
+    margin: 25px 0 15px;
+}
+
+.ImgButWrapResponsive {
+    text-transform: none !important;
+}
+
+.OrderGroup .ButtonOrder,
+.OrderGroup .TrackOrder {
+    margin-bottom: 8px;
+}
+
+.Paddingfieldset {
+    padding: 0 0 20px;
+}
+
+.submitCancelWrap {
+    padding: 0 20px;
+}
+
+.OrderGroup .OrderColA {
+    padding: 10px 15px;
+}
+
+.DefaultAddress {
+    background-image: url("/images/core/Defaulticon.jpg");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+#addressbook-list ul li .addressbook-type {
+    margin-top: 15px;
+}
+
+.OrderGroup .OrderColB {
+    padding: 7px 15px 15px;
+}
+
+.OrderGroup .OrderColC {
+    padding: 7px 10px 10px;
+}
+
+#divDelButton {
+    margin-top: 15px !important;
+}
+
+.OrderDetailLine .col .orderdtls {
+    background: none !important;
+}
+
+.OrderDetailLine .col .orderdtls a {
+    font-size: 11px;
+    line-height: 1.8em;
+    padding: 8px 5px;
+}
+
+.HeaderOrder {
+    padding: 5px 0 12px;
+}
+
+#divCheckbox {
+    padding: 4px !important;
+}
+
+#divNameOnCard,
+#divExpiryDate,
+#divCardName {
+    margin: 4px 0 !important;
+}
+
+.errorMsg li {
+    list-style: disc;
+    padding: 3px;
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+
+.PassError,
+.AccError {
+    font-size: 1.2em;
+    margin-top: 5px;
+    display: block;
+    color: #ed0000;
+}
+
+.AccError {
+    margin-bottom: 5px;
+}
+
+.OrderDetail h1 {
+    border-bottom: 0 solid #ccc !important;
+}
+
+.OrderDetail a.dnnPrimaryAction {
+    text-transform: none !important;
+    padding: 15px 40px !important;
+}
+
+.OrderDetail .OrderDetail h4 {
+    border-bottom: 1px solid #ccc !important;
+    padding-bottom: 10px;
+    text-transform: none !important;
+}
+
+.OrderDetail .OrderDetail {
+    padding: 0 20px 20px;
+}
+
+.OrderDetail .OrderDetail td {
+    font-size: 1.1em !important;
+}
+
+.OrderDetail h1,
+#s-shipping-confirmation-title p {
+    text-align: left !important;
+}
+
+#s-shipping-confirmation-title p {
+    margin-bottom: 10px !important;
+}
+
+.Orderhistoryprimarybtn {
+    margin-right: 0 !important;
+}
+
+.OrderDetail .Orderborderfirst {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 25px;
+}
+
+.OrderDetail .Orderborder {
+    margin-bottom: 25px;
+    min-height: 147px;
+}
+
+.OrderDetail .Orderborderlast {
+    padding: 0 10px 10px;
+}
+
+.OrderDetail .OrderDetail #InvoiceDetails {
+    margin-right: 0 !important;
+}
+
+#divNavButtonsBottom {
+    padding-right: 0;
+}
+
+.OrderButtons .PrintBut {
+    padding: 0 2%;
+}
+
+.OrderButtons .ImgButWrap a {
+    padding: 17px 25px;
+}
+
+#OrderDetailDiv {
+    padding: 10px 30px 10px 20px;
+    border-top: 1px dashed #bababa !important;
+}
+
+.OrderhistorySummary .OlderOrderSeparator {
+    font-size: 1.8em;
+    padding-left: 20px;
+    margin-top: 20px !important;
+}
+
+#OrderDetailDiv .total .FooterItem {
+    color: #000 !important;
+}
+
+.Orderdetailstop {
+    padding: 10px 20px 0;
+}
+
+.discountText {
+    color: #626262 !important;
+}
+
+:focus {
+    outline: 0 dotted #999 !important;
+}
+
+.Responsive #addressbook-addAddressMapConfirmation-dialog .storeOpeningTimes tr td span {
+    padding: 2px 8px 2px 0;
+}
+
+.CollectBring {
+    border: 1px solid #ccc !important;
+}
+
+.Responsive #CollectStoreViewToggleList {
+    margin-right: 0 !important;
+}
+
+p.Collectplusthumbs {
+    text-align: center !important;
+}
+
+#cboxContent #postcodeSearch input {
+    background: none repeat scroll 0 0 #fff !important;
+}
+
+#cboxContent .storeWrapper {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 5px;
+}
+
+.Responsive #cboxWrapper {
+    max-height: 630px;
+}
+
+.Addressmaintitle {
+    line-height: 1.6em;
+}
+
+.addressMap-store-details td {
+    padding: 0 15px 0 0;
+}
+
+.alternatePaymentBtn {
+    white-space: normal !important;
+}
+
+.Collectplusheaderrow {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.contact-responsive {
+    margin: 0 0 10px;
+}
+
+.cs_sizeguide td {
+    padding: 8px 0;
+}
+
+.cs_sizeguide > tbody > tr td {
+    border-right: 1px solid #ccc;
+}
+
+.dnnFormItem {
+    padding: 0 0 20px;
+}
+
+.dnnFormItem.lastFormItem {
+    padding: 0;
+}
+
+.dnnRadiobutton img {
+    width: 20px;
+    height: 18px;
+    min-width: 20px;
+    background: transparent url("/images/radiobutton.png") no-repeat;
+}
+
+.dnnRadiobutton img,
+.dnnRadiobutton-hover img {
+    background-position: 0 0;
+}
+
+.dnnRadiobutton-checked img {
+    background-position: -50px 0;
+}
+
+.dnnRadiobutton-disabled img {
+    opacity: 0.5;
+}
+
+.dnnRadiobutton-checked-error img {
+    background-position: -150px 0;
+}
+
+.dnnRadiobutton-error img {
+    background-position: -100px 0;
+}
+
+.dnnRadiobutton-focus {
+    background-color: #e3e3e5;
+}
+
+.WishListLoginText::before {
+    font-family: "Glyphicons Halflings", sans-serif;
+    padding: 0 6px 0 3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e014";
+    vertical-align: text-top;
+}
+
+.NotFound .ImgButWrap a {
+    padding: 15px 5px;
+}
+
+.wrapper .sideNav ul a,
+.wrapper .sideNav ul h2,
+.wrapper .sideNav ul h3 {
+    display: block;
+    line-height: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper .sidebar-offcanvas {
+    z-index: 110;
+}
+
+.InputLabelGroup {
+    min-height: 172px;
+    display: inline-block;
+    width: 100%;
+}
+
+.NewCustWrap .ImgButWrap {
+    display: block;
+}
+
+.passwordWrap input:valid,
+.passwordWrap textarea:valid,
+.passwordWrap input {
+    padding: 2%;
+    width: 100%;
+}
+
+.Passwordinfo {
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+
+.OrderComplete {
+    padding-top: 30px;
+}
+
+.OrderComplete h1 {
+    font-weight: normal;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 45px;
+}
+
+.OrderComplete h1 em,
+.order-complete-messages h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+.OrderComplete h1 em::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    vertical-align: bottom;
+    margin-right: 7px;
+    background-size: 300px 300px;
+    background-position: -144px -89px;
+}
+
+.order-complete-messages {
+    margin-bottom: 25px;
+}
+
+.order-summary p:not(.product-gallery p) {
+    margin-bottom: 16px;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+.order-summary h2 {
+    margin-bottom: 22px !important;
+}
+
+.order-summary p:last-of-type {
+    margin-bottom: 0;
+}
+
+.order-complete-messages h2 {
+    font-size: 1.6em;
+}
+
+.order-complete-messages p,
+.OrderComplete .footer-nav p,
+.order-details-section p,
+.registration-benefit p,
+.orderCompleteRegisterShown .OrderCompleteRegistrationDone p {
+    font-size: 1.45em;
+    line-height: 1.6em;
+}
+
+.Checkout22 .OrderCompleteRegistration input[type="submit"].ContinueOn,
+.Checkout22 .OrderCompleteRegistration a.button.ContinueOn {
+    font-size: 1.45em;
+}
+
+.OrderComplete.Checkout22 a.button,
+.Checkout22 .OrderCompleteRegistration .ContinueOn {
+    padding: 10px;
+    font-size: 1em;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.Checkout22 .OrderCompleteRegistration {
+    margin: 24px 0 0;
+}
+
+.Checkout22 .RegisterWrapper .OrderCompleteRegistration {
+    margin: 0;
+}
+
+.OrderComplete.Checkout22 .rokt-emdedded-placement-container {
+    width: 100%;
+
+    &:has(iframe) {
+        margin: 24px 0;
+    }
+}
+
+.OrderComplete.Checkout22.orderCompleteRegisterShown {
+    .rokt-emdedded-placement-container:not(#rokt-embedded-placement-container-above-fold) {
+        order: 2;
+
+        @media (min-width: 1022px) {
+            order: 3;
+        }
+    }
+
+    .rokt-emdedded-placement-container:has(iframe) {
+        margin-bottom: 0;
+    }
+}
+
+.OrderComplete .OrderCompletePendingCreditApplicationMessage {
+    font-size: 1.2em;
+    margin: 0 auto 40px;
+}
+
+.OrderComplete .OrderCompletePendingCreditApplicationMessage p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.OrderComplete .OrderCompletePendingCreditApplicationMessage ol li {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.OrderComplete .OrderCompleteNumber {
+    font-weight: bold;
+}
+
+.OrderComplete h2 {
+    font-size: 1.6em;
+    color: #333;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 7px;
+}
+
+.OrderCompleteLoginPrompt {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.OrderCompleteRegistration {
+    max-width: 660px;
+    margin: 0 auto 40px;
+}
+
+.OrderCompleteLogin,
+.OrderCompleteRegistrationForm,
+.OrderCompleteRegistrationDone {
+    border: 1px solid #dcdcdc;
+}
+
+.registration-benefits {
+    margin-top: 20px;
+}
+
+.benefit-icon {
+    margin-right: 20px;
+}
+
+.registration-benefit {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.registration-benefit:last-child {
+    margin-bottom: 0;
+}
+
+.RegisterWrapper-inner .OrderCompleteRegistration .registration-benefits {
+    margin-bottom: 30px;
+}
+
+.OrderComplete .registration-benefit p {
+    margin: 0;
+}
+
+.benefit-icon.checkmark::before {
+    background-size: 450px 450px;
+    background-position: -856px -284px;
+}
+
+.benefit-icon.chat::before {
+    background-size: 500px 500px;
+    background-position: -211px -261px;
+}
+
+.benefit-icon.heart::before {
+    background-size: 500px 500px;
+    background-position: -165px -262px;
+}
+
+.OrderCompleteRegistrationDone
+    .benefit-icon.checkmark:not(.RegisterWrapper .OrderCompleteRegistrationDone .benefit-icon.checkmark) {
+    position: absolute;
+    left: 20px;
+}
+
+.OrderCompleteRegistrationDone {
+    padding: 40px;
+}
+
+.OrderCompleteRegistrationDone p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.OrderCompleteRegistrationDone a:first-of-type {
+    margin-right: 20px;
+}
+
+.OrderCompleteRegistrationForm h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.OrderCompleteLogin {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.OrderCompleteLoginHeader {
+    padding: 20px;
+}
+
+.OrderCompleteLoginHeader .glyphicon {
+    margin-left: 5px;
+    vertical-align: text-bottom;
+}
+
+.OrderCompleteLoginHeader .glyphicon::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-size: 300px 300px;
+}
+
+.OrderCompleteLoginHeader .glyphicon.glyphicon-chevron-down::before {
+    background-position: -240px -187px;
+}
+
+.OrderCompleteLoginHeader .glyphicon.glyphicon-chevron-up::before {
+    background-position: -123px -187px;
+}
+
+.OrderCompleteLoginOpenButton,
+.OrderCompleteLoginClosed {
+    cursor: pointer;
+}
+
+.OrderCompleteLogin .OrderCompleteLoginForm {
+    display: none;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px 95px;
+}
+
+.OrderCompleteLogin .SignLogIn2 {
+    margin-bottom: 20px;
+}
+
+.OrderCompleteLoginForm .dnnFormValidationSummary {
+    padding: 0;
+}
+
+.OrderCompleteLoginForm .dnnFormValidationSummary span {
+    padding-top: 20px;
+}
+
+.OrderComplete .OrderCompleteLogin .ForgotPass {
+    display: block;
+}
+
+.OrderComplete .OrderCompleteLogin .ForgotPass .ForgotPasswordLinkButton {
+    margin: 0;
+    width: auto;
+    float: none;
+}
+
+.OrderCompleteLoginOpen .OrderCompleteLoginForm {
+    display: block;
+}
+
+.OrderCompleteLoginOpenMarker,
+.OrderCompleteLoginOpen .OrderCompleteLoginClosedMarker {
+    display: none;
+}
+
+.OrderCompleteLoginOpen .OrderCompleteLoginOpenMarker {
+    display: inline-block;
+}
+
+.OrderCompleteRegistrationForm {
+    border-bottom-width: 0;
+}
+
+.OrderComplete .form-control {
+    border-radius: 0;
+}
+
+.OrderCompleteRegistrationForm .newsletter-image {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.OrderCompleteRegistrationFormInner {
+    padding: 20px 20px 40px;
+}
+
+.OrderCompleteRegistrationFormInner .info-icon {
+    margin-left: 5px;
+}
+
+.OrderCompleteRegistrationForm .field {
+    margin: 0 auto 20px;
+    max-width: 400px;
+}
+
+.OrderCompleteRegistrationForm .field + .field {
+    margin-bottom: 30px;
+}
+
+.OrderCompleteRegistration .ContinueOn,
+.OrderCompleteLogin .OrderCompleteLoginForm .dnnPrimaryAction {
+    display: block;
+    border: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1em;
+}
+
+.OrderCompleteRegistration label,
+.OrderCompleteLogin label {
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 0;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+}
+
+.OrderCompleteRegisteredSignUp {
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+}
+
+.OrderCompleteRegistration .SignUpWrapper {
+    margin-bottom: 20px;
+}
+
+.OrderCompleteRegistration .SignUpWrapper input {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.OrderCompleteRegistration .SignUpWrapper a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.RegisterPrompt {
+    font-size: 1.2em;
+}
+
+.OrderCompleteRegistration .SignUpLabel {
+    margin-left: 5px;
+}
+
+.OrderCompleteRegistration .SignUpLabel em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.OrderCompleteRegistration .SignupPrompt {
+    margin-bottom: 20px;
+}
+
+.OrderCompleteRegistration .SignupPrompt a,
+.OrderCompleteRegistration .RegisterPrompt a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.OrderCompleteRegistration .SignUpLabel .NewsletterFree {
+    color: #6ba863;
+    text-transform: uppercase;
+}
+
+#OrderCompleteRegisterModalContent {
+    display: none;
+}
+
+#OrderCompleteRegisterModal .modal-header {
+    background: 0;
+    border: 0;
+}
+
+#OrderCompleteRegisterModal .modal-content {
+    border: 1px solid #ddd;
+}
+
+#OrderCompleteRegisterModal .modal-body {
+    padding: 0;
+}
+
+#OrderCompleteRegisterModal em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+#OrderCompleteRegisterModalInner {
+    text-align: center;
+    padding: 0 50px 80px;
+}
+
+#OrderCompleteRegisterModalIcon {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#OrderCompleteRegisterModalTitle {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+#OrderCompleteRegisterModalText {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+#OrderCompleteRegisterModalBottom {
+    display: flex;
+}
+
+#OrderCompleteRegisterModalCancel,
+#OrderCompleteRegisterModalContinue {
+    flex-grow: 1;
+    font-size: 1.4em;
+    padding: 20px;
+}
+
+.OrderCompletePendingPaymentMessage {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.order-details-section,
+.RegisterWrapper-inner,
+.order-summary {
+    padding: 18px;
+}
+
+#webloyaltyBanner:empty {
+    display: none;
+}
+
+.webloyalty-banner-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.order-details-section {
+    width: 100%;
+}
+
+.order-details-section h2 {
+    margin-bottom: 22px;
+    font-size: 1.6em;
+}
+
+.order-details-delivery-address {
+    font-size: 14px !important;
+}
+
+.order-details-delivery-date span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.order-details-delivery-options {
+    margin-top: 24px;
+}
+
+@media (max-width: 767px) {
+    .order-details-delivery-options {
+        margin-top: 18px;
+    }
+}
+
+.order-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.order-details-wrapper.register-active {
+    flex-wrap: wrap;
+}
+
+body.browse-search .breadcrumb {
+    display: none;
+}
+
+.OrderComplete .footer-nav,
+.order-summary {
+    width: 100%;
+}
+
+.order-summary-table {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.order-summary-total-label,
+.order-summary-discount span {
+    text-transform: uppercase;
+}
+
+.order-summary-total,
+.order-summary-total-label {
+    font-size: 1.45em;
+    line-height: 1.6em;
+}
+
+.order-summary {
+    margin: 24px 0;
+}
+
+@media (min-width: 1270px) {
+    .NewProds .FlatTop {
+        display: none;
+    }
+
+    .NewProds .SideOn {
+        display: block;
+        left: -27px;
+        top: 0;
+        width: 38px;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1022px) {
+    .ImgButWrap a,
+    .ImgButWrap a:active,
+    .ImgButWrap a:visited,
+    .ImgButWrap a:link,
+    .ImgButWrap input,
+    .OrderDetail a.dnnPrimaryAction,
+    a.buttonAction,
+    .Basket #BasketDiv .UpdateQuant,
+    div.store-fields-main table tr td .button,
+    .clear-but input,
+    .store-fields-main table tbody tr td.button input,
+    .Login .loginContainer .ImgButWrap,
+    .pnl-notifications table tr td.right a,
+    .Profile a.dnnPrimaryAction,
+    #addressbook-edit-dialog a.dnnPrimaryAction,
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    .primary2 a.dnnPrimaryAction,
+    .primary2 input,
+    .primary a.dnnPrimaryAction,
+    .s-basket-button-right a.dnnPrimaryAction,
+    #aCheckout,
+    .buttonAction,
+    .s-basket-button-right input,
+    #aViewBag,
+    .PersVouchBasketContainer .ImgButWrap a,
+    a#aWishListLink,
+    nav#topMenu ul li.root,
+    .Wishlistcontainer #ImgButWrapResponsive a,
+    .form-wrapper .SubmitButton input,
+    .thankyou-wrapper input,
+    .ButtonOrder a,
+    #BasketDiv .BagandCheckoutBtn .secondary a,
+    #BasketDiv .BagandCheckoutBtn .secondary2 a,
+    .OrderColC .TrackOrder a,
+    .CareersBrand .vacancy-search-submit a,
+    .CareersBrand .vacancy-more-info-btn a,
+    .Sharebutton a:hover,
+    .Sharebutton a,
+    nav#topMenu li.root > a,
+    #topLinkMenu ul.TopLinkMenu > li,
+    .MenuRightLogin ul.TopLinkMenu > li,
+    .ToplinksGroup .search #cmdSearch span.search-outer,
+    .ToplinksGroup .search #cmdSearch span.search-outer:hover,
+    #BodyWrap-Popup .ImgButWrap a {
+        transition: all 0.25s linear 0s;
+    }
+
+    .FourHovers ul li span:hover,
+    .threeRow span:hover {
+        opacity: 0;
+    }
+
+    .FourHovers ul li span,
+    .threeRow span {
+        background-color: #333;
+        opacity: 0.2;
+        position: absolute;
+        height: 100%;
+        display: block;
+        width: 100%;
+        left: 0;
+    }
+
+    .OrderComplete .OrderCompletePendingCreditApplicationMessage {
+        padding: 0 20px;
+    }
+
+    .order-details-section,
+    .RegisterWrapper-inner,
+    .order-summary {
+        padding: 22px;
+    }
+
+    .order-summary-table {
+        gap: 100px;
+    }
+
+    .order-summary p {
+        margin-bottom: 24px;
+    }
+
+    .orderCompleteRegisterShown .order-details-section:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .Paddingfieldset {
+        padding: 20px;
+    }
+
+    .NewProds .LeftSide {
+        border-right: 0;
+    }
+
+    .NewProds .RightSide {
+        border-left: 0;
+    }
+
+    .OrderCompleteLogin .NewCustWrap {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .OrderGroup .OrderColA,
+    .OrderGroup .OrderColB {
+        border-right: 1px solid #ddd;
+        height: 100%;
+        min-height: 190px !important;
+    }
+
+    .OrderComplete .footer-nav {
+        display: flex;
+    }
+
+    .OrderComplete:not(.orderCompleteRegisterShown) .footer-nav p:first-child {
+        margin-right: 15px;
+    }
+
+    .OrderComplete:not(.orderCompleteRegisterShown) .footer-nav p:last-child {
+        margin-left: 15px;
+    }
+
+    .OrderComplete.Checkout22 .order-details-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1021px) {
+    .dobWrapper {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .Viewordersresponsive {
+        margin-bottom: 20px;
+    }
+
+    .s-breadcrumbs-bar > span ol li a,
+    .s-breadcrumbs-bar > span ol li.last {
+        padding: 0 2px;
+    }
+
+    .holdingPageContainer {
+        width: 855px;
+    }
+
+    .OrderComplete.Checkout22 .RegisterWrapper {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dnnFormItem.passwordLast {
+        padding: 0;
+    }
+
+    .dnnFormMessage.dnnFormSuccess {
+        border-bottom: 1px solid #dedede;
+    }
+
+    .Login h1 {
+        border-bottom: 1px solid #dbdbdb;
+        padding: 10px 20px;
+    }
+
+    .loginContainer .ForgotPass {
+        padding: 20px 0 10px;
+        text-align: center;
+    }
+
+    .Login .innerBorder {
+        border: 0;
+        padding: 10px 20px 20px;
+    }
+
+    .LoginWelcome,
+    .custServHeader .TopHeader > p {
+        display: none;
+    }
+
+    .ModCsPageWorldDeliveryCostsC table,
+    .ModCsPageWorldDeliveryCostsC thead,
+    .ModCsPageWorldDeliveryCostsC tbody,
+    .ModCsPageWorldDeliveryCostsC th,
+    .ModCsPageWorldDeliveryCostsC td,
+    .ModCsPageWorldDeliveryCostsC tr {
+        display: block;
+    }
+
+    .discountText,
+    .Collectplusicons,
+    .Collectplusheaderrow,
+    .ModCsPageWorldDeliveryCostsC td:nth-child(3n) {
+        display: none;
+    }
+
+    .ImgButWrapResponsiveGrey,
+    .OrderButtons .PrintBut,
+    .OrderButtons .BackToBut {
+        width: 100%;
+        padding: 0;
+    }
+
+    .security,
+    .Login .expressLoginContainer .expressText {
+        margin: 0;
+    }
+
+    .OrderDetailLine,
+    .OrderDetail .Responsive .OrderDetail #InvoiceDetails {
+        padding: 10px;
+    }
+
+    .OrderColC {
+        padding: 15px;
+    }
+
+    .ModCsPageWorldDeliveryCostsC td {
+        width: 50%;
+        float: left;
+    }
+
+    .TopHeader > div {
+        font-size: 1.6em;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #addressbook-container h1 {
+        text-transform: none !important;
+    }
+
+    .security > img {
+        max-height: 25px;
+    }
+
+    #pnlExpressCheckoutButtons #AmazonInlineWidget,
+    #pnlExpressCheckoutButtons #PaypalCheckoutButton,
+    #pnlExpressCheckoutButtons #GoogleCheckoutButton,
+    #pnlExpressCheckoutButtons #MasterpassCheckoutButton {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    #pnlExpressCheckoutButtons #PaypalCheckoutButton {
+        margin-top: 10px;
+    }
+
+    .NewProds .LeftSide {
+        border-right: 2px solid #ddd;
+    }
+
+    .NewProds .RightSide {
+        border-left: 2px solid #ddd;
+    }
+
+    .signup-wrapper .signupInner .join-us-text {
+        text-align: center;
+        margin-bottom: 18px;
+        font-size: 1.1em;
+    }
+
+    .mobilegap {
+        margin-bottom: 10px;
+    }
+
+    .FourHovers ul li.ThirdOne {
+        clear: left;
+    }
+
+    .sub-buttons {
+        margin-top: 20px;
+    }
+
+    .sub-buttons .mens-button {
+        padding-left: 0;
+    }
+
+    .sub-buttons .womens-button {
+        padding-right: 0;
+    }
+
+    .Responsivetextarea {
+        font-size: 1.4em;
+    }
+
+    .ButtonOrder,
+    .TrackOrder {
+        padding: 6px;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    #divDelButton {
+        margin-top: 5px !important;
+    }
+
+    .orderdtls {
+        margin: 10px 0;
+    }
+
+    .OrderDetail .Orderborderfirst {
+        border: 1px solid #ccc;
+    }
+
+    p.Collectplusthumbs {
+        text-align: left !important;
+    }
+
+    .Responsivepadding {
+        padding: 15px 5px;
+    }
+
+    .Addressmaintitle {
+        font-size: 1.2em;
+    }
+
+    .Responsivedistance {
+        text-align: right;
+    }
+
+    .Collectplusstoretitle {
+        margin-right: 38px;
+        padding-left: 18px;
+    }
+
+    .ResponsiveBtn {
+        float: none;
+    }
+
+    .OrderCompleteLogin {
+        border-bottom-width: 1px;
+    }
+
+    .OrderCompleteLogin .OrderCompleteLoginForm {
+        padding-bottom: 30px;
+    }
+
+    .holdingPageContainer {
+        width: 343px;
+    }
+
+    .RegisterWrapper {
+        width: 100%;
+    }
+}
+
+.suggestedSearch,
+.originalSearch {
+    font-weight: bold;
+}
+
+.ui-tabs ul.dnnAdminTabNav li a {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
+    color: #fff !important;
+    background-color: #666 !important;
+    text-shadow: none;
+    background-image: none;
+    letter-spacing: 0.05em;
+}
+
+.ui-tabs ul.dnnAdminTabNav li.ui-tabs-active a,
+.ui-tabs ul.dnnAdminTabNav li a:hover {
+    background: #000 !important;
+    margin-top: 0;
+    color: #fff !important;
+}
+
+.fulfilledBy {
+    padding: 2px 0;
+}
+
+.fulfilledBy > span {
+    padding-right: 5px;
+}
+
+.fulfilledBy > span > span {
+    font-weight: bold;
+}
+
+.fulfilledBy > a {
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.fulfilledBy > a:hover {
+    text-decoration: none;
+}
+
+.holdingPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 35px;
+    position: relative;
+    height: 166.99px;
+}
+
+.holdingPageMainHeader {
+    background-image: url("/images/logos/FrasersPlus-Logotype-Linear-Black-RGB.svg");
+    width: 155px;
+    height: 17px;
+    background-repeat: no-repeat;
+}
+
+.holdingPageGap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 35px;
+}
+
+.holdingPageSubHeader {
+    height: 38px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.holdingPageMessage {
+    height: 32px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+    color: #000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.holdingPageTimer {
+    height: 13px;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+html {
+    /* Enforce scrollbar at first paint to reduce CLS */
+    overflow-y: scroll;
+}

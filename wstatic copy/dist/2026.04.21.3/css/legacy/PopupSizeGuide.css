@@ -1,0 +1,363 @@
+body.FlannelsNewsletterBackground {
+    background: transparent !important;
+}
+
+#leftnav2 {
+    padding: 15px 10px;
+    position: relative;
+}
+
+#leftnav2 .ui-tabs-nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 6px !important;
+}
+
+.mobileheader {
+    width: 50% !important;
+    padding: 15px;
+    display: none;
+}
+
+.mobdropdowndiv {
+    padding-bottom: 15px;
+    width: 50% !important;
+    display: none;
+}
+
+#mobiledropdown {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 725px) {
+    #leftnav2 .ui-tabs-nav {
+        display: none;
+    }
+
+    .mobileheader,
+    .mobdropdowndiv {
+        display: inline;
+    }
+}
+
+#leftnav2 .ui-tabs-nav li {
+    float: left;
+    width: 9% !important;
+    border: none;
+    overflow: hidden;
+    padding-right: 4px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+tfoot,
+thead {
+    color: #000;
+    font-size: 12px;
+}
+
+#leftnav2 .ui-tabs-nav li a {
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#leftnav2 > div {
+    height: auto;
+    width: 100%;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+#leftnav2 .ui-state-default a,
+#leftnav2 .ui-widget-content .ui-state-default a,
+#leftnav2 .ui-widget-header .ui-state-default a,
+#leftnav2 .ui-state-active a,
+#leftnav2 .ui-widget-content .ui-state-active a,
+#leftnav2 .ui-widget-header .ui-state-active a {
+    border: 1px solid #ccc;
+}
+
+.sizegroup {
+    height: 100%;
+    width: 100%;
+}
+
+.sizegroup h1 {
+    font-size: 1.1em;
+    padding: 10px;
+    float: none;
+    width: auto;
+    background-color: transparent !important;
+    font-weight: bold;
+    text-align: left;
+}
+
+.sizegroup tr {
+    border-bottom: 1px solid #eee;
+}
+
+.sizegroup tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.sizegroup tr:last-child {
+    border: none;
+}
+
+.sizeHeader {
+    background-color: #4d4d4d !important;
+}
+
+.sizeHeader td {
+    color: #fff;
+}
+
+.ui-tabs .ui-tabs-panel {
+    background: none repeat scroll 0 0 transparent;
+    border-width: 0;
+    display: block;
+    padding: 0 0 0 1em !important;
+}
+
+#leftnav2 > div[id$="-sml"] {
+    margin-bottom: 50%;
+}
+
+#disclaimer {
+    padding: 6px 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+}
+
+.sizegroup #disclaimer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.sizegroup .maintable {
+    width: 100% !important;
+    margin-bottom: 50px;
+}
+
+.sizegroup .maintable.subtable {
+    width: 60% !important;
+    margin: 10px auto 50px;
+}
+
+.maintable td {
+    text-align: center;
+    padding: 8px 0;
+    vertical-align: middle;
+}
+
+.maintable td:nth-child(1),
+.maintable td:nth-child(2),
+.maintable td:nth-child(3),
+.maintable td:nth-child(4),
+.maintable td:nth-child(5),
+.maintable td:nth-child(6),
+.maintable td:nth-child(7) {
+    border-right: 1px solid #ccc;
+}
+
+.maintable td:last-child {
+    border: 0;
+}
+
+.fltleft {
+    float: left;
+}
+
+#NewsLetterModal.modal,
+#advertPopup.modal {
+    z-index: 11000;
+}
+
+#NewsLetterModal .modal-dialog {
+    max-height: 452px;
+    width: 100%;
+    max-width: 650px;
+}
+
+#advertPopup .modal-dialog {
+    max-height: 292px;
+    width: 100%;
+    max-width: 622px;
+}
+
+#NewsLetterModal .modal-header {
+    padding: 10px 40px;
+    line-height: 1.3em;
+    height: 49px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+#advertPopup .modal-header {
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    border: 0;
+    background-color: transparent;
+}
+
+#advertPopup .close {
+    top: auto;
+    width: 40px;
+    height: 40px;
+    right: auto;
+    position: static;
+}
+
+#NewsLetterModal .header-text,
+#advertPopup .header-text {
+    font-size: 1.3em;
+    color: #666;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+#NewsLetterModal .modal-body,
+#advertPopup .modal-body {
+    height: 406px;
+    max-height: 406px;
+    width: 100%;
+    max-width: 650px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#advertPopup .modal-body {
+    height: 290px;
+    max-height: 290px;
+    max-width: 620px;
+    padding: 0;
+    background-color: #fff;
+}
+
+@media (max-width: 601px) {
+    #advertPopup .modal-body {
+        max-height: 395px;
+        height: 395px;
+    }
+
+    #advertPopup .modal-dialog {
+        max-height: 397px;
+    }
+}
+
+@media (max-width: 537px) {
+    #advertPopup .modal-body {
+        max-height: 354px;
+        height: 354px;
+    }
+
+    #advertPopup .modal-dialog {
+        max-height: 356px;
+    }
+}
+
+@media (max-width: 475px) {
+    #advertPopup .modal-body {
+        max-height: 313px;
+        height: 313px;
+    }
+
+    #advertPopup .modal-dialog {
+        max-height: 315px;
+    }
+}
+
+@media (max-width: 414px) {
+    #advertPopup .modal-body {
+        max-height: 273px;
+        height: 273px;
+    }
+
+    #advertPopup .modal-dialog {
+        max-height: 275px;
+    }
+}
+
+@media (max-width: 375px) {
+    #advertPopup .modal-body {
+        max-height: 247px;
+        height: 247px;
+    }
+
+    #advertPopup .modal-dialog {
+        max-height: 249px;
+    }
+}
+
+@media (max-width: 320px) {
+    #advertPopup .modal-body {
+        max-height: 211px;
+        height: 211px;
+    }
+
+    #advertPopup .modal-dialog {
+        max-height: 213px;
+    }
+}
+
+#BodyWrap-Popup .multipage-wrapper .col-xs-8.form > h2 {
+    display: none;
+}
+
+#BodyWrap-Popup {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#SizeSelectionModal .modal-dialog {
+    max-width: 320px;
+    width: 100%;
+}
+
+#SizeSelectionModal .modal-body {
+    padding: 30px;
+    width: 100%;
+}
+
+#SizeSelectionModal #SizeModalDropDown {
+    width: 100%;
+    clear: none;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    height: 37px;
+    padding: 7px 4px;
+    cursor: pointer;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+#SizeSelectionModal .ImgButWrap {
+    display: block;
+    width: 100%;
+}
+
+#SizeSelectionModal .ImgButWrap a {
+    padding: 17px 5px;
+}
+
+#SizeSelectionModal #SizeSelectionModal {
+    text-align: center;
+}
+
+#SizeSelectionModal #SizeModalErrorMessage {
+    color: #d94242;
+    padding: 12px;
+}

@@ -1,0 +1,263 @@
+#pnlRecentlyViewedProducts .AltStratDescription,
+#hotspotModal .hsColourDesc .ColourDesc,
+#hotspotModal .hsColourDesc .ColourLabel,
+#hotspotModal .sizeGuideLink a,
+#hotspotModal .hsSizeLabel,
+.sdlProdList .s-productthumbbox .s-producttext-top-wrapper a .nameWrapTitle,
+#lblCategoryCopy .catTemplate .siblingLinks a,
+.topheadbox .siblingLinks a,
+#lblCategoryCopy .catTemplate-FWC .siblingLinks a,
+.catTemplate-FWC .siblingLinks a,
+#divsiblinglistwrapper ul li a,
+#pnlRecentlyViewProducts .AltStratBrand .wrap,
+.sdlProdList #hotspotModal #hsViewProduct a,
+.sdlProdList .s-productthumbbox .s-producttext-top-wrapper a .brandWrapTitle,
+.bv_text,
+.sdlProdList .Responsive .s-largered .fromProductPrice,
+.sdlProdList .s-producttext-price .s-largered,
+.sdlProdList .Responsive .RefandPrice span,
+.pppt span,
+.mobSortFilter .MobFiltersText,
+.sdlProdList .productFilterList .FilterValue,
+.brandTitle,
+#divBrandSearch input,
+#Body.sdlProdList #mobFilterControls li .textIconWrap,
+.mobappfltrsNo,
+.sticky-atb .originalTicket,
+.ToplinksGroup .search #txtSearch,
+nav#topMenu ul li.root > a,
+.ui-autocomplete > li > .ui-corner-all,
+#mp-menu .mp-level .menuitemtext,
+.sdDetails .AltProdDet .title h1 #lblProductName,
+.sdDetails .WishListContain a,
+.sdlProdList .dropprods_Order,
+.FooterSubGroup .FooterHeader,
+.FooterWrap .footerContainer .SubTitle,
+.languageSelector span.countryName,
+#topLinkMenu ul.TopLinkMenu > li span,
+.RightBarLinks div.TopLinkMenu > a span,
+.sitewideBanner .swiper-slide .swiper-text,
+.languageSelectorMobile .countryName,
+#liMobileCurrencySelector .currencyOption label,
+.sdDetails .Responsive .spnFrom,
+.sdDetails .AltProdDet .AdditionalPriceLabel,
+.sdDetails .AltProdDet .originalprice,
+#MobtxtSearch,
+#hotspotModal .PinWrapText select,
+.PSPlacementWrapper .SuggestedProduct > h4 a .PSProdTitle,
+.PSPlacementWrapper .SuggestedProduct > h4 a .PSProdBrand,
+.cookie-banner__content,
+.PSProdBrand,
+.mobSortDesc .productFilterTitle,
+#topLinkMenu ul.TopLinkMenu .iconsStores a span,
+nav#topMenu li.root .SubMenuWrapper > ul .level1.sdmColHeader > a,
+nav#topMenu li.root .SubMenuWrapper > ul .level2.sdmColHeader > a,
+#topLinkMenu ul.TopLinkMenu .iconsCS a span {
+    font-family: var(--default-font-family);
+    letter-spacing: var(--default-letter-spacing);
+}
+
+.reviews-container
+    .bv-cv2-cleanslate
+    .bv-content-pagination
+    .bv-content-pagination-container
+    .bv-content-btn-pages-load-more,
+.currencySelector .languageSwitcherLabel,
+.BaskName,
+.lillBasket #lblBagSubTotal,
+.lillBasket .BaskName,
+.lillBasket .ColrandSize,
+.lillBasket .BaskQuant,
+.PSPlacementWrapper .SuggestedProduct > h4 a .PSProdName,
+.SzQuantGroup .SizeGuideText {
+    font-family: var(--default-font-family) !important;
+    letter-spacing: var(--default-letter-spacing);
+}
+
+.sdlProdList .HeadnCount h1,
+.stackFlexHeader h3,
+.sdDetails .AltProdDet .pdpPrice,
+.sdDetails .s-productextras-column-1 span,
+.sdDetails .s-productextras-checkbox-column-1 label,
+.s-productextras-column-3 a,
+.sdDetails .RadTabStrip .rtsLevel .rtsIn,
+.infoTabPage h2,
+.ProdDetRight .infoaccordion .panel-body h2,
+.sdDetails .s-productextras-column-1 label,
+.sdDetails #parDeliveryMethods li span.TitleDel,
+.PSPlacementWrapper .PSPlacementTitle,
+#pnlRecentlyViewedProducts .AltStratTitle,
+.sdlProdList .layout span.ViewbyCols,
+.sdlProdList .pagination .sortbyfilter label,
+.appLinks .appText,
+#divCurrencySelector span.currencyHeader,
+#divLanguageSelector span.languageHeader,
+.signup-wrapper .signupInner .SubTitle,
+li#mob-signout a,
+#liMobileLanguageSelector a.mp-back span,
+#liMobileCurrencySelector a.mp-back span,
+.mobMenuGroup li .mp-level .menulevelheader a,
+.MobileMenuContentWrap .shop > ul > li .menulevelheader > a,
+.mobMenuGroup #mob-myaccount .menulevelheader a,
+.lillBasket #spanBagSubTotalValue,
+#topLinkMenu ul li.TopLinkDrop ul li.SignOut a span,
+.sdlProdList #mobFilterControls .mobApplyFilter .textIconWrap,
+#hotspotModal #hsPrice,
+#hotspotModal .hsColourDesc .ColourLabel,
+#mp-menu .shop > ul li.level2.sdmColHeader a,
+.PSPlacementWrapper .SuggestedProduct .PSProdPrice div,
+.AltStratRefSell div,
+.PSPlacementWrapper .SuggestedProduct .PSProdPrice span,
+.ui-autocomplete .header,
+.infoaccordions .DeliveryMethods .price,
+#pnlRecentlyViewedProduct #DisplayAttributes li span.feature-name,
+.infoaccordions .DeliveryMethods li span.TitleDel,
+.sdlProdList .s-largered .curprice,
+.sticky-atb .pdpPrice span,
+.ProdDetails .ShopTheLook .s-largered .curprice,
+.sdlProdList h1,
+.order-details-title,
+#accountHeader p,
+.order-summary-total-label,
+.order-summary-total,
+.product-gallery .product-price,
+#divWishList .wishlist-summary ul li .wishItemContentWrap .wishItemContentWrap-price,
+.OrderComplete a.button,
+.OrderCompleteRegistration .ContinueOn,
+.OrderCompleteLogin .OrderCompleteLoginForm .dnnPrimaryAction,
+nav#topMenu li.root .SubMenuWrapper li .fourPromoItem a .fourPromoCTA,
+.sdDetails .AltProdDet .addToBasketContainer .ImgButWrap a,
+.currencyCountryHeader,
+#topLinkMenu .TopSubLinkMenu .user-name a,
+nav#topMenu ul li.root.sidebarSubMenu .SubMenuWrapper .level1.sdmColHeader > a,
+nav#topMenu ul li.root.sidebarSubMenu .SubMenuWrapper .level2.leftHeader.sdmColHeader > a,
+nav#topMenu li.root .SubMenuWrapper li .fourPromoSlot.BottomPromoRight .fourPromoItem.shopAllPromo .fourPromoCTA div,
+#divPersaddToBasketContainer .ImgButWrap a,
+#hotspotModal #hsAddToWishListContainer a,
+nav#topMenu > ul li.newTag::after,
+.am-menu ul li.newTag .menuitemtext::after,
+nav#topMenu > ul li.saleTag::after,
+.am-menu ul li.saleTag .menuitemtext::after,
+nav#topMenu > ul li.hotTag::after,
+.am-menu ul li.hotTag .menuitemtext::after,
+nav#topMenu ul li.root .SubMenuWrapper > ul li.level1.sdmColHeader.BlackItalicFont > a,
+#productImages #productImageContainer .productImage.productImageGrid .innerImageContainer a.viewMoreNumber,
+.sticky-atb .sticky-atb--buysection .addToBag,
+.OrderComplete h1,
+.order-complete-subtitle,
+.order-details-section h2,
+.OrderComplete h2,
+.order-details-section p b,
+strong {
+    font-family: var(--default-font-family);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--default-letter-spacing);
+}
+
+.sdlProdList .WishIcon,
+.productFilterTitleBox .glyphicon::before,
+.back-to-top,
+.sdDetails .pdpWishListIco,
+.sdDetails .SuggestedProduct .WishIcon,
+.sdDetails .hotspotbuy .QuickLookIcon,
+.sdDetails .hotspotbuy .WishIcon,
+a.bx-prev,
+a.bx-next,
+.sdDetails #mainDetails p.preOrder::before,
+.sdDetails .productImage .mainImageButtonPrev a span,
+.sdDetails .productImage .mainImageButtonNext a span,
+.updateIcon,
+#li_placement .SuggestedProduct .QuickLookIcon,
+#li_placement .SuggestedProduct .WishIcon,
+#li_placement .hotspotbuy .QuickLookIcon,
+#li_placement .hotspotbuy .WishIcon,
+.sdDetails .SuggestedProduct .QuickLookIcon,
+.sdDetails .AltProdDet #piThumbs #sPrevImg span::before,
+.sdDetails .AltProdDet #piThumbs #sNextImg span::before,
+.lillBasket .PreviousEnable,
+.lillBasket .NextEnable,
+.lillBasket .PreviousDisable,
+.lillBasket .NextDisable,
+.BasketNew .BasketQuantBut::before,
+.BasketNew .BasketQuantBut.s-basket-plus-button::before,
+.Responsive .BasketNew #BasketDiv .NewUpdateQuant:hover .updateIcon,
+.sdlProdList .catTemplateNew .viewMore span.OpenView::after,
+.sdlProdList .catTemplateNew .viewMore span.ClosedView::after,
+.FooterHeader span,
+.sdlProdList .catTemplate .viewMore span.OpenView::after,
+.sdlProdList .catTemplate .viewMore span.ClosedView::after,
+.HelpIco,
+.wishlist-summary .items-nav {
+    background-image: url("/images/core/sd-new-main-sprite-15-v12.svg");
+}
+
+.ControlWrap .accountBlock .login .ico,
+a.mp-back::before,
+.ToplinksGroup .search #cmdSearch span,
+.close-mobile-filters,
+.mobMenuGroup #mob-myaccount .mp-back::before,
+.shop > ul > li a.mp-back::before,
+#liMobileLanguageSelector a.mp-back::before,
+#liMobileCurrencySelector a.mp-back::before,
+.am-menu .am-level a.MobMenChevron::after,
+.mp-menu .mp-level a.MobMenChevron::after,
+.menu-trigger::before,
+#MobcmdSearch::before,
+.FooterGroup4 .FooterGroupLink a::before,
+.FooterWrap .footerContainer .footerInfoSection .footerStoreFinder a::before,
+.FooterWrap .footerContainer .footerInfoSection .footerCustServ a::before,
+#topLinkMenu ul.TopLinkMenu .iconsStores a::before,
+#topLinkMenu ul.TopLinkMenu .iconsCS a::before,
+.mobMenuGroup li .mp-level .mp-back::before,
+.lillBasket #aCheckout span::after,
+#topLinkMenu ul li.TopLink > a > .ico,
+#topLinkMenu ul li.TopLinkDrop ul li a .logoutTxt::after,
+.lillBasket a.removeClass::before,
+.lillBasket a.bagMoveToWishlistClass::before,
+.dvSearch .TextBoxClear::before,
+.sitewideBanner .closingIcon div,
+.s-basket-remove-button a .deleteItemIcon,
+.FooterSubGroup .FooterHeader span,
+.mobFilterAppIcon,
+.productFilterTitleBox .glyphicon::before,
+.selectedFilterToggle::after,
+.hotspotbuy.hotspotwishlist .WishIcon,
+.Responsive .mobDdClose .clsFilterIcon::before,
+.sdlProdList #spnSearchIcon .glyphicon,
+.productFilter .productFilterList #spnClearBrandFilter,
+.PageNumber a.NextLink,
+.PageNumber a.PrevLink {
+    background-image: var(--spritesheet);
+}
+
+.Profile .ContentWrapper,
+.Basket .ContentWrapper,
+.Login .ContentWrapper,
+.StoreLocator .ContentWrapper {
+    max-width: var(--default-container-max-width);
+
+    @media (min-width: 1640px) {
+        max-width: var(--large-container-max-width);
+    }
+}
+
+.RegistrationButtons .submitBut a {
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-regular);
+    padding: 16px;
+    text-transform: uppercase;
+    background-color: var(--site-cta-background);
+    color: var(--site-cta-text);
+    border: 1px solid var(--site-cta-background);
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+
+    span {
+        text-transform: none;
+    }
+
+    &:hover {
+        background-color: var(--site-white);
+        color: var(--site-black);
+    }
+}

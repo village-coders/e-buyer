@@ -1,0 +1,17 @@
+.AltVertOne {
+    #lblHeaderText {
+        font-weight: var(--font-weight-regular);
+    }
+
+    .AltStratProduct {
+        .AltStratBrand {
+            font-size: var(--subtitle-font-size);
+            color: var(--site-black);
+        }
+
+        .AltStratDescription {
+            font-size: var(--body-font-size);
+            color: var(--site-black);
+        }
+    }
+}

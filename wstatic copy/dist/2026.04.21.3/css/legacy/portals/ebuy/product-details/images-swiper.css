@@ -1,0 +1,29 @@
+.sdDetails {
+    .swiper-container {
+        .swiper-slide .pinch-zoom-container {
+            height: 100% !important; /* Important needed to override the inline styling that SwiperJS Applies */
+        }
+    }
+
+    .AltProdDet {
+        .swiper-pagination {
+            position: static;
+            line-height: 35px;
+            bottom: 0;
+            transform: none;
+
+            .swiper-pagination-bullet {
+                width: 35px;
+                height: 3px;
+                border-radius: 0;
+                background: var(--site-black);
+                opacity: 0.1;
+
+                &.swiper-pagination-bullet-active {
+                    background: var(--site-black);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

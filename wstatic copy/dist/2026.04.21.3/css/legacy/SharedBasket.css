@@ -1,0 +1,1447 @@
+.navPageActive {
+    text-decoration: underline;
+}
+
+#divBag #bagTextContainer,
+#divBag #bagTotal,
+#divBag #bagCheckoutTextContainer {
+    display: none;
+}
+
+#divBagTotalLink span {
+    font-size: 1.2em;
+}
+
+#divBagTotalLink span#bagQuantity {
+    padding: 2px 4px;
+    margin-left: 5px;
+    background-color: #e1e1e1;
+}
+
+#divBag #bagTotal {
+    margin-left: 5px;
+}
+
+#divBag {
+    height: 100%;
+    padding: 0;
+    width: auto;
+    position: relative;
+    float: right;
+    font-size: 1.3em;
+}
+
+.bagIcon {
+    display: none;
+}
+
+#divBag #divBagTotalLink {
+    font-size: 0.7em;
+    float: right;
+    text-align: right;
+    height: 100%;
+}
+
+#lblBag {
+    font-size: 18px;
+    padding-bottom: 4px;
+    line-height: 1.4em;
+    float: left;
+    height: 24px;
+    overflow: hidden;
+    width: 112px;
+}
+
+.MyBagTextImg {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.MyTotalQuantity {
+    display: inline-block;
+}
+
+#shoppingbag {
+    float: left;
+    padding: 0 0 4px 6px;
+    width: 30px;
+}
+
+#divBagItems {
+    position: absolute !important;
+    width: 320px;
+    max-width: 320px;
+    display: none;
+    padding: 6px;
+    text-align: left;
+    z-index: 5900 !important;
+    right: 0;
+    top: 37px;
+}
+
+#divBagItems.open {
+    overflow-y: auto !important;
+}
+
+#ulBag {
+    overflow: hidden;
+    position: relative;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+#ulBag li.hasDropshipping {
+    padding-bottom: 0;
+}
+
+#ulBag li:hover {
+    cursor: pointer;
+}
+
+#ulBag a {
+    display: inline-block;
+}
+
+#divulBagParent {
+    overflow: hidden;
+    position: relative;
+    max-height: 264px;
+}
+
+#divAjaxLoaderImage,
+#divEmptyErrorMessage {
+    vertical-align: middle;
+    right: 0;
+    width: 130px;
+    position: absolute;
+    z-index: 5901;
+    display: none;
+    padding: 20px;
+    text-align: center;
+    top: 37px;
+    font-weight: bold;
+    font-size: 0.8em;
+    box-shadow: 0 3px 3px -2px #ccc;
+    border: 1px solid #ccc;
+}
+
+#divAddRemoveToBag {
+    width: 100%;
+    display: none;
+    padding: 5px;
+}
+
+#ulBag li span {
+    line-height: 1.1em;
+}
+
+#ulBag li {
+    padding: 14px 5px 13px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+#ulBag li::before,
+#ulBag li::after,
+.summaryWrapCTA::before,
+.summaryWrapCTA::after {
+    content: "";
+    display: table;
+}
+
+#ulBag li::after,
+.summaryWrapCTA::after {
+    clear: both;
+}
+
+.navPage {
+    display: block;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.NextDisable {
+    background-position: -91px -175px;
+}
+
+.PreviousDisable {
+    background-position: -91px -154px;
+}
+
+.PreviousEnable,
+.NextEnable,
+.PreviousDisable,
+.NextDisable {
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 24px;
+    height: 20px;
+    background-image: url("/images/core/baskcheck.png");
+}
+
+.NextEnable {
+    background-position: -67px -175px;
+}
+
+.PreviousEnable {
+    background-position: -67px -154px;
+}
+
+.NextEnable:hover {
+    background-position: -43px -175px;
+    cursor: pointer;
+}
+
+.PreviousEnable:hover {
+    background-position: -43px -154px;
+    cursor: pointer;
+}
+
+#divulBagParent .blockOne,
+#divulBagParent .blockTwo,
+#divulBagParent .blockThree {
+    float: left;
+}
+
+.blockThree {
+    z-index: 3002;
+}
+
+.blockTwo span {
+    clear: both;
+    display: block;
+}
+
+#divButtons {
+    width: 100%;
+}
+
+#aCheckout {
+    display: none;
+}
+
+#aViewBag {
+    float: left;
+    padding: 15px 10px;
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+}
+
+.SubBask {
+    display: block;
+    margin: 0 0 10px;
+    text-align: right;
+}
+
+.BaskName {
+    float: left;
+    height: 12px;
+    overflow: hidden;
+    width: calc(100% - 55px);
+    font-weight: bold;
+}
+
+.BaskColr {
+    float: left;
+}
+
+.BaskSize {
+    float: right;
+}
+
+.lillBasket #ulBag li span.BaskDiscountApplied {
+    color: #fe0000;
+}
+
+.BaskQuant {
+    float: left;
+    padding-right: 6px;
+}
+
+.BaskPrice {
+    float: right;
+}
+
+.maxText {
+    float: left;
+    padding-right: 6px;
+}
+
+.ColrandSize {
+    float: left;
+    height: 12px;
+    overflow: hidden;
+    width: 100%;
+    margin: 3px 0;
+    line-height: 1em;
+}
+
+.PriceandCross,
+.bagMoveToWishlistContainer {
+    float: right;
+    width: 55px;
+    line-height: 1em;
+}
+
+#ulBag li .PriceandCross img,
+#ulBag li .bagMoveToWishlistContainer img {
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+
+.PriceandCross a.removeClass,
+.bagMoveToWishlistClass {
+    float: right;
+}
+
+.lineProblems {
+    float: left;
+    line-height: 1em;
+}
+
+.chkouterror {
+    color: #ed0000;
+    display: block;
+    font-size: 12px;
+    line-height: 1.4em;
+    text-align: right;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#divBagItemsChild .bagHeader p {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 5px;
+    position: relative;
+}
+
+#clsBasketMob {
+    font-size: 14px;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    line-height: 21px;
+}
+
+#ulBag li img.Baskimg {
+    float: left;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.bagContentItemWrap {
+    float: right;
+    width: calc(100% - 70px);
+    font-size: 12px;
+}
+
+.Responsive .IconBagandWish {
+    float: right;
+    width: 100%;
+}
+
+#divBagTotalLink span span {
+    font-size: 1em;
+}
+
+.flanBasket {
+    width: 100%;
+}
+
+#divBag.flanBasket #divBagTotalLink {
+    font-size: 0.7em;
+}
+
+.flanBasket #divBagTotalLink a#aBagLink {
+    width: 100%;
+    min-width: 97px;
+    line-height: 2em;
+    background-position: 0;
+}
+
+.flanBasket #bagName,
+.flanBasket #lblSubTotal,
+.flanBasket #lblBagQuantity {
+    display: none;
+}
+
+.flanBasket #bagTotalContainer,
+.flanBasket #bagQuantityContainer {
+    float: right;
+}
+
+.flanBasket #bagTotal {
+    font-size: 0.8em;
+    padding: 5px 5px 0 0;
+}
+
+.flanBasket #divBagTotalLink #bagQuantity {
+    color: #000;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    width: 30px;
+    height: 28px;
+    padding: 6px 0 0 1px;
+    margin-left: 5px;
+    text-align: center;
+    background-position: -384px -715px;
+}
+
+.viewBasket {
+    text-transform: uppercase;
+}
+
+.viewBasket #bagTotalContainer {
+    display: none;
+}
+
+.viewBasket #bagName {
+    padding-right: 35px;
+    background: url("/images/core/mybag.png") no-repeat right top;
+    background-size: contain;
+}
+
+.viewBasket #bagQuantityContainer {
+    font-size: 0.9em;
+}
+
+.viewBasket #divBagTotalLink #lblBagQuantity {
+    font-size: 1.3em;
+}
+
+.v2Basket #divBagTotalLink a#aBagLink {
+    min-width: 130px;
+    height: auto;
+    padding: 7px 0;
+}
+
+.v2Basket #bagQuantityContainer,
+.v2Basket #bagTotalContainer {
+    float: right;
+    line-height: 1.8em;
+}
+
+.v2Basket #bagTotalContainer {
+    clear: right;
+}
+
+.v2Basket #bagName {
+    display: inline-block;
+    text-indent: -9999px;
+    text-align: left;
+}
+
+.v2Basket #bagTotal {
+    text-align: right;
+}
+
+.v2Basket #divBagTotalLink span span {
+    font-size: 1.2em;
+}
+
+.sdBasket a#aBagLink {
+    min-width: 83px;
+    text-align: center;
+    height: 37px;
+    line-height: 4em;
+}
+
+.sdBasket #bagTotalContainer,
+.sdBasket #lblBagQuantity,
+.sdBasket #lblSubTotal {
+    display: none;
+}
+
+.sdBasket #divBagTotalLink #bagQuantity {
+    font-size: 1em;
+}
+
+#divBag.vanmBasket {
+    height: 55px;
+    max-height: none;
+}
+
+#divBag.vanmBasket #divBagTotalLink {
+    height: 55px;
+}
+
+.vanmBasket #divBagTotalLink span {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#divBag.vanmBasket #divBagTotalLink a#aBagLink {
+    font-size: 1em;
+    position: relative;
+}
+
+.vanmBasket #divBagTotalLink #bagName {
+    font-size: 1.3em;
+    display: none;
+    text-align: left;
+}
+
+.vanmBasket #bagQuantityContainer {
+    float: left;
+    text-align: right;
+}
+
+.vanmBasket #divBagTotalLink span#bagQuantity {
+    background-color: transparent;
+    font-size: 0.9em;
+    display: inline;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2px 0;
+}
+
+.vanmBasket #divBagTotalLink #lblBagQuantity {
+    margin: 0;
+}
+
+.vanmBasket #bagTotalContainer {
+    float: right;
+    text-align: right;
+}
+
+.IconBagandWish .vanmBasket #bagQuantityContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width: 768px) {
+    #divBag.vanmBasket #bagTotal {
+        display: inline;
+    }
+}
+
+.t9Basket #divBagTotalLink #bagName {
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+}
+
+.t9Basket #divBagTotalLink #bagQuantityContainer,
+.t9Basket #divBagTotalLink #bagTotalContainer {
+    float: right;
+    text-transform: uppercase;
+}
+
+.t9Basket #bagQuantityContainer {
+    padding-left: 20px;
+}
+
+.t9Basket #bagQuantityContainer,
+.t9Basket #bagTotalContainer,
+.t9Basket #bagName {
+    padding-top: 10px;
+}
+
+.t9Basket#divBag #bagTotal {
+    display: inline;
+}
+
+.WishShareText {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.WishShareText span {
+    font-size: 1.5em;
+}
+
+.wishListConfirmationDialog {
+    width: 66%;
+    display: inline-block;
+}
+
+.Responsive .flanIconsSearch .IconBagandWish {
+    width: 50%;
+    padding: 0;
+}
+
+@media (min-width: 1022px) {
+    .flanBasket #bagQuantityContainer {
+        position: absolute;
+        right: 0;
+        top: -2px;
+    }
+
+    .flanBasket #bagTotalContainer {
+        padding: 0 40px 0 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1021px) {
+    #divBagTotalLink a#aBagLink {
+        min-width: 60px;
+        position: relative;
+    }
+
+    #divBagTotalLink a#aBagLink #bagName {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        line-height: 1.9em;
+        display: none;
+    }
+
+    .viewBasket #aBagLink {
+        line-height: 1em;
+    }
+
+    .viewBasket #bagName {
+        display: inline-block !important;
+        width: auto !important;
+        position: relative !important;
+    }
+
+    .Responsive .flanIconsSearch .IconBagandWish {
+        width: 35.9%;
+    }
+
+    .flanBasket #divBagTotalLink a#aBagLink {
+        min-width: 50px;
+    }
+
+    .v2Basket #divBagTotalLink #lblSubTotal {
+        display: inline-block !important;
+    }
+
+    .vanmBasket #bagName {
+        position: relative !important;
+    }
+
+    .vanmBasket #bagQuantityContainer {
+        float: right;
+        line-height: 1em;
+        width: 100%;
+        text-align: right;
+        top: 19px;
+    }
+
+    .vanmBasket #bagTotalContainer {
+        display: none;
+    }
+
+    .t9Basket #bagName {
+        display: inline-block !important;
+        position: relative !important;
+        float: left !important;
+    }
+
+    .t9Basket #bagQuantityContainer {
+        padding-top: 13px;
+    }
+
+    .t9Basket #bagTotalContainer {
+        display: none;
+    }
+
+    .t9Basket #bagQuantity {
+        font-size: 0.8em;
+        margin: 7px 0 0;
+    }
+
+    .flanBasket #bagTotalContainer,
+    .flanBasket #bagQuantityContainer {
+        float: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #divBagTotalLink a#aBagLink {
+        width: 40px;
+        min-width: 40px;
+        padding: 0;
+    }
+
+    #divBagTotalLink span#bagQuantity {
+        padding: 1px;
+        margin-left: 14px;
+        background-color: transparent;
+        text-align: center;
+        width: 20px;
+        display: block;
+    }
+
+    #divBag #divBagTotalLink {
+        padding-right: 10px;
+    }
+
+    #divBagItems,
+    #divAjaxLoaderImage,
+    #divEmptyErrorMessage {
+        top: 45px;
+        right: -5px;
+    }
+
+    .Responsive #divulBagParent {
+        overflow-y: hidden !important;
+    }
+
+    .sdBasket #divBagTotalLink #bagQuantity {
+        font-size: 0.9em;
+    }
+
+    .v2Basket #divBagTotalLink a#aBagLink {
+        min-width: 30px;
+        padding: 16px 0;
+        font-size: 1em;
+    }
+
+    .vanmBasket #divBagTotalLink #bagQuantity {
+        padding-left: 15px;
+    }
+
+    .vanmBasket #bagQuantityContainer {
+        width: 100%;
+    }
+
+    .IconBagandWish .vanmBasket #bagQuantityContainer {
+        position: relative;
+        top: 0;
+        text-align: center;
+    }
+
+    #divBag.vanmBasket #divBagTotalLink,
+    #divBag.vanmBasket {
+        height: 37px;
+    }
+
+    .t9Basket #bagQuantityContainer {
+        padding-top: 3px;
+    }
+
+    .flanBasket #divBagTotalLink a#aBagLink {
+        min-width: 50px;
+    }
+
+    .flanBasket #bagQuantityContainer {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .flanBasket #divBagTotalLink #bagQuantity {
+        background-position: -378px -713px;
+        padding: 8px 5px 0 0;
+        width: 100%;
+        height: 37px;
+    }
+
+    .Responsive .flanIconsSearch .IconBagandWish {
+        width: 50%;
+    }
+
+    .lillBasket #spanCheckout {
+        width: 100%;
+    }
+
+    .lillBasket #aViewBag {
+        width: 100%;
+    }
+
+    .lillBasket #aCheckout {
+        padding: 20px;
+    }
+}
+
+#BasketModal .modal-header {
+    padding: 10px 40px;
+    line-height: 1.3em;
+    height: 49px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+#BasketModal .header-text {
+    font-size: 1.3em;
+    color: #666;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+#BasketModal .modal-dialog {
+    max-height: 418px;
+    width: 100%;
+    max-width: 600px;
+}
+
+#BasketModal .modal-body {
+    height: 372px;
+    max-height: 372px;
+    width: 100%;
+    max-width: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#BasketModal.appPromoMug .modal-body {
+    height: 466px;
+    max-height: 466px;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+.buttoncontainer .ImgButWrap {
+    padding: 0 2%;
+}
+
+#BasketModal .modal-workarea {
+    padding: 15px 15px 0;
+    border-bottom: 1px solid #eee;
+    min-height: 40px;
+}
+
+.buttoncontainer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#BasketModal.MagazineModal .modal-dialog {
+    max-height: 592px;
+    max-width: 640px;
+}
+
+.MagazineModal .modal-header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 0 !important;
+    background-color: transparent !important;
+    border: 0 !important;
+}
+
+.MagazineModal .close {
+    top: -40px;
+    width: 40px;
+    height: 40px;
+    right: 0;
+}
+
+#BasketModal.MagazineModal .modal-body {
+    height: 592px;
+    max-height: 592px;
+    max-width: 640px;
+    padding: 0;
+    background-color: #e1233d;
+}
+
+#BasketModal.MagazineModal .text-center {
+    border-bottom: 0;
+    height: 81%;
+    overflow-y: auto;
+    line-height: normal;
+}
+
+#BasketModal.MagazineModal .text-center div {
+    height: 100%;
+}
+
+.MagazineModal .modal-body img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+}
+
+.MagazineModal .modal-body img.mobVersion {
+    display: none;
+}
+
+.MagazineModal .modal-body .buttoncontainer {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    right: 2%;
+    width: 96%;
+    height: 19%;
+    text-align: right;
+}
+
+.MagazineModal .modal-body .buttoncontainer .ImgButWrap {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.MagazineModal .modal-body .buttoncontainer .ImgButWrap a.btnYes {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #e1233d !important;
+    background-color: #fff !important;
+    font-size: 2em;
+    border: 3px solid #fff;
+    white-space: normal;
+    margin-bottom: 3px;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+.MagazineModal .modal-body .buttoncontainer .ImgButWrap a.btnYes:hover {
+    border: 3px solid #ccc;
+}
+
+.MagazineModal .modal-body .buttoncontainer .ImgButWrap a.btnNo {
+    padding: 10px 0;
+    text-transform: uppercase;
+    float: right;
+    font-size: 1.5em;
+    background-color: transparent !important;
+    color: #000 !important;
+    width: auto;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.MagazineModal .modal-body .buttoncontainer .ImgButWrap a.btnYes::after {
+    content: " PLEASE, ADD TO MY BASKET";
+}
+
+.MagazineModal .modal-body .buttoncontainer .ImgButWrap a.btnNo::after {
+    content: " THANKS";
+}
+
+@media (max-width: 520px) and (min-height: 460px) {
+    .MagazineModal .modal-body img.deskVersion {
+        display: none;
+    }
+
+    .MagazineModal .modal-body img.mobVersion {
+        display: block;
+    }
+
+    #BasketModal.MagazineModal .modal-dialog {
+        max-height: 428px;
+    }
+
+    #BasketModal.MagazineModal .modal-body {
+        height: 428px;
+        max-height: 428px;
+    }
+}
+
+@media (max-width: 520px) {
+    .MagazineModal .modal-body .buttoncontainer .ImgButWrap a.btnYes::after {
+        content: " PLEASE";
+    }
+}
+
+@media (max-height: 500px) {
+    .MagazineModal .modal-body .buttoncontainer .ImgButWrap {
+        width: 25%;
+        float: left;
+    }
+
+    .MagazineModal .modal-body .buttoncontainer .ImgButWrap:first-child {
+        width: 75%;
+    }
+}
+
+@media (max-height: 500px) and (max-width: 520px) {
+    .MagazineModal .modal-body .buttoncontainer .ImgButWrap {
+        width: 25%;
+        float: left;
+    }
+
+    .MagazineModal .modal-body .buttoncontainer:first-child {
+        width: 75%;
+    }
+
+    .MagazineModal .modal-body .buttoncontainer .ImgButWrap a.btnYes::after {
+        content: " PLEASE";
+    }
+
+    .MagazineModal .modal-body .buttoncontainer .ImgButWrap a.btnNo::after {
+        content: "";
+    }
+}
+
+.lillBasket a#aBagLink {
+    min-width: 83px;
+    text-align: center;
+    height: 37px;
+    line-height: 4em;
+}
+
+.lillBasket #bagTotalContainer,
+.lillBasket #lblBagQuantity,
+.lillBasket #lblSubTotal {
+    display: none;
+}
+
+.lillBasket #divBagTotalLink #bagQuantity {
+    top: 12px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.lillBasket #aCheckout {
+    padding: 16px 10px;
+    text-align: center;
+    line-height: 1em;
+    text-transform: uppercase;
+    display: block;
+    color: #fff !important;
+    font-size: 0.9em;
+}
+
+.lillBasket #divBagItems {
+    width: 500px;
+    min-width: 320px;
+    max-width: 430px;
+    padding: 0;
+    box-shadow: 0 1px 1px 0 #666;
+}
+
+.lillBasket #divBagItemsChild {
+    padding: 5px;
+    font-size: 11px;
+}
+
+#divBagItems .fulfilledBy {
+    float: left;
+    width: 100%;
+    min-height: 21px;
+    padding: 0;
+}
+
+#divBagItems #ulBag .fulfilledBy span {
+    line-height: normal;
+    padding: 0;
+    font-size: 1em;
+}
+
+#divBagItems #ulBag .fulfilledBy > span {
+    font-size: 1.1em;
+}
+
+.lillBasket .BaskName {
+    height: 13px;
+    font-weight: normal;
+}
+
+.lillBasket #aViewBag {
+    width: 30%;
+    background-color: #fff !important;
+    border: solid 1px #9a9a9a;
+    color: #636363 !important;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.lillBasket #aViewBag:hover {
+    background-color: #5d5d5d !important;
+    color: #fff !important;
+}
+
+.lillBasket #spanCheckout {
+    width: 65%;
+    float: right;
+}
+
+.lillBasket #divButtons {
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.lillBasket #lblBagSubTotal,
+.lillBasket #spanBagSubTotalValue {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.05em;
+}
+
+.lillBasket #divBagTotalDiscount {
+    clear: both;
+    padding-bottom: 5px;
+    font-size: 0.9em;
+    font-style: italic;
+    letter-spacing: 0.05em;
+}
+
+.lillBasket #divButtons .SubBask > div {
+    padding: 5px 0;
+}
+
+.lillBasket .PriceandCross,
+.lillBasket .bagMoveToWishlistContainer {
+    float: right;
+    line-height: 1em;
+}
+
+.lillBasket .BaskColr,
+.lillBasket .BaskSize {
+    width: 100%;
+}
+
+.lillBasket .ColrandSize {
+    float: left;
+    width: calc(100% - 32px);
+    height: auto;
+    color: #969696;
+    margin: 0;
+    padding-right: 5px;
+}
+
+.lillBasket .BaskPrice {
+    float: right;
+    font-weight: bold;
+}
+
+.lillBasket a.removeClass:hover {
+    color: #5f5f5f;
+}
+
+.lillBasket .BaskName:hover {
+    text-decoration: underline;
+}
+
+.lillBasket .BaskQuant {
+    color: #969696;
+}
+
+.lillBasket .disable {
+    pointer-events: none;
+    opacity: 0.1;
+}
+
+.lillBasket .lineProblems {
+    width: 100%;
+}
+
+.lillBasket .outofstock {
+    color: #ed0000;
+    font-weight: 600;
+}
+
+#AddedToBagModal .modal-body {
+    text-align: center;
+    padding: 20px;
+}
+
+#AddedToBagModal .modal-dialog {
+    width: 280px;
+}
+
+#AddedToBagModalImageWrap {
+    position: relative;
+}
+
+#AddedToBagModalImageWrap #AddedToBagModalImageHeightHelper {
+    padding-bottom: 100%;
+}
+
+#AddedToBagModalImageWrap img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#AddedToBagModal #AddedToBagModalBagLink {
+    display: block;
+    text-transform: uppercase;
+    padding: 20px 5px;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+#AddedToBagModal #AddedToBagModalProductName {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+#AddedToBagModal .ImgButWrap {
+    margin-top: 10px;
+    display: block;
+}
+
+#divBag .HeaderChecklinkWrap {
+    display: none;
+}
+
+#divBag .HeaderBagEmptyMessage,
+#divBag .HeaderCheckoutLink {
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #f3f3f3;
+}
+
+#divBag .HeaderCheckoutLink {
+    display: none;
+}
+
+#divBag.active .HeaderCheckoutLink {
+    display: block;
+}
+
+#divBag.active .HeaderBagEmptyMessage {
+    display: none;
+}
+
+.SelectSizePopover {
+    border: 1px solid #ee3123;
+    padding-top: 5px;
+    color: #ee3123;
+    text-align: center;
+    z-index: 5100;
+}
+
+.SelectSizePopover.popover .arrow {
+    border-bottom-color: #ee3123;
+}
+
+.SelectSizePopover .popover-content {
+    padding: 0 10px;
+}
+
+.SelectSizePopover .PopoverContentWrapper {
+    padding: 9px 14px;
+    font-size: 14px;
+}
+
+.BuySizeText.sizeerror {
+    color: #ee3123;
+}
+
+@media (max-width: 767px) {
+    .BagWrap #divBag .HeaderChecklinkWrap,
+    .BagWrap #divBag .HeaderBagEmptyMessage {
+        display: none;
+    }
+}
+
+#PersonalisationModal .modal-dialog {
+    max-height: 562px;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    top: 50%;
+    translate: 0 -50%;
+    margin-top: 0 !important;
+
+    &.is-evoucher {
+        height: auto;
+        width: auto;
+    }
+}
+
+#PersonalisationModal .modal-content {
+    height: 100%;
+}
+
+#PersonalisationModal .modal-body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 15px;
+    max-height: calc(100% - 49px) !important;
+    min-height: 240px;
+}
+
+.popupPreorderPopup.modal-dialog {
+    padding: 10px;
+}
+
+.popupPreorderPopup .modal-header .header-text {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.popupPreorderPopup .modal-body {
+    height: 380px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 768px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.popupPreorderPopup .preorderCancelButton {
+    background-color: #888 !important;
+}
+
+@media (min-width: 768px) {
+    .popupPreorderPopup.modal-dialog {
+        width: 700px;
+        padding: 0;
+    }
+
+    .popupPreorderPopup .modal-body {
+        padding-top: 40px;
+    }
+}
+
+.GatedAddToBagLabel {
+    font-weight: 700;
+}
+
+#GatedAddToBagPopup .modal-header,
+#GatedAddToBagSuccessPopup .modal-header {
+    border-bottom: 0;
+    background-color: #fff;
+    padding: 10px 40px 0;
+}
+
+#GatedAddToBagPopup .modal-content .modal-body,
+#GatedAddToBagSuccessPopup .modal-content .modal-body {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px 15px;
+}
+
+.gatedBagRow {
+    max-width: 100%;
+}
+
+.gatedBagDiv {
+    padding: 0 2rem;
+}
+
+.gatedInitText {
+    font-size: 1.1em;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.gatedInitText span,
+.gatedApprovedText span {
+    width: 100%;
+    float: left;
+}
+
+.gatedInitText span.spnGatedBagTitle,
+.gatedApprovedText span.spnGatedBagTitle {
+    font-weight: 700;
+    padding: 0 0 20px;
+    font-size: 1.7em;
+}
+
+.gatedInitText span.boldTxt,
+.gatedApprovedText span.boldTxt {
+    width: auto;
+    padding: 0;
+    font-size: 1em;
+    font-weight: 700;
+    float: none;
+}
+
+.spnGatedBodyTxt {
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+.GatedAddToBagGoWrapper {
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 20px 0;
+}
+
+#GatedAddToBagPopup a.GatedAddToBagGo,
+#GatedAddToBagSuccessPopup a.GatedAddToBagGo {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+#GatedAddToBagPopup a.GatedAddToBagGo:hover,
+#GatedAddToBagSuccessPopup a.GatedAddToBagGo:hover {
+    background-color: #333;
+}
+
+#GatedAddToBagPopup #AddedToBagModalProductName {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+#GatedAddToBagSuccessPopup .row {
+    width: 100%;
+}
+
+#GatedAddToBagSuccessPopup .gatedApprovedText {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.lillBasket #aShopBrand,
+#aLastBrowseCategory {
+    float: left;
+    text-align: center;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 16px 5px;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+#aShopBrand:hover {
+    background-color: #5d5d5d !important;
+    color: #fff !important;
+}
+
+#aLastBrowseCategory:hover {
+    background-color: #5d5d5d !important;
+    color: #fff !important;
+}
+
+.continueShoppingHeader {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 5px;
+    position: relative;
+    font-weight: bold;
+}
+
+#template-bag-item {
+    display: none;
+}

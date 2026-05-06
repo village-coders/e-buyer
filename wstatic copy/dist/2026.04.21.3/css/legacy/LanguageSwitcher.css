@@ -1,0 +1,527 @@
+.langdropdown dd,
+.langdropdown dt,
+.langdropdown ul {
+    margin: 0;
+    padding: 0;
+    z-index: 5910 !important;
+}
+
+.langdropdown dd {
+    position: relative;
+}
+
+.langdropdown a {
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+
+.langdropdown a:hover {
+    color: #666;
+}
+
+.langdropdown dt a {
+    background: url("/images/ddarrow.png") no-repeat scroll right center #fff;
+    display: block;
+    padding: 0;
+    width: 105px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+
+.langdropdown dt a:hover {
+    color: #666;
+}
+
+.langdropdown dt a span {
+    cursor: pointer;
+    display: block;
+    padding: 2px 0 2px 4px;
+    position: absolute;
+}
+
+.langdropdown dd ul {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px 0 #ccc;
+    display: none;
+    left: 0;
+    min-width: 240px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.langdropdown dd ul li {
+    width: 50%;
+    float: left;
+}
+
+.langdropdown span.value {
+    display: none;
+}
+
+.langdropdown dd ul li a {
+    padding: 4px 0;
+    display: block;
+}
+
+.langdropdown dd ul li a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+.langdropdown dd ul li a img {
+    padding-top: 1px;
+}
+
+.langdropdown img.flag {
+    margin: 2px 6px 0 0;
+}
+
+.langdropdown dt img.flag {
+    margin: 2px 2px 0 0;
+}
+
+.currencyLanguageSelector {
+    background: url("/images/ddarrow.png") no-repeat scroll right center #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    height: 21px;
+    max-width: 85px;
+    overflow: hidden;
+}
+
+.triangle {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    margin-left: -15px;
+    border-bottom: 15px solid #002952;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-right-color: transparent;
+    border-bottom-color: #999;
+    border-left-color: transparent;
+}
+
+.currencyLanguageSlider {
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 5px 3px -2px #ccc;
+    display: block;
+    padding: 10px;
+    position: absolute;
+    width: 390px;
+    z-index: 5220 !important;
+}
+
+.currencyLanguageSlider > div {
+    width: 100%;
+}
+
+.currencyLanguageSlider #divCurrencySelector {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.currencySelector,
+.languageSelector {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.spanCurrencyLanguageSelector {
+    display: inline-block;
+    height: 21px;
+    padding: 5px 16px 5px 3px;
+}
+
+.spanCurrencyLanguageSelector p {
+    float: left;
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+    padding-right: 2.6px;
+    padding-top: 1px;
+}
+
+.spanCurrencyLanguageSelector p:hover {
+    color: #333;
+}
+
+#divCurrencySelector span.currencyHeader,
+#divLanguageSelector span.languageHeader {
+    border-bottom: 1px solid #eee;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.currencySelector li {
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.currencySelector li label {
+    cursor: pointer;
+    margin-bottom: 0;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 1em;
+    order: 2;
+    padding-right: 5px;
+}
+
+.currencySelector input[type="radio"] {
+    margin-right: 6px;
+    margin-top: 0;
+    cursor: pointer;
+    order: 1;
+    display: inline-block;
+}
+
+.languageSelector li {
+    width: 25%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.languageSelector li a {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.languageSelector span.value {
+    display: none;
+}
+
+.languageSelector span.countryName {
+    padding-left: 5px;
+    width: calc(100% - 22px);
+    font-size: 1.1em;
+    display: inline-block;
+    vertical-align: super;
+}
+
+#liMobileLanguageSelector span.countryName {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.disableCurrencyLanageSelector {
+    background-image: none;
+    cursor: auto;
+}
+
+.accordionMenuContentWrap .am-level ul.languageSelectorMobile {
+    background-color: #fff;
+}
+
+.languageSelectorMobile span.value,
+#liMobileLanguageSelector #spanLanguageMenuItem,
+#liMobileCurrencySelector #spanCurrencyMenuItem {
+    display: none;
+}
+
+.languageSelectorMobile img {
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.spanCurrencyLanguageSelector .currencyTitle,
+.spanCurrencyLanguageSelector .currencyIco,
+.spanCurrencyLanguageSelector .editCountryCurrency,
+.currencyLanguageSlider #divCurrencySelector .currencyHeader {
+    display: none;
+}
+
+.currencySelectorMobile input[type="radio"] {
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.currencyHeaderMob,
+.languageHeaderMob {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    text-align: center;
+    color: #000 !important;
+    padding: 10px;
+    line-height: 1.65em;
+    display: block;
+}
+
+.mobileSelectedLanguage {
+    display: inline-block;
+}
+
+.mobileSelectedLanguage .languageRoot {
+    padding-left: 5px;
+}
+
+.mobileSelectedLanguage img {
+    margin-bottom: 2px;
+    float: none;
+}
+
+.Responsive .currencyLanguageSlider {
+    width: 900px;
+    text-align: left;
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1021px) {
+    .Responsive .spanCurrencyLanguageSelector {
+        height: 30px;
+        padding: 3px 20px 5px 5px;
+    }
+
+    .Responsive .currencyLanguageSlider {
+        width: 592px;
+        right: -125px;
+    }
+}
+
+.CountryRedirectPopupLogoWrapper {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.CountryRedirectPopupLogoWrapper img {
+    margin: 0 auto;
+    max-height: 40px;
+}
+
+.CountryRedirectPopup p {
+    margin: 0 0 20px;
+    padding: 6px 0 6px 6px;
+    background-color: #eee;
+    font-size: 1.1em;
+}
+
+.CountryRedirectPopup p.LangTitle {
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#CountryRedirectPopup .CountryRedirectMainLink {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#CountryRedirectPopup .MainLinkFlag {
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+#CountryRedirectOtherSitesList {
+    text-align: center;
+}
+
+#CountryRedirectOtherSitesList .flagBox {
+    display: inline-block;
+    width: 16.6666%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#CountryRedirectOtherSitesList .flag {
+    margin: 0 auto;
+    display: block;
+    width: 33px;
+    height: 24px;
+    border-radius: 0;
+    background-image: url("/images/core/sd-flags-update-1020.svg");
+    background-size: 235px 235px;
+    background-position: -17px -6px;
+    background-repeat: no-repeat;
+    float: none;
+}
+
+#CountryRedirectOtherSitesList .flag.at {
+    background-position: -99px -6px;
+}
+
+#CountryRedirectOtherSitesList .flag.au {
+    background-position: -57px -6px;
+}
+
+#CountryRedirectOtherSitesList .flag.be {
+    background-position: -138px -6px;
+}
+
+#CountryRedirectOtherSitesList .flag.bg {
+    background-position: -178px -6px;
+}
+
+#CountryRedirectOtherSitesList .flag.ch {
+    background-position: -137px -169px;
+}
+
+#CountryRedirectOtherSitesList .flag.cz {
+    background-position: -57px -33px;
+}
+
+#CountryRedirectOtherSitesList .flag.de {
+    background-position: -18px -60px;
+}
+
+#CountryRedirectOtherSitesList .flag.dk {
+    background-position: -57px -196px;
+}
+
+#CountryRedirectOtherSitesList .flag.ee {
+    background-position: -99px -33px;
+}
+
+#CountryRedirectOtherSitesList .flag.es {
+    background-position: -57px -169px;
+}
+
+#CountryRedirectOtherSitesList .flag.fi {
+    background-position: -138px -33px;
+}
+
+#CountryRedirectOtherSitesList .flag.fr {
+    background-position: -178px -33px;
+}
+
+#CountryRedirectOtherSitesList .flag.gr {
+    background-position: -56px -60px;
+}
+
+#CountryRedirectOtherSitesList .flag.hr {
+    background-position: -18px -33px;
+}
+
+#CountryRedirectOtherSitesList .flag.hu {
+    background-position: -98px -60px;
+}
+
+#CountryRedirectOtherSitesList .flag.ie {
+    background-position: -178px -60px;
+}
+
+#CountryRedirectOtherSitesList .flag.is {
+    background-position: -137px -60px;
+}
+
+#CountryRedirectOtherSitesList .flag.it {
+    background-position: -18px -88px;
+}
+
+#CountryRedirectOtherSitesList .flag.lt {
+    background-position: -98px -88px;
+}
+
+#CountryRedirectOtherSitesList .flag.lu {
+    background-position: -138px -88px;
+}
+
+#CountryRedirectOtherSitesList .flag.lv {
+    background-position: -57px -88px;
+}
+
+#CountryRedirectOtherSitesList .flag.md {
+    background-position: -58px -115px;
+}
+
+#CountryRedirectOtherSitesList .flag.mt {
+    background-position: -18px -115px;
+}
+
+#CountryRedirectOtherSitesList .flag.my {
+    background-position: -178px -88px;
+}
+
+#CountryRedirectOtherSitesList .flag.nl {
+    background-position: -138px -115px;
+}
+
+#CountryRedirectOtherSitesList .flag.no {
+    background-position: -138px -115px;
+}
+
+#CountryRedirectOtherSitesList .flag.nz {
+    background-position: -98px -115px;
+}
+
+#CountryRedirectOtherSitesList .flag.pl {
+    background-position: -179px -115px;
+}
+
+#CountryRedirectOtherSitesList .flag.pt {
+    background-position: -18px -142px;
+}
+
+#CountryRedirectOtherSitesList .flag.ro {
+    background-position: -58px -142px;
+}
+
+#CountryRedirectOtherSitesList .flag.rs {
+    background-position: -97px -142px;
+}
+
+#CountryRedirectOtherSitesList .flag.sa {
+    background-position: -133px -24px;
+}
+
+#CountryRedirectOtherSitesList .flag.se {
+    background-position: -97px -169px;
+}
+
+#CountryRedirectOtherSitesList .flag.sg {
+    background-position: -137px -142px;
+}
+
+#CountryRedirectOtherSitesList .flag.si {
+    background-position: -17px -168px;
+}
+
+#CountryRedirectOtherSitesList .flag.sv {
+    background-position: -97px -169px;
+}
+
+#CountryRedirectOtherSitesList .flag.sk {
+    background-position: -178px -142px;
+}
+
+#CountryRedirectOtherSitesList .flag.ua {
+    background-position: -178px -169px;
+}
+
+#CountryRedirectOtherSitesList .flag.us {
+    background-position: -17px -196px;
+}
+
+#CountryRedirectOtherSitesList .flag.nl {
+    background-position: -98px -196px;
+}
+
+.flagBox span {
+    margin-top: 3px;
+    display: block;
+}
+
+.CountryRedirectModal.modal.in .CountryRedirectPopupLogoWrapper svg {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}

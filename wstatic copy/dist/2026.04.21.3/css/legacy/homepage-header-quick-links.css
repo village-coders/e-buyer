@@ -1,0 +1,42 @@
+.homepage-header-quick-links {
+    --homepage-header-quick-links-background-color: #000;
+    --homepage-header-quick-link-background-color: var(--homepage-header-quick-links-background-color);
+    --homepage-header-quick-link-border-color: #fff;
+    --homepage-header-quick-link-font-color: #fff;
+    background-color: var(--homepage-header-quick-links-background-color);
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: none;
+    grid-gap: 16px;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    padding: 16px;
+    scrollbar-width: none;
+    user-select: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--homepage-header-quick-link-background-color);
+        color: var(--homepage-header-quick-link-font-color) !important;
+        border: 1px solid var(--homepage-header-quick-link-border-color);
+        padding: 12px 24px;
+        min-width: 100px;
+        text-align: center;
+        font-size: 14px;
+        line-height: normal;
+        text-transform: uppercase;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+
+    @media (max-width: 1021px) {
+        display: grid;
+    }
+}

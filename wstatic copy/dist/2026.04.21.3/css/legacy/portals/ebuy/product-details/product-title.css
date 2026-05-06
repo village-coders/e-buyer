@@ -1,0 +1,28 @@
+.sdDetails .AltProdDet .title {
+    display: flex;
+
+    h1 {
+        flex-grow: 1;
+        padding: 0;
+    }
+
+    .brandTitle .brandLink {
+        font-size: var(--subtitle-font-size);
+        letter-spacing: var(--default-letter-spacing);
+        padding: 0;
+
+        span {
+            color: var(--site-dark-grey);
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .prodTitle {
+        font-size: var(--subtitle-font-size);
+        color: var(--site-black);
+        padding: 0;
+        letter-spacing: var(--default-letter-spacing);
+    }
+}

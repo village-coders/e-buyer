@@ -1,0 +1,105 @@
+/* Overlay */
+.idle-logout-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2147483647;
+    justify-content: center;
+    align-items: center;
+}
+
+.idle-logout-overlay.is-active {
+    display: flex;
+}
+
+/* Modal card */
+.idle-logout-modal {
+    background-color: #fff;
+    border-radius: 4px;
+    max-width: 440px;
+    width: 90%;
+    text-align: center;
+    padding: 36px 28px 28px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    font-family: var(--idle-logout-font);
+    animation: idleLogoutFadeIn 0.25s ease-out;
+}
+
+@keyframes idleLogoutFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Icon */
+.idle-logout-modal__icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 20px;
+    border: 2px solid var(--idle-logout-icon-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--idle-logout-icon-color);
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* Title */
+.idle-logout-modal__title {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #222;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Message */
+.idle-logout-modal__message {
+    font-size: 1.05em;
+    color: #555;
+    margin: 0 0 24px;
+    line-height: 1.6;
+}
+
+.idle-logout-modal__message .idle-logout-modal__message-countdown {
+    font-weight: 700;
+    color: var(--idle-logout-icon-color);
+}
+
+/* Button */
+.idle-logout-modal__btn,
+.idle-logout-modal__btn:link,
+.idle-logout-modal__btn:visited,
+.idle-logout-modal__btn:active {
+    display: inline-block;
+    background-color: var(--idle-logout-btn-bg);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 13px 36px;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.idle-logout-modal__btn:hover {
+    background-color: var(--idle-logout-btn-hover);
+    color: #fff;
+}

@@ -1,0 +1,382 @@
+#BodyWrap .dy-hybrid-campaign {
+    display: block;
+    margin: 0 auto;
+
+    #dy-decision-id {
+        max-width: 1920px;
+        padding: 0 3%;
+        overflow: hidden;
+
+        @media (min-width: 1921px) {
+            padding: 0 4%;
+            margin: 50px auto !important;
+        }
+    }
+
+    .dy-swiper-container {
+        overflow: visible;
+    }
+
+    .recs-header h2 {
+        text-transform: uppercase;
+        padding: 0 16px;
+        margin-bottom: 12px;
+        font-family: var(--headerFont);
+        text-align: left;
+        font-size: 18px;
+        font-style: italic;
+        color: #000;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 22px;
+        @media (min-width: 768px) {
+            font-size: 22px;
+            line-height: 26px;
+            padding: 0 40px;
+        }
+        @media (min-width: 1022px) {
+            padding: 0 60px;
+        }
+    }
+
+    .dy-engagement-recommendation {
+        flex-grow: 1;
+        cursor: pointer;
+        transition: all 0.6s ease-out;
+
+        &:hover,
+        &:focus {
+            .swiper-image img {
+                scale: 1.02;
+                transition: all 0.6s ease-out;
+            }
+
+            .swiper-image::after {
+                opacity: 0.2;
+                transition: all 0.6s ease-out;
+            }
+
+            .product-brand::after {
+                transform: translateX(0);
+                opacity: 1;
+                transition:
+                    opacity 0.3s ease-out,
+                    transform 0.6s ease-out;
+            }
+        }
+    }
+
+    .swiper-wrapper {
+        margin-bottom: 12px;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-flow: column wrap;
+        height: auto;
+    }
+
+    .swiper-image {
+        margin-bottom: 13px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: -2px;
+            bottom: -2px;
+            left: -2px;
+            right: -2px;
+            background: #000;
+            transition: all 0.3s ease-in-out;
+            z-index: 1;
+            opacity: 0.05;
+        }
+    }
+
+    .hotspotbuy.hotspotwishlist {
+        cursor: pointer;
+        margin-top: 0;
+        width: 42px;
+        height: 42px;
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        background: #fff;
+        border-radius: 50%;
+        z-index: 100;
+        transition: all 0.25s linear;
+        opacity: 0.3;
+
+        .WishIcon {
+            background-image: none;
+            width: 42px;
+            height: 42px;
+
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                transition: all 0.25s linear;
+            }
+        }
+
+        .WishText {
+            display: none;
+        }
+
+        a {
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+
+        &.addedWishList {
+            svg path {
+                fill: #000;
+            }
+        }
+
+        &:hover,
+        &:focus,
+        &.addedWishList {
+            opacity: 1;
+
+            svg path {
+                stroke: #000 !important;
+            }
+        }
+
+        &.hide-wishlist {
+            display: none !important;
+        }
+    }
+
+    .product-info {
+        padding: 0;
+    }
+
+    .product-brand {
+        display: block;
+        position: relative;
+        margin-bottom: 3px;
+        color: #707373;
+        font-size: 11px;
+        font-family: var(--regularFont);
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        line-height: 11px;
+        text-transform: none;
+        padding-right: 16px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 7px;
+            width: 16px;
+            height: 16px;
+            background-image: url("/images/marketing/campaign-arrow.svg");
+            background-size: cover;
+            transform: translateX(7px);
+            opacity: 0;
+            transition:
+                opacity 0.3s ease-out,
+                transform 0.3s ease-out;
+        }
+    }
+
+    .product-name {
+        font-weight: 600;
+        font-size: 14px;
+        font-family: var(--boldFont);
+    }
+
+    .product-price {
+        .product-ticket-price,
+        .product-original-price {
+            display: inline;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            color: #000;
+            font-family: var(--boldFont);
+        }
+    }
+
+    .marked-down {
+        .product-ticket-price {
+            color: #ff0039;
+        }
+
+        .product-original-price {
+            text-decoration: line-through;
+            padding-left: 6px;
+            color: #888;
+            font-size: 11px;
+            font-weight: 400;
+            font-family: var(--regularFont);
+        }
+    }
+
+    .hotspotbuy {
+        border-radius: 0;
+        background-color: #46b05a;
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-top: 10px;
+
+        .QuickLookIcon {
+            display: none;
+        }
+
+        .QuickLookText {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            width: auto;
+            height: 42px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 0;
+            color: #fff;
+            background-color: #46b05a;
+            font-size: 12px;
+            font-family: var(--headerFont);
+            letter-spacing: 0.1em;
+            font-weight: 700;
+            line-height: 1.1875;
+            text-align: center;
+            text-transform: uppercase;
+            transition: background-color 0.25s ease-in;
+
+            &:hover,
+            &:focus {
+                background-color: #258638;
+            }
+        }
+
+        &.hotspotquickbuy {
+            display: block !important;
+            background: none;
+            left: auto;
+            right: auto;
+            bottom: auto;
+            top: auto;
+            margin-top: 8px;
+            width: inherit;
+            padding: inherit;
+            height: 42px;
+            transition: none;
+        }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        background-color: #fff;
+        background-size: cover;
+        width: 45px;
+        height: 45px;
+        transition: all 0.25s ease-out;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 0;
+        transform: scale(1);
+        top: 40%;
+
+        &::after {
+            content: "";
+        }
+
+        &:hover,
+        &:focus {
+            background-color: #0000ed;
+            box-shadow: 0 4px 7px rgb(0 0 0 / 0.25);
+
+            path {
+                fill: #fff;
+            }
+        }
+        @media (min-width: 1600px) {
+            top: 45%;
+        }
+    }
+
+    .swiper-button-prev {
+        transform: scale(1) rotate(180deg);
+        left: 8px;
+        @media (min-width: 1600px) {
+            left: calc(-3% - 8px);
+        }
+    }
+
+    .swiper-button-next {
+        transform: scale(1) rotate(0);
+        right: 8px;
+        @media (min-width: 1600px) {
+            right: calc(-3% - 8px);
+        }
+    }
+
+    .swiper-pagination {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        padding: 10px 0;
+    }
+
+    .swiper-button-disabled {
+        display: none;
+    }
+
+    .swiper-scrollbar {
+        position: relative;
+        left: 50%;
+        z-index: 50;
+        height: 1px;
+        width: 50%;
+        background-color: #d3d3d3;
+        transform: translateX(-50%);
+        padding: 1px 0;
+        transition:
+            all 0.25s ease-in,
+            transform 0s;
+        margin: 32px 0 0;
+        @media (min-width: 1022px) {
+            width: 30%;
+        }
+
+        .swiper-scrollbar-drag {
+            background: #0000ed;
+            cursor: pointer;
+            height: 4px;
+            margin: -2px 0;
+            transition:
+                all 0.25s ease-in,
+                transform 0s;
+            position: relative;
+            border-radius: 10px;
+            left: 0;
+            top: 0;
+
+            &:hover,
+            &:focus,
+            &:active {
+                height: 8px;
+                margin: -4px 0;
+                transition:
+                    all 0.25s ease-in,
+                    transform 0s;
+            }
+        }
+    }
+}

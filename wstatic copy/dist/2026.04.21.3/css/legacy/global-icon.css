@@ -1,0 +1,13 @@
+.global-icon {
+    display: flex;
+    align-items: center;
+}
+
+.global-icon svg {
+    display: block;
+    height: auto;
+}
+
+.global-icon-wishlist {
+    display: unset;
+}

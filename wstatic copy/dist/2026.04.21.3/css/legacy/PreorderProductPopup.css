@@ -1,0 +1,85 @@
+.divPreorder .preOrderImage img {
+    margin: 0 auto;
+}
+
+.divPreorder .preOrderText {
+    font-size: 1.2em;
+    width: calc(100% - 200px);
+    padding-left: 20px;
+}
+
+.divPreorder .preOrderText > div {
+    margin-bottom: 13px;
+}
+
+.divPreorder .preOrderText > div .preorderDate {
+    font-weight: bold;
+}
+
+.divPreorder .preOrderText .preOrderTitle {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.divPreorder .preOrderbuttons .preorderCancelButton {
+    background-color: #eee !important;
+    border: 1px solid #aaa;
+    color: #333 !important;
+    padding: 14px 5px;
+}
+
+.divPreorder .preOrderbuttons .preorderCancelButton:hover {
+    background-color: #ddd !important;
+}
+
+.divPreorder .preOrderContent {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.divPreorder .preOrderbuttons.addToBasketContainer {
+    display: flex;
+    width: 100%;
+}
+
+.divPreorder .preOrderbuttons.addToBasketContainer .ImgButWrap {
+    width: 50%;
+    padding: 0 5px;
+}
+
+.divPreorder .preOrderbuttons.addToBasketContainer .ImgButWrap a {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 55px;
+    font-size: 1.3em;
+    text-transform: none;
+}
+
+@media (max-width: 767px) {
+    .divPreorder .preOrderContent {
+        text-align: center;
+        margin: 10px 0 20px;
+        display: block;
+    }
+
+    .divPreorder .preOrderImage {
+        display: none;
+    }
+
+    .divPreorder .preOrderText {
+        width: 100%;
+        padding: 0;
+    }
+
+    .divPreorder .preOrderbuttons.addToBasketContainer {
+        flex-flow: column-reverse wrap;
+    }
+
+    .divPreorder .preOrderbuttons.addToBasketContainer .ImgButWrap {
+        width: 100%;
+        padding: 0 0 15px;
+    }
+}

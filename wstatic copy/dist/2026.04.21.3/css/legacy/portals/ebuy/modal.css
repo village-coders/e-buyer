@@ -1,0 +1,29 @@
+.modal {
+    .modal-header {
+        background-color: var(--site-white);
+        padding: 15px 40px 15px 15px;
+    }
+
+    .modal-header .text-center {
+        text-align: left;
+        line-height: 16px;
+        display: block;
+    }
+
+    .modal-header .text-center .header-text {
+        font-size: var(--subtitle-font-size);
+        font-weight: var(--font-weight-bold);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 100%;
+    }
+
+    .modal-body {
+        background-color: var(--site-lightest-grey);
+    }
+
+    .modal-content {
+        border: none;
+    }
+}

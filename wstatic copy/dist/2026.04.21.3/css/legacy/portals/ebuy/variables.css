@@ -1,0 +1,98 @@
+:root {
+    /* Search autocomplete spacer */
+    --autocomplete-top: 4px;
+    /* Primary colours */
+    --site-white: #fff;
+    --site-black: #000;
+    --site-dark-grey: #5e5e5e;
+    --site-mid-grey: #c4c4c4;
+    --site-light-grey: #e7eaec;
+    --site-lightest-grey: #f8f8f8;
+    --site-outlet: #a63b00;
+    /* Secondary colours */
+    --site-accent: #ff8100;
+    --site-accent-secondary: #ed0000;
+    --site-green: #b0bdb0;
+    --site-dark-green: #73ca87;
+    --site-red: #ed0000;
+    --padding-unit: 4px;
+    --header-font-size: 18px;
+    --body-font-size: 14px;
+    --subtitle-font-size: 16px;
+    --font-weight-regular: normal;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    --large-container-max-width: 1600px;
+    --default-container-max-width: 1400px;
+    --spritesheet: url("/images/core/ebuy-icons-1.svg");
+    --default-font-family: Roboto-Regular, arial, helvetica, sans-serif;
+    --font-family-bold: var(--default-font-family);
+    --brand-font: var(--default-font-family);
+    --default-letter-spacing: 0;
+    --site-footer-border: var(--site-accent);
+    --site-count-bubble: var(--site-accent);
+    --site-count-bubble-text-color: var(--site-black);
+    /* Icon Styling */
+    --site-icon-stroke: var(--site-black);
+    --site-icon-hover-stroke: var(--site-black);
+    --site-icon-hover-fill: var(--site-black);
+    /* CTA styling */
+    --site-cta-background: var(--site-accent);
+    --site-cta-text: var(--site-black);
+    --site-cta-background-hover: var(--site-accent);
+    --site-cta-text-hover: var(--site-black);
+    --site-cta-transactional-background: var(--site-cta-background);
+    --site-cta-transactional-text: var(--site-cta-text);
+    --site-cta-transactional-background-hover: var(--site-accent);
+    --site-cta-transactional-text-hover: var(--site-cta-text-hover);
+    /* Elevated Cart Variables */
+    --cart-font-family: var(--default-font-family);
+    --cart-font-family-bold: var(--default-font-family);
+    --cart-font-family-italic: var(--default-font-family);
+    --cart-sticky-element-default-top-value: 142px;
+    --cart-details-margin-top-value: 32px;
+    --cart-heading-font-style: normal;
+    --cart-button-background-color: var(--site-accent);
+    --cart-button-hover-color: var(--site-accent);
+    --cart-button-font-style: normal;
+    --cart-button-font-weight: var(--font-weight-regular);
+    --cart-button-font-color: var(--site-black);
+    --cart-button-visited-color: var(--site-black);
+    --cart-border-radius: 0;
+    --cart-button-transactional-background-color: var(--site-accent);
+    --cart-button-transactional-hover-background-color: var(--site-black);
+    --cart-button-transactional-font-color: var(--site-white);
+    --cart-total-font-weight: var(--font-weight-bold);
+    --cart-error-font-color: var(--site-red);
+    --cart-discount-font-color: var(--site-red);
+    --cart-error-background-color: hsl(355.13deg 93.02% 98%);
+    --product-line-item-line-age-restriction-color: var(--site-red);
+    --product-line-item-price-font-weight: normal;
+    --product-line-item-line-error-color: var(--site-red);
+    --product-line-item-line-personalisation-color: var(--site-accent);
+    --product-line-item-font-family-bold: var(--default-font-family);
+    --product-line-item-discount-text-color: var(--site-red);
+    --product-line-item-border-radius: 0;
+    /* Wishlist Variables */
+    --wishlist-summary-header-font-style: normal;
+    --wishlist-header-font-style: normal;
+    --wishlist-tick-background-color: var(--site-accent);
+    /* Checkout Variables */
+    --checkout-my-bag-colour: var(--site-accent);
+    --checkout-active-section-colour: var(--site-accent);
+    /* Override Variables */
+    --site-cta-border-radius: 4px;
+    --swiper-preloader-color: var(--site-accent);
+    --site-membership-badge-background-colour: var(--site-accent);
+    --personalisation-modal-cta-background-color: var(--site-cta-background);
+    --personalisation-modal-cta-color: var(--site-cta-text);
+    --personalisation-modal-cta-border-color: transparent;
+    --personalisation-modal-cta-hover-background-color: var(--site-cta-background-hover);
+    --personalisation-modal-cta-hover-color: var(--site-cta-text-hover);
+    --personalisation-modal-cta-hover-border-color: transparent;
+    --personalisation-modal-cta-font-weight: var(--font-weight-bold);
+    --personalisation-modal-label-font-weight: var(--font-weight-regular);
+    --personalisation-loader-color: var(--site-accent);
+    --sitewide-banner-height: 50px;
+    --sitewide-banner-border: 1px solid var(--site-lightest-grey);
+}

@@ -1,0 +1,598 @@
+#divBag #divBagTotalLink {
+    padding: 0;
+    font-size: 1em;
+
+    #aBagLink:hover {
+        background-color: unset;
+    }
+}
+
+#divBag #bagName {
+    display: none;
+}
+
+.active #divBagTotalLink a#aBagLink:hover + .lillBasket #divBagItems {
+    display: block;
+}
+
+#divBagTotalLink a#aBagLink #bagTotalContainer,
+#divBagTotalLink a#aBagLink .bagIcon {
+    display: none;
+}
+
+.Responsive #divBag {
+    width: 50px;
+    padding: 0;
+    font-size: 1em;
+
+    @media (min-width: 1022px) {
+        width: 60px;
+    }
+}
+
+.lillBasket #aBagLink span#bagQuantity {
+    background: none;
+    background-color: var(--site-count-bubble);
+    color: var(--site-count-bubble-text-color);
+    min-height: 22px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    min-width: 22px;
+    height: auto;
+    position: absolute;
+    top: -5px;
+    left: 54%;
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lillBasket #aBagLink span#bagQuantity.empty,
+.lillBasket #aBagLink span#bagQuantity.hide-count {
+    display: none;
+}
+
+.basketLink .langlogin .login {
+    display: block;
+    padding-top: 12px;
+    padding-left: 35px;
+    height: 100%;
+    font-size: 1.1em;
+}
+
+.lillBasket .navPage {
+    display: block !important;
+    min-height: 0;
+}
+
+.lillBasket .BaskColr::before {
+    content: "Colour:";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.lillBasket .BaskSize::before {
+    content: "Size:";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.lillBasket #ulBag {
+    font-size: 1em;
+}
+
+.lillBasket #ulBag a {
+    width: auto;
+    float: none;
+    color: var(--site-black);
+    font-weight: var(--font-weight-regular);
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.lillBasket #ulBag a:hover {
+    text-decoration: underline;
+}
+
+.lillBasket #ulBag li {
+    border-bottom: solid 1px #e7ebed;
+    padding: 20px 0 10px;
+    position: relative;
+    margin: 0 24px;
+}
+
+.lillBasket #ulBag li:last-of-type {
+    border-bottom: 0;
+}
+
+.lillBasket .bagContentItemWrap {
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    overflow-y: auto;
+    padding-bottom: 0;
+}
+
+.lillBasket .PreviousEnable,
+.lillBasket .NextEnable,
+.lillBasket .PreviousDisable,
+.lillBasket .NextDisable,
+.wishlist-summary .items-nav {
+    font-size: 11px;
+    background-size: 1000px 1000px;
+    opacity: 0.3;
+    background-position: -228px -560px;
+}
+
+.lillBasket .NextEnable,
+.lillBasket .NextDisable,
+.wishlist-summary .items-nav[data-action="next"] {
+    background-position: -228px -521px;
+}
+
+.lillBasket .PreviousEnable,
+.lillBasket .NextEnable,
+.wishlist-summary .items-nav:hover,
+.wishlist-summary .items-nav:focus,
+.wishlist-summary .items-nav.PreviousEnable,
+.wishlist-summary .items-nav.NextEnable {
+    opacity: 1;
+}
+
+.lillBasket a.removeClass::before,
+.s-basket-remove-button a .deleteItemIcon {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    font-size: 11px;
+    background-size: 600px 600px;
+    background-position: -444px -287px;
+    margin-right: 8px;
+    zoom: 1.1;
+}
+
+.lillBasket a.bagMoveToWishlistClass::before {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    font-size: 11px;
+    background-size: 800px 800px;
+    background-position: -242px -425px;
+    content: "";
+    margin-right: 8px;
+    zoom: 1.1;
+}
+
+.s-basket-remove-button a .deleteItemIcon {
+    text-indent: -9999px;
+}
+
+.lillBasket a.removeClass::before {
+    content: "";
+}
+
+.s-basket-remove-button a:hover .deleteItemIcon,
+.lillBasket a.removeClass::before:hover,
+.lillBasket a.bagMoveToWishlistClass::before:hover {
+    background-position: -394px -307px;
+}
+
+.updateIcon,
+.BasketNew .BasketQuantBut::before,
+.BasketNew .BasketQuantBut.s-basket-plus-button::before,
+.Responsive .BasketNew #BasketDiv .NewUpdateQuant:hover .updateIcon {
+    background-size: 770px 770px;
+    background-position: -204px -318px;
+}
+
+.BasketNew .BasketQuantBut::before {
+    background-position: -155px -351px;
+}
+
+.BasketNew .BasketQuantBut.s-basket-plus-button::before {
+    background-position: -199px -351px;
+}
+
+.lillBasket #divBagItems,
+#divAjaxLoaderImage,
+#divEmptyErrorMessage {
+    box-shadow: none;
+    border: 1px solid #efefef;
+    z-index: 10;
+    bottom: 0;
+    top: auto;
+    border-radius: 4px 4px 0 0;
+}
+
+.lillBasket .innerdivBagItems {
+    max-height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.lillBasket #divButtons {
+    padding: 16px 25px 25px;
+    background-color: #f7f7f7;
+}
+
+.lillBasket #aCheckout {
+    font-size: var(--body-font-size);
+    padding: 15px;
+    background-color: var(--site-cta-background);
+    font-family: var(--default-font-family);
+    font-weight: var(--font-weight-bold);
+    text-transform: var(--site-cta-text-transform);
+    line-height: 1;
+    margin-top: 16px;
+    transition: all 0.3s ease-in-out;
+
+    span {
+        color: var(--site-black);
+    }
+
+    &:hover {
+        span {
+            color: var(--site-cta-text-hover) !important;
+        }
+    }
+}
+
+.lillBasket #aViewBag {
+    font-size: var(--body-font-size);
+    width: 100%;
+    line-height: 1;
+    border: 0;
+    padding: 14px 15px;
+    color: var(--site-black) !important;
+    text-transform: capitalize;
+    border: 1px solid var(--site-black);
+    border-radius: var(--site-cta-border-radius);
+    margin-bottom: 0;
+    transition: all 0.3s ease-in-out;
+    span {
+        display: block;
+        font-weight: var(--site-cta-font-weight);
+        text-transform: var(--site-cta-text-transform);
+    }
+
+    &:hover {
+        background-color: var(--site-white) !important;
+        color: var(--site-black) !important;
+        border: 1px solid var(--site-accent);
+    }
+    &:hover span {
+        color: var(--site-black) !important;
+    }
+}
+
+.lillBasket #spanCheckout {
+    width: 100%;
+}
+
+.lillBasket #divBagItemsChild {
+    padding: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.lillBasket .ColrandSize {
+    display: flex;
+    width: 65%;
+    flex-basis: 65%;
+    flex-wrap: wrap;
+    order: 3;
+    padding-right: 0;
+    padding-top: 0;
+    line-height: 1.4;
+
+    .BaskColr,
+    .BaskSize {
+        display: flex;
+        flex-basis: 100%;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    span {
+        font-weight: var(--font-weight-regular);
+        color: var(--site-black);
+        padding-top: 4px;
+    }
+}
+
+.lillBasket .BaskQuant {
+    font-weight: var(--font-weight-regular);
+    padding: 4px 0 0;
+    display: flex;
+    order: 4;
+    flex-basis: 35%;
+    width: 35%;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#divBagItems .fulfilledBy {
+    width: 70%;
+    clear: left;
+}
+
+.lillBasket .BaskName {
+    height: auto;
+    width: 65%;
+    flex-basis: 65%;
+    order: 1;
+    color: var(--site-black);
+    font-weight: var(--font-weight-regular);
+    -webkit-line-clamp: 1;
+    /*stylelint-disable*/
+    display: -webkit-box;
+    /*stylelint-enable*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lillBasket .liPrdLnk:hover .BaskName,
+.lillBasket .liPrdLnk:focus .BaskName {
+    text-decoration: underline;
+    color: var(--site-black);
+}
+
+.lillBasket #ulBag li span {
+    line-height: 1.2;
+    height: auto;
+}
+
+.lillBasket #ulBag li .maxText {
+    float: right;
+    padding-right: 0;
+    clear: right;
+    max-width: 35%;
+}
+
+.lillBasket #ulBag li .lineProblems {
+    clear: left;
+    max-width: 65%;
+}
+
+.lillBasket .PriceandCross {
+    width: auto;
+    float: none;
+    display: flex;
+    flex-basis: 100%;
+    order: 6;
+
+    .removeClass {
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+    }
+}
+
+.lillBasket .bagMoveToWishlistContainer {
+    width: auto;
+    float: none;
+    display: flex;
+    flex-basis: 100%;
+    order: 5;
+    margin-top: 10px;
+}
+
+.lillBasket #divBagTotalDiscount {
+    text-align: left;
+}
+
+.lillBasket #divButtons .SubBask {
+    display: flex;
+    max-height: 29px;
+}
+
+.lillBasket #divButtons .SubBask > div {
+    width: 50%;
+    flex: 1 1 auto;
+}
+
+.lillBasket .PriceandCross,
+.lillBasket .bagMoveToWishlistContainer,
+.lillBasket .BaskName,
+.lillBasket .BaskQuant {
+    color: var(--site-black);
+}
+
+.lillBasket #lblBagSubTotal,
+.lillBasket #spanBagSubTotalValue {
+    font-size: 14px;
+    font-weight: var(--font-weight-bold);
+}
+
+.lillBasket .global-icon-tick {
+    margin-left: 10px;
+}
+
+.lillBasket .basketTotalItemsHeader {
+    padding-left: 10px;
+}
+
+.lillBasket .BaskPrice {
+    display: flex;
+    flex-basis: 35%;
+    justify-content: flex-end;
+    order: 2;
+    color: var(--site-black);
+    font-weight: var(--font-weight-regular);
+}
+
+.lillBasket #aCheckout.disable {
+    background-color: var(--site-mid-grey);
+    color: var(--site-dark-grey);
+}
+
+#divulBagParent {
+    flex: 1 1 auto;
+    overflow: auto !important;
+    scrollbar-width: thin;
+    max-height: 50vh;
+    scrollbar-color: var(--site-mid-grey) var(--site-light-grey);
+}
+
+.Responsive #divulBagParent {
+    overflow: auto !important;
+}
+
+#divulBagParent::-webkit-scrollbar {
+    width: 5px;
+}
+
+#divulBagParent::-webkit-scrollbar-track {
+    background: var(--site-light-grey);
+}
+
+#divulBagParent::-webkit-scrollbar-thumb {
+    background: var(--site-mid-grey);
+    border-radius: 5px;
+    border: none;
+}
+
+#divBagItemsChild .bagHeader {
+    flex: 0 0 auto;
+}
+
+#divBagItemsChild .bagHeader p {
+    display: flex;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: var(--font-weight-bold);
+    border-bottom: 1px solid var(--site-light-grey);
+    text-align: left;
+    padding: 30px 24px;
+    margin: 0;
+    line-height: 25px;
+}
+
+#divBagItemsChild .bagHeader #clsBasketMob {
+    font-size: 1em;
+    width: 42px;
+    right: 10px;
+    font-family: initial;
+    top: 18px;
+    height: 42px;
+    line-height: 30px;
+
+    .global-icon-cross {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &.glyphicon-remove::before {
+        content: none !important;
+    }
+}
+
+.lillBasket .chkouterror {
+    margin: 6px 0 16px;
+    background-color: var(--cart-error-background-color);
+    color: var(--cart-error-font-color);
+    padding: 8px 16px;
+    text-align: center;
+    font-weight: var(--font-weight-regular);
+}
+
+.lillBasket #aCheckout,
+.lillBasket #aViewBag {
+    font-size: var(--body-font-size);
+    text-transform: var(--site-cta-text-transform);
+    border-radius: var(--site-cta-border-radius);
+}
+
+.lillBasket .summaryWrapCTA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .lillBasket #divBagItems,
+    #divAjaxLoaderImage,
+    #divEmptyErrorMessage {
+        right: 0;
+        position: fixed !important;
+        bottom: 0;
+        top: auto;
+    }
+
+    .lillBasket #divBagItemsChild {
+        max-height: calc(100vh - 85px) !important;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .lillBasket #divBagItems,
+    #divAjaxLoaderImage,
+    #divEmptyErrorMessage {
+        border-radius: 0;
+        bottom: auto;
+        top: 55px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .lillBasket #divBagItems {
+        background-color: transparent;
+        border: 0;
+    }
+
+    .lillBasket #divBagItems::before {
+        content: "";
+        display: block;
+        width: 24px;
+        height: 12px;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 12px solid var(--site-white);
+        position: absolute;
+        right: 17px;
+        top: 0;
+    }
+
+    .lillBasket .innerdivBagItems {
+        background-color: var(--site-white);
+        max-height: calc(100vh - 55px) !important;
+        overflow: hidden;
+    }
+
+    .lillBasket #divBagItemsChild {
+        flex: 1;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1022px) {
+    #divBag .HeaderBagEmptyMessage,
+    #divBag .HeaderCheckoutLink {
+        font-size: 1.1em;
+    }
+}
+
+.Basket h1 .totalItemsContainer .itemCount {
+    text-transform: none;
+}

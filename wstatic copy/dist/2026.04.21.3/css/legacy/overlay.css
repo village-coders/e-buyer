@@ -1,0 +1,36 @@
+:root {
+    --modal-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay,
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5910;
+    display: block;
+    visibility: hidden;
+    transition:
+        background-color 0.3s ease-in-out,
+        visibility 0.3s ease-in-out;
+}
+
+.overlay.activeOverlay,
+.modal-backdrop.in,
+.searchActive.overlay,
+.productlist-overlay.activeOverlay {
+    visibility: visible;
+    background-color: var(--modal-background-color);
+}
+
+.header-overlay.overlay,
+.ToplinksGroup .container-fluid .header-overlay.overlay {
+    z-index: 90;
+    height: 100%;
+}
+
+.modal-backdrop {
+    z-index: 10052;
+}

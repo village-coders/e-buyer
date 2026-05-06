@@ -1,0 +1,20 @@
+.StoreLocator {
+    @media (max-width: 767px) {
+        .StoreFinderResultsDetailsLinkContainer a {
+            background: var(--fras-warm-grey) !important;
+            color: var(--fras-black) !important;
+            text-transform: uppercase;
+        }
+    }
+
+    h1,
+    .StoreFinderResultsLink,
+    .StoreFinderResultsLinkMobile {
+        font-weight: var(--font-weight-bold);
+        color: var(--fras-black);
+    }
+
+    .storefinderSearchButtons input {
+        font-size: var(--subtitle-font-size);
+    }
+}

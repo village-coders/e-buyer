@@ -1,0 +1,197 @@
+.hpTrending .tabSwitch {
+    width: 100%;
+    margin: 10px 0;
+    float: left;
+}
+
+.hpTrending .carouselContainer {
+    text-align: center;
+    padding: 0;
+}
+
+.hpTrending .outercara {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 1%;
+    display: inline-block;
+}
+
+.hpTrending .advert.carousel {
+    padding: 0;
+}
+
+.hpTrending .tab {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    border: 0;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.hpTrending .FeaturedProductsTabs-9 .tab {
+    width: 11.111111%;
+}
+
+.hpTrending .FeaturedProductsTabs-8 .tab {
+    width: 12.5%;
+}
+
+.hpTrending .FeaturedProductsTabs-7 .tab {
+    width: 14.285714%;
+}
+
+.hpTrending .FeaturedProductsTabs-6 .tab {
+    width: 16.666667%;
+}
+
+.hpTrending .FeaturedProductsTabs-5 .tab,
+.hpTrending .FeaturedProductsTabs-4 .tab,
+.hpTrending .FeaturedProductsTabs-3 .tab,
+.hpTrending .FeaturedProductsTabs-2 .tab,
+.hpTrending .FeaturedProductsTabs-1 .tab {
+    width: 20%;
+}
+
+.settings {
+    margin: 10px;
+    width: auto;
+}
+
+.hpTrending .prodTitlePrice {
+    text-align: center;
+}
+
+.hpTrending .prodTitlePrice span {
+    display: inline-block;
+    padding: 0 2.5px;
+}
+
+.hpTrending span.prodPrice {
+    color: #ee3123;
+    font-size: 1.4em;
+}
+
+.hpTrending span.OriginalPrice {
+    text-decoration: line-through;
+    color: #666;
+    font-size: 1.1em;
+}
+
+.hpTrending .tabContent {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.hpTrending .tabContent .inActive {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.hpTrending .tabContent .active {
+    visibility: visible;
+    max-height: 345px;
+    opacity: 1;
+    transition: opacity 0.4s ease-in;
+}
+
+.hpTrending .tabSwitch .inActive {
+    background: #bbb;
+    color: #fff;
+}
+
+.hpTrending .tabSwitch .inActive:hover {
+    background-color: #a9a5a2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hpTrending .tabSwitch .active {
+    background: #0054a4;
+    color: #fff;
+}
+
+.hpTrending .dynTitle {
+    height: 50px;
+}
+
+.hpTrending .carProdImage {
+    padding: 10px 22px;
+}
+
+.hpTrending .aspect-ratio-box {
+    padding-top: 100%;
+}
+
+.hpTrending .aspect-ratio-box img {
+    height: 100%;
+}
+
+.hpTrending .carouselContainer h3 {
+    font-weight: normal;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.hpTrending .carouselContainer h3:hover {
+    text-decoration: underline;
+}
+
+.aspect-ratio-box {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    background: #f7f7f7 url("/images/core/loader-products.gif") no-repeat center;
+}
+
+.aspect-ratio-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.advert.carousel .outercara {
+    min-height: 230px;
+}
+
+#slider1 {
+    height: 231px;
+    overflow: hidden;
+}
+
+@media (min-width: 400px) {
+    #slider1 {
+        height: 263px;
+    }
+}
+
+#slider1 > li {
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 206px;
+}
+
+@media (max-width: 575px) {
+    .promProducts.single-col-mob #slider1 > li {
+        padding: 0 60px;
+        width: 100vw !important;
+    }
+
+    .promProducts.single-col-mob > li a {
+        display: block;
+    }
+
+    .promProducts.single-col-mob .carProdImage {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,201 @@
+/** Wishlist Item **/
+#WishListDisplay .saleprice,
+.Profile #WishListDisplay .WishListProductAddBagOrRemove .ImgButWrap a,
+.Wishlistcontainer #prod-link-text a,
+.Wishlistcontainer .productcolour,
+.Wishlistcontainer .productsize {
+    font-size: 1.25em;
+}
+
+.borderWishGroup {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.WishListProduct {
+    padding: 20px 0;
+    display: flex;
+    position: relative;
+}
+
+.WishListProductDataAndImage {
+    width: 30%;
+    position: relative;
+    padding: 0 5px;
+}
+
+.WishListProductDataAndImage::before {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.WishListProductDataAndImage a {
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 0;
+    right: 5px;
+}
+
+.WishListProductDataAndImage img {
+    width: 100%;
+    max-width: 265px;
+}
+
+.Wishlistcontainer #prod-link-text {
+    width: 100%;
+}
+
+.Profile #WishListDisplay #prod-link-text a {
+    line-height: 1.4em;
+    display: block;
+    max-height: 38px;
+    overflow: hidden;
+}
+
+.WishListItemDetails {
+    padding: 0 5px;
+    flex: 1;
+}
+
+.WishListProductDetails {
+    padding-right: 15px;
+}
+
+#WishListDisplay #prod-link-text,
+#WishListDisplay .productcode,
+#WishListDisplay .productcolour,
+#WishListDisplay .productsize,
+#WishListDisplay .personalisation,
+#WishListDisplay .preorder {
+    padding-bottom: 5px;
+}
+
+.Wishlistcontainer .productcolour,
+.Wishlistcontainer .productsize {
+    display: block;
+}
+
+.WishPriceQuant {
+    margin-top: 10px;
+}
+
+#WishListDisplay .saleprice {
+    display: block;
+    line-height: 0.9em;
+    font-weight: 700;
+    text-align: left;
+}
+
+#WishListDisplay .originalprice {
+    font-size: 1.3em;
+    line-height: 1.1em;
+    display: block;
+}
+
+.WishListProductQuantityControls {
+    margin: 20px 0;
+}
+
+.WishListProductQuantityControls .TextQuantity span {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.WishListProductQuantityControls .quantityInputs {
+    display: flex;
+}
+
+.s-basket-remove-button-wish a {
+    min-height: 44px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.s-wishlist-plus-button,
+.s-wishlist-minus-button {
+    display: inline-block;
+    cursor: pointer;
+    height: 44px;
+    width: 44px;
+    border: 1px solid #ccc;
+    background-image: url("/images/core/commonAssets2.png");
+    background-size: 716px 532px;
+    background-position: -476px -395px;
+}
+
+.s-wishlist-plus-button {
+    background-position: -476px -432px;
+}
+
+#WishListDisplay .qtybox {
+    text-align: center;
+    width: 100% !important;
+    height: 27px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    min-height: 44px;
+}
+
+#WishListDisplay .s-basket-quantity-text-box {
+    max-width: 60px;
+    float: none;
+    margin: 0 5px;
+}
+
+.WishListProductAddBagOrRemove {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.Basket .WishListProductAddBagOrRemove span.ImgButWrap {
+    width: auto;
+}
+
+.Profile #WishListDisplay .WishListProductAddBagOrRemove .ImgButWrap a {
+    text-transform: uppercase;
+    text-shadow: none;
+    line-height: 1.5em;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .WishListProductDataAndImage {
+        width: 18%;
+    }
+
+    .WishListProductAddBagOrRemove {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1022px) {
+    .WishListItemDetails {
+        padding-left: 10%;
+    }
+}
+
+/* to be reviewed */
+#WishListDisplay .personalisation,
+#WishListDisplay .preorder,
+#WishListDisplay .inbagtext {
+    padding: 0 !important;
+}
+
+#WishListDisplay .personalisation span,
+#WishListDisplay .preorder span,
+#WishListDisplay .inbagtext span {
+    display: block;
+    padding-bottom: 5px;
+}
+
+#WishListDisplay .personalisation span:empty,
+#WishListDisplay .preorder span:empty,
+#WishListDisplay .inbagtext span:empty {
+    padding: 0;
+}
