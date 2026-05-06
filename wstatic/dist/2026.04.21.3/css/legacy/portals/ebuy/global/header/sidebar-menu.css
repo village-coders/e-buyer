@@ -1,0 +1,170 @@
+nav#topMenu ul li.root.sidebarSubMenu {
+    .SubMenuWrapper {
+        min-height: 465px;
+        height: auto !important;
+
+        li.columnGroup {
+            width: 33.333333%;
+            padding: 0;
+        }
+
+        > ul > li.Center {
+            width: 100%;
+        }
+
+        > ul li.mmHasChild.level1 {
+            text-align: center;
+            display: inline-block;
+            border: 0;
+            height: auto;
+            position: static;
+        }
+
+        > ul li.mmHasChild.level1 > a {
+            line-height: 1.2em;
+            text-transform: uppercase;
+            max-width: none;
+            text-align: left;
+            float: left;
+            width: auto;
+            min-width: 192px;
+            padding: calc(var(--padding-unit) * 1.25);
+            margin-bottom: 10px;
+        }
+
+        > ul li.mmHasChild.level1 > ul li.boldLink a {
+            text-transform: uppercase;
+            font-weight: var(--font-weight-regular);
+        }
+
+        > ul li.mmHasChild.level1 > ul:hover,
+        > ul li.mmHasChild.level1 > ul.open {
+            display: block;
+        }
+
+        > ul {
+            height: 100%;
+            min-height: 465px;
+        }
+
+        ul li.Center {
+            max-width: 1200px;
+            padding-top: calc(var(--padding-unit) * 6.25);
+        }
+
+        > ul li.mmHasChild.level1 > ul {
+            padding: 0 5px 5px 20px !important;
+            left: 20%;
+            height: auto !important;
+            text-align: left;
+            width: 80%;
+            top: 0;
+            min-height: 400px;
+            border-left: 1px solid var(--fras-warm-grey);
+        }
+
+        > ul li.mmHasChild.level1 > ul > li > ul .level2.sdmColStrong a {
+            font-weight: var(--font-weight-regular);
+            text-transform: uppercase;
+        }
+
+        ul li.level1:hover > a {
+            color: var(--fras-black);
+        }
+
+        ul li.level1 > a:hover {
+            font-weight: var(--font-weight-regular);
+        }
+    }
+}
+
+nav#topMenu ul li.root.sidebarSubMenu .SubMenuWrapper > ul > li > ul,
+nav#topMenu ul li.root.sidebarSubMenu.promoEnabled .SubMenuWrapper > ul > li > ul {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+#topMenuWrapper nav#topMenu ul li.root.sidebarSubMenu .SubMenuWrapper li.columnGroup > ul {
+    padding: 0;
+    text-align: left;
+    display: block;
+    position: relative;
+}
+
+nav#topMenu li.root.sidebarSubMenu .SubMenuWrapper li.Right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+}
+
+nav#topMenu ul li.MenuGroupBrands.root.sidebarSubMenu .SubMenuWrapper > ul > li.Center > ul,
+nav#topMenu ul li.MenuGroupBrands.root.sidebarSubMenu .SubMenuWrapper > ul > li > ul {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.SubMenuWrapper > ul .sdmColHeader:hover {
+    cursor: pointer;
+}
+
+.shopByCategory > a::before {
+    content: "shop by";
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.featuredBrands > a::before {
+    content: "featured";
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.newInCategory > a::before {
+    content: "new";
+    display: inline-block;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .shopByCategory > a::before,
+    .featuredBrands > a::before,
+    .newInCategory > a::before {
+        text-transform: capitalize;
+    }
+}
+
+@media (max-width: 1021px) {
+    nav #topMenu ul li.root.sidebarSubMenu .SubMenuWrapper > ul li.mmHasChild.level1 > ul {
+        padding-left: 100px;
+    }
+}
+
+@media (min-width: 1022px) and (max-width: 1199px) {
+    nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1::before {
+        padding-bottom: 45%;
+    }
+}
+
+@media (max-width: 1021px) {
+    nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1::before {
+        padding-bottom: 55%;
+    }
+
+    nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1.brandsViewAll a {
+        padding-top: 19%;
+    }
+
+    nav#topMenu ul li.root .SubMenuWrapper ul li.gradBorder.finalGroup::after {
+        background-image: none;
+        background-size: 0 0;
+        content: none;
+    }
+}

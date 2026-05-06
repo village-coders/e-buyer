@@ -1,0 +1,278 @@
+.Browse #divPagination .disablePaginationArrow {
+    display: inline-block;
+}
+
+.paginationWrapper {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #TopPaginationWrapper & {
+        padding: 0 0 16px;
+
+        @media (max-width: 1021px) {
+            flex-direction: column;
+        }
+    }
+
+    #TopPaginationWrapper.activeFilterBar & {
+        position: relative;
+        z-index: 1;
+        width: 100% !important;
+    }
+
+    .pagination-bottom {
+        width: 100%;
+
+        .PageNumberInner {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #TopPaginationWrapper.sticky & {
+            padding-right: 16px;
+            padding-left: 16px;
+        }
+    }
+
+    @media (max-width: 1021px) {
+        #TopPaginationWrapper.sticky & {
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+            top: 116px;
+            left: 0;
+            padding: 8px 16px;
+            background-color: var(--site-white);
+            box-shadow: 0 0 1px #333;
+
+            .pagination {
+                display: none !important;
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1021px) {
+        #TopPaginationWrapper.sticky & {
+            top: 71px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        #TopPaginationWrapper.sticky & {
+            top: 140px;
+        }
+    }
+}
+
+.paginationWrapper .pagination {
+    .PageNumber {
+        a.PrevLink,
+        a.NextLink {
+            text-transform: none;
+            font-weight: var(--font-weight-regular);
+            font-size: var(--body-font-size);
+        }
+
+        .CurrentPageNumber,
+        .PageSeperator,
+        .MaxPageNumber {
+            text-transform: none;
+            font-weight: var(--font-weight-bold);
+        }
+
+        .PageSeperator {
+            margin: 0 10px;
+        }
+
+        a.PrevLink,
+        a.NextLink,
+        a.PrevLink:hover,
+        a.NextLink:hover {
+            position: relative;
+            width: auto;
+            border: none;
+            color: var(--site-black);
+        }
+
+        a.PrevLink:hover,
+        a.NextLink:hover {
+            text-decoration: underline;
+        }
+
+        a.PrevLink {
+            margin-right: 10px;
+        }
+
+        a.NextLink {
+            margin-left: 10px;
+        }
+
+        a.PrevLink::before,
+        a.NextLink::before {
+            content: "";
+            background-image: var(--spritesheet);
+            background-size: 700px 700px !important;
+            background-position: -366px -336px !important;
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        a.PrevLink::before {
+            transform: translate(-50%, -50%) rotate(180deg);
+        }
+
+        a.PrevLink.DisabledLink,
+        a.NextLink.DisabledLink {
+            color: #ccc;
+        }
+    }
+
+    #TopPaginationWrapper & {
+        padding: 0 5px;
+        margin: 0;
+        width: 100%;
+
+        .Browse & .layout {
+            text-align: left;
+        }
+
+        .PageNumber {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        @media (max-width: 1021px) {
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 1021px) {
+    #TopPaginationWrapper {
+        top: auto !important;
+        width: 100% !important;
+    }
+}
+
+.Browse .layout span.ViewbyCols,
+.Browse .pagination .sortbyfilter label {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.PageFromTo {
+    border: none;
+    margin: 6px 0;
+    padding: 0;
+    height: auto;
+
+    @media (min-width: 1022px) {
+        &.mobilePageFromTo {
+            display: none;
+        }
+    }
+
+    .topheadbox & {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+
+        .pppt,
+        .pppt span {
+            font-size: var(--subtitle-font-size);
+            line-height: 18px;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+
+        .pppt::before {
+            content: "(";
+            display: inline-block;
+        }
+
+        .pppt::after {
+            content: ")";
+            display: inline-block;
+            margin-left: 0;
+        }
+
+        @media (min-width: 768px) {
+            .productsCountText {
+                display: inline-block;
+            }
+
+            .pppt::after {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .pagination &,
+    #FiltersAndProductsWrapper & {
+        .pppt,
+        .pppt span {
+            text-transform: capitalize;
+            font-size: var(--body-font-size);
+            line-height: 40px;
+            color: var(--site-black);
+        }
+    }
+
+    &.mobilePageFromTo {
+        display: flex;
+        margin-bottom: 0;
+        float: none;
+    }
+}
+
+.BottomPaginationWrapper {
+    overflow: hidden;
+
+    &::before,
+    &::after {
+        content: "";
+        display: table;
+    }
+}
+
+#FiltersHeader .PageFromTo.mobilePageFromTo {
+    margin-left: 0;
+    margin-top: 4px;
+    text-transform: none;
+    padding: 0;
+}
+
+#BodyWrap .PageNumber .swipeNumberClick,
+.PageNumber span {
+    background: none;
+    color: var(--site-black);
+    line-height: 35px;
+}
+
+#BodyWrap .PageNumber span.PageSelector {
+    color: var(--amara-gold);
+    font-weight: var(--font-weight-bold);
+}
+
+@media (min-width: 768px) {
+    .PageNumber a,
+    .PageNumber span.PageSelector {
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 374px) {
+    .PageNumber a,
+    .PageNumber span.PageSelector {
+        padding: 0 4px;
+    }
+}

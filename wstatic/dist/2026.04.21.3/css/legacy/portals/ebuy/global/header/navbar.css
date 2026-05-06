@@ -1,0 +1,1718 @@
+.TopNavBar {
+    background-color: var(--site-white);
+    z-index: 2;
+    height: 100%;
+
+    @media (min-width: 1022px) {
+        height: 71px;
+        border-bottom: 1px solid var(--site-lightest-grey);
+    }
+}
+
+#topMenuWrapper {
+    top: 71px;
+    background-color: var(--site-white);
+    z-index: 1 !important;
+    height: 52px;
+
+    @media (min-width: 768px) and (max-width: 1021px) {
+        height: 50px;
+    }
+
+    @media (min-width: 1022px) {
+        border-bottom: 1px solid var(--site-lightest-grey);
+    }
+}
+
+li.columnGroup > ul {
+    padding: 0 5px;
+}
+
+/* navtopmenu */
+
+nav#topMenu .NewMenu > ul {
+    min-height: 477px;
+}
+
+nav#topMenu ul.RootGroup li.root {
+    position: static;
+}
+
+nav#topMenu ul.RootGroup li.MenuGroupOutlet a {
+    color: var(--site-outlet);
+}
+
+nav#topMenu ul li.root > a {
+    color: var(--site-black);
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-bold);
+    line-height: 52px;
+    height: 52px;
+    padding: 5px 20px 0;
+    position: relative;
+    overflow: hidden;
+    text-transform: none;
+}
+
+nav#topMenu ul.RootGroup li.root > a {
+    overflow: visible;
+}
+
+nav#topMenu > ul .NewMenuWrap li.level1 > a {
+    color: #636363;
+    float: left;
+    width: 17%;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin: 0;
+    max-width: 17%;
+    border-right: 1px solid #ddd;
+    text-transform: uppercase;
+}
+
+nav#topMenu ul li.root.sdHover {
+    transition: none;
+
+    > a {
+        color: var(--site-accent-secondary);
+    }
+}
+
+nav#topMenu > ul .NewMenuWrap li.level2 > a:hover,
+nav#topMenu > ul .NewMenuWrap li.level1.sdHover > a {
+    color: var(--site-white);
+}
+
+nav#topMenu ul li.root.ViewAllDeals .SubMenuWrapper ul li.Center {
+    width: 100%;
+}
+
+nav#topMenu ul li.root.ViewAllDeals .SubMenuWrapper ul li.Right {
+    display: none !important;
+}
+
+nav#topMenu ul li.root.ViewAllDeals .SubMenuWrapper li ul li.level1 {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+nav#topMenu ul li.root.ViewAllDeals .SubMenuWrapper li ul li.level1 a {
+    text-indent: -9999px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-size: 100% auto;
+    height: 352px;
+    max-width: 100%;
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+}
+
+nav#topMenu > ul .NewMenuWrap li.sdmColHeader a {
+    text-transform: uppercase;
+    font-size: var(--body-font-size) !important;
+}
+
+nav#topMenu ul.RootGroup {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul li a:hover,
+nav#topMenu ul li.root .SubMenuWrapper > ul li.sdmColHeader a:hover {
+    text-decoration: underline;
+}
+
+nav#topMenu li.mmHasChild.level1.sdmColHeader.sdmColHeaderHidden > div {
+    padding-top: 29px;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .disablelink a,
+.am-menu ul li.level2.disablelink a {
+    pointer-events: none;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .disablelink a:hover {
+    text-decoration: none;
+    color: var(--site-black);
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .adiBoots > a,
+nav#topMenu li.root .SubMenuWrapper > ul .botList > a {
+    text-transform: none;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .adiBoots > a::after {
+    content: " BOOTS";
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.sdmViewAll a {
+    padding: 0 5px;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .level2.sdmColGap > a {
+    margin-top: 15px;
+}
+
+nav#topMenu .root li.sdmColHeaderHidden {
+    padding-top: 10px;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul li a {
+    line-height: 1.2em;
+    padding: 5px;
+    color: var(--site-black);
+    font-size: var(--body-font-size);
+    font-family: var(--default-font-family);
+    font-weight: var(--font-weight-regular);
+}
+
+nav#topMenu > ul li.level1 a,
+nav#topMenu > ul li.level2 a {
+    max-width: none;
+    min-width: 0;
+}
+
+nav#topMenu li.root .SubMenuWrapper .level2.sdmColFeature a {
+    color: #333;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.Center ul li > ul {
+    border: none;
+    padding: 0;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.level1 {
+    width: 16.666667%;
+    border-left: 1px solid #ddd;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.level1:first-child {
+    border: none;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.level1 ul li.level2 a,
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1 ul li.level2 a {
+    position: relative;
+    padding: 5px 20px;
+    max-width: 100%;
+    min-width: 0;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.level1 ul li.level2.sdmColHeader a::before {
+    display: none;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.level1 ul li.level2.sportsViewAll a::before {
+    background-image: url("/images/core/desktop_menu_brands_sprite_version_7-01.svg");
+    background-size: 1540px 1540px;
+    background-position: -39.4em -125.5em;
+}
+
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1 ul li.level2.brandsViewAll a {
+    font-weight: bold;
+}
+
+nav#topMenu .sportsMenu li.sdmColHeaderHidden {
+    padding-top: 0;
+}
+
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1 {
+    position: relative;
+    float: left;
+    width: 100%;
+    border-left: 1px solid #eee;
+}
+
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1:first-child {
+    border: none;
+}
+
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1.sdmColHeaderHidden {
+    padding: 0;
+}
+
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1 a {
+    text-align: left;
+    position: relative;
+    padding: 10px 5px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul::before,
+nav#topMenu ul li.root .SubMenuWrapper > ul::after {
+    content: "";
+    display: table;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul::after {
+    clear: both;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.Center {
+    width: 100%;
+    padding: 5px 0 20px;
+    float: none;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+nav#topMenu ul li.root.promoEnabled .SubMenuWrapper ul li.Center::before,
+nav#topMenu ul li.root.promoEnabled .SubMenuWrapper ul li.Center::after {
+    content: "";
+    display: table;
+}
+
+nav#topMenu ul li.root.promoEnabled .SubMenuWrapper ul li.Center::after {
+    clear: both;
+}
+
+nav#topMenu ul li.root.promoEnabled .SubMenuWrapper ul li.Center > div.Center {
+    width: 16.666667%;
+    float: right;
+}
+
+nav#topMenu ul li.root.promoEnabled .SubMenuWrapper ul li.Center > ul {
+    width: 83.333333%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li .twoStackFlex {
+    display: flex;
+    align-items: center;
+
+    &.twoPromoRight1 {
+        margin-top: 20px;
+    }
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.logoswithText .twoStackFlex {
+    align-items: normal;
+}
+
+nav#topMenu ul li.MenuGroupBrands.promoEnabled .SubMenuWrapper ul li.Center > div.Center .twoStackFlex {
+    width: 50%;
+}
+
+nav#topMenu ul li.MenuGroupBrands.promoEnabled .SubMenuWrapper ul li.Center > div.Center {
+    padding: 0 6% 0 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li .twoStackItem {
+    width: 50%;
+    padding: 0 10px 30px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul li.promoEnabled .twoStackFlex .twoStackItem a {
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li .twoStackItem img {
+    max-height: 75px;
+    margin: 0 auto;
+    max-width: 100px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li .twoStackItem .twoStackCTA {
+    display: none;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.logoswithText .twoStackItem .twoStackCTA {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.25s linear;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.logoswithText .twoStackItem a:hover .twoStackCTA {
+    opacity: 1;
+    visibility: visible;
+}
+
+nav#topMenu ul li.MenuGroupBrands.promoEnabled .SubMenuWrapper ul li.Center > ul,
+nav#topMenu ul li.MenuGroupBrands.promoEnabled .SubMenuWrapper ul li.Center > div.Center {
+    width: 50%;
+    float: left;
+}
+
+nav#topMenu li.root .SubMenuWrapper li.BrandsBottom.Bottom .fourPromoItem a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 25%;
+    transform: translateX(-50%);
+    display: block;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    font-size: var(--body-font-size);
+}
+
+nav#topMenu li.root .SubMenuWrapper li.BrandsBottom.Bottom .fourPromoItem.whiteNikeLogo a::after {
+    background-image: url("/images/marketing/sd-lv8-logo-nike.svg");
+}
+
+nav#topMenu li.root .SubMenuWrapper li.BrandsBottom.Bottom .fourPromoItem.whiteAsicsLogo a::after {
+    background-image: url("/images/marketing/sd-lv8-asics-white.svg");
+    width: 35%;
+}
+
+nav#topMenu li.root .SubMenuWrapper li.BrandsBottom.Bottom .fourPromoItem.whiteAdidasLogo a::after {
+    background-image: url("/images/marketing/sd-lv8-logo-adidas.svg");
+}
+
+nav#topMenu li.root .SubMenuWrapper li.BrandsBottom.Bottom .fourPromoItem.whitePumaLogo a::after {
+    background-image: url("/images/marketing/sd-lv8-logo-puma.svg");
+}
+
+nav#topMenu li.root .SubMenuWrapper li.BrandsBottom.Bottom .fourPromoItem.whiteKarrimorLogo a::after {
+    background-image: url("/images/marketing/sd-lv8-logo-karrimor.svg");
+}
+
+nav#topMenu li.root .SubMenuWrapper li.BrandsBottom.Bottom .fourPromoItem.whiteUnderArmourLogo a::after {
+    background-image: url("/images/marketing/sd-lv8-logo-ua.svg");
+}
+
+nav#topMenu li.root .SubMenuWrapper li.BrandsBottom.Bottom .fourPromoItem a .fourPromoCTA {
+    display: none;
+}
+
+nav#topMenu
+    li.root
+    .SubMenuWrapper
+    li.BrandsBottom.Bottom
+    .BottomPromoRight
+    .fourPromoItem.shopAllPromo
+    a
+    .fourPromoCTA {
+    display: block;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul li.level2 a {
+    display: inline-block;
+    width: auto;
+    position: relative;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul li.level2 a:hover::before,
+nav#topMenu ul li.root .SubMenuWrapper > ul li.sdmColHeader a:hover::before,
+nav#topMenu ul li.root.MenuGroupBrands .SubMenuWrapper > ul li.sdmColHeader.level1 > a:hover::after {
+    border-bottom: 1px solid var(--site-dark-grey);
+}
+
+nav#topMenu ul li.root.MenuGroupBrands .SubMenuWrapper > ul li.sdmColHeader.level1 > a::before {
+    content: "Popular ";
+    display: inline;
+    position: static;
+    border: 0;
+    bottom: auto;
+    left: auto;
+    width: auto;
+    transition: none;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul li.level1.sdmColHeader li.level2 > a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 1022px) {
+    .ToplinksGroup .container-fluid {
+        padding: 0;
+    }
+
+    nav#topMenu ul li.MenuGroupBrands.promoEnabled .SubMenuWrapper ul li.Center > div.Center {
+        padding: 0 10% 10px 10px;
+    }
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul > li.Top,
+nav#topMenu ul li.root .SubMenuWrapper > ul > li.Left,
+nav#topMenu ul li.root .SubMenuWrapper > ul > li.Right {
+    display: none !important;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.Center > ul > li {
+    width: 20%;
+    padding: 0 5px;
+}
+
+nav#topMenu ul li.root.twoCol .SubMenuWrapper ul li.Center > ul > li {
+    width: 25%;
+}
+
+nav#topMenu ul li.root.threeCol .SubMenuWrapper ul li.Center > ul > li {
+    width: 20%;
+}
+
+nav#topMenu ul li.root.fourCol .SubMenuWrapper ul li.Center > ul > li {
+    width: 20%;
+}
+
+nav#topMenu ul li.root.fiveCol .SubMenuWrapper ul li.Center > ul > li {
+    width: 20%;
+}
+
+nav#topMenu ul li.root.sixCol .SubMenuWrapper ul li.Center > ul > li {
+    width: 16.666667%;
+}
+
+nav#topMenu ul li.root.GAME .SubMenuWrapper ul li.Center,
+nav#topMenu ul li.root.USCFashion .SubMenuWrapper ul li.Center {
+    width: 100%;
+}
+
+nav#topMenu li.root .SubMenuWrapper li.Bottom {
+    width: 100%;
+    display: block !important;
+    float: none;
+}
+
+nav#topMenu li.root .SubMenuWrapper li .fourPromoSlot,
+nav#topMenu li.root .SubMenuWrapper li .fourPromoItem {
+    width: 50%;
+    float: left;
+    display: flex;
+}
+
+nav#topMenu li.root .SubMenuWrapper li .fourPromoItem:hover img {
+    transform: scale(1.075);
+}
+
+nav#topMenu li.root .SubMenuWrapper li .fourPromoItem img {
+    width: 100%;
+    transition: transform 0.25s linear;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul li .fourPromoSlot .fourPromoItem a {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    width: 100% !important;
+    display: block !important;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul li .fourPromoSlot .noText .fourPromoCTA {
+    display: none;
+}
+
+nav#topMenu li.root .SubMenuWrapper li .fourPromoItem a .fourPromoCTA,
+nav#topMenu li.root .SubMenuWrapper li .fourPromoSlot.BottomPromoRight .fourPromoItem.shopAllPromo .fourPromoCTA {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-size: var(--body-font-size);
+    line-height: 1em;
+    text-transform: uppercase;
+    color: var(--site-black);
+    background-color: var(--site-white);
+    padding: 2px 3px;
+    max-width: calc(100% - 40px);
+    z-index: 10;
+    text-align: left;
+}
+
+nav#topMenu li.root .SubMenuWrapper li .fourPromoSlot.BottomPromoRight .fourPromoItem.shopAllPromo a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+nav#topMenu li.root .SubMenuWrapper li .fourPromoSlot.BottomPromoRight .fourPromoItem.shopAllPromo a:hover::before {
+    background-color: rgba(172, 151, 81, 0.7);
+}
+
+nav#topMenu li.root .SubMenuWrapper li .fourPromoSlot.BottomPromoRight .fourPromoItem.shopAllPromo .fourPromoCTA {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: var(--site-white);
+    background-color: transparent;
+    max-width: none;
+    z-index: 2;
+    text-align: center;
+}
+
+nav#topMenu
+    li.root
+    .SubMenuWrapper
+    li
+    .fourPromoSlot.BottomPromoRight
+    .fourPromoItem.shopAllPromo
+    .fourPromoCTA
+    > span {
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: var(--site-white);
+    margin: 0 0 0 5px !important;
+    color: var(--site-black);
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.Right .rightAdsMenu h3,
+nav#topMenu ul li.root .SubMenuWrapper ul li.Right .rightAdsMenu a {
+    float: left;
+    width: 20%;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.Right .rightAdsMenu {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: #e0e9f0;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.Right .rightAdsMenu h3 {
+    padding: 5% 0 0;
+    font-size: var(--body-font-size);
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.Right .rightAdsMenu h3::after {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+    background-position: -150px -107px;
+    background-size: 500px 500px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.Right .rightAdsMenu a div {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.Right .rightAdsMenu a div::after,
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li .singlecolumnadvert .view-button::after,
+nav#topMenu li.root.USCFashion .SubMenuWrapper ul li.Center a.postWrap h3 span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--site-black);
+    bottom: 3px;
+    left: 0;
+}
+
+nav#topMenu > ul li .singlecolumnadvert span.view-button {
+    background-color: transparent;
+    color: var(--site-black);
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.level1 {
+    padding: 10px 0 5px;
+    text-align: left;
+    position: relative;
+    border-right: none;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.sdmViewAll,
+nav#topMenu ul li.root .SubMenuWrapper ul li.menuAccHeader {
+    width: 50%;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+nav#topMenu ul li.root.threeCols .SubMenuWrapper ul li.level1 {
+    width: 33.333333%;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.ClearIt {
+    clear: left;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.level1 > ul {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    padding-top: 5px;
+}
+
+nav#topMenu li.root ul li ul li ul li ul {
+    border-top: none;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.largeLi {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.gradBorder::after {
+    background-size: 1px 100%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        to bottom,
+        hsla(0, 0%, 0%, 0) 0%,
+        hsla(0, 0%, 0%, 0.3) 50%,
+        hsla(0, 0%, 0%, 0) 100%
+    );
+    content: "";
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 1px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.splitFifty {
+    width: 25%;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.splitThree {
+    width: 33.333333%;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .rightAdsMenu > h3 {
+    font-size: var(--body-font-size);
+    text-align: center;
+    padding: 0 10px 10px;
+    line-height: 1.4em;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .rightAdsMenu > a {
+    padding: 5px 10px;
+    color: var(--site-black);
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .rightAdsMenu > a div {
+    text-align: center;
+    padding: 5px 0;
+    font-size: var(--body-font-size);
+    line-height: 1.4em;
+    font-weight: var(--font-weight-regular);
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .rightAdsMenu > a img {
+    width: 100%;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.level1.CatFinish {
+    padding-right: 3%;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper ul li.level1.CatStart {
+    padding-left: 3%;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper,
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper {
+    padding: 0;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.Left,
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.Left {
+    display: none !important;
+}
+
+nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.Center,
+nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.Center {
+    width: 100%;
+    float: none;
+    padding: 15px 0 30px;
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper {
+    padding: 8px 3%;
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoCenter {
+    width: 20%;
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoCenter ul li.level1 {
+    width: 100%;
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoCenter ul li.level1 ul li.level2 {
+    border-top: 1px solid #eee;
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoCenter ul li.level1 ul li.level2:first-child {
+    border: none;
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li .singlecolumnadvert .view-button {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    text-align: left;
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-bold);
+    color: var(--site-black);
+    padding: 15px 0;
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li .singlecolumnadvert .view-button::after {
+    bottom: 12px;
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li .singlecolumnadvert a:hover .view-button {
+    color: var(--site-dark-grey);
+}
+
+nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoRight {
+    width: 80%;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul li.level1.sdmColHeader a {
+    color: var(--site-black);
+    display: inline-block;
+    width: auto;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul li.level1.shopbySize > a::after {
+    content: " Shop by Size";
+}
+
+nav#topMenu ul li.root .SubMenuWrapper .Center > ul li.level1.sdmColHeader {
+    width: 100%;
+    padding: 20px 0 5px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper .Center > ul li.level1.sdmColHeader.BlackItalicFont {
+    padding: 10px 0 5px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper .Center > ul li.level1.colGroupStart.sdmColHeader.BlackItalicFont {
+    padding: 20px 0 5px;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper .Center > ul li.level1.sdmColHeader.BlackItalicFont > a {
+    text-transform: uppercase;
+    font-size: var(--body-font-size) !important;
+    line-height: 1.2em;
+}
+
+nav#topMenu li.MenuGroupChristmas .SubMenuWrapper > ul .level1.sdmColHeader > a {
+    line-height: 1.2em;
+    font-size: var(--body-font-size) !important;
+}
+nav#topMenu li.root .SubMenuWrapper > ul .indentSub {
+    padding-left: 20px;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .sdmColHeader > a,
+nav#topMenu li.root .SubMenuWrapper > ul .sdmColOther > a {
+    position: relative;
+    color: var(--site-black);
+    font-size: var(--body-font-size) !important;
+    font-weight: var(--font-weight-bold);
+    border-top: 0;
+    margin-top: 0;
+    min-height: 0;
+    padding: 5px;
+    min-width: 0;
+    max-width: 100%;
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .level2.sdmColHeader > a {
+    display: inline-block;
+    width: auto;
+    font-size: var(--body-font-size);
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul .level1.sdmColHeader > a {
+    font-size: var(--body-font-size) !important;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul li .fourPromoSlot .fourPromoItem a::before,
+nav#topMenu ul li.root .SubMenuWrapper > ul li.promoEnabled .twoStackFlex .twoStackItem a::before {
+    content: none;
+}
+
+nav#topMenu ul li.root .SubMenuWrapper {
+    width: 100%;
+    position: absolute;
+    top: auto;
+    text-align: center;
+    font-size: var(--body-font-size);
+    border: 0;
+    left: 0;
+    padding: 0;
+
+    @media (min-width: 768px) and (max-width: 1021px) {
+        padding-top: 0;
+    }
+}
+
+nav#topMenu ul li.root .SubMenuWrapper > ul {
+    width: 100%;
+    max-width: 1920px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: var(--site-white);
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+
+    @media (min-width: 1022px) {
+        padding: 0 calc(var(--padding-unit) * 5);
+    }
+}
+
+nav#topMenu li.root .SubMenuWrapper > ul li .popularMenu a,
+nav#topMenu li.root .NewMenuWrap .popularMenu a {
+    text-transform: initial;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+nav#topMenu .popularMenu ul li {
+    margin-bottom: 10px;
+}
+
+nav#topMenu .popularMenu.popular_brands ul li.itemView.All.Brands a {
+    font-weight: var(--font-weight-bold);
+}
+
+nav#topMenu {
+    max-width: 1440px;
+    padding: 0 15px;
+    position: static;
+}
+
+nav#topMenu .NewMenu ul li.level1 {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: static;
+}
+
+nav#topMenu > ul .NewMenuWrap li.TopGap {
+    padding: 9px 0 3px;
+    border-top: 1px solid #bbb;
+    margin-top: 31px;
+}
+
+@media (max-width: 1260px) and (min-width: 1022px) {
+    nav#topMenu
+        > ul
+        .NewMenuWrap
+        .sportsDropdown
+        .Dropdown
+        .Center
+        > ul
+        > li:first-child
+        + li
+        + li
+        + li
+        > ul
+        > li.sportsEquestrian
+        > a,
+    nav#topMenu
+        > ul
+        .NewMenuWrap
+        .sportsDropdown
+        .Dropdown
+        .Center
+        > ul
+        > li:first-child
+        + li
+        + li
+        + li
+        > ul
+        > li.sportsFootball
+        > a,
+    nav#topMenu
+        > ul
+        .NewMenuWrap
+        .sportsDropdown
+        .Dropdown
+        .Center
+        > ul
+        > li:first-child
+        + li
+        + li
+        + li
+        > ul
+        > li.sportsRunning
+        > a {
+        padding: 72px 0 0;
+    }
+}
+
+@media (min-width: 768px) {
+    nav#topMenu li.root .SubMenuWrapper > ul .disablelink a {
+        pointer-events: auto;
+    }
+
+    nav#topMenu li.root .SubMenuWrapper > ul .disablelink > a {
+        pointer-events: none;
+    }
+
+    nav#topMenu ul li.root > a {
+        padding: 0 15px;
+    }
+
+    nav#topMenu ul li.mobOnly {
+        display: none;
+    }
+
+    nav#topMenu li.root .SubMenuWrapper > ul .botList > a::before {
+        content: "> ";
+    }
+
+    nav#topMenu li.root .SubMenuWrapper > ul .viewAllBold > a {
+        font-weight: var(--font-weight-bold);
+    }
+}
+
+nav#topMenu > ul li.newTag::after,
+nav#topMenu > ul li.saleTag::after,
+nav#topMenu > ul li.hotTag::after {
+    content: "NEW";
+    padding: 3px;
+    vertical-align: middle;
+    font-size: var(--body-font-size);
+    line-height: 1em;
+    color: var(--site-white);
+    background: var(--site-dark-grey);
+    display: inline-block;
+}
+
+nav#topMenu > ul li.saleTag::after {
+    content: "SALE";
+    background: var(--site-outlet);
+}
+
+nav#topMenu > ul li.hotTag::after {
+    content: "HOT";
+    background: var(--site-outlet);
+}
+
+nav#topMenu ul li.root.MenusaleRed > a,
+nav#topMenu ul li.root.MenusaleRed.sdHover > a {
+    background-color: var(--site-outlet);
+    color: var(--site-white);
+}
+
+#topMenu li.navImg.nvend > a::before {
+    height: 70%;
+    display: block;
+    width: 2px;
+    background: #c3cbd4;
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    top: 15%;
+    border: none;
+}
+
+#topMenu li.navImg.nvend.sdHover > a::before,
+#topMenu li.navImg.nvend > a:hover::before {
+    height: 100%;
+}
+
+@media (min-width: 1022px) and (max-width: 1199px) {
+    nav#topMenu li.root .SubMenuWrapper > ul li .popularMenu a,
+    nav#topMenu li.root .NewMenuWrap .popularMenu a {
+        padding: 1px 8px;
+        font-size: var(--body-font-size);
+    }
+
+    .popularMenu h3 {
+        padding: 13px 8px;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav#topMenu li.root .SubMenuWrapper > ul li .popularMenu a,
+    nav#topMenu li.root .NewMenuWrap .popularMenu a {
+        padding: 4px 12px;
+    }
+
+    .popularMenu h3 {
+        padding: 13px 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 889px) {
+    nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.level1 ul li.level2.s_MMA.longDesc a {
+        padding: 10px 0 9px 40px;
+    }
+
+    nav#topMenu ul li.root.sportsMenu .SubMenuWrapper ul li.level1 ul li.level2.s_fitnessexercise.longDesc a {
+        padding: 10px 0 9px 40px;
+    }
+}
+
+@media (max-width: 1021px) {
+    nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoCenter {
+        width: 40% !important;
+    }
+
+    nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoCenter li.sdmColHeaderHidden {
+        padding-top: 0;
+    }
+
+    nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoRight {
+        display: block !important;
+        width: 60%;
+    }
+
+    nav#topMenu ul li.root.brandsMenu .SubMenuWrapper ul li.level1 a {
+        padding-left: 20px;
+    }
+
+    nav#topMenu ul li.root .SubMenuWrapper > ul li.level1.sdmColHeader::before {
+        left: 10px;
+        right: 10px;
+    }
+
+    nav#topMenu ul li.root .SubMenuWrapper ul li.level1 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #topMenu li.navImg.GAME > a {
+        background-size: 32px auto;
+        min-width: 65px;
+    }
+
+    #topMenu li.navImg.USCFashion > a {
+        background-size: 27px auto;
+        min-width: 60px;
+    }
+
+    .sdDetails .RadTabStrip .rtsLevel .rtsIn {
+        padding: 23px 15px;
+    }
+}
+
+@media (max-width: 1260px) and (min-width: 1022px) {
+    nav#topMenu
+        > ul
+        .NewMenuWrap
+        .sportsDropdown
+        .Dropdown
+        .Center
+        > ul
+        > li:first-child
+        + li
+        + li
+        + li
+        > ul
+        > li.sportsEquestrian
+        > a,
+    nav#topMenu
+        > ul
+        .NewMenuWrap
+        .sportsDropdown
+        .Dropdown
+        .Center
+        > ul
+        > li:first-child
+        + li
+        + li
+        + li
+        > ul
+        > li.sportsFootball
+        > a,
+    nav#topMenu
+        > ul
+        .NewMenuWrap
+        .sportsDropdown
+        .Dropdown
+        .Center
+        > ul
+        > li:first-child
+        + li
+        + li
+        + li
+        > ul
+        > li.sportsRunning
+        > a {
+        padding: 72px 0 0;
+    }
+}
+
+@media (max-width: 1280px) {
+    nav#topMenu ul li.root.promoEnabled .SubMenuWrapper ul li.Center > ul {
+        width: 100%;
+    }
+
+    nav#topMenu ul li.root.promoEnabled .SubMenuWrapper ul li.Center > div.Center {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1370px) {
+    nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoCenter {
+        width: 30%;
+    }
+
+    nav#topMenu ul li.root.promoMenu .SubMenuWrapper ul li.PromoRight {
+        width: 70%;
+    }
+}
+
+div.NewMenuWrap {
+    top: 80px;
+    border-bottom: 1px solid #ddd;
+    height: auto;
+}
+
+.rightAdsMenu h3,
+.rightAdsMenu a div {
+    text-transform: uppercase;
+}
+
+div.NewMenu > ul > li.level1 > a {
+    padding: 0 20px 0 40px;
+}
+
+.ControlWrap .bagWishBlock,
+.ControlWrap .accountBlock,
+.ControlWrap .accountBlock .login,
+.accountBlock .AccountLink,
+.accountBlock .SignInLink {
+    height: 100%;
+}
+
+.bagWishBlock .WishIcon {
+    background: none;
+    width: auto;
+}
+
+.ControlWrap {
+    float: right;
+
+    > div {
+        float: right;
+    }
+
+    .accountBlock,
+    .storeFinder {
+        line-height: 60px;
+        text-align: center;
+        width: 60px;
+
+        @media (min-width: 768px) {
+            line-height: 65px;
+        }
+
+        @media (min-width: 768px) and (max-width: 1021px) {
+            width: 50px;
+        }
+    }
+
+    .storeFinder {
+        height: 100%;
+        display: none;
+    }
+
+    .accountBlock {
+        .login {
+            display: block;
+        }
+
+        .login .ico {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 11px;
+        }
+
+        .login .hidden-xs {
+            display: none;
+        }
+    }
+
+    .bagWishBlock {
+        text-align: center;
+    }
+
+    .storeBlock #topLinkMenu {
+        display: none;
+        height: 60px;
+        width: 60px;
+
+        @media (min-width: 768px) {
+            height: 65px;
+        }
+
+        @media (min-width: 1022px) {
+            display: flex;
+        }
+
+        @media (min-width: 1440px) {
+            width: 60px;
+        }
+
+        a {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            padding-top: 0;
+            padding-bottom: 0;
+            position: relative;
+
+            &::before {
+                content: "";
+                display: block;
+                background-image: var(--spritesheet);
+                background-position: -136px -351px;
+                background-size: 750px 750px;
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        span {
+            text-indent: 100%;
+            overflow: hidden;
+        }
+    }
+
+    .WishList {
+        width: 50px;
+        height: 100%;
+        font-size: var(--body-font-size);
+
+        @media (min-width: 1022px) {
+            width: 60px;
+        }
+
+        #aWishListLink {
+            display: flex;
+            width: 100%;
+            overflow: visible;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wishQuantityContainer {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 11px;
+            float: none;
+            background: none;
+        }
+
+        .wishQuantityContainer .global-icon-wishlist svg {
+            width: 28px;
+        }
+
+        #lblWishListCount {
+            background-color: var(--site-count-bubble);
+            color: var(--site-count-bubble-text-color);
+            min-height: 22px;
+            border-radius: 50%;
+            height: auto;
+            margin: 0;
+            min-width: 22px;
+            position: absolute;
+            top: -8px;
+            left: 60%;
+            width: auto;
+            padding: 0;
+            text-align: center;
+            font-size: 12px;
+            line-height: 1;
+            aspect-ratio: 1/1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #lblWishList,
+        #lblWishListCount.hide-wishlist {
+            display: none;
+        }
+    }
+
+    .storeGroup {
+        #topLinkMenu .TopLink {
+            line-height: normal;
+            float: none;
+        }
+
+        #topLinkMenu .TopLink a {
+            min-width: 55px;
+        }
+
+        #topLinkMenu .TopLink a::before {
+            content: "";
+            display: block;
+            height: 28px;
+            width: 26px;
+            margin: 0 auto;
+            background-size: 630px 630px;
+            background-position: -46px -163px;
+            font-size: var(--body-font-size);
+        }
+
+        #topLinkMenu .TopLink a span {
+            color: var(--site-white);
+            line-height: normal;
+            display: block;
+            margin-top: 3px;
+        }
+    }
+
+    .global-icon svg path {
+        stroke: var(--site-icon-stroke);
+    }
+}
+
+.SignInLink .login .userLoginContainer {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.menu-trigger {
+    background: none;
+    height: 62px;
+    width: 60px;
+    text-indent: 0;
+    line-height: 62px;
+    text-align: center;
+    float: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .global-icon-menu {
+        display: inline-block;
+        pointer-events: none;
+        vertical-align: middle;
+
+        svg {
+            width: 22px;
+        }
+    }
+
+    .global-icon-cross svg {
+        width: 24px;
+        height: 24px;
+
+        path {
+            stroke-width: 1px;
+        }
+    }
+
+    > span {
+        display: none;
+    }
+
+    &::before {
+        display: none;
+    }
+}
+
+.body-menu-open {
+    .global-icon.global-icon-menu {
+        display: none;
+    }
+    .global-icon.global-icon-cross {
+        display: inline-block;
+        pointer-events: none;
+        vertical-align: middle;
+    }
+}
+
+@media (min-width: 768px) {
+    .bsIconsBagAndWish {
+        height: 40px;
+    }
+
+    .bsASB {
+        padding-top: 11px;
+    }
+
+    .bsASB > div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SubMenuWrapper li .col-sm-3.col-5g {
+        width: 20%;
+    }
+
+    .ControlWrap .accountBlock .login:hover,
+    .ControlWrap .accountBlock:hover,
+    .ControlWrap .WishList #aWishListLink:hover {
+        .global-icon svg path {
+            stroke: var(--site-icon-hover-stroke);
+            fill: var(--site-icon-hover-fill);
+        }
+    }
+
+    #divBagTotalLink a#aBagLink:hover .global-bag-icon__inner {
+        fill: var(--site-icon-hover-fill);
+    }
+
+    .ControlWrap .storeBlock:hover #topLinkMenu a::before {
+        background-position: -136px -308px;
+    }
+
+    .ui-autocomplete {
+        position: fixed !important;
+    }
+
+    .TopNavBar .LogoWrap,
+    .TopNavBar .ControlWrap {
+        width: 25.5%;
+    }
+}
+
+.ToplinksGroup {
+    margin: 0 auto;
+    display: block;
+    float: none;
+    position: relative;
+    max-width: 1920px;
+
+    @media (min-width: 1022px) {
+        padding: 0 20px;
+    }
+
+    @media (max-width: 1021px) {
+        padding: 0;
+    }
+
+    .bsLogo {
+        height: 100%;
+    }
+}
+
+#HeaderGroup {
+    box-shadow: none;
+    background-color: transparent;
+    top: 0;
+    height: 131px;
+    z-index: 11 !important;
+    border-top: 8px solid var(--site-accent);
+    border-bottom: 1px solid var(--site-lightest-grey);
+
+    @media (min-width: 768px) and (max-width: 1021px) {
+        height: 71px;
+    }
+}
+
+.HeaderTopSpacer {
+    height: 131px;
+
+    @media (min-width: 768px) and (max-width: 1021px) {
+        height: 71px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .TopNavBar .LogoWrap,
+    .TopNavBar .ControlWrap {
+        width: 30% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+    .ControlWrap .storeGroup {
+        display: none;
+    }
+}
+
+#MenuOpenContentCover,
+.ToplinksGroup .container-fluid .header-overlay.overlay,
+.modal-backdrop {
+    display: none;
+    opacity: 1;
+    transition: none;
+    background-color: transparent;
+    transition-delay: 0s;
+    filter: none;
+}
+
+#MenuOpenContentCover.activeOverlay,
+.ToplinksGroup .container-fluid .header-overlay.overlay.activeOverlay,
+.modal-backdrop.in {
+    display: block;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition-delay: 0s;
+    filter: none;
+    z-index: 12;
+}
+
+#MenuOpenContentCover.activeOverlay {
+    z-index: 1;
+}
+
+span#bagTotal {
+    min-width: 50px;
+
+    @media (min-width: 1022px) {
+        min-width: 60px;
+    }
+}
+
+#divBagTotalLink a#aBagLink {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    background: none;
+    padding: 0;
+    min-width: 50px;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 1022px) {
+        min-width: 60px;
+    }
+
+    #bagQuantityContainer {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: var(--body-font-size);
+
+        .global-icon-bag {
+            width: 28px;
+            height: 28px;
+
+            svg {
+                height: 28px;
+                width: auto;
+            }
+        }
+    }
+}
+
+.ui-autocomplete {
+    max-height: 70vh;
+    overflow-y: auto;
+    position: absolute;
+    border: none !important;
+    background: var(--site-white) !important;
+    box-shadow: none;
+    padding: 5px;
+}
+
+.menulevelheader,
+.currencyHeaderMob {
+    font-size: var(--subtitle-font-size);
+    text-shadow: none;
+    padding: 0 10px 0 58px;
+    font-weight: normal;
+}
+
+.currencyHeaderMob {
+    text-align: left;
+    padding: 18px 10px 18px 58px;
+    font-weight: var(--font-weight-bold);
+}
+
+.mobMenuGroup li .mp-level .menulevelheader a {
+    font-size: var(--subtitle-font-size);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: calc(var(--padding-unit) * 4.5) 0;
+    display: inline-block;
+    color: var(--site-black);
+}
+
+.mobMenuGroup li .mp-level .mp-back .mp-back-text {
+    display: none;
+}
+
+.shop > ul > li a.mp-back,
+.mobMenuGroup li .mp-back,
+#divCurrencyLanguageMobile a.mp-back {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 !important;
+    line-height: 58px;
+    height: 58px;
+    text-align: center;
+    width: 58px;
+    box-shadow: none;
+    overflow: hidden;
+    font-size: var(--body-font-size);
+}
+
+.shop > ul > li a.mp-back .mp-back-text,
+.mobMenuGroup #mob-myaccount .mp-back .mp-back-text {
+    display: none;
+}
+
+.mobMenuGroup li .mp-back::before,
+.shop > ul > li a.mp-back::before,
+#liMobileLanguageSelector a.mp-back::before,
+#liMobileCurrencySelector a.mp-back::before {
+    content: "";
+    position: static;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-family: inherit;
+    top: auto;
+    vertical-align: middle;
+    right: auto;
+    font-size: var(--body-font-size);
+    background-size: 750px 750px;
+    background-position: -267px -360px;
+}
+
+.MobileMenuContentWrap .shop > ul > li .menulevelheader > a,
+.mobMenuGroup #mob-myaccount .menulevelheader a {
+    font-size: var(--subtitle-font-size);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 18px 0 !important;
+    display: inline-block !important;
+    color: var(--site-black) !important;
+}
+
+#homeMenu > li > a {
+    font-size: var(--subtitle-font-size);
+    padding: 13px 25px;
+    display: none;
+}
+
+.headerStripes {
+    display: none;
+}
+
+#homeMenu,
+.menulevelheader {
+    background-color: var(--site-white);
+    text-align: left;
+}

@@ -1,0 +1,183 @@
+.productNextDayDeliveryCountdownWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.ndd-countdown {
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    width: 100%;
+}
+
+.ndd-countdown-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.ndd-countdown-description {
+    font-size: 15px;
+}
+
+.ndd-countdown .countdown-timer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ndd-countdown .countdown-timer .countdown-timer-wrapper {
+    display: flex;
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    padding: 4px 5px 0;
+    font-size: 15px;
+}
+
+.ndd-countdown .countdown-timer-hour-container,
+.ndd-countdown .countdown-timer-minute-container,
+.ndd-countdown .countdown-timer-second-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ndd-countdown .countdown-timer-minute-container,
+.ndd-countdown .countdown-timer-second-container {
+    margin-left: 4px;
+}
+
+.ndd-countdown .ndd-countdown-time-hour,
+.ndd-countdown .ndd-countdown-time-minute,
+.ndd-countdown .ndd-countdown-time-second {
+    font-weight: bold;
+    min-width: 20px;
+    min-height: 19px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ndd-countdown .countdown-timer .countdown-timer-wrapper .ndd-countdown-time-unit {
+    font-size: 12px;
+}
+
+.ndd-countdown .ndd-counter-time-loader {
+    color: #000;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: 0.5s;
+}
+
+@keyframes dotFlashing {
+    0% {
+        color: #000;
+    }
+
+    50%,
+    100% {
+        color: #fff;
+    }
+}
+
+.inline-countdown .ndd-countdown {
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+
+.inline-countdown .ndd-countdown-title {
+    font-weight: normal;
+    margin-bottom: 0;
+    order: 1;
+}
+
+.inline-countdown .ndd-countdown-description {
+    order: 3;
+}
+
+.inline-countdown .ndd-countdown .countdown-timer {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    order: 2;
+    margin: 0 6px 0 0;
+}
+
+.inline-countdown .ndd-countdown .countdown-timer .countdown-timer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 0;
+}
+
+.inline-countdown .ndd-countdown .countdown-timer-hour-container,
+.inline-countdown .ndd-countdown .countdown-timer-minute-container,
+.inline-countdown .ndd-countdown .countdown-timer-second-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline-countdown .ndd-countdown .countdown-timer-minute-container,
+.inline-countdown .ndd-countdown .countdown-timer-second-container {
+    margin-left: 4px;
+}
+
+.inline-countdown .ndd-countdown .ndd-countdown-time-hour,
+.inline-countdown .ndd-countdown .ndd-countdown-time-minute,
+.inline-countdown .ndd-countdown .ndd-countdown-time-second {
+    min-width: 20px;
+    min-height: 19px;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    font-weight: 600;
+}
+
+.inline-countdown .ndd-countdown .countdown-timer .countdown-timer-wrapper .ndd-countdown-time-unit {
+    font-weight: 600;
+}
+
+.inline-countdown .ndd-countdown .ndd-counter-time-loader {
+    color: #e10098;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: 0.5s;
+    transform: translateX(-3px);
+    display: inline-block;
+}
+
+@keyframes dotFlashing {
+    0% {
+        color: #e10098;
+    }
+
+    50%,
+    100% {
+        color: #e5cfde;
+    }
+}

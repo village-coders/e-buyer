@@ -1,0 +1,88 @@
+#productImages #productImageContainer .productTwoImageCarousel {
+    position: relative;
+
+    .swiper-container-main {
+        .swiper-slide {
+            @media (min-width: 768px) {
+                border-radius: var(--pdp-two-image-carousel-thumbnail-border-radius, 0);
+            }
+
+            a {
+                aspect-ratio: 1 / 1;
+            }
+
+            &.video-slide {
+                flex: none;
+            }
+        }
+    }
+
+    .swiper-container-thumbs {
+        margin-top: 8px;
+
+        @media (min-width: 768px) {
+            margin-top: 18px;
+        }
+
+        .swiper-slide {
+            border: 1px solid var(--pdp-two-image-carousel-thumbnail-border-colour, #efefef);
+            border-radius: var(--pdp-two-image-carousel-thumbnail-border-radius, 0);
+            cursor: pointer;
+
+            @media (min-width: 768px) {
+                &:hover {
+                    border-color: var(--pdp-two-image-carousel-thumbnail-active-border-colour, #000);
+                }
+            }
+
+            &-thumb-active {
+                border-color: var(--pdp-two-image-carousel-thumbnail-active-border-colour, #000);
+
+                @media (max-width: 767px) {
+                    & + .swiper-slide-thumb-active {
+                        border-color: var(--pdp-two-image-carousel-thumbnail-border-colour, #efefef);
+                    }
+                }
+            }
+
+            &.video-slide {
+                flex: none;
+
+                svg {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    max-width: 60px;
+                    z-index: 1;
+                }
+            }
+        }
+
+        .pdp-carousel-prev,
+        .pdp-carousel-next {
+            position: absolute;
+            top: 50%;
+            width: auto;
+            height: auto;
+            margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+            z-index: 10;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .pdp-carousel-prev,
+        .swiper-rtl .pdp-carousel-next {
+            left: 10px;
+            right: auto;
+        }
+
+        .pdp-carousel-next,
+        .swiper-rtl .pdp-carousel-prev {
+            right: 10px;
+            left: auto;
+        }
+    }
+}

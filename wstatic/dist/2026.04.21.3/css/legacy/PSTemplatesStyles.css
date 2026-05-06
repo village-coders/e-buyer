@@ -1,0 +1,137 @@
+.PSPlacementHorizontal,
+.PSPlacementVertical {
+    margin-top: 20px;
+}
+
+.PSPlacementVertical {
+    margin-top: 0;
+}
+
+.borderWrap {
+    border: 1px solid #d3d3d3;
+}
+
+.PSPlacementVertical .swiper-wrapper {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PSPlacementTitle {
+    padding: 10px;
+    color: #666;
+    font-size: 1.2em;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+.PSPlacementHorizontal .ProductSuggestionsListing li {
+    display: inline;
+    float: left;
+    padding: 0;
+    text-align: center;
+}
+
+.PSPlacementHorizontal .swiper-container {
+    margin-bottom: 10px;
+}
+
+.PSPlacementVertical .ProductSuggestionsListing li {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.ProductSuggestionsListing > li > div > h4 a:hover {
+    text-decoration: underline;
+}
+
+.FlanProdDet .ProductSuggestionsListing > li > div > h4 a:hover {
+    text-decoration: none;
+}
+
+.PSPlacementVertical .SuggestedProduct > a {
+    display: none;
+}
+
+.productimage .PSImage .PSPimg-res {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.PSSellPrice {
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+.PSProdPrice {
+    padding: 0 5px;
+}
+
+.ProdDetails .PSProdPrice .AdditionalPriceLabel {
+    padding-left: 0;
+    padding-right: 2px;
+}
+
+.BlockDiv {
+    display: block;
+    clear: both;
+}
+
+/* QUICK LOOK */
+.productimage.s-productthumbimage {
+    position: relative;
+}
+
+.PSPlacementVertical .productimage {
+    padding: 0 25%;
+    margin-bottom: 5px;
+}
+
+.QuickBuyButtonContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 42px;
+}
+
+.SuggestedProduct .hotspotbuy.hotspotwishlist {
+    top: 85px;
+    bottom: auto;
+}
+
+.SuggestedProduct .hotspotbuy.hotspotquickbuy {
+    top: 60px;
+    bottom: auto;
+}
+
+.SuggestedProduct > h4 {
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0;
+}
+
+.SuggestedProduct > h4 a {
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+}
+
+.SuggestedProduct > h4 a .PSProdBrand {
+    font-weight: bold;
+}
+
+.ps-swiper-button-next,
+.ps-swiper-button-prev {
+    display: none;
+}
+
+@media (min-width: 1022px) {
+    .PSPlacementHorizontal .ProductSuggestionsListing li {
+        width: 16.666667%;
+    }
+}

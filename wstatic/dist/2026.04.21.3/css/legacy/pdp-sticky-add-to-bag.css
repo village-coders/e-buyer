@@ -1,0 +1,228 @@
+.sticky-atb-wrapper {
+    background: #f8f8f8;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: -100%;
+    left: 0;
+    transition: top 0.4s ease-in-out;
+}
+
+.sticky-atb-wrapper.stickyCTA-active {
+    top: 100px;
+}
+
+.sticky-atb {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 15px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #dde1e4;
+}
+
+.sticky-atb .sticky-atb-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.sticky-atb .sticky-atb-img img {
+    width: 42px;
+    height: 42px;
+    padding: 4px;
+}
+
+.sticky-atb .sticky-atb-product--info {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 215px);
+}
+
+.sticky-atb .sticky-atb--title span {
+    font-size: 15px;
+    line-height: 1.2em;
+    color: #141414;
+    margin-left: 15px;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sticky-atb .sticky-atb--price {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.sticky-atb .pdpPrice span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.sticky-atb .originalTicket {
+    font-size: 12px;
+    line-height: 1.2em;
+}
+
+.sticky-atb .pdpPrice .productHasRef,
+.brandTitle-price .pdpPrice .productHasRef {
+    color: #ed0202;
+}
+
+.ProdDetails .AdditionalPriceLabel {
+    padding-top: 0;
+}
+
+.sticky-atb .originalprice {
+    padding-left: 5px;
+    color: #7d8082;
+    font-size: 1.1em;
+    letter-spacing: normal;
+}
+
+.sticky-atb .sticky-atb--buysection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sticky-atb .sticky-atb--buysection .NonBuyableOverlayMessage {
+    height: 100%;
+    font-size: 12px;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-atb .sticky-atb--buysection .ImgButWrap {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.sticky-atb .sticky-atb--buysection .addToBag {
+    min-width: 140px;
+    border-radius: 4px;
+    height: 42px;
+    padding: 10px 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-atb .sticky-atb--buysection a.addToBag:hover {
+    background-color: #131313 !important;
+}
+
+.sticky-atb .sticky-atb--buysection .sizeSelected a.addToBag:hover {
+    background-color: #80e096 !important;
+}
+
+.sticky-atb .sticky-atb--buysection .popover.bottom {
+    display: none !important;
+}
+
+@media (max-width: 1021px) {
+    .sticky-atb .sticky-atb-product--info .sticky-atb--title {
+        max-width: 250px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .sticky-atb .sticky-atb-product--info .sticky-atb--title span {
+        font-size: 15px;
+        letter-spacing: -0.5px;
+    }
+
+    .sticky-atb .sticky-atb-product--info .sticky-atb--price {
+        margin-right: 15px;
+    }
+
+    .sticky-atb .sticky-atb--buysection .addToBag.single-sized {
+        background-color: #131313 !important;
+        min-width: 75px;
+        height: 40px;
+    }
+
+    .sticky-atb .sticky-atb--buysection .addToBag span {
+        font-size: 14px;
+    }
+
+    .sticky-atb .sticky-atb--buysection {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .sticky-atb .sticky-atb-product--info {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+
+    .sticky-atb .sticky-atb-product--info .sticky-atb--title span {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .sticky-atb .sticky-atb-product--info .sticky-atb--price {
+        margin-right: 5px;
+    }
+
+    .sticky-atb-wrapper.stickyCTA-active {
+        top: 114px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sticky-atb .pdpPrice {
+        order: -1;
+    }
+
+    #sticky-atb-wrapper .discount-percentage-off {
+        padding: 0;
+    }
+
+    #sticky-atb-wrapper .discount-percentage-off,
+    #sticky-atb-wrapper .discount-percentage-off.discount-percentage-off-mobile-only {
+        display: none;
+    }
+
+    .sticky-atb .originalprice {
+        padding-right: 4px;
+    }
+
+    .sticky-atb .sticky-atb-product--info .sticky-atb--title {
+        max-width: 100%;
+        padding-right: 5px;
+    }
+
+    .sticky-atb .sticky-atb--buysection .addToBag {
+        min-width: 0;
+    }
+
+    .sticky-atb .sticky-atb--buysection .addToBag span {
+        font-size: 12px;
+    }
+}

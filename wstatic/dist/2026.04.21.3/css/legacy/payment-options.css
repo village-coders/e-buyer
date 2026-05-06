@@ -1,0 +1,40 @@
+.payment-options,
+.Copyright .footerPaymentLineBorder .payment-options {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    gap: 5px;
+    margin: 10px 0;
+    padding: 10px;
+
+    svg,
+    .global-frasersPlus img {
+        border-radius: 5px;
+        height: 30px;
+        width: auto;
+
+        @media (max-width: 767px) {
+            height: 25px;
+        }
+    }
+
+    .global-frasersPlus img {
+        width: 48px;
+    }
+}
+
+.basket-container .payment-options {
+    background-color: #fff;
+}
+
+.footerPaymentLineBorder .payment-options {
+    justify-content: end;
+    margin-top: 0;
+
+    @media (max-width: 767px) {
+        gap: 2px;
+        justify-content: center;
+    }
+}

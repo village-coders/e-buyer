@@ -1,0 +1,102 @@
+:root {
+    --product-tab-info-background-color: transparent;
+    --product-tab-info-header-color: #727272;
+    --product-tab-info-border-colour: #ddd;
+    --product-tab-info-black: #000;
+}
+
+.product-detail-tab-wrapper {
+    padding: 25px 0;
+
+    .product-info-tab-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 40px;
+
+        .product-info-tab-title {
+            background-color: var(--product-tab-info-background-color) !important;
+            color: var(--product-tab-info-header-color) !important;
+            padding: 10px 25px;
+            font-size: 18px;
+            margin: 0 20px 30px 0;
+            border-bottom: solid 3px var(--product-tab-info-border-colour);
+            cursor: pointer;
+            text-transform: uppercase;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            &:hover,
+            &.is-active {
+                background-color: transparent !important;
+                color: var(--product-tab-info-black) !important;
+                border-color: var(--product-tab-info-black);
+            }
+
+            @media (max-width: 767px) {
+                max-width: 33.3%;
+                padding: 10px 0;
+                font-size: 16px;
+            }
+
+            @media (max-width: 280px) {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            padding: 0 10px;
+        }
+    }
+
+    .product-info-tab-content {
+        display: block;
+        padding: 0 40px;
+        border-top: none;
+        font-size: 14px;
+
+        .panel-body {
+            padding: 0;
+        }
+
+        p,
+        .TitleDel,
+        .price,
+        .SpendVoucher,
+        .feature-name,
+        .feature-value {
+            font-size: 14px !important;
+        }
+
+        .panel-heading.FooterHeader {
+            display: none;
+        }
+
+        @media (max-width: 767px) {
+            padding: 15px;
+        }
+    }
+
+    #parDeliveryMethods ul {
+        display: grid !important;
+        grid-template-rows: repeat(4, min-content);
+        grid-auto-flow: column;
+
+        #delivery_International,
+        #InternationalDelivery {
+            margin-top: 0 !important;
+        }
+
+        @media (max-width: 767px) {
+            grid-auto-flow: row;
+        }
+    }
+
+    @media (max-width: 767px) {
+        padding: 25px 0;
+    }
+}
+
+.is-hidden {
+    display: none !important;
+}

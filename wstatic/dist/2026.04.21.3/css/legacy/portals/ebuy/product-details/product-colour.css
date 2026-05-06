@@ -1,0 +1,83 @@
+.sdDetails .colourImages li a {
+    border: 1px solid var(--site-mid-grey);
+
+    img {
+        padding: 5px;
+    }
+}
+
+.sdDetails .colourImages li a:hover,
+.sdDetails .colourImages li a:focus {
+    border: 1px solid var(--site-mid-grey);
+}
+
+.sdDetails .colourImages {
+    transition: height 0.3s ease-in-out;
+    height: auto;
+    overflow: hidden;
+}
+
+.sdDetails .colourImages li {
+    width: 60px;
+    height: 60px;
+    margin: 0 var(--padding-unit) var(--padding-unit) var(--padding-unit);
+}
+
+.sdDetails .colourImages li.swiper-slide {
+    height: auto;
+}
+
+.sdDetails .colourImages li.variantHighlight a {
+    border: 1px solid var(--site-accent-secondary);
+}
+
+.sdDetails .colourImages li.variantHighlight::before {
+    display: none;
+}
+
+.sdDetails .colourImages li.greyOut span {
+    background: #f8f8f8;
+    opacity: 0.85;
+}
+
+.sdDetails .colourImages li a,
+.sdDetails .colourImages li.greyOut a {
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.sdDetails .colourImages li a .overlayColorway {
+    cursor: pointer;
+    background: rgba(231, 235, 237, 0.9);
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--site-black);
+    font-size: 13px;
+}
+
+#productDetails .colourImages li.greyOut.variantHighlight a,
+#productDetails .sizeButtons li.sizeVariantHighlight.greyOut a {
+    border-color: var(--site-mid-grey) !important;
+}
+
+#BuyColourText {
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-bold);
+    &.sizeerror {
+        color: var(--site-red);
+        font-size: var(--body-font-size);
+    }
+}
+
+#colourName {
+    font-size: var(--body-font-size);
+    font-style: normal;
+    letter-spacing: var(--default-letter-spacing);
+}

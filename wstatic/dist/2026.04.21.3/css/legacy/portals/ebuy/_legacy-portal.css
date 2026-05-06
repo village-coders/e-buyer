@@ -1,0 +1,454 @@
+#Body,
+p,
+a,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+textarea,
+html,
+blockquote,
+th,
+td,
+tr,
+legend,
+select,
+button,
+input[type="submit"] {
+    font-family: Roboto-Regular, Lato, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Roboto-Regular, Lato, Arial, Helvetica, sans-serif;
+}
+
+.maxText,
+.saleprice,
+.SubBask .PriceTotalBask,
+.saleTime .s-producttext-withticket .s-largered,
+#productDetails #infoTabs .infoTabPage a:hover,
+h6,
+.csHomeTable a:hover,
+.SubTotal,
+.csHomeTable li.header a:hover,
+.BaskName:hover,
+.saleTime .AltStratSellPrice.productHasRef,
+.lillBasket #ulBag li .lineProblems span,
+.lillBasket #ulBag li .maxText,
+.yousave,
+.nav#topMenu li.root .SubMenuWrapper > ul .sdmColSaleHeader > a,
+.saleTime .pdpPrice .productHasRef,
+.saleTime #hsPrice,
+.saleTime .PSProdPrice .PSSellPrice.productHasRef {
+    color: #ed0000;
+}
+
+.discountText,
+.preorder,
+#FootcmdSearch,
+.OrderComplete.Checkout22 a.button:hover,
+.OrderComplete.Checkout22 a.button:focus {
+    color: #bfb7b0;
+}
+
+#dvCancelled,
+#dvInProgress,
+#dvNewOrder,
+#dvRejected,
+#dvShipped,
+#dvSubmitted {
+    color: #bfb7b0 !important;
+}
+
+.personalisation {
+    color: var(--fras-gold);
+}
+
+.ContentWrapper {
+    max-width: var(--default-container-max-width);
+
+    @media (min-width: 1640px) {
+        max-width: var(--large-container-max-width);
+    }
+}
+
+a,
+a:active,
+a:focus,
+a:link,
+a:visited,
+.RightBox p,
+.RightBox h3,
+.RightBox,
+.TopHeader p,
+a:hover,
+a p:hover {
+    color: #636363;
+}
+
+.RadTabStrip .rtsLevel .rtsIn:hover,
+.RadTabStrip .rtsLevel .rtsSelected .rtsIn,
+.LeftBarLinks #topLinkMenu ul.TopLinkMenu li,
+.RadTabStrip .rtsLevel .rtsIn {
+    color: #333 !important;
+}
+
+.Basket #BasketDiv table th,
+.pppt,
+.sizeDetail,
+#productImages .imageControls .zoomControl,
+#productImages .imageControls .spinControl,
+.currentPage {
+    color: #666;
+}
+
+.fromProductPrice {
+    color: #888;
+}
+
+#securedByLogin span {
+    color: #777 !important;
+}
+
+.originalprice,
+input[type="button"]:disabled,
+input[type="submit"]:disabled,
+input[type="reset"]:disabled,
+input[type="file"]:disabled::-webkit-file-upload-button,
+button:disabled,
+select:disabled,
+keygen:disabled,
+optgroup:disabled,
+option:disabled,
+.BaskColr,
+.BaskSize,
+.s-smalltext,
+.s-producttext-price .AdditonalPriceLabel {
+    color: #888;
+}
+
+.Basket #BasketDiv .productcode span,
+.ToplinksGroup .search input.watermarked {
+    color: #636363;
+}
+
+body,
+h1,
+h1 span,
+h2,
+h3,
+h4,
+h5,
+p,
+label,
+input,
+optgroup,
+select,
+textarea,
+.Basket h1,
+.weWrap,
+.Basket #BasketDiv table td,
+.Basket #BasketDiv .basketsubtotal,
+.sizeText,
+.Profile h3,
+.productFilterTitle,
+.DontForgetText,
+#productDetails #infoTabs .infoTabPage,
+#productDetails #infoTabs .infoTabPage a,
+#productDetails #infoTabs .infoTabPage h1,
+#productDetails #infoTabs .infoTabPage h2,
+#productDetails #infoTabs .infoTabPage h3,
+#productImages .imageControls .zoomControl:hover,
+#productImages .imageControls .spinControl:hover,
+#productDetails #infoTabs .infoTabPage p,
+.sizegroup h1,
+.csHomeTable li.header a,
+ins,
+mark,
+nav#topMenu > ul li.ClearBack > a,
+nav#topMenu > ul li.ClearBack > a:hover,
+nav#topMenu li.root .SubMenuWrapper > ul .sdmColSaleHeader > a,
+nav#topMenu li.root .SubMenuWrapper > ul .sdmColSaleFooter > a,
+.PreDate,
+.productcolour,
+.productsize,
+.categorycopyd4,
+.MobFiltersText,
+.sizeslink,
+.ui-autocomplete > li > .ui-corner-all,
+.MobSearchDropDown > li > a,
+.OrderComplete.Checkout22 a.button.secondary {
+    color: #000;
+}
+
+.s-checkout-fix .secondary a,
+.BagandCheckoutBtn .secondary2 a,
+.entryPaging a {
+    color: #333 !important;
+}
+
+#pagernav a,
+.dbc,
+#TooManyDailyOfferItemsError,
+.jquery_tools_tooltip,
+.ui-autocomplete li #ui-active-menuitem,
+.sg_colHead,
+.OrderColC .TrackOrder a,
+.entryPaging a:hover,
+#divBag.active .HeaderCheckoutLink,
+.OrderComplete.Checkout22 a.button,
+.OrderComplete.Checkout22 a.button.secondary:hover,
+.OrderComplete.Checkout22 a.button.secondary:focus,
+.Checkout22 .OrderCompleteRegistration .ContinueOn {
+    color: #fff;
+}
+
+.dbc,
+.contentwrap,
+.header,
+.productFilter-slider,
+#topLinkMenu ul li a:hover {
+    background-color: transparent;
+}
+
+div.NewMenuWrap {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+nav#topMenu > ul li.SaleTop,
+#TooManyDailyOfferItemsError,
+nav#topMenu > ul li.SaleTop:hover {
+    background-color: #ed0000;
+}
+
+.BodyWrap,
+#BodyWrap,
+.DontForgetText,
+body,
+.ui-state-active a,
+.ui-widget-content .ui-state-active a,
+.ui-widget-header .ui-state-active a,
+.HeaderWrap,
+#OrderHistoryPeriod select:focus,
+#productDetails #infoTabs .infoTabPageContainer,
+#productDetails #infoTabs .multiPage,
+.RadTabStripTop_Vista .rtsLevel .rtsLink,
+.RadTabStripBottom_Vista .rtsLevel .rtsLink,
+.RadTabStrip .rtsLevel .rtsSelected .rtsIn,
+.RadTabStrip .rtsLevel .rtsSelected .rtsIn:hover,
+#divBagItems,
+#divEmptyErrorMessage,
+#divAjaxLoaderImage,
+#ulBag li,
+.ASCdelivery2 .FullAdvert img,
+.FourHovers ul li > div,
+#mobControlBar {
+    background-color: #fff;
+}
+
+.RadTabStrip .rtsLevel .rtsIn:hover {
+    background-color: #f1f1f1;
+}
+
+.currentPage,
+.greyBoxBrand,
+.s-checkout-fix .secondary a,
+.BagandCheckoutBtn .secondary2 a {
+    background: #fff !important;
+}
+
+.jquery_tools_tooltip {
+    background-color: #333;
+}
+
+#Storetext {
+    background: rgba(51, 51, 51, 0.5);
+}
+
+.advert .pagination,
+.Home .advert .swiper-container,
+.Vieworders {
+    background-color: #ccc;
+}
+
+.sizegroup h1,
+.c_BlackTitle h3,
+.csHomeTable li.header {
+    background-color: #eee;
+}
+
+#Cancelled-popup-container,
+#InProgress-popup-container,
+#NewOrder-popup-container,
+#Rejected-popup-container,
+#Shipped-popup-container,
+#Submitted-popup-container,
+#OrderHistoryPeriod select {
+    background-color: #f1f1f1;
+}
+
+.byPostGroup {
+    background-color: #f7f7f7;
+}
+
+.entryPaging a:hover {
+    background-color: #666 !important;
+}
+
+ins {
+    background: #ff9;
+}
+
+mark {
+    background: #ff0;
+}
+
+nav#topMenu > ul li.root.ClearBack {
+    background-color: #f3d600;
+}
+
+nav#topMenu > ul li.root.ClearBack:hover {
+    background-color: #e5ca00 !important;
+}
+
+.groupquestions li {
+    background: transparent url("/images/core/diam4vr.png") no-repeat scroll left center;
+}
+
+#CheckoutSpaRoot button,
+#CheckoutSpaRoot .inactiveSubmit button:hover {
+    background-color: var(--site-cta-transactional-background) !important;
+}
+
+#CheckoutSpaRoot button:hover {
+    background-color: var(--site-cta-transactional-background-hover) !important;
+}
+
+ul.toptabs {
+    width: 100%;
+    margin: auto;
+}
+
+.ui-state-default a,
+.ui-widget-content .ui-state-default a,
+.ui-widget-header .ui-state-default a,
+.activeSection .sectionGroup h1::before {
+    background-color: #bfb7b0;
+}
+
+.blkBldTxt,
+.redBldTxt {
+    font-weight: 700;
+}
+
+.redBldTxt {
+    color: #ed0000;
+}
+
+.PersonaliseSpace .PersVouchBasketContainer .ImgButWrap a {
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    padding: 20px 5px;
+    text-transform: uppercase;
+}
+
+.summaryheader .summaryTitleText {
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 0.66px;
+    text-transform: uppercase;
+}
+
+.summaryList .summaryListTitle,
+.summaryList .summaryListInfo,
+.summaryList .summaryListInfoPrice,
+.summaryTotal div,
+.delopeningText,
+.summaryListInfoPriSell,
+.summaryListInfoOrigPriSell,
+.form-group .labelGroup label,
+.welcomeSection input,
+.unexpected-error,
+.selectionOptions,
+.delcountryEdit a,
+.giftcardSection .selectionDescription h3,
+.promocodeSection .selectionDescription h3,
+.deliveryPrice div,
+.inputTickGroup input,
+.contactnumberInfo,
+.errorMessage,
+.changeLink,
+.errormessage p,
+.estimatedDateGroup,
+#footerStepMsg,
+.copyrightTextMob,
+.estimatedDateGroup .estimatedDateTitle {
+    font-family: Roboto-Regular, Lato, Arial, Helvetica, sans-serif;
+}
+
+.summaryPrice,
+.paymentSection .progressTitleSub {
+    font-family: Roboto-Regular, Lato, Arial, Helvetica, sans-serif;
+}
+
+.sectionGroup h1,
+.formCompleteCTA button,
+.summaryList .summaryListBrand,
+.summaryheader .summaryTitleText,
+.selectionDescription h3,
+.selectionOptions .estimatedDateGroup .estimatedDateValue,
+.paymentSection .progressTitleTop {
+    font-family: Roboto-Regular, Lato, Arial, Helvetica, sans-serif;
+}
+
+.summaryListInfoOrigPriSell {
+    font-weight: 400;
+}
+
+.summaryListInfo {
+    font-size: 11px;
+}
+
+.summaryListText {
+    width: calc(100% - 150px);
+}
+
+.selectionOptions .selectionDescription .SpendVoucher {
+    padding: 5px 15px 0 0;
+}
+
+.selectionOptions .deliveryDesc + .estimatedDateGroup {
+    list-style: none;
+}
+
+.estimatedDateGroup .estimatedDateValue {
+    font-weight: 700;
+}
+
+.CheckoutHeader .headerImg a img {
+    max-width: 138px;
+}
+
+#lblCategoryCopy .textDesc a {
+    color: var(--site-accent);
+}
+
+#CheckoutSpaRoot header .headerRightSecureCheckout .securePad,
+#CheckoutSpaRoot .securePad {
+    background-image: url(/images/core/secure.svg);
+    background-size: 100%;
+    background-position: 0 0 !important;
+}

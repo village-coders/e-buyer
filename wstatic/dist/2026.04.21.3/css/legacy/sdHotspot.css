@@ -1,0 +1,1188 @@
+#sdHotspot {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Arial, sans-serif;
+    font-size: 62.5%;
+    color: #fff;
+}
+
+.hotspotimage {
+    position: relative;
+}
+
+.hotspotTooltip {
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+}
+
+.hsText::before {
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+}
+
+.hsText.ltr-before::before {
+    border-left: 8px solid transparent;
+    top: 15px;
+    left: -8px;
+}
+
+.bgwhite.ltr-before::before {
+    border-top: 12px solid rgba(255, 255, 255, 0.9);
+}
+
+.bgblack.ltr-before::before {
+    border-top: 12px solid rgba(0, 0, 0, 0.8);
+}
+
+.hsText.rtl-before::before {
+    border-right: 8px solid transparent;
+    top: 15px;
+    right: -8px;
+}
+
+.bgwhite.rtl-before::before {
+    border-top: 12px solid rgba(255, 255, 255, 0.9);
+}
+
+.bgblack.rtl-before::before {
+    border-top: 12px solid rgba(0, 0, 0, 0.8);
+}
+
+.hsText.btt-before::before {
+    border-right: 12px solid transparent;
+    bottom: -8px;
+    left: 16px;
+}
+
+.bgwhite.btt-before::before {
+    border-top: 8px solid rgba(255, 255, 255, 0.9);
+}
+
+.bgblack.btt-before::before {
+    border-top: 8px solid rgba(0, 0, 0, 0.8);
+}
+
+.hsText.ttb-before::before {
+    border-right: 12px solid transparent;
+    top: -8px;
+    left: 16px;
+}
+
+.bgwhite.ttb-before::before {
+    border-bottom: 8px solid rgba(255, 255, 255, 0.9);
+}
+
+.bgblack.ttb-before::before {
+    border-bottom: 8px solid rgba(0, 0, 0, 0.8);
+}
+
+.hotspotTooltip .hsText {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    min-width: 440px;
+    transition:
+        left 0.25s ease-out,
+        opacity 0.25s ease-out,
+        right 0.25s ease-out,
+        bottom 0.25s ease-out,
+        top 0.25s ease-out;
+    z-index: -10;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    min-height: 15px;
+}
+
+.hsText p {
+    min-width: 200px;
+}
+
+.hotspotTooltip .ltr-before {
+    left: -3px;
+}
+
+.hotspotTooltip .rtl-before {
+    right: -60px;
+}
+
+.hotspotTooltip .ttb-before {
+    top: -3px;
+}
+
+.hotspotTooltip .btt-before {
+    bottom: -60px;
+}
+
+.ltr-slide {
+    opacity: 1 !important;
+    left: 45px !important;
+    padding: 0;
+}
+
+.rtl-slide {
+    opacity: 1 !important;
+    right: 13px !important;
+    padding: 0;
+}
+
+.btt-slide {
+    opacity: 1 !important;
+    bottom: 13px !important;
+    padding: 0;
+}
+
+.ttb-slide {
+    opacity: 1 !important;
+    top: 45px !important;
+    padding: 0;
+}
+
+.pass-ltr {
+    display: block;
+    float: right;
+    height: 50px;
+    left: 30px;
+    position: absolute;
+    width: 20px;
+}
+
+.pass-rtl {
+    display: block;
+    float: right;
+    height: 50px;
+    right: -30px;
+    position: absolute;
+    width: 50px;
+}
+
+.pass-btt {
+    display: block;
+    float: right;
+    height: 50px;
+    bottom: -30px;
+    position: absolute;
+    width: 40px;
+}
+
+.pass-ttb {
+    display: block;
+    float: right;
+    height: 20px;
+    top: 30px;
+    position: absolute;
+    width: 50px;
+}
+
+.hsHtmlContainer {
+    width: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.show .hsHtmlContainer {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}
+
+.hotspot_img .button {
+    width: 32px;
+    height: 32px;
+    float: left !important;
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+
+.hotspot_img .button:hover {
+    transform: scale(1.3);
+}
+
+.ip_img24 .button {
+    width: 24px;
+    height: 24px;
+    float: left !important;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+.bg32 .button {
+    width: 32px;
+    height: 32px;
+    float: left !important;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.ip_bg24 .button {
+    width: 24px;
+    height: 24px;
+    float: left !important;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    border-radius: 24px;
+}
+
+.bgblack {
+    background-color: rgba(25, 25, 25, 0.9);
+    border-radius: 5px;
+}
+
+.bgwhite {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    color: #000;
+}
+
+.hotspot_img .roundBgW {
+    height: 50px;
+    width: 50px;
+    left: -9px;
+    position: absolute;
+    top: -9px;
+}
+
+.hotspot_img .roundBgWIn {
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+
+.hotspot_img .roundBgWInner {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+}
+
+.ip_img24 .roundBgW {
+    height: 56px;
+    width: 56px;
+}
+
+.ip_img24 .roundBgWIn {
+    height: 44px;
+    width: 44px;
+}
+
+.ip_img24 .roundBgWInner {
+    height: 34px;
+    width: 34px;
+}
+
+.ip_bg24 .roundBgW {
+    height: 42px;
+    width: 42px;
+}
+
+.ip_bg24 .roundBgWIn {
+    height: 34px;
+    width: 34px;
+}
+
+.ip_bg24 .roundBgWInner {
+    height: 28px;
+    width: 28px;
+}
+
+.roundBgW {
+    border-radius: 30px;
+    position: absolute;
+    animation: pulseW 1.5s 1s infinite alternate;
+}
+
+.roundBgWIn {
+    border-radius: 30px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    animation: pulseWIn 1.5s 0.5s infinite alternate;
+}
+
+.roundBgWInner {
+    border-radius: 30px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    animation: pulseWInner 1.5s infinite alternate;
+}
+
+@keyframes pulseW {
+    from {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    to {
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+@keyframes pulseWIn {
+    from {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    to {
+        background: rgba(255, 255, 255, 0.3);
+    }
+}
+@keyframes pulseWInner {
+    from {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    to {
+        background: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.hotspot_img .roundBgB {
+    height: 50px;
+    width: 50px;
+    left: -9px;
+    position: absolute;
+    top: -9px;
+}
+
+.hotspot_img .roundBgBIn {
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+
+.hotspot_img .roundBgBInner {
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+}
+
+.ip_img24 .roundBgB {
+    height: 56px;
+    width: 56px;
+}
+
+.ip_img24 .roundBgBIn {
+    height: 44px;
+    width: 44px;
+}
+
+.ip_img24 .roundBgBInner {
+    height: 34px;
+    width: 34px;
+}
+
+.ip_bg24 .roundBgB {
+    height: 42px;
+    width: 42px;
+}
+
+.ip_bg24 .roundBgBIn {
+    height: 34px;
+    width: 34px;
+}
+
+.ip_bg24 .roundBgBInner {
+    height: 28px;
+    width: 28px;
+}
+
+.roundBgB {
+    border-radius: 30px;
+    position: absolute;
+    animation: pulseB 1.5s 1s infinite alternate;
+}
+
+.roundBgBIn {
+    border-radius: 30px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    animation: pulseBIn 1.5s 0.5s infinite alternate;
+}
+
+.roundBgBInner {
+    border-radius: 30px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    animation: pulseBInner 1.5s infinite alternate;
+}
+
+@keyframes pulseB {
+    from {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    to {
+        background: rgba(0, 0, 0, 0.2);
+    }
+}
+@keyframes pulseBIn {
+    from {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    to {
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
+@keyframes pulseBInner {
+    from {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    to {
+        background: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.moregold {
+    background: url("/images/Hotspot/moregold/button.png") no-repeat scroll left center transparent;
+}
+
+.moregrey {
+    background: url("/images/Hotspot/moregrey/button.png") no-repeat scroll left center transparent;
+}
+
+.moreblack {
+    background: url("/images/Hotspot/moreblack/button.png") no-repeat scroll left center transparent;
+}
+
+.moredarkblue {
+    background: url("/images/Hotspot/moredarkblue/button.png") no-repeat scroll left center transparent;
+}
+
+.moreblue {
+    background: url("/images/Hotspot/moreblue/button.png") no-repeat scroll left center transparent;
+}
+
+.morelightblue {
+    background: url("/images/Hotspot/morelightblue/button.png") no-repeat scroll left center transparent;
+}
+
+.morelightblue2 {
+    background: url("/images/Hotspot/morelightblue2/button.png") no-repeat scroll left center transparent;
+}
+
+.morewatergreen {
+    background: url("/images/Hotspot/morewatergreen/button.png") no-repeat scroll left center transparent;
+}
+
+.morelightgreen {
+    background: url("/images/Hotspot/morelightgreen/button.png") no-repeat scroll left center transparent;
+}
+
+.moregreen {
+    background: url("/images/Hotspot/moregreen/button.png") no-repeat scroll left center transparent;
+}
+
+.moreyellow {
+    background: url("/images/Hotspot/moreyellow/button.png") no-repeat scroll left center transparent;
+}
+
+.moreorange {
+    background: url("/images/Hotspot/moreorange/button.png") no-repeat scroll left center transparent;
+}
+
+.morered {
+    background: url("/images/Hotspot/morered/button.png") no-repeat scroll left center transparent;
+}
+
+.morepurple {
+    background: url("/images/Hotspot/morepurple/button.png") no-repeat scroll left center transparent;
+}
+
+.moreviolet {
+    background: url("/images/Hotspot/moreviolet/button.png") no-repeat scroll left center transparent;
+}
+
+.morelightviolet {
+    background: url("/images/Hotspot/morelightviolet/button.png") no-repeat scroll left center transparent;
+}
+
+.morefucsia {
+    background: url("/images/Hotspot/morefucsia/button.png") no-repeat scroll left center transparent;
+}
+
+.beadgold {
+    background: url("/images/Hotspot/beadgold/button.png") no-repeat scroll left center transparent;
+}
+
+.beadgrey {
+    background: url("/images/Hotspot/beadgrey/button.png") no-repeat scroll left center transparent;
+}
+
+.beadblack {
+    background: url("/images/Hotspot/beadblack/button.png") no-repeat scroll left center transparent;
+}
+
+.beaddarkblue {
+    background: url("/images/Hotspot/beaddarkblue/button.png") no-repeat scroll left center transparent;
+}
+
+.beadblue {
+    background: url("/images/Hotspot/beadblue/button.png") no-repeat scroll left center transparent;
+}
+
+.beadlightblue {
+    background: url("/images/Hotspot/beadlightblue/button.png") no-repeat scroll left center transparent;
+}
+
+.beadlightblue2 {
+    background: url("/images/Hotspot/beadlightblue2/button.png") no-repeat scroll left center transparent;
+}
+
+.beadwatergreen {
+    background: url("/images/Hotspot/beadwatergreen/button.png") no-repeat scroll left center transparent;
+}
+
+.beadlightgreen {
+    background: url("/images/Hotspot/beadlightgreen/button.png") no-repeat scroll left center transparent;
+}
+
+.beadgreen {
+    background: url("/images/Hotspot/beadgreen/button.png") no-repeat scroll left center transparent;
+}
+
+.beadyellow {
+    background: url("/images/Hotspot/beadyellow/button.png") no-repeat scroll left center transparent;
+}
+
+.beadorange {
+    background: url("/images/Hotspot/beadorange/button.png") no-repeat scroll left center transparent;
+}
+
+.beadred {
+    background: url("/images/Hotspot/beadred/button.png") no-repeat scroll left center transparent;
+}
+
+.beadpurple {
+    background: url("/images/Hotspot/beadpurple/button.png") no-repeat scroll left center transparent;
+}
+
+.beadviolet {
+    background: url("/images/Hotspot/beadviolet/button.png") no-repeat scroll left center transparent;
+}
+
+.beadlightviolet {
+    background: url("/images/Hotspot/beadlightviolet/button.png") no-repeat scroll left center transparent;
+}
+
+.beadfucsia {
+    background: url("/images/Hotspot/beadfucsia/button.png") no-repeat scroll left center transparent;
+}
+
+.ipic-orange {
+    background-image: linear-gradient(to top, rgb(241, 152, 55) 8%, rgb(255, 183, 83) 54%);
+}
+
+#hotspot-modal-background {
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5950 !important;
+}
+
+#hotspot-html-modal-background {
+    background: #444;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5950 !important;
+}
+
+.hotspot-close {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    background: url("/images/core/closedbutton.png") no-repeat 5px 5px #333 !important;
+    border: 2px solid #fff;
+}
+
+.hotspot-close:hover {
+    background-color: #666 !important;
+}
+
+.hotspot-html-close {
+    width: 26px;
+    height: 26px;
+    text-indent: -9999px;
+    float: right;
+    cursor: pointer;
+    background: url("/images/core/closedbutton.png") no-repeat 5px 5px #333 !important;
+    border: 2px solid #fff;
+    margin: 0 !important;
+}
+
+.hotspot-html-close:hover {
+    background-color: #666 !important;
+}
+
+.PinWrapGroup {
+    overflow-y: auto;
+    padding: 15px;
+    height: 336px;
+    max-height: 336px;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.hsAltImageSwiper {
+    padding-bottom: 15px;
+}
+
+.hsAltImageSwiper.hideControls .swiper-pagination,
+.hsAltImageSwiper.hideControls .swiper-button-prev,
+.hsAltImageSwiper.hideControls .swiper-button-next {
+    display: none;
+}
+
+.PinWrapText #hsPriceWrapper {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+#hsFrom {
+    float: left;
+    padding: 9px 5px 0 0;
+}
+
+#hsPrice {
+    text-align: right;
+    font-size: 2.2em;
+    float: left;
+    padding-right: 10px;
+    line-height: 1.1em;
+}
+
+#hsAdditionalPriceLabel {
+    float: left;
+    font-size: 1em;
+    padding-top: 3px;
+    padding-right: 5px;
+    line-height: 1.68em;
+}
+
+#hsRefPrice {
+    text-decoration: line-through;
+    float: left;
+    font-size: 1.2em;
+    padding-top: 3px;
+}
+
+.hsSizeLabel {
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+    float: left;
+}
+
+.sizeGuideLink {
+    float: right;
+    padding-bottom: 20px;
+    letter-spacing: 0.05em;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-align: right;
+}
+
+.sizeGuideLink a:hover {
+    text-decoration: underline;
+}
+
+.hsColourSelection,
+.hsSizeSelection {
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.hsColourSelection {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.hsColourSelection .hsVariantButtons,
+.hsSizeSelection .hsVariantButtons {
+    width: 100%;
+    float: left;
+}
+
+.hsColourDesc {
+    padding-bottom: 15px;
+}
+
+.ColourLabel {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.ColourDesc {
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+
+.PinWrapText select {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 37px;
+}
+
+.PinWrapText select:focus {
+    border: 1px solid rgba(2, 139, 255, 0.5);
+    box-shadow: 0 0 3px 0 rgba(2, 139, 255, 0.4);
+}
+
+.PinWrapPrice > div {
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.PinWrapPrice .PinPrice {
+    font-size: 1.8em;
+    color: #fff;
+    text-align: right;
+    font-weight: bold;
+}
+
+.PinWrapBut #hsAddToBagWrapper,
+.addToBasketContainer .ImgButWrap,
+.ImgButWrap a {
+    width: 100%;
+    text-align: center;
+}
+
+#hsAddToBagContainer,
+#hsAddToWishListContainer {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#hsAddToBagContainer a,
+#hsAddToWishListContainer a {
+    padding: 15px 5px;
+}
+
+.hotspotimage img {
+    width: 100%;
+}
+
+p.hsbuttontext {
+    white-space: nowrap;
+    position: absolute;
+    left: 145%;
+    font-size: 1.6em;
+    top: 8%;
+    background: rgba(256, 256, 256, 0.8);
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    font-weight: bold;
+}
+
+#hotspotModal .modal-dialog {
+    width: 100%;
+    max-width: 692px;
+}
+
+#hotspotModal .modal-body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 20px 20px;
+}
+
+#hotspotModal .modal-header {
+    background: none;
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+}
+
+#hotspotModal .close {
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+}
+
+#hotspotModal h2 {
+    padding: 15px 0;
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
+
+#hsViewProduct a {
+    color: #000;
+    font-size: 1.2em;
+}
+
+#hsViewProduct a:hover {
+    text-decoration: underline;
+}
+
+#hsViewProduct {
+    text-align: center;
+}
+
+.modal-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s;
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+.hsViewProduct {
+    text-align: right;
+    text-decoration: underline;
+}
+
+.hsViewProduct a {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.hsViewProduct a:hover {
+    text-decoration: underline;
+}
+
+#hsFlnPrice {
+    text-align: right;
+    font-size: 1.2em;
+    float: left;
+    padding-right: 10px;
+}
+
+.hsHr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: 1px solid #aaa;
+}
+
+.hotspotbuy.hotspotwishlist,
+.hotspotbuy.hotspotquickbuy {
+    position: absolute;
+    right: 5px;
+    left: auto;
+    bottom: 0;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.hotspotbuy.hotspotwishlist .wishListSVG {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotspotbuy.hotspotwishlist .wishListSVG svg {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.WishListContain a:hover svg path,
+.WishListContain a:focus svg path {
+    stroke: #000;
+}
+
+.WishListContain .addedWishList a:hover svg path {
+    stroke: #5c5c5c;
+    fill: #5c5c5c;
+}
+
+.hotspotbuy.hotspotquickbuy {
+    bottom: 25px;
+    clear: left;
+}
+
+.columns4 .hotspotbuy.hotspotquickbuy,
+.columns4 .hotspotbuy.hotspotwishlist {
+    right: 9px;
+}
+
+.columns3 .hotspotbuy.hotspotquickbuy,
+.columns3 .hotspotbuy.hotspotwishlist {
+    right: 11px;
+}
+
+.QuickLookIcon,
+.WishIcon {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.QuickLookIcon:hover {
+    background-position: -54px -201px;
+}
+
+span.WishText,
+span.QuickLookText {
+    display: none;
+}
+
+.hotspotbuy .QuickLookIcon,
+.hotspotbuy .WishIcon {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.WishIcon {
+    background-position: -16px -47px;
+}
+
+.hotspotbuy .WishIcon {
+    background-position: -14px -49px;
+}
+
+.hotspotbuy .WishIcon:hover {
+    background-position: -54px -49px;
+}
+
+#lblWishListCount {
+    position: absolute;
+    left: 13px;
+    top: 0;
+    line-height: 1em;
+    background-color: #d54d4d;
+    color: #fff;
+    border-radius: 100%;
+    width: 1.3em;
+    height: 1.3em;
+    padding-top: 0.15em;
+}
+
+.hsVariantHighlight a {
+    border: 1px solid #999 !important;
+}
+
+.hsVariantHighlight::before {
+    content: "";
+    position: absolute;
+    z-index: 4880 !important;
+    right: 0;
+    border-color: #aaa #888 transparent transparent;
+    border-style: solid;
+    border-width: 8px;
+    width: 0;
+    height: 0;
+    top: 0;
+}
+
+.hsVariantButtons {
+    width: 100%;
+    float: left;
+}
+
+.hsVariantButtons li {
+    min-width: 70px;
+    float: left;
+    margin: 5px;
+    background-color: #fff;
+    height: 48px;
+    position: relative;
+    text-align: center;
+}
+
+.hsColourSelection .hsVariantButtons li {
+    min-width: 0;
+    width: 52px;
+    height: 52px;
+}
+
+.hsVariantButtons li a {
+    padding: 3px;
+    display: block;
+    line-height: 3.25em;
+    height: 100%;
+    width: 100%;
+    min-width: 48px;
+    border: 1px solid #ddd;
+    color: #636363;
+}
+
+.hsColourSelection .hsVariantButtons li a {
+    min-width: 0;
+    padding: 0;
+}
+
+.hsVariantButtons li a:hover {
+    border: 1px solid #999;
+}
+
+.hsColourSelection .hsVariantButtons li a img {
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.hsVariantButtons li.greyOut a {
+    opacity: 0.8;
+    background: url("/images/core/thisline.png") no-repeat scroll center center rgba(200, 200, 200, 0.4);
+    border: 1px solid #ccc;
+    cursor: default;
+}
+
+.PinWrapImage {
+    position: relative;
+}
+
+.PinImage {
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    left: 5px;
+    width: calc(100% - 10px);
+}
+
+.PinImage a {
+    display: block;
+}
+
+.PinImageHeightEnforcer {
+    padding-top: 100%;
+}
+
+@media (max-width: 767px) {
+    .PinWrapImage {
+        max-width: 200px;
+    }
+
+    .hsAltImageSwiper img {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .columnsmobile1 .hotspotbuy.hotspotquickbuy,
+    .columnsmobile1 .hotspotbuy.hotspotwishlist,
+    .columnsmobile2 .hotspotbuy.hotspotquickbuy,
+    .columnsmobile2 .hotspotbuy.hotspotwishlist {
+        right: 0;
+    }
+
+    .PinImage {
+        padding: 0;
+    }
+
+    #hotspotModal .modal-dialog {
+        max-width: 90%;
+    }
+}
+
+.rollUpVariantsDropdown {
+    padding: 0;
+
+    #input {
+        position: relative;
+        width: 100%;
+        border-radius: 0;
+        border: 1px solid #999;
+        padding: 10px;
+        font-size: 14px;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    }
+
+    #selectives {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        top: 42px;
+        background-color: #fff;
+        z-index: 999;
+        display: none;
+
+        ul {
+            margin-top: 0;
+            list-style-type: none;
+            text-align: left;
+
+            li {
+                width: 100%;
+                border-color: #f2f2f2;
+                border-style: solid;
+                border-width: 1px;
+                padding: 10px;
+                font-size: 14px;
+                border-bottom: 0;
+                border-top: 0;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                }
+
+                &:last-child {
+                    border-bottom: 1px solid #f2f2f2;
+                    border-top: 0;
+                }
+
+                &:hover {
+                    background-color: #f3f3f3;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

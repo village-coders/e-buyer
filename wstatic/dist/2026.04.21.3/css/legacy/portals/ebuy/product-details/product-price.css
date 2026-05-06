@@ -1,0 +1,20 @@
+.sdDetails .AltProdDet .pdpPriceRating {
+    padding: 0 0 calc(var(--padding-unit) * 6);
+
+    .pdpPrice {
+        #lblSellingPrice {
+            font-size: calc(var(--subtitle-font-size) - 2px);
+            font-weight: var(--font-weight-bold);
+            letter-spacing: var(--default-letter-spacing);
+
+            &.productHasRef {
+                color: var(--site-red);
+            }
+        }
+    }
+
+    #TicketPriceDiv2 {
+        font-size: calc(var(--subtitle-font-size) - 2px);
+        color: var(--site-dark-grey);
+    }
+}

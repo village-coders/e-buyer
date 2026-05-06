@@ -1,0 +1,578 @@
+.ZoomBody {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.PinchToZoomMessage {
+    text-align: center;
+}
+
+#container {
+    color: #fff;
+}
+
+#zoomInstructions p {
+    text-align: center;
+    color: #7c7c7c;
+    margin: 0 0 5px;
+}
+
+#thumbList {
+    max-height: 612px;
+    padding: 0;
+    width: 100%;
+    overflow-y: auto;
+    margin: 0;
+}
+
+#thumbList li {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 10px;
+}
+
+#thumbList li a {
+    display: block;
+    border: 1px solid #aaa;
+}
+
+#thumbList li a:hover,
+#thumbList .activeThumb {
+    border: 1px solid #666;
+}
+
+#thumbList li img {
+    max-width: 100%;
+}
+
+#thumbs img#prevThumbButton,
+#thumbs img#nextThumbButton {
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+#zoomWrapper {
+    display: flex;
+    position: relative;
+}
+
+#zoomWrapper .main_image_container {
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+#thumbs#aThumb3 img {
+    margin-bottom: 5px;
+}
+
+#imgProductZoom {
+    display: block;
+    width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .ZoomBody #thumbs {
+        width: 102px;
+    }
+
+    .ZoomBody .zoomGroup {
+        width: calc(100% - 102px);
+        float: right;
+    }
+}
+
+.popupFullscreen-open {
+    overflow: hidden;
+}
+.popupFullscreen-open .modal-backdrop {
+    display: none;
+}
+
+.modal.popupFullscreen {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+.popupFullscreen-open .modal.popupFullscreen {
+    opacity: 1;
+}
+
+.modal.popupFullscreen .modal-header {
+    background-color: transparent;
+    border: none;
+    height: auto;
+    position: fixed;
+    right: 0;
+    z-index: 3;
+}
+
+.modal.popupFullscreen .modal-header > div {
+    display: none;
+}
+.modal.popupFullscreen .close {
+    background-color: #fff !important;
+    border-radius: 50%;
+    top: 40px;
+    right: 25px;
+}
+.popupFullscreen .modal-dialog {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.popupFullscreen .modal-content {
+    border: none;
+}
+
+.popupFullscreen .modal-body {
+    height: 100vh;
+    overflow: auto;
+    z-index: 1;
+    padding: 0;
+}
+
+.popupFullscreen .ZoomBody ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popupFullscreen .ZoomBody ul li {
+    border-top: 2px solid #f8f8f8;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.popupFullscreen .ZoomBody ul li:first-child {
+    border-top: none;
+}
+
+.popupFullscreen .easyzoom.is-ready img {
+    cursor: url("/images/core/zoom-full-icon.png"), crosshair;
+}
+
+/*
+ * .imgdot-zoom comes from ImageGrid.cshtml, rest of styling is in:
+ * SharedResources/static/css/templates/templated-SD-LV8.css
+ */
+.popupFullscreen .easyzoom-crosshair::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("/images/core/zoom-plus-icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+}
+
+.imgdot-zoom {
+    display: none;
+}
+
+.productImage.productImageGrid.hasProductFullscreen .imgdot-zoom,
+.productImage.productTwoImageCarousel.hasProductFullscreen .imgdot-zoom {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-in 0.3s;
+    pointer-events: none;
+    border-radius: 0;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.imgdot-zoom .global-icon.global-icon-zoom {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupFullscreen .ZoomBody img.thumb {
+    max-width: 850px;
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+.popupLargeZoom .modal-dialog {
+    width: 100%;
+    max-width: 870px;
+}
+
+.popupLargeZoom .modal-body {
+    max-height: 100%;
+    width: 100%;
+    height: 718px;
+    max-width: 870px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.popupSmallZoom .modal-dialog {
+    max-height: 767px;
+    width: 100%;
+    max-width: 620px;
+}
+
+.popupSmallZoom .modal-body {
+    height: 721px;
+    max-height: 721px;
+    width: 100%;
+    max-width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.popupSizes .modal-dialog {
+    max-height: 767px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.popupSizes .modal-body {
+    height: 721px;
+    max-height: 721px;
+    width: 100%;
+    max-width: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.popupThreesixty .modal-dialog,
+.popupFrame360 .modal-dialog {
+    max-height: 676px;
+    width: 100%;
+    max-width: 620px;
+}
+
+.popupFrame360 .modal-dialog {
+    max-width: 632px;
+    max-height: 647px;
+}
+
+.popupThreesixty .modal-body,
+.popupFrame360 .modal-body {
+    height: 630px !important;
+    max-height: 630px !important;
+    width: 100%;
+    max-width: 620px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.popupFrame360 .modal-body {
+    height: 596px !important;
+    max-height: 596px !important;
+    width: 100%;
+    max-width: 630px;
+    overflow: hidden;
+}
+
+.popupFrame360.popupFullscreen {
+    background-color: #fff;
+}
+
+.popupFrame360.popupFullscreen .modal-dialog {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.popupFrame360.popupFullscreen .modal-content {
+    height: 100%;
+}
+
+.popupFrame360.popupFullscreen .modal-body {
+    max-width: 100%;
+    max-height: 100% !important;
+    height: 100% !important;
+}
+
+.popupFrame360.popupFullscreen .threesixty .threesixty_images img {
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+#PromotionDetailModal .modal-header {
+    padding: 0;
+    height: 28px;
+    background-color: #fff;
+    border: none;
+}
+
+#PromotionDetailModal .modal-header .text-center {
+    display: none;
+}
+
+#promotion-ui .promotionPopDetails {
+    font-size: 1.2em;
+}
+
+#promotion-ui .promotionPopDetails .promoTitle,
+#promotion-ui .promotionPopDetails .promoProductBrand {
+    font-size: 1.3em;
+}
+
+#promotion-ui .promotionPopDetails .promoProductName {
+    margin-bottom: 20px;
+}
+
+#promotion-ui .promotionPopDetails .promoProductColour {
+    margin-top: 20px;
+}
+
+#promotion-ui .promotionPopDetails span,
+#promotion-ui .promotionPopDetails a {
+    display: block;
+    text-align: center;
+}
+
+#promotion-ui .promotionPopDetails .promoTitle,
+#promotion-ui .promotionPopDetails .promoProductBrand,
+#promotion-ui .promotionPopDetails .promoProductColour,
+#promotion-ui .promotionPopDetails .promoProductSize,
+#promotion-ui .promotionPopDetails .promoMsg,
+#promotion-ui .promotionPopDetails .promoOfferCTA {
+    font-weight: bold;
+}
+
+#promotion-ui .promotionPopDetails .promoMsg {
+    background-color: #efefef;
+    padding: 7px;
+    margin: 30px 0 0;
+}
+
+#promotion-ui .promotionPopDetails .promoOfferCTA {
+    margin: 20px auto 10px;
+    padding: 12px 10px;
+    max-width: 220px;
+}
+
+@media (min-width: 768px) {
+    .popupFullscreen .ZoomBody ul li {
+        border-top-width: 8px;
+        padding: 40px 0;
+    }
+
+    #PromotionDetailModal .modal-dialog {
+        width: 750px;
+    }
+
+    #productImages
+        #productImageContainer
+        .productImage.productImageGrid.hasProductFullscreen
+        .innerImageContainer
+        a:hover
+        .imgdot-zoom,
+    #productImages
+        #productImageContainer
+        .productImage.productTwoImageCarousel.hasProductFullscreen
+        .innerImageContainer
+        a:hover
+        .imgdot-zoom {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .popupFrame360 .modal-dialog {
+        max-height: 619px;
+    }
+
+    .popupFrame360 .modal-body {
+        height: 568px !important;
+        max-height: 568px !important;
+    }
+
+    #PromotionDetailModal .modal-header {
+        background-color: #efefef;
+    }
+
+    #PromotionDetailModal .modal-body {
+        padding-top: 46px;
+    }
+
+    #promotion-ui img {
+        max-width: 140px;
+        margin: 15px auto;
+    }
+
+    #promotion-ui .promotionPopDetails {
+        position: static;
+    }
+
+    #promotion-ui .promotionPopDetails .gwpProductName {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #efefef;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    #promotion-ui .promotionPopDetails .promoTitle {
+        font-size: 1.1em;
+    }
+
+    #promotion-ui .promotionPopDetails .promoProductBrand,
+    #promotion-ui .promotionPopDetails .promoProductName {
+        display: inline-block;
+        font-size: 1em;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    #promotion-ui .promotionPopDetails .promoProductColour,
+    #promotion-ui .promotionPopDetails .promoMsg {
+        margin-top: 15px;
+    }
+
+    #promotion-ui .promotionPopDetails .promoMsg {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    #promotion-ui .promotionPopDetails .promoOfferCTA {
+        max-width: 100%;
+        margin: 20px 0 10px;
+    }
+}
+
+@media (max-width: 525px) {
+    .popupFrame360 .modal-dialog {
+        max-height: 553px;
+    }
+
+    .popupFrame360 .modal-body {
+        height: 502px !important;
+        max-height: 502px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .popupFrame360 .modal-dialog {
+        max-height: 481px;
+    }
+
+    .popupFrame360 .modal-body {
+        height: 435px !important;
+        max-height: 435px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .popupFrame360 .modal-dialog {
+        max-height: 420px;
+    }
+
+    .popupFrame360 .modal-body {
+        height: 369px !important;
+        max-height: 369px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .popupFrame360 .modal-dialog {
+        max-height: 371px;
+    }
+
+    .popupFrame360 .modal-body {
+        height: 320px !important;
+        max-height: 320px !important;
+    }
+}
+
+.popupHeroProduct .modal-dialog {
+    max-height: 478px;
+    width: 100%;
+    max-width: 585px;
+}
+
+.popupHeroProduct .modal-body {
+    height: 432px;
+    max-height: 432px;
+    width: 100%;
+    max-width: 585px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#PopUpModalSmall .modal-dialog {
+    max-height: 326px;
+    width: 80%;
+    max-width: 420px;
+}
+
+#PopUpModalSmall .modal-body {
+    height: 280px;
+    max-height: 280px;
+    width: 100%;
+    max-width: 420px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.popupVideo .modal-dialog {
+    max-height: 476px;
+    width: 100%;
+    max-width: 672px;
+}
+
+.popupVideo .modal-body {
+    max-height: 430px;
+    height: 430px;
+    width: 100%;
+    max-width: 672px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#SocialModal .modal-dialog {
+    width: 100%;
+    max-height: 246px;
+    max-width: 400px;
+}
+
+#SocialModal .modal-body {
+    height: 200px;
+    max-height: 200px;
+    width: 100%;
+    max-width: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 1021px) {
+    .popupLargeZoom .modal-body {
+        height: 870px;
+        max-height: 100%;
+    }
+}

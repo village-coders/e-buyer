@@ -1,0 +1,110 @@
+.esd-product-modal-dialog {
+    translate: 0 -50%;
+    top: 50%;
+    max-width: 400px;
+    margin-top: 0 !important;
+
+    .modal-body {
+        padding: 16px;
+        min-height: 222px;
+    }
+
+    &.is-add-to-wishlist {
+        .esd-cta-bag {
+            display: none;
+        }
+    }
+
+    &.is-add-to-bag {
+        .esd-cta-wishlist {
+            display: none;
+        }
+    }
+}
+
+.esd-loading:before {
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    inset: 0;
+}
+
+.esd-loading:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 50px);
+    translate: -50% 0;
+    width: 48px;
+    height: 48px;
+    border: 5px solid var(--esd-loader-color, #000);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.esd-container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    .esd-row {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        &.esd-validation-row label {
+            color: var(--validation-color, #ff0000);
+        }
+    }
+
+    .esd-label label {
+        font-weight: var(--personalisation-modal-label-font-weight, normal);
+    }
+
+    .esd-label,
+    .esd-input {
+        width: 100%;
+    }
+
+    .esd-input input {
+        width: 100%;
+        padding: 10px 5px;
+        border: 1px solid var(--input-border-color, #5e5e5e);
+        border-radius: 4px;
+        outline: none !important;
+    }
+
+    .esd-cta {
+        border-radius: 4px;
+        padding: 16px;
+        background-color: var(--personalisation-modal-cta-background-color, #000);
+        color: var(--personalisation-modal-cta-color, #fff);
+        border: 1px solid var(--personalisation-modal-cta-border-color, #fff);
+        font-weight: var(--personalisation-modal-cta-font-weight, 700);
+        font-size: 16px;
+
+        &:hover {
+            background-color: var(--personalisation-modal-cta-hover-background-color, #fff);
+            color: var(--personalisation-modal-cta-hover-color, #000);
+            border-color: var(--personalisation-modal-cta-hover-border-color, #000);
+        }
+
+        &.disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    }
+}

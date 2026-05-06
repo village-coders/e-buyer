@@ -1,0 +1,221 @@
+.FrasersPlusContainer div[class*="FrasersPlusBlock_root"],
+.frasers-plus-basket-container div[class*="FrasersPlusBlock_root"] {
+    padding: 0 !important;
+}
+
+.FrasersPlusContainer .frasersplus-cobrand,
+.frasers-plus-basket-container .frasersplus-cobrand {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 10px !important;
+}
+
+.FrasersPlusContainer div[class*="FrasersPlusBanner_logo"],
+.frasers-plus-basket-container div[class*="FrasersPlusBanner_logo"] {
+    margin-top: 15px !important;
+}
+
+.FrasersPlusContainer div[class*="FrasersPlusBanner_asset"] {
+    width: 100% !important;
+    position: absolute !important;
+    left: 35% !important;
+}
+
+.frasers-plus-basket-container div[class*="FrasersPlusBanner_asset"] {
+    position: absolute !important;
+    left: 30% !important;
+    width: 100% !important;
+}
+
+.FrasersPlusContainer div[class*="FrasersPlusBanner_info"],
+.frasers-plus-basket-container div[class*="FrasersPlusBanner_info"] {
+    order: 2 !important;
+}
+
+.FrasersPlusContainer div[class*="FrasersPlusBanner_info"] span[class*="FrasersPlusBanner_apr"],
+.frasers-plus-basket-container div[class*="FrasersPlusBanner_info"] span[class*="FrasersPlusBanner_apr"] {
+    line-height: 0 !important;
+}
+
+.frasers-plus-homepage-placement button[class*="Modal_backdrop"],
+.FrasersPlusContainer button[class*="Modal_backdrop"],
+.frasers-plus-basket-container button[class*="Modal_backdrop"],
+.frasers-plus-wishlist button[class*="Modal_backdrop"] {
+    background-color: transparent !important;
+}
+
+.frasers-plus-homepage-placement button[class*="Button_primary"],
+.FrasersPlusContainer button[class*="Button_primary"],
+.frasers-plus-basket-container button[class*="Button_primary"],
+.frasers-plus-wishlist button[class*="Button_primary"] {
+    background-color: var(--bg-color) !important;
+}
+
+.FlanProdDet .FrasersPlusContainer div[class*="Modal_root"] {
+    z-index: 9999 !important;
+}
+
+.FlanProdDet .FrasersPlusContainer div[class*="FrasersPlusBanner_title"] {
+    color: #fff !important;
+}
+
+.FlanProdDet .FrasersPlusContainer div[class*="Modal_closeButton"] {
+    background-color: transparent !important;
+}
+
+.plp-advert-placement {
+    display: list-item;
+    list-style-type: disc;
+    width: auto;
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 1440px) {
+    .plp-advert-placement {
+        max-width: 25%;
+        flex-basis: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .plp-advert-placement {
+        max-width: 33.333333%;
+        flex-basis: 33.333333%;
+    }
+
+    .plp-advert-placement div[class*="FrasersPlusBlock_root"] {
+        padding: 0 5px 10px !important;
+    }
+
+    .plp-advert-placement .frasersplus-cobrand {
+        padding: 0 5px 10px !important;
+    }
+}
+
+.plp-advert-placement div[class*="FrasersPlusBlock_root"] {
+    padding: 0 15px 10px !important;
+}
+
+.plp-advert-placement .frasersplus-cobrand {
+    flex-direction: column !important;
+    align-items: center;
+    padding: 0 10px 10px !important;
+    gap: 10px !important;
+}
+
+.plp-advert-placement div[class*="FrasersPlusBanner_asset"] {
+    position: relative !important;
+    order: 1 !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    inset-inline-end: 0 !important;
+    inset-block-start: 0 !important;
+    inset-block-end: 0 !important;
+}
+
+.plp-advert-placement div[class*="FrasersPlusBanner_assetPosition"] {
+    position: relative !important;
+    min-width: 75% !important;
+}
+
+.plp-advert-placement div[class*="FrasersPlusBanner_logo"] {
+    order: 2 !important;
+    margin-block: -15% 0 !important;
+}
+
+.plp-advert-placement div[class*="FrasersPlusBanner_info"] {
+    display: block !important;
+    order: 3 !important;
+    text-align: center;
+    min-width: 100% !important;
+    max-width: 100% !important;
+
+    span {
+        font-size: 14px !important;
+        padding: 0 !important;
+    }
+}
+
+.plp-advert-placement h2[class*="FrasersPlusBanner_title"] {
+    padding-bottom: 10px !important;
+    padding-right: 0 !important;
+    font-size: calc(0.55vh + 0.55vw + 0.55vmin) !important;
+}
+
+.plp-advert-placement div[class*="FrasersPlusBanner_actions"] {
+    justify-content: center;
+}
+
+.plp-advert-placement section {
+    position: relative;
+    height: 100%;
+}
+
+.plp-advert-placement br {
+    display: contents;
+}
+
+.plp-advert-placement button[class*="Modal_backdrop"] {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.plp-advert-placement div[class*="FrasersPlusModal_content"] {
+    width: 100%;
+}
+
+.plp-advert-placement div[class*="Typography_subheading1"] {
+    position: absolute;
+    left: 0;
+}
+
+.plp-advert-placement img[class*="FrasersPlusModal_image"] {
+    width: 70% !important;
+    inset-inline-end: -75px !important;
+    inset-block-start: -70px !important;
+}
+
+.plp-advert-placement div[class*="FrasersPlusModal_headingContainer"] {
+    padding-top: var(--spacing-12) !important;
+}
+
+.plp-advert-placement ul[class*="FrasersPlusModal_list"] {
+    font-size: 16px;
+    gap: var(--spacing-4) !important;
+}
+
+.plp-advert-placement a[class*="Link_root"] {
+    background-color: var(--fp-light-purple);
+    border-color: var(--fp-light-purple);
+}
+
+.plp-advert-placement p[class*="FrasersPlusModal_paragraph"] {
+    font-size: 16px;
+
+    br {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .plp-advert-placement {
+        max-width: 50%;
+        flex-basis: 50%;
+        margin: 0 0 16px;
+        padding: 0;
+    }
+
+    .plp-advert-placement div[class*="FrasersPlusBlock_root"] {
+        padding: 0 !important;
+    }
+
+    .plp-advert-placement div[class*="FrasersPlusBanner_info"] h2 {
+        font-size: calc(0.95vh + 0.95vw + 0.95vmin) !important;
+    }
+
+    .plp-advert-placement div[class*="FrasersPlusBanner_info"] span {
+        font-size: 12px !important;
+    }
+}

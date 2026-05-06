@@ -1,0 +1,1654 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+html {
+    font-size: 100%;
+    text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+select,
+input {
+    background-color: #fff;
+}
+
+select:disabled,
+input:disabled {
+    border: 1px solid #eee;
+    background-color: #f5f5f5;
+}
+
+body {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 11px;
+    background-image: none;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: thin dotted;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+dfn {
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    margin: 1em 0;
+    padding: 0;
+}
+
+ins {
+    text-decoration: none;
+}
+
+mark {
+    font-style: italic;
+    font-weight: bold;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: none;
+}
+
+q::before,
+q::after {
+    content: none;
+}
+
+small {
+    font-size: 85%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+button,
+input {
+    line-height: normal;
+    border-radius: 0;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+    appearance: none;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="search"] {
+    appearance: none;
+    box-sizing: border-box;
+}
+
+.Profile,
+.Registration,
+.Login {
+    label,
+    select {
+        font-size: 16px;
+        min-height: 44px;
+
+        @media (min-width: 1022px) {
+            font-size: 14px;
+            min-height: 0;
+        }
+    }
+}
+
+input[type="search"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    font-size: 16px;
+
+    @media (min-width: 1022px) {
+        font-size: 14px;
+    }
+}
+
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    min-height: 44px;
+
+    @media (min-width: 1022px) {
+        min-height: 0;
+    }
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    vertical-align: top;
+}
+
+iframe {
+    display: block;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    padding: 0.2em 0;
+}
+
+.dnnadminmega .megaborder {
+    width: 515px !important;
+    top: 34px !important;
+}
+
+#dnnCommonTasks .megaborder {
+    width: 275px !important;
+    min-width: 275px !important;
+}
+
+.dnnadminmega li.root {
+    margin: 0 !important;
+}
+
+#ControlBar,
+#ControlBar ul,
+#ControlBar li,
+#ControlBar a,
+#ControlBar p {
+    box-sizing: content-box;
+}
+
+.subNav.advanced dl ul li {
+    min-width: 100px;
+    width: 100px;
+}
+
+#RibbonBar_adminMenus > ul > li > a,
+#dnn_cp_RibbonBar_adminMenus > ul > li > a,
+#dnn_RibbonBar_adminMenus > ul > li > a {
+    display: block;
+    padding: 9px 16px;
+    text-decoration: none;
+    color: #444;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+    border-right: 1px solid #aaa;
+    border-left: 1px solid #eee;
+}
+
+#RibbonBar_adminMenus > ul > li > a:hover,
+#dnn_cp_RibbonBar_adminMenus > ul > li > a:hover,
+#dnn_RibbonBar_adminMenus > ul > li > a:hover {
+    color: #333;
+    background: linear-gradient(to top, #f2f2f2 0%, #c4c4c4 100%);
+}
+
+#RibbonBar_adminMenus > ul,
+#dnn_cp_RibbonBar_adminMenus > ul,
+#dnn_RibbonBar_adminMenus > ul {
+    height: 35px;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #aaa;
+}
+
+#dnnCPWrap input[type="text"] {
+    padding: 3px !important;
+}
+
+#dnnCurrentPage .dnnCPPageList,
+.dnnFormCheckbox input,
+.cbctAddModule a.dnnPrimaryAction,
+#dnnCurrentPage .dnnFormCheckbox {
+    margin-left: 0 !important;
+}
+
+.cbctAddModule .dnnClear,
+.cbctAddPage,
+.cbcpPageEdit {
+    width: 240px !important;
+}
+
+.max-1210 {
+    max-width: 1210px;
+}
+
+.max-1012 {
+    max-width: 1012px;
+}
+
+.max-1022 {
+    max-width: 1022px;
+}
+
+.w-1022 {
+    max-width: 1022px;
+    width: 1022px;
+}
+
+#Body {
+    margin: 0;
+    padding: 0;
+    font-size: 11px !important;
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+}
+
+ol,
+ul,
+li,
+ul li {
+    list-style: none;
+}
+
+#BodyWrap,
+.ContentWrap {
+    margin: 0 auto;
+}
+
+ul.nostyle,
+ul.nostyle ul,
+ul.nostyle li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body > form #ControlBar_ControlPanel,
+body > form #dnnCPWrap {
+    z-index: 10001 !important;
+}
+
+body > form > .rcbSlide {
+    z-index: 10002 !important;
+}
+
+.mobile-menu-node {
+    display: none;
+}
+
+.offscreen {
+    position: absolute;
+    top: -50px;
+    left: -1000px;
+}
+
+.search {
+    float: left;
+    margin: 0;
+    display: block;
+    padding: 4px;
+}
+
+.search #cmdSearch {
+    display: inline-block;
+    height: 27px;
+    width: 36px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.innerContainer {
+    background-color: #fff;
+}
+
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url("/fonts/glyphicons-halflings-regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+body,
+p,
+a,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+html,
+blockquote,
+th,
+td,
+tr,
+legend,
+select,
+button,
+input[type="submit"] {
+    margin: 0;
+    font-weight: normal;
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+    letter-spacing: 0;
+}
+
+h1 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+h4 {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+h5 {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+h6 {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 0 0 10px;
+}
+
+p a,
+p a:active,
+p a:focus,
+p a:link,
+p a:visited,
+.infoTabPage a {
+    text-decoration: underline;
+}
+
+.c_BlackTitle h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.cservices {
+    padding: 0 10px;
+}
+
+.c_BlackTitle p,
+.c_BlackTitle h2,
+.c_BlackTitle h3,
+.c_BlackTitle h4,
+.c_BlackTitle ul,
+.c_BlackTitle li {
+    padding: 5px 10px;
+}
+
+.c_BlackTitle p,
+.c_BlackTitle li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    line-height: 1.6em;
+}
+
+.c_BlackTitle li {
+    list-style: disc inside;
+}
+
+.DNNEmptyPane {
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 0 !important;
+    min-height: 0 !important;
+}
+
+.HeaderWrap {
+    position: fixed;
+    left: 0;
+    background-color: #fff;
+    height: 110px;
+    width: 100%;
+    display: block !important;
+    padding: 0;
+    z-index: 5900 !important;
+    box-shadow: 0 0 5px 1px #888;
+}
+
+.ResponsiveHeaderWrap {
+    position: relative !important;
+}
+
+.HeaderTopSpacer {
+    height: 110px;
+}
+
+.ErrorRed {
+    color: #c00 !important;
+}
+
+.ResponsiveHeaderTopSpacer {
+    height: 0 !important;
+}
+
+.ContentWrapper {
+    min-height: 500px;
+    background-color: #fff;
+    padding: 10px 10px 15px;
+    overflow: hidden;
+}
+
+.FooterWrap {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    display: block;
+    position: relative;
+    height: auto;
+    left: 0;
+    bottom: auto;
+    z-index: 5000 !important;
+    width: 100%;
+}
+
+.ToplinksGroup,
+#topMenu,
+.FooterGroup,
+.Copyright,
+.dbc {
+    margin: 0 auto;
+    max-width: 1210px;
+    display: block;
+    float: none;
+    position: relative;
+    padding: 0 10px;
+}
+
+.ToplinksGroup,
+.ToplinksGroup .container-fluid,
+.ToplinksGroup .container-fluid > .row,
+.ToplinksGroup .container-fluid > .row > div,
+.ToplinksGroup .LogoWrap {
+    height: 100%;
+}
+
+.LogoWrap a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    vertical-align: top;
+    line-height: 70px;
+}
+
+.FooterGroup,
+.Copyright,
+.dbc {
+    overflow: hidden;
+}
+
+.Copyright {
+    padding: 0 0 10px;
+    text-align: right;
+}
+
+.ResponsiveSwitch {
+    padding: 0 0 0 10px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.Copyright span,
+.ResponsiveSwitch span {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.Copyright span {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.TopNavBar {
+    background-color: #fff;
+    height: 70px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.LogoWrap img {
+    max-height: 60px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.ToplinksGroup .topRow {
+    border-bottom: 1px solid #eee;
+}
+
+.HeaderPane1 {
+    margin-top: 6px;
+}
+
+.mob-login .loginIco {
+    padding-right: 20px;
+}
+
+.scrollTopLink {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #4d4d4d;
+    z-index: 6000 !important;
+    opacity: 0.7;
+    cursor: pointer;
+    display: none;
+}
+
+.scrollTopLink span {
+    padding: 10px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.dvSearch {
+    position: relative;
+}
+
+.dvSearch .TextBoxClear,
+.dvSearch .search-clear-text-button {
+    cursor: pointer;
+    position: absolute;
+    right: 37px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    font-family: "Glyphicons Halflings", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dvSearch .search-clear-text-button {
+    display: none;
+    right: 0;
+    z-index: 10;
+    font-family: inherit;
+    padding: 10px 10px 10px 5px;
+    font-size: 1.2em;
+}
+
+.dvSearch .TextBoxClear::before {
+    content: "\e014";
+    color: #333;
+}
+
+.dvSearch .hide-search-icon .TextBoxClear::before {
+    content: none;
+}
+
+.dvSearch .TextBoxClear.fadeOutClearButton,
+.dvSearch .search-clear-text-button.fadeOutClearButton {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s ease-out,
+        visibility 0s linear 0.5s;
+}
+
+.dvSearch .TextBoxClear.showClearButton,
+.dvSearch .search-clear-text-button.showClearButton {
+    display: inline-block;
+    opacity: 1;
+    visibility: visible;
+    transition: none;
+}
+
+.dvSearch .TextBoxClear.hideClearButton,
+.dvSearch .search-clear-text-button.hideClearButton {
+    display: none;
+}
+
+#dvSearch > form {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.ToplinksGroup .search {
+    padding: 20px 15px 0;
+}
+
+.ToplinksGroup .search .dvSearch {
+    padding: 0;
+}
+
+.ToplinksGroup .search #txtSearch {
+    float: left;
+    background-color: #fff;
+    width: calc(100% - 32px);
+    height: 32px;
+    padding: 5px 20px 5px 10px;
+    border: 1px solid #e1e1e1;
+    appearance: none;
+    border-radius: 0;
+}
+
+.ToplinksGroup .search #txtSearch:focus {
+    background-color: #fafafa;
+    border: 1px solid #aaa;
+}
+
+.ToplinksGroup .search #cmdSearch {
+    width: 32px;
+    height: 32px;
+}
+
+.ToplinksGroup .search #cmdSearch span {
+    display: block;
+    height: 32px;
+    width: 32px;
+    text-indent: -9999px;
+}
+
+#mobileSearchTrigger,
+#mobileSearchTriggerBtn {
+    display: block;
+    text-indent: -9999px;
+    width: 31px;
+    height: 37px;
+}
+
+.HeaderIcons {
+    float: right;
+    height: 36px;
+    width: 100%;
+}
+
+.HeaderIcons > li {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.HeaderIcons li.IconBagandWish {
+    float: right;
+}
+
+.HeaderIcons li > a,
+a#aBagLink {
+    line-height: 3.4em;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 0 0 0 30px;
+}
+
+.HeaderIcons li .WishList {
+    float: right;
+    height: 100%;
+    font-size: 0.7em;
+}
+
+.HeaderIcons li .WishList a {
+    background: url("/images/core/wish-icon.png") no-repeat scroll 5px center transparent;
+    display: block;
+    line-height: 3.5em;
+    padding: 0 15px 0 30px;
+}
+
+.HeaderIcons li .WishList a span {
+    font-size: 1.1em;
+}
+
+.WishList {
+    float: left;
+    font-size: 0.75em;
+    height: 36px;
+    overflow: hidden;
+}
+
+a#aWishListLink {
+    overflow: hidden;
+    display: block;
+    line-height: 3.4em;
+    padding: 0;
+    height: 100%;
+}
+
+.WishList .WishIcon {
+    width: 24px;
+}
+
+#shoppingbag {
+    padding: 0 0 0 10px;
+    width: 20px;
+}
+
+.HeaderIcons > li a:hover,
+#divBagTotalLink a#aBagLink:hover {
+    background-color: #eee;
+    color: #636363;
+}
+
+#lblBag:hover,
+.MyBagTextImg .WishList a:hover {
+    text-decoration: none;
+}
+
+.MyBagTextImg .WishList {
+    border-right: 1px solid #ddd;
+    float: right;
+    font-size: 1.1em;
+    margin-top: 2px;
+    padding-right: 12px;
+    text-transform: uppercase;
+}
+
+.MyTotalQuantity #bagTotal,
+.MyTotalQuantity #bagQuantity {
+    background-color: #444;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#divCurrencyLanguageSelector {
+    position: relative;
+    float: left;
+}
+
+#currencyLanguageSelector {
+    position: relative;
+    float: right;
+    height: 26px;
+    max-width: 92px;
+}
+
+.LanguageCurrency {
+    float: right;
+    height: auto;
+    margin: 5px 0 0;
+    max-width: 101px;
+}
+
+.currencyLanguageSelector {
+    float: right;
+}
+
+.currencyLanguageSlider {
+    right: 0;
+    top: 23px;
+}
+
+.LanguageCurrency select {
+    background: url("/images/ddarrow.png") no-repeat scroll 38px center #eee;
+    border: 1px solid #fff;
+    height: 22px;
+    cursor: pointer;
+}
+
+.LanguageCurrency .SelectSurround {
+    float: right;
+    width: 112px;
+}
+
+.LanguageCurrency .CurrencySelect {
+    width: 60px;
+}
+
+.SelectSurround .langdropdown dt a {
+    background: url("/images/ddarrow.png") no-repeat scroll 86px center #eee;
+    border: 1px solid #fff;
+}
+
+#topMenuWrapper {
+    height: 40px;
+    top: 70px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 5200 !important;
+}
+
+.subNavTab {
+    background: url("/images/core/menu-top.png") no-repeat scroll 19px 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-radius: 0 0 10px 10px;
+    border-right: 1px solid #eee;
+    box-shadow: 0 7px 3px -2px #ccc;
+    display: none;
+    left: 0;
+    opacity: 0.98;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    z-index: 6000 !important;
+}
+
+nav#topMenu ul.RootGroup {
+    height: 100%;
+}
+
+nav#topMenu ul li.root {
+    float: left;
+    height: 100%;
+    text-align: center;
+    text-transform: none;
+}
+
+nav#topMenu ul li.root > a {
+    font-size: 13px;
+    line-height: 14px;
+    height: 40px;
+    padding: 12px 0 0;
+    display: block;
+}
+
+nav#topMenu ul li.root > ul,
+nav#topMenu ul li.root .SubMenuWrapper {
+    top: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.fieldcheckbox label {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.fieldcheckbox {
+    font-weight: bold;
+    text-align: left;
+    width: 100% !important;
+    margin-bottom: 10px;
+}
+
+.no-padding-all {
+    padding: 0 !important;
+}
+
+.ToplinksGroup .search #cmdSearch span,
+.HeaderIcons li > a,
+#topLinkMenu ul > li a,
+.menu-trigger,
+.FooterSocialIcons li a,
+#divBagTotalLink a#aBagLink,
+#mobileSearchTrigger,
+#mobileSearchTriggerBtn,
+.RightBarLinks #topLinkMenu ul > li a,
+.MenuRightLogin ul.TopLinkMenu > li a,
+a#aBagLink,
+.ToplinksGroup .search #cmdSearch span.search-outer,
+#divBagTotalLink span#bagQuantity,
+#folCrusFace,
+#folCrusTwit,
+#folCrusInst,
+#folCrusPint,
+#emailSubmitBut,
+.viewBasket #bagName,
+#findAstore,
+.flanBasket #divBagTotalLink #bagQuantity,
+span.searchIcon,
+.searchIcon,
+.FooterIconTwit,
+.FooterIcon,
+#emailSignup .m_list,
+.LonsFooterSocialIcons1 > li > a,
+.Wishicon {
+    background-image: url("/images/core/spriteheader-v2.png");
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1021px) {
+    .breadcrumb ol li.home a {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    :focus {
+        outline: 0;
+    }
+
+    .no-padding-xs {
+        padding: 0 !important;
+    }
+
+    .HeaderWrap {
+        height: 55px;
+    }
+
+    .LogoWrap a {
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .Copyright,
+    .ResponsiveSwitch {
+        text-align: center;
+    }
+
+    .ResponsiveSwitch {
+        padding: 0;
+    }
+
+    .TopNavBar {
+        height: 55px;
+    }
+
+    .HeaderTopSpacer {
+        height: 55px;
+    }
+
+    .LogoWrap img {
+        max-height: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    .LogoWrap img.visible-xs {
+        display: inline-block !important;
+    }
+
+    .HeaderIcons li > a {
+        padding: 0 7px;
+        text-indent: -9999px;
+    }
+
+    .HeaderIcons > li a:hover,
+    #divBagTotalLink a#aBagLink:hover {
+        background-color: transparent !important;
+    }
+
+    .HeaderIcons .IconSignInOut {
+        width: 100%;
+    }
+
+    .HeaderIcons .IconSignInOut .login {
+        max-width: 35px;
+    }
+
+    .ToplinksGroup .bottomRow {
+        margin-top: 10px;
+    }
+
+    .ToplinksGroup {
+        padding: 0;
+    }
+
+    .rrVertOne ul div:nth-child(even) {
+        display: none;
+    }
+
+    .rrStratProduct {
+        width: 33.33%;
+    }
+
+    .FooterGroupLink li a {
+        font-size: 1.3em;
+    }
+
+    .QuickBuyButton {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1021px) {
+    :focus {
+        outline: 0;
+    }
+
+    .ToplinksGroup .topRow {
+        border: none !important;
+        margin-top: 15px;
+    }
+
+    .ToplinksGroup .bottomRow {
+        position: absolute;
+        top: 15px;
+        right: 0;
+        width: 70%;
+    }
+
+    .LanguageCurrency {
+        float: left;
+    }
+
+    #currencyLanguageSelector {
+        height: 32px;
+    }
+
+    .Responsive #divBag {
+        padding-top: 5px;
+    }
+
+    .HeaderIcons > li {
+        width: 100%;
+    }
+
+    .HeaderIcons li > a {
+        padding: 0 0 0 31px;
+    }
+
+    a#aBagLink {
+        padding: 0 5px 0 31px;
+    }
+
+    .currencyLanguageSlider {
+        right: 0;
+        top: 32px;
+    }
+
+    .HeaderIcons {
+        height: 32px;
+        margin-top: 5px;
+        float: left;
+    }
+
+    .HeaderIcons li a#aBagLink {
+        line-height: 3.2em;
+        padding: 0 10px 0 30px;
+    }
+
+    .HeaderIcons > li a:hover,
+    #divBagTotalLink a#aBagLink:hover,
+    a#aWishListLink:hover {
+        background-color: transparent !important;
+    }
+
+    #topMenu {
+        padding: 0;
+    }
+
+    nav#topMenu ul li.root > a {
+        font-size: 12px;
+    }
+
+    .QuickBuyButton {
+        display: none;
+    }
+}
+
+@media (min-width: 1022px) {
+    .ToplinksGroup .search #txtSearch,
+    .ModCustomerLoyaltyC input[type="submit"] {
+        transition: all 400ms linear 0s;
+    }
+
+    .HeaderIcons li > a,
+    a#aBagLink {
+        transition: background-color 400ms linear 0s;
+    }
+
+    nav#topMenu ul li.root {
+        transition: all 400ms linear 0s;
+    }
+
+    .ContentWrapper {
+        min-height: 800px;
+    }
+
+    .dvSearch .search-clear-text-button {
+        padding: 14px 10px 14px 5px;
+    }
+}
+
+.ir {
+    display: block;
+    border: 0;
+    text-indent: -999em;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
+}
+
+.ir br {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+@media print {
+    * {
+        background: transparent;
+        color: #000;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        filter: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]::after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a::after,
+    a[href^="javascript:"]::after,
+    a[href^="#"]::after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.QuickBuyContent .ImgButWrap a {
+    width: 100%;
+    max-width: 230px;
+}
+
+.HorzPartial {
+    float: none;
+}
+
+.FooterGroup {
+    padding: 0;
+    clear: both;
+}
+
+.MobInstructions {
+    color: #a5a0a0;
+    font-size: 1.3em;
+}
+
+#divCookieAcceptance {
+    width: 100%;
+    background-color: rgba(100, 100, 100, 0.9);
+    z-index: 11050;
+    position: fixed;
+    bottom: 0;
+    transition: transform 0.25s ease;
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+#divCookieAcceptance:not(.active) {
+    transform: translateY(100%);
+}
+
+#cookieContentContainer {
+    width: 100%;
+    max-width: 1021px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#divCookieAcceptance p {
+    width: calc(100% - 30px);
+    float: left;
+    margin: 0;
+    padding: 0 15px 0 0;
+    color: #fff;
+}
+
+#divCookieAcceptance a {
+    color: #fff;
+}
+
+#divCookieAcceptance #inputAcceptCookies {
+    float: left;
+    width: 30px;
+    height: 30px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.ModCustomerLoyaltyC {
+    padding: 10px 20px;
+}
+
+.ModCustomerLoyaltyC h1 {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.ModCustomerLoyaltyC h2 {
+    margin: 10px 0;
+    font-size: 1.4em;
+}
+
+.ModCustomerLoyaltyC .form-group label {
+    text-align: right;
+    padding-top: 7px;
+    margin: 0;
+}
+
+.ModCustomerLoyaltyC .form-control {
+    border-radius: 0;
+    line-height: 1.4em;
+    width: 65%;
+    font-size: 1.1em;
+}
+
+.ModCustomerLoyaltyC input[type="submit"] {
+    width: auto;
+    padding: 8px 50px;
+    border-radius: 0;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+
+.ModCustomerLoyaltyC input.GoBackPage {
+    background-color: #d0d3d9 !important;
+    background-image: linear-gradient(#e6e9ef, rgba(230, 233, 239, 0)) !important;
+    color: #444 !important;
+    border: 2px solid #ccc;
+}
+
+.ModCustomerLoyaltyC input.GoBackPage:hover {
+    background-color: #c3c6cb !important;
+    border: 2px solid #bbb;
+}
+
+.ModCustomerLoyaltyC input[type="submit"].ContinueOn {
+    padding: 15px 70px;
+    margin-bottom: 30px;
+}
+
+.ModCustomerLoyaltyC .dnnFormMessage {
+    max-width: 66%;
+}
+
+.ModCustomerLoyaltyC .LoyaltySuccess {
+    color: #46b05a;
+    font-size: 1.1em;
+}
+
+.ModCustomerLoyaltyC .LoyaltyError {
+    color: #c00;
+    font-size: 1.1em;
+}
+
+.form-group.SubmitGroupWrapper {
+    text-align: center;
+}
+
+#CardDetailsConfirm {
+    margin-bottom: 30px;
+}
+
+#LoyaltyTermsModalHeader,
+#LoyaltyCardSaveResultHeader {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+#LoyaltyCardSaveResult {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#LoyaltyCardResultContainer {
+    font-size: 1.2em;
+}
+
+#LoyaltyCardResultButtonContainer input {
+    padding: 15px 50px;
+    font-size: 1.2em;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.AcceptTerms input {
+    margin: 0;
+    vertical-align: text-top;
+}
+
+.TermsGroupWrapper {
+    text-align: center;
+}
+
+.TermsGroupWrapper a:hover {
+    text-decoration: underline;
+}
+
+#SaveResultModal .modal-header,
+#LoyaltyTermsModal .modal-header {
+    padding: 10px 40px;
+    line-height: 1.3em;
+    height: 49px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+#SaveResultModal .modal-body,
+#LoyaltyTermsModal .modal-body {
+    height: 230px;
+    max-height: 230px;
+    width: 100%;
+    max-width: 650px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#LoyaltyTermsModal .modal-body {
+    height: 600px;
+    max-height: 600px;
+}
+
+@media (max-width: 767px) {
+    .ModCustomerLoyaltyC .dnnFormMessage {
+        max-width: 99%;
+    }
+
+    .ModCustomerLoyaltyC .form-group label {
+        padding: 5px;
+        text-align: left;
+    }
+
+    .ModCustomerLoyaltyC .form-control {
+        width: 100%;
+    }
+
+    .ModCustomerLoyaltyC input[type="submit"] {
+        width: 100%;
+        margin: 0;
+    }
+
+    .TermsGroupWrapper {
+        text-align: left;
+    }
+}
+
+.TopNavBar .SharedBasketSiteLinks {
+    display: flex;
+}
+
+.TopNavBar .SharedBasketSiteLinks li {
+    margin-right: 10px;
+}
+
+.lazyFadeIn {
+    opacity: 0;
+}

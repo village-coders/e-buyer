@@ -1,0 +1,49 @@
+.algolia-filter-buttons {
+    display: flex;
+    gap: calc(var(--spacing-unit, 4px) * 3);
+}
+
+.Browse .s-maincontent-container .algolia-filter-buttons {
+    max-width: var(--default-container-max-width, 1400px);
+    margin: var(--spacing-unit, 4px) auto 0;
+    padding: calc(var(--spacing-unit, 4px) * 3.5) calc(var(--spacing-unit, 4px) * 10) 0;
+
+    @media (min-width: 1640px) {
+        max-width: var(--max-container-max-width, 1600px);
+        padding: 0;
+    }
+
+    @media (max-width: 1021px) {
+        padding: 0 calc(var(--spacing-unit, 4px) * 4);
+    }
+}
+
+#searchSuggestionsDropdown .algolia-filter-buttons {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 15px 15px 0;
+
+    @media (min-width: 1022px) {
+        padding: 20px 60px 0;
+    }
+}
+
+.algolia-filter-button {
+    padding: calc(var(--spacing-unit, 4px) * 3) calc(var(--spacing-unit, 4px) * 6);
+    font-size: var(--body-font-size, 16px);
+    font-family: var(--secondary-font-family, arial, helvetica, sans-serif);
+    border-radius: var(--border-radius, 4px);
+    text-transform: uppercase;
+    color: var(--button-font-color, #000) !important;
+    background-color: var(--button-background-color, #fff) !important;
+    border: 1px solid var(--button-border-color, #000);
+    white-space: nowrap;
+    min-width: 220px;
+
+    &:hover,
+    &.is-selected {
+        color: var(--button-hover-font-color, #000) !important;
+        background-color: var(--button-hover-background-color, #fff) !important;
+        border-color: var(--button-hover-border-color, #000);
+    }
+}

@@ -1,0 +1,71 @@
+.slide-up-modal-dialog {
+    visibility: hidden;
+    position: absolute;
+    z-index: 6101;
+    transition: 0.4s ease-out;
+    opacity: 0;
+}
+
+.slide-up-modal-dialog.slide-up-modal-dialog-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.slide-up-modal-dialog .slide-up-modal-dialog-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    width: 40px;
+    z-index: 1;
+    color: #fff !important; /* Important needed here due to a standard override on buttons that uses important :( */
+    background-color: transparent !important; /* Important needed here due to a standard override on buttons that uses important :( */
+    border: none;
+}
+
+.slide-up-modal-dialog .slide-up-modal-dialog-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-up-modal-dialog:not(.slide-up-modal-has-overlay) {
+    position: fixed;
+    bottom: -100%;
+}
+
+.slide-up-modal-dialog.slide-up-modal-has-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide-up-modal-dialog.slide-up-modal-has-overlay .slide-up-modal-dialog-content {
+    position: absolute;
+    top: 100%;
+    transition: 0.4s ease-out;
+}
+
+.slide-up-modal-dialog:not(.slide-up-modal-has-overlay).slide-up-modal-dialog-active.slide-up-modal-position-y-bottom,
+.slide-up-modal-dialog.slide-up-modal-has-overlay.slide-up-modal-dialog-active.slide-up-modal-position-y-bottom
+    .slide-up-modal-dialog-content {
+    transform: translateY(-100%);
+}
+
+.slide-up-modal-dialog:not(.slide-up-modal-has-overlay).slide-up-modal-position-x-left,
+.slide-up-modal-dialog.slide-up-modal-has-overlay.slide-up-modal-position-x-left .slide-up-modal-dialog-content {
+    left: 0;
+}
+
+.slide-up-modal-dialog:not(.slide-up-modal-has-overlay).slide-up-modal-position-x-center,
+.slide-up-modal-dialog.slide-up-modal-has-overlay.slide-up-modal-position-x-center .slide-up-modal-dialog-content {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.slide-up-modal-dialog:not(.slide-up-modal-has-overlay).slide-up-modal-position-x-right,
+.slide-up-modal-dialog.slide-up-modal-has-overlay.slide-up-modal-position-x-right .slide-up-modal-dialog-content {
+    right: 0;
+}

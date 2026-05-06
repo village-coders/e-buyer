@@ -1,0 +1,269 @@
+:root {
+    --frasers-member-price-color: #8400d1;
+    --studio-member-price-color: #00003c;
+}
+
+.member-pricing {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    .member-price-text,
+    .member-price-value {
+        font-family: var(--brand-font, arial, helvetica, sans-serif);
+        font-weight: var(--fw-normal, normal);
+        color: #000;
+        text-transform: uppercase;
+        margin: 0;
+
+        &.STUD {
+            color: var(--studio-member-price-color);
+        }
+
+        &.FRAS {
+            color: var(--frasers-member-price-color);
+        }
+
+        &.lower {
+            text-transform: none;
+        }
+
+        span {
+            font-weight: var(--fw-bold, 700);
+            font-family: var(--brand-font-bold), var(--brand-font);
+        }
+    }
+
+    .member-price-value {
+        font-weight: var(--fw-bold, 700);
+        font-family: var(--brand-font-bold), var(--brand-font);
+    }
+}
+
+.product-line-card__price-price .member-pricing {
+    .member-price-text,
+    .member-price-value {
+        font-size: var(--body-font-size, 14px);
+    }
+}
+
+.s-productthumbbox .member-pricing {
+    .member-price-text {
+        span {
+            display: block;
+        }
+    }
+}
+
+.basket-container .member-pricing,
+.elevated-sliding-basket .member-pricing,
+.wishlist-summary .member-pricing,
+.wishlist-page .member-pricing {
+    min-width: 80px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 120px;
+
+    @media (min-width: 1022px) {
+        min-width: 120px;
+    }
+
+    &.STUD {
+        padding-top: 5px;
+        .member-price-text,
+        .member-price-value {
+            color: var(--studio-member-price-color);
+        }
+    }
+
+    &.FRAS {
+        padding-top: 5px;
+        .member-price-text,
+        .member-price-value {
+            color: var(--frasers-member-price-color);
+        }
+    }
+
+    .member-price-text {
+        padding-right: 5px;
+    }
+}
+
+.basket-summary .member-pricing .basket-summary-details-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Basket .elevated-cart .member-pricing .basket-summary-details-label,
+.Basket .elevated-cart .member-pricing .basket-summary-details-data {
+    flex: inherit;
+}
+
+.basket-summary-container .member-pricing {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 16px;
+    border-top: 1px solid #c4c4c4;
+    + .member-pricing {
+        margin-top: 16px;
+    }
+
+    &.STUD {
+        .member-price-text,
+        .member-price-value,
+        small {
+            color: var(--studio-member-price-color);
+        }
+    }
+
+    &.FRAS {
+        .member-price-text,
+        .member-price-value,
+        small {
+            color: var(--frasers-member-price-color);
+        }
+    }
+
+    .member-price-text,
+    .member-price-value {
+        font-size: var(--subtitle-font-size, 16px);
+    }
+
+    .member-price-value {
+        min-width: max-content;
+    }
+
+    small {
+        font-size: var(--body-font-size-small, 12px) !important;
+        display: block;
+        padding-top: 5px;
+        text-transform: none;
+    }
+}
+
+.ProdDetails .member-price {
+    width: 100%;
+    float: left;
+    font-family: var(--font-family, arial, helvetica, sans-serif);
+    font-size: 1.5em;
+    font-weight: var(--fw-normal, 400);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+
+    @media (max-width: 767px) {
+        font-size: 2em;
+    }
+
+    &[data-member-price-scheme="STUD"] {
+        color: var(--studio-member-price-color);
+    }
+
+    &[data-member-price-scheme="FRAS"] {
+        color: var(--frasers-member-price-color);
+    }
+
+    .member-price-value {
+        font-weight: var(--fw-bold, 700);
+        font-family: var(--brand-font-bold), var(--brand-font);
+    }
+
+    &.hide-member-price {
+        visibility: hidden;
+    }
+}
+
+.innerSummaryWrap {
+    .summaryListInfoPriSell span.member-line-label-FRAS,
+    .summaryListInfoPriSell span.member-line-value-FRAS,
+    .summaryTotal .summaryTotalFinal.member-total-FRAS span,
+    .summaryTotal .member-total-FRAS span {
+        color: var(--frasers-member-price-color);
+    }
+
+    .summaryListInfoPriSell span.member-line-label-STUD,
+    .summaryListInfoPriSell span.member-line-value-STUD,
+    .member-total-STUD span {
+        color: var(--studio-member-price-color);
+    }
+
+    .summaryListInfoPriSell span.member-line-label-FRAS,
+    .summaryListInfoPriSell span.member-line-label-STUD {
+        text-transform: uppercase;
+    }
+
+    .summaryListInfoPriSell span.member-line-label-FRAS,
+    .summaryListInfoPriSell span.member-line-label-STUD,
+    .member-total-FRAS .summaryTotalTitle,
+    .member-total-STUD .summaryTotalTitle {
+        font-weight: var(--fw-normal, 400);
+        flex: 0 auto;
+    }
+
+    .summaryListInfoPriSell span.member-line-value-STUD,
+    .summaryListInfoPriSell span.member-line-value-FRAS,
+    .member-total-FRAS .summaryTotalAmount,
+    .member-total-STUD .summaryTotalAmount {
+        font-weight: var(--fw-bold, 700);
+        font-family: var(--brand-font-bold), var(--brand-font);
+        min-width: fit-content;
+        flex: 0 0 auto;
+    }
+}
+
+.summaryandComplete {
+    .member-saving-FRAS .summaryTotalAmount,
+    .member-saving-STUD .summaryTotalAmount,
+    .member-total-FRAS .summaryTotalAmount,
+    .member-total-STUD .summaryTotalAmount {
+        min-width: max-content;
+        font-weight: var(--fw-bold, 700);
+        font-family: var(--brand-font-bold), var(--brand-font);
+    }
+
+    .member-saving-FRAS span {
+        color: var(--frasers-member-price-color);
+    }
+
+    .member-saving-STUD span {
+        color: var(--studio-member-price-color);
+    }
+
+    .member-total-FRAS span {
+        color: var(--frasers-member-price-color);
+    }
+}
+
+#hotspotModal .member-price {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    padding: 0 5px;
+    float: left;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+
+    &[data-member-price-scheme="STUD"] {
+        color: var(--studio-member-price-color);
+    }
+
+    &[data-member-price-scheme="FRAS"] {
+        color: var(--frasers-member-price-color);
+    }
+
+    .member-price-value {
+        font-weight: var(--fw-bold, 700);
+        font-family: var(--brand-font-bold), var(--brand-font);
+    }
+
+    &.hide-member-price {
+        display: none;
+    }
+}

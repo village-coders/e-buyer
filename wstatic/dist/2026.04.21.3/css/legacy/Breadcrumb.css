@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+    .MobileBreadcrumbMenuEnabled .breadcrumb-seperator {
+        display: none;
+    }
+
+    .MobileBreadcrumbMenuEnabled .s-breadcrumbs-bar > span ol li {
+        display: block;
+    }
+
+    .MobileBreadcrumbMenuEnabled .s-breadcrumbs-bar > span ol li.last {
+        display: none;
+    }
+
+    .MobileBreadcrumbMenuEnabled .currentPageBreadcrumb {
+        display: block;
+        cursor: pointer;
+        padding: 0 2px;
+    }
+
+    .MobileBreadcrumbMenuEnabled .s-breadcrumbs-bar > span ol {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .s-breadcrumbs-bar > span ol {
+        display: block !important;
+    }
+}
+
+.currentPageBreadcrumb {
+    display: none;
+}

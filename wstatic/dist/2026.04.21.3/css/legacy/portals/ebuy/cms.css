@@ -1,0 +1,222 @@
+.is-cms-content-page .ContentWrapper {
+    padding: 0;
+    max-width: 100%;
+}
+
+.cms-placements {
+    display: block;
+    position: relative;
+    max-width: 1920px;
+
+    [id*="cms-home-placement"]:not(:first-of-type) [class*="Carousel_slides_"] {
+        padding-bottom: var(--spacing-6);
+
+        @media (min-width: 768px) {
+            padding-bottom: var(--spacing-10);
+        }
+    }
+}
+
+body {
+    box-sizing: border-box;
+}
+
+#__next,
+.cms-placements {
+    /* Structure */
+
+    #content-x div {
+        &[data-testid="container"],
+        &[data-testid="club-finder-block"],
+        &[data-testid="tabbed-quick-links-block"],
+        &[data-testid="brand-block-container"],
+        &[data-testid="cards-block"] {
+            margin: auto;
+        }
+    }
+
+    [class*="Carousel_slides"] {
+        overflow-x: auto;
+    }
+
+    /* Typography */
+    p {
+        margin-bottom: 0;
+    }
+
+    div[data-testid="markdown-block"] img {
+        max-width: 100%;
+    }
+
+    ul,
+    ul li {
+        list-style: initial;
+    }
+
+    ol,
+    ol li {
+        list-style: decimal;
+    }
+
+    ul,
+    ol {
+        padding-left: var(--spacing-4, 16px);
+    }
+
+    [class*="Typography_heading2"] {
+        font-size: 22px;
+    }
+
+    [class*="Typography_subheading1"] {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    [class*="Typography_subheading2"] {
+        font-size: 16px;
+    }
+
+    [class*="Typography_body1"],
+    p {
+        font-size: 14px;
+    }
+
+    [class*="HeroBlock_overlaid"] h2,
+    [class*="HeroBlock_overlaid"] p {
+        color: var(--common-white);
+    }
+
+    [class*="FeaturedBlock_text"] h2 {
+        text-transform: none;
+    }
+
+    [class*="Typography_subheading2"] {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    [class*="Typography_subheading2"]:hover {
+        color: inherit;
+    }
+
+    [class*="MarkdownBlock_center"] {
+        margin: 0 auto;
+    }
+
+    [class*="FeaturedBlock_text"] [class*="FeaturedBlock_subtitle"] {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    [class*="overlaid"] {
+        h2,
+        p {
+            color: var(--common-white);
+        }
+    }
+
+    [class*="Card_title"] {
+        color: var(--common-black);
+    }
+
+    /* Buttons */
+    [class*="Button_primary"] {
+        border-color: var(--primary-main);
+        background: var(--primary-main);
+        color: var(--common-white);
+
+        &:hover {
+            border-color: var(--common-black);
+            background: var(--common-black);
+            color: var(--common-white);
+        }
+    }
+
+    [class*="Button_black"] {
+        border-color: var(--common-black);
+        background: var(--common-black);
+        color: var(--common-white);
+
+        &:hover {
+            border-color: var(--common-black);
+            background: var(--common-black);
+            color: var(--common-white);
+        }
+    }
+
+    [class*="Button_secondary"] {
+        border-color: var(--common-black);
+        background: var(--common-white);
+        color: var(--common-black);
+
+        &:hover {
+            border-color: var(--primary-main);
+        }
+    }
+
+    [class*="Button_tertiary"] {
+        background-color: transparent !important;
+        border-color: transparent;
+
+        &:hover {
+            background-color: inherit !important;
+            border-color: inherit;
+        }
+
+        span {
+            color: inherit;
+            text-decoration: underline;
+        }
+    }
+
+    [class*="Button_sale"]:hover {
+        background-color: var(--secondary-main);
+    }
+
+    [class*="ReadMore_button"]:hover {
+        background-color: var(--primary-main);
+    }
+
+    /* Blocks */
+
+    [class*="Card_overlaid"] {
+        [class*="Card_content"] {
+            padding-inline: var(--spacing-2);
+            text-align: left;
+
+            @media (min-width: 768px) {
+                padding-inline: var(--spacing-4);
+            }
+        }
+
+        [class*="Button_tertiary"] {
+            margin-inline: 0;
+            padding-inline: var(--spacing-4);
+            color: var(--common-white) !important;
+        }
+    }
+
+    [class*="Carousel_counteractMargins"] {
+        width: calc(100% + var(--spacing-8));
+        margin-left: var(--negative-spacing-4);
+        margin-right: var(--negative-spacing-4);
+
+        @media (min-width: 768px) {
+            width: calc(100% + var(--spacing-12));
+            margin-left: var(--negative-spacing-6);
+            margin-right: var(--negative-spacing-6);
+        }
+
+        @media (min-width: 992px) {
+            width: calc(100% + var(--spacing-24));
+            margin-left: var(--negative-spacing-12);
+            margin-right: var(--negative-spacing-12);
+        }
+
+        @media (min-width: 1440px) {
+            width: calc(100% + var(--spacing-48));
+            margin-left: var(--negative-spacing-24);
+            margin-right: var(--negative-spacing-24);
+        }
+    }
+}

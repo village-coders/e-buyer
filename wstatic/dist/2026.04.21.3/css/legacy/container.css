@@ -1,0 +1,75 @@
+.c_Visibility {
+    float: right;
+}
+
+.c_GreyBox,
+.c_GreyBoxTitle {
+    background: #f3f3f3;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.c_GreyBox {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.c_GreyBoxTitle {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.c_GreyBoxTitle .c_Title {
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+.c_BlackTitle {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ProdDetails .c_BlackTitle {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.c_BlackTitle .c_Title {
+    background-color: #f1f1f1 !important;
+    color: #666;
+    padding: 10px 15px;
+    display: block;
+}
+
+.c_GreyTitle,
+.c_BorderTitle {
+    padding: 2px 0 4px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.c_GreyTitle .c_TitleVisibility {
+    display: block;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 4px 10px;
+}
+
+.c_GreyTitle .c_Title {
+    color: #666;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+
+.c_BorderTitle .c_Title {
+    border-bottom: 2px solid #bbb;
+    color: #666;
+    display: block;
+    font-size: 1.8em;
+    line-height: 1.5em;
+}
+
+.c_GreyBoxTitle .sidebar-nav li {
+    padding: 4px 0;
+}

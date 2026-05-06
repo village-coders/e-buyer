@@ -1,0 +1,103 @@
+.image-dropdown span.listoption {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.image-dropdown {
+    position: relative;
+    max-width: 300px;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-dropdown span.value {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: calc(100% - 30px);
+    padding-left: 10px;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.dropdown-images .image-dropdown button {
+    padding: 0 20px !important;
+    border-radius: 0;
+    white-space: normal;
+    letter-spacing: 1px;
+    position: relative;
+    border-color: #999;
+    text-align: left;
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 44px;
+}
+
+.dropdown-images .image-dropdown button:hover {
+    background-color: #fff !important;
+}
+
+.dropdown-images .image-dropdown button:focus {
+    box-shadow: inset 0 0 3px 1px #0000ed;
+    transition: none;
+}
+
+.dropdown-images .image-dropdown #spanDropdownSelectedImage {
+    display: inline-block;
+}
+
+.dropdown-images .image-dropdown .optionimage {
+    max-width: 22px;
+    display: inline-block;
+}
+
+.image-dropdown button span.caret {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.image-dropdown ul {
+    margin-top: 0;
+    z-index: 5100;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 1.1em;
+    width: 100%;
+    padding: 0;
+    float: none;
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+
+.image-dropdown ul li.image-dropdown-option {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.image-dropdown ul li.image-dropdown-option:hover {
+    background-color: #f5f5f5;
+}
+
+.image-dropdown ul li.image-dropdown-option a {
+    padding: 10px 20px;
+}
+
+.image-dropdown ul li.image-dropdown-option a span {
+    display: inline-block;
+}
+
+.colour-image-dropdown-group {
+    padding: 10px 0;
+}

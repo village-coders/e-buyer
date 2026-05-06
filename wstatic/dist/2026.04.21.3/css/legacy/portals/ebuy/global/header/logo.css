@@ -1,0 +1,53 @@
+.LogoWrap {
+    img {
+        max-width: 100px;
+        max-height: 18px;
+
+        @media (min-width: 361px) {
+            max-height: 24px;
+            display: inline-block;
+            max-width: 138px;
+        }
+    }
+
+    a {
+        line-height: 40px;
+
+        @media (max-width: 1021px) {
+            text-align: left;
+        }
+
+        @media (min-width: 1022px) {
+            width: auto;
+            line-height: 45px;
+            display: flex;
+            align-items: center;
+            max-width: 138px;
+        }
+
+        svg {
+            height: 100%;
+            width: auto;
+        }
+    }
+}
+
+@media (min-width: 1022px) {
+    .TopNavBar .LogoWrap {
+        padding: 10px 5px 10px 20px;
+    }
+}
+
+@media (max-width: 1021px) {
+    .TopNavBar .ToplinksGroup .row > .LogoWrap {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .TopNavBar .ToplinksGroup .row > .LogoWrap {
+        width: calc(100% - 210px);
+    }
+}

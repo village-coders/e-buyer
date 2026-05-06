@@ -1,0 +1,44 @@
+.stock-level-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    h4,
+    p,
+    .stock-level-message-divider {
+        height: auto;
+        font-size: 13px;
+        line-height: unset;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.stock-level-container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.stock-level-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+
+    svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.low-stock-clock-outer,
+.low-stock-clock-inner {
+    fill: none;
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}

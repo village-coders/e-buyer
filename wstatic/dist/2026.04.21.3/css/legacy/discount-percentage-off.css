@@ -1,0 +1,64 @@
+.discount-percentage-off,
+#hsDiscountPercentText {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+
+    .discount-percentage-parenthesis {
+        display: none;
+    }
+
+    &.discount-percentage-show-parenthesis {
+        display: inline-grid;
+        grid-template-columns: repeat(4, auto);
+
+        .discount-percentage-parenthesis {
+            display: block;
+        }
+    }
+}
+
+#productDetails .discount-percentage-off {
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 0 0 8px;
+
+    &.discount-percentage-show-parenthesis {
+        display: inline-grid;
+    }
+}
+
+#hotspotModal .discount-percentage-off {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    font-size: 1.3em;
+    vertical-align: unset;
+
+    &.discount-percentage-show-parenthesis {
+        display: inline-grid;
+    }
+}
+
+#sticky-atb-wrapper .discount-percentage-off {
+    padding: 0 0 0 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+    .discount-percentage-off.discount-percentage-off-mobile-only,
+    #productDetails .discount-percentage-off.discount-percentage-off-mobile-only,
+    #hotspotModal .discount-percentage-off.discount-percentage-off-mobile-only,
+    #sticky-atb-wrapper .discount-percentage-off.discount-percentage-off-mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    #sticky-atb-wrapper .discount-percentage-off,
+    #sticky-atb-wrapper .discount-percentage-off.discount-percentage-off-mobile-only {
+        display: none;
+    }
+}

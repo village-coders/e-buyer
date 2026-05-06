@@ -1,0 +1,115 @@
+#V12FinanceModal .modal-dialog {
+    width: 100%;
+    max-width: 600px;
+}
+
+#V12FinanceModal .modal-body {
+    max-height: 100%;
+    width: 100%;
+    height: 598px;
+    max-width: 598px;
+    overflow-x: hidden;
+    padding: 0 15px 36px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.calc-body {
+    max-width: 100%;
+    font-size: 1.1em;
+    margin: 0 auto;
+}
+
+.calc-body .header {
+    padding: 10px;
+    background-color: #005a54;
+    color: #fff;
+}
+
+.calc-body .calc-breakdown {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.calc-body .section {
+    padding: 5px;
+}
+
+.calc-body .section:last-of-type {
+    margin-top: 10px;
+}
+
+#calcWrapper {
+    width: 100%;
+}
+
+.calc-body .calc-breakdown table tr {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.calc-body .calc-breakdown table tr:last-of-type {
+    border-bottom: none;
+}
+
+.calc-body .calc-breakdown table tr.finance-multi-products td {
+    border: none;
+}
+
+.calc-body #v12calc-tc-title {
+    color: #005a54;
+    text-transform: uppercase;
+}
+
+.calc-body #v12calc-tc a,
+#viewFinanceLinkWrapper .viewFinanceContainer-Child a#aViewFinance {
+    color: #005a54;
+    text-decoration: underline;
+}
+
+.calc-body #productsList {
+    max-width: 100%;
+    margin: auto;
+}
+
+.calc-body .emphasized {
+    font-weight: 700;
+}
+
+.calc-body .finance-underlined {
+    text-decoration: underline;
+}
+
+.calc-body .narrow {
+    width: 84%;
+    margin: 0 auto;
+}
+
+.calc-body .table tr td:last-of-type {
+    font-weight: 700;
+    text-align: right;
+}
+
+.calc-body .ContinueOn {
+    width: 240px;
+}
+
+.fin-options-container {
+    padding-top: 0;
+}
+
+.finance-calc-single-product select {
+    appearance: none;
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 1.2em;
+    color: #000 !important;
+    cursor: default !important;
+    text-align: center;
+    text-align-last: center;
+}
+
+@media only screen and (max-width: 530px) {
+    .calc-body .narrow {
+        width: 100%;
+    }
+}

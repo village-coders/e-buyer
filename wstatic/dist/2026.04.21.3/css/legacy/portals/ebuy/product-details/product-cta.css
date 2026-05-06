@@ -1,0 +1,212 @@
+.addToBasketContainer {
+    .ImgButWrap {
+        .addToBag {
+            font-weight: normal;
+        }
+    }
+}
+
+.AltProdDet {
+    #productDetails {
+        .addtoBagWrap {
+            .addToBasketContainer {
+                a {
+                    background-color: var(--site-cta-background) !important;
+                    color: var(--site-cta-text) !important;
+                    padding: 11px 15px;
+                    position: relative;
+                    margin: 0;
+                    opacity: 1;
+                    border-radius: 25px;
+
+                    &:hover {
+                        background-color: var(--site-cta-background-hover) !important;
+                        color: var(--site-cta-text) !important;
+                    }
+                }
+
+                &.sizeSelected a {
+                    background-color: var(--site-black) !important;
+                    color: var(--site-white) !important;
+                    &:hover {
+                        background-color: var(--site-black) !important;
+                        color: var(--site-white) !important;
+                    }
+                }
+
+                span {
+                    font-weight: var(--font-weight-extra-bold);
+                    font-size: var(--subtitle-font-size);
+                    letter-spacing: var(--default-letter-spacing);
+                    text-transform: none;
+                    text-shadow: none;
+                }
+
+                &.addToBagInProgress {
+                    a {
+                        &::after {
+                            background-color: var(--site-black) !important;
+                            right: 25%;
+                            border-radius: 25px;
+                            opacity: 0.1;
+                        }
+                    }
+                }
+
+                &.addedToBag {
+                    a {
+                        background-color: var(--site-cta-background-hover) !important;
+
+                        &::after {
+                            right: 0;
+                            border-radius: 25px;
+                            opacity: 0;
+                            background-color: var(--site-black);
+                        }
+                    }
+                }
+            }
+        }
+
+        .PersVouchBasketContainer {
+            a {
+                background-color: var(--site-white) !important;
+            }
+
+            &.sizeSelected a {
+                font-weight: normal;
+                background-color: var(--site-black) !important;
+                color: var(--site-white) !important;
+
+                &:hover {
+                    background-color: var(--site-dark-grey) !important;
+                }
+            }
+        }
+
+        .personalisationContainer {
+            .divPersAddToBasketWishlistWrapper {
+                margin-bottom: 24px;
+            }
+
+            .personalisationActive,
+            .pnlMyIdPersonalisation {
+                .divPersAddToBasketWishlistWrapper {
+                    margin-top: 24px;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    #divPersaddToBasketContainer .ImgButWrap a {
+                        margin-top: 0;
+                        position: relative;
+                    }
+
+                    #divPersAddToWishListContainer {
+                        .sAddToWishListWrapper a {
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sticky-atb .sticky-atb--buysection {
+    position: relative;
+
+    .sizeSelected a {
+        background-color: var(--site-cta-background) !important;
+        color: var(--site-cta-text) !important;
+
+        &.addToBag {
+            background-color: var(--site-cta-background) !important;
+            color: var(--site-cta-text) !important;
+            padding: 8px 15px;
+            position: relative;
+            margin: 0;
+
+            &:hover {
+                background-color: var(--site-cta-background-hover) !important;
+                color: var(--site-cta-text-hover) !important;
+            }
+        }
+    }
+
+    a.addToBag {
+        background-color: var(--site-cta-background) !important;
+        color: var(--site-cta-text) !important;
+        padding: 8px 15px;
+        border-radius: 20px;
+        position: relative;
+        margin: 0;
+        letter-spacing: var(--default-letter-spacing);
+
+        span {
+            font-size: 12px;
+            font-weight: var(--font-weight-bold);
+            text-shadow: none;
+            text-transform: none;
+        }
+
+        &:hover {
+            background-color: var(--site-cta-background-hover) !important;
+            color: var(--site-cta-text-hover) !important;
+        }
+    }
+
+    .NonBuyableOverlayMessage {
+        height: 100%;
+        font-size: 12px;
+        padding: 0;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.sAddToWishListWrapper {
+    #aAddToWishList {
+        display: flex;
+        align-items: center;
+    }
+
+    .global-icon-wishlist svg:hover {
+        fill: var(--site-black);
+    }
+
+    .addedWishList svg path {
+        fill: var(--site-black);
+    }
+}
+
+.sticky-atb-wrapper.stickyCTA-active {
+    top: 131px;
+
+    @media (min-width: 768px) and (max-width: 1021px) {
+        top: 71px;
+    }
+}
+
+.AltProdDet #productDetails .PersVouchBasketContainer.addToBagInProgress a::after,
+#productMyIdPerosonalisationPages .addtoBagWrap.addToBagInProgress a::after,
+.sticky-atb .sticky-atb--buysection .addToBagInProgress a::after {
+    background-color: var(--site-black);
+    opacity: 0.1;
+    right: 25%;
+}
+
+.AltProdDet #productDetails .PersVouchBasketContainer.addedToBag a::after,
+#productMyIdPerosonalisationPages .addtoBagWrap.addedToBag a::after,
+.sticky-atb .sticky-atb--buysection .addedToBag a::after {
+    right: 0;
+    opacity: 0;
+    background-color: var(--site-black);
+}
+
+.AltProdDet .productVariantContainer .personalisationActive {
+    margin-top: 20px;
+    margin-bottom: 14px;
+}

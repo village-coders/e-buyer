@@ -1,0 +1,91 @@
+.productNextDayDeliveryCountdownWrapper {
+    font-family: var(--default-font-family);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0 0 20px;
+    padding-top: 0;
+}
+
+.frasers-plus-enabled {
+    .productNextDayDeliveryCountdownWrapper {
+        margin: 0 0 15px;
+    }
+
+    .frasers-plus-outer-container {
+        padding: 5px 0 20px;
+    }
+}
+
+.ndd-countdown {
+    background-color: transparent;
+    padding: 8px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ndd-countdown-title {
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 5px;
+    flex: 1 1 100%;
+}
+
+.ndd-countdown .countdown-timer {
+    margin: 0 0 0 4px;
+}
+
+.ndd-countdown .countdown-timer .countdown-timer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--fras-black);
+    background-color: transparent;
+    padding: 0;
+}
+
+.ndd-countdown .countdown-timer-hour-container,
+.ndd-countdown .countdown-timer-minute-container,
+.ndd-countdown .countdown-timer-second-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ndd-countdown .countdown-timer-minute-container,
+.ndd-countdown .countdown-timer-second-container {
+    margin-left: 4px;
+}
+
+.ndd-countdown .ndd-countdown-time-hour,
+.ndd-countdown .ndd-countdown-time-minute,
+.ndd-countdown .ndd-countdown-time-second {
+    font-weight: bold;
+    min-width: 20px;
+    min-height: 19px;
+    position: relative;
+    text-align: right;
+}
+
+.ndd-countdown .countdown-timer .countdown-timer-wrapper .ndd-countdown-time-unit {
+    font-weight: bold;
+}
+
+.ndd-countdown .ndd-counter-time-loader {
+    color: var(--fras-black);
+    /*stylelint-disable*/
+    animation: dotFlashing 1s infinite linear alternate;
+    /*stylelint-enable*/
+    animation-delay: 0.5s;
+    transform: translateX(-3px);
+    display: inline-block;
+}

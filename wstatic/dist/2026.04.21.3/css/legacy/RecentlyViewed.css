@@ -1,0 +1,9 @@
+.rv-swiper-button-next,
+.rv-swiper-button-prev {
+    display: none;
+}
+
+.ProdDetails .AltStratRefSell .AdditionalPriceLabel {
+    padding-left: 0;
+    padding-right: 2px;
+}

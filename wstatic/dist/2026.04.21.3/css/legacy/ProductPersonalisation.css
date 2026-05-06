@@ -1,0 +1,2538 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("/Fonts/Montserrat-Bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "England24";
+    src: url("/fonts/DIN-CondensedBold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.HelpIco {
+    background: url("/images/core/PD.png") transparent no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-position: -85px -67px;
+    font-size: 11px;
+}
+
+.PersonalTextWrap {
+    padding: 0 0 10px;
+}
+
+.PersonalTextWrap .PersonalText {
+    display: inline-block;
+    padding: 0 10px 5px 0;
+}
+
+#divPersDisclaimerText {
+    color: #fe0000;
+    float: right;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+#lblPersonalIntroText,
+#lblEvoucherIntroText {
+    font-size: 1.1em;
+}
+
+.BigPersTags {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.PersonalText .BigPersTags {
+    padding-top: 3px;
+    float: left;
+}
+
+.SmlPersTags {
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+.PersonalText span.ImgButWrap a {
+    background-color: #888 !important;
+    color: #fff !important;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 10px 20px;
+}
+
+.PersonalText span.ImgButWrap a:hover {
+    background-color: #ddd !important;
+    color: #666 !important;
+}
+
+.flagembgroup,
+.emojigroup {
+    padding: 0 5px 5px;
+}
+
+.flagembgroup .flagemb {
+    padding: 0;
+}
+
+.PrintDetGroup .flagembgroup .perGroupTitle,
+.PrintDetGroup .emojigroup .perGroupTitle {
+    padding: 10px 0;
+}
+
+.productPersonalisation .PersonaliseSpace {
+    padding-bottom: 10px;
+}
+
+.productPersonalisation .PersonaliseSpace .persMain {
+    border-right: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    .popupPersonalisation .modal-dialog {
+        width: 450px;
+    }
+}
+
+.popupPersonalisation .productPersonalisation .PersonaliseSpace .persMain {
+    padding: 0;
+    border: 0;
+}
+
+.popupPersonalisation .PrintDetGroup .labelPersLine {
+    padding-bottom: 5px;
+}
+
+.PrintDetGroup .perGroupTitle {
+    display: block;
+    padding: 5px 5px 0;
+    font-size: 14px;
+}
+
+.PrintDetGroup .freePersWrap {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.PrintDetGroup .freePersWrap .freePersWrapInner {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.PrintDetGroup .freePersWrap .freePersIcon {
+    background-image: url("/images/core/sd-prod-list-prod-detail-sprite-updated-v6.svg");
+    background-size: 280px 280px;
+    background-position: -206px -251px;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.switcherEmojiFlag {
+    padding: 5px;
+}
+
+.switcherEmojiFlagRadio label {
+    padding: 15px 20px 5px;
+    display: inline-block;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.switcherEmojiFlagRadio label input[type="radio"] {
+    margin: 0 10px 0 0;
+    width: 19px;
+    height: 19px;
+    vertical-align: sub;
+}
+
+.switcherEmojiFlag p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.divPersonalisationDropdown .flag {
+    display: inline-block;
+    float: none;
+}
+
+.divPersonalisationDropdown span.flag {
+    vertical-align: middle;
+    height: 20px;
+    width: 28px;
+    margin-right: 5px;
+    display: none;
+}
+
+.divPersonalisationDropdown span.emoji {
+    width: 24px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-image: url("/images/core/Emoji-images-v2.svg");
+    background-size: 450px 450px;
+}
+
+.divPersonalisationDropdown .emoji-001 span.emoji {
+    background-position: -138px -8px;
+}
+
+.divPersonalisationDropdown .emoji-002 span.emoji {
+    background-position: -138px -28px;
+}
+
+.divPersonalisationDropdown .emoji-003 span.emoji {
+    background-position: -138px -51px;
+}
+
+.divPersonalisationDropdown .emoji-004 span.emoji {
+    background-position: -138px -73px;
+}
+
+.divPersonalisationDropdown .emoji-005 span.emoji {
+    background-position: -138px -95px;
+}
+
+.divPersonalisationDropdown .emoji-006 span.emoji {
+    background-position: -138px -117px;
+}
+
+.divPersonalisationDropdown .emoji-007 span.emoji {
+    background-position: -138px -138px;
+}
+
+.divPersonalisationDropdown .emoji-008 span.emoji {
+    background-position: -138px -160px;
+}
+
+.divPersonalisationDropdown .emoji-009 span.emoji {
+    background-position: -138px -182px;
+}
+
+.divPersonalisationDropdown .emoji-010 span.emoji {
+    background-position: -138px -204px;
+}
+
+.divPersonalisationDropdown .emoji-011 span.emoji {
+    background-position: -138px -225px;
+}
+
+.divPersonalisationDropdown .emoji-012 span.emoji {
+    background-position: -138px -247px;
+}
+
+.divPersonalisationDropdown .emoji-013 span.emoji {
+    background-position: -138px -268px;
+}
+
+.divPersonalisationDropdown .emoji-014 span.emoji {
+    background-position: -138px -290px;
+}
+
+.divPersonalisationDropdown .emoji-015 span.emoji {
+    background-position: -138px -313px;
+}
+
+.divPersonalisationDropdown .emoji-016 span.emoji {
+    background-position: -138px -334px;
+}
+
+.divPersonalisationDropdown .emoji-017 span.emoji {
+    background-position: -138px -355px;
+}
+
+.divPersonalisationDropdown .emoji-018 span.emoji {
+    background-position: -138px -377px;
+}
+
+.divPersonalisationDropdown .emoji-019 span.emoji {
+    background-position: -175px -8px;
+}
+
+.divPersonalisationDropdown .emoji-020 span.emoji {
+    background-position: -175px -29px;
+}
+
+.divPersonalisationDropdown .emoji-021 span.emoji {
+    background-position: -175px -51px;
+}
+
+.divPersonalisationDropdown .emoji-022 span.emoji {
+    background-position: -175px -73px;
+}
+
+.divPersonalisationDropdown .emoji-023 span.emoji {
+    background-position: -175px -95px;
+}
+
+.divPersonalisationDropdown .emoji-024 span.emoji {
+    background-position: -175px -117px;
+}
+
+.divPersonalisationDropdown .emoji-025 span.emoji {
+    background-position: -175px -138px;
+}
+
+.divPersonalisationDropdown .emoji-026 span.emoji {
+    background-position: -175px -160px;
+}
+
+.divPersonalisationDropdown .emoji-027 span.emoji {
+    background-position: -175px -182px;
+}
+
+.divPersonalisationDropdown .emoji-028 span.emoji {
+    background-position: -175px -204px;
+}
+
+.divPersonalisationDropdown .emoji-029 span.emoji {
+    background-position: -175px -225px;
+}
+
+.divPersonalisationDropdown .emoji-030 span.emoji {
+    background-position: -175px -247px;
+}
+
+.divPersonalisationDropdown .emoji-031 span.emoji {
+    background-position: -175px -268px;
+}
+
+.divPersonalisationDropdown .emoji-032 span.emoji {
+    background-position: -175px -290px;
+}
+
+.divPersonalisationDropdown .emoji-033 span.emoji {
+    background-position: -175px -313px;
+}
+
+.divPersonalisationDropdown .emoji-034 span.emoji {
+    background-position: -175px -334px;
+}
+
+.divPersonalisationDropdown .emoji-035 span.emoji {
+    background-position: -210px -8px;
+}
+
+.divPersonalisationDropdown .emoji-036 span.emoji {
+    background-position: -210px -28px;
+}
+
+.divPersonalisationDropdown .emoji-037 span.emoji {
+    background-position: -210px -51px;
+}
+
+.divPersonalisationDropdown .emoji-038 span.emoji {
+    background-position: -210px -73px;
+}
+
+.divPersonalisationDropdown .emoji-039 span.emoji {
+    background-position: -210px -95px;
+}
+
+.divPersonalisationDropdown .emoji-040 span.emoji {
+    background-position: -210px -117px;
+}
+
+.divPersonalisationDropdown .emoji-041 span.emoji {
+    background-position: -210px -138px;
+}
+
+.divPersonalisationDropdown .emoji-042 span.emoji {
+    background-position: -210px -160px;
+}
+
+.divPersonalisationDropdown .emoji-043 span.emoji {
+    background-position: -210px -182px;
+}
+
+.divPersonalisationDropdown .emoji-044 span.emoji {
+    background-position: -210px -204px;
+}
+
+.divPersonalisationDropdown .emoji-045 span.emoji {
+    background-position: -210px -225px;
+}
+
+.divPersonalisationDropdown .emoji-046 span.emoji {
+    background-position: -210px -247px;
+}
+
+.divPersonalisationDropdown .emoji-047 span.emoji {
+    background-position: -210px -268px;
+}
+
+.divPersonalisationDropdown .emoji-048 span.emoji {
+    background-position: -210px -290px;
+}
+
+.divPersonalisationDropdown .emoji-049 span.emoji {
+    background-position: -210px -313px;
+}
+
+.divPersonalisationDropdown .emoji-050 span.emoji {
+    background-position: -210px -334px;
+}
+
+.divPersonalisationDropdown .emoji-051 span.emoji {
+    background-position: -210px -355px;
+}
+
+.divPersonalisationDropdown .emoji-052 span.emoji {
+    background-position: -210px -377px;
+}
+
+.divPersonalisationDropdown .emoji-053 span.emoji {
+    background-position: -210px -399px;
+}
+
+.divPersonalisationDropdown .emoji-054 span.emoji {
+    background-position: -210px -421px;
+}
+
+.divPersonalisationDropdown .emoji-055 span.emoji {
+    background-position: -175px -356px;
+}
+
+.divPersonalisationDropdown .emoji-056 span.emoji {
+    background-position: -175px -377px;
+}
+
+.divPersonalisationDropdown {
+    position: relative;
+}
+
+.divPersonalisationDropdown span.value {
+    display: inline;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.dropdownPers .divPersonalisationDropdown button {
+    padding: 10px 20px;
+    background-image: none;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 48px;
+    font-size: 1.2em;
+    border-radius: 0;
+    font-weight: bold;
+    white-space: normal;
+    letter-spacing: 1px;
+    position: relative;
+    border-color: #999;
+    text-align: left;
+    background-color: #fff !important;
+    color: #333 !important;
+    text-transform: uppercase;
+}
+
+.dropdownPers .divPersonalisationDropdown button:hover {
+    background-color: #fff !important;
+}
+
+.dropdownPers .divPersonalisationDropdown button:focus {
+    box-shadow: inset 0 0 3px 1px #0000ed;
+    transition: none;
+}
+
+.divPersonalisationDropdown button span.caret {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.divPersonalisationDropdown ul {
+    margin-top: 0;
+    z-index: 5100;
+    max-height: 300px;
+    overflow-y: auto;
+    font-size: 1.1em;
+    min-width: 100%;
+    padding: 0;
+}
+
+.divPersonalisationDropdown ul li.personalisationDropdownOption {
+    width: 100%;
+    height: auto;
+    padding: 6px 30px 6px 20px !important;
+    cursor: pointer;
+    background: none;
+    text-transform: uppercase;
+}
+
+.divPersonalisationDropdown ul li.personalisationDropdownOption:hover {
+    background-color: #f5f5f5;
+}
+
+.divPersonalisationDropdown .none .flag,
+.divPersonalisationDropdown .none .emoji {
+    display: none;
+}
+
+#divPersaddToBasketContainer .ImgButWrap {
+    display: block;
+}
+
+#divPersaddToBasketContainer .ImgButWrap a {
+    padding: 20px 5px;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-weight: 700;
+    display: block;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .dropdownPers .divPersonalisationDropdown button,
+    .divPersonalisationDropdown ul {
+        min-width: calc(50% - 5px);
+    }
+}
+
+.PrintDetGroup .listthcgroup {
+    padding: 0 5px 10px;
+}
+
+.PrintDetGroup .PersSpace {
+    padding: 0 0 4px;
+}
+
+.errorGroup li {
+    padding: 5px;
+}
+
+.validationError {
+    font-weight: bold;
+    color: #fe0000;
+    font-size: 14px;
+}
+
+#divPersaddToBasketContainer .WishListContain {
+    cursor: pointer;
+    padding-top: 0;
+    display: block;
+    float: none;
+    text-align: center;
+}
+
+#divPersaddToBasketContainer .WishListContain > span {
+    float: none;
+    display: block;
+}
+
+#divListClubPlayer,
+#divLetters,
+#divNumbers {
+    padding: 0 5px 15px;
+}
+
+#divMininum {
+    padding: 0 10px 5px;
+}
+
+.divCheckItem {
+    padding: 0 10px 5px;
+}
+
+.badgesWrap > .divCheckItem {
+    padding: 0;
+}
+
+.productPersonalisation .personalisationnote {
+    padding: 10px 0 0;
+    font-size: 14px;
+}
+
+.productPersonalisation .personalisationnotecheck {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.productPersonalisation .personalisationcheck {
+    font-weight: bold;
+    margin: 0 0 10px;
+    display: block;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+.productPersonalisation .personalisationtick {
+    height: 15px;
+    display: inline-block;
+    width: 15px;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    border: 1px solid #999;
+}
+
+.productPersonalisation .personalisationtick:focus {
+    box-shadow: inset 0 0 3px 1px #0000ed;
+}
+
+#productDetails .myIdPersonalisation .personalisationtickMyId {
+    height: 24px;
+    width: 24px;
+    margin: 5px auto 0;
+    padding: 0;
+}
+
+.pTypeMininumMyIdTitle {
+    font-size: 1.1em;
+}
+
+.PrintDetGroup .letnum,
+.PrintDetGroup .listthc {
+    padding: 10px 5px 5px;
+}
+
+.PrintDetGroup .labelPersLine {
+    padding-bottom: 10px;
+}
+
+.perTitle {
+    font-weight: 700;
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.PersHelpLink {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.PrintDetGroup .PersLabel {
+    width: 47%;
+    display: block;
+    float: left;
+    text-align: right;
+}
+
+#PersonalisationModal .is-loading .modal-body:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 50px);
+    translate: -50% 10px;
+    width: 48px;
+    height: 48px;
+    border: 5px solid var(--personalisation-loader-color, #000);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#PersonalisationModal #productDetails {
+    width: 100%;
+    float: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#PersonalisationModal #productDetails .personalisationTitlePanel {
+    background-color: transparent;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.PersonaliseSpace .PersVouchBasketContainer {
+    margin-top: 10px;
+}
+
+.PersonaliseSpace .PersVouchBasketContainer .ImgButWrap {
+    width: 100%;
+}
+
+.PersonaliseSpace .PersVouchBasketContainer .ImgButWrap a {
+    display: block;
+    text-align: center;
+}
+
+.ShirtPers,
+.BootPers {
+    margin-top: 10px;
+}
+
+.voucherimage {
+    float: right;
+    height: 304px;
+    margin-top: 15px;
+}
+
+.PersonaliseSpace {
+    position: relative;
+}
+
+.PersVouchBasketContainer #divPersAddToWishListContainer .ImgButWrap a {
+    padding: 10px 20px 10px 40px;
+    background-color: #888 !important;
+    color: #fff !important;
+}
+
+.PersVouchBasketContainer #divPersAddToWishListContainer .ImgButWrap a:hover {
+    background-color: #aaa !important;
+}
+
+#divPersonalisation.productPersonalisation .letnum input,
+#divPersonalisation.productPersonalisation .listthc select,
+#divPersonalisation.productPersonalisation .letters input,
+#divPersonalisation.productPersonalisation .numbers input,
+#divPersonalisation.productPersonalisation .listclubplayer select,
+#divPersonalisation.productPersonalisation .trophy input,
+#divPersonalisation.productPersonalisation .flagembgroup select {
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 700;
+    float: none;
+    clear: none;
+    font-size: 16px;
+    border: 1px solid #999;
+    margin-bottom: 0;
+    height: 48px;
+    text-transform: uppercase;
+
+    @media (min-width: 1022px) {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1021px) {
+    #divPersonalisation.productPersonalisation .letnum input,
+    #divPersonalisation.productPersonalisation .listthc select,
+    #divPersonalisation.productPersonalisation .letters input,
+    #divPersonalisation.productPersonalisation .numbers input,
+    #divPersonalisation.productPersonalisation .listclubplayer select,
+    #divPersonalisation.productPersonalisation .trophy input,
+    #divPersonalisation.productPersonalisation .flagembgroup select,
+    .dropdownPers .divPersonalisationDropdown button {
+        padding: 10px;
+    }
+}
+
+#divPersonalisation.productPersonalisation .letnum input:focus,
+#divPersonalisation.productPersonalisation .listthc select:focus,
+#divPersonalisation.productPersonalisation .letters input:focus,
+#divPersonalisation.productPersonalisation .numbers input:focus,
+#divPersonalisation.productPersonalisation .listclubplayer select:focus,
+#divPersonalisation.productPersonalisation .trophy input:focus,
+#divPersonalisation.productPersonalisation .flagembgroup select:focus {
+    box-shadow: inset 0 0 3px 1px #0000ed;
+}
+
+.trophy input {
+    margin-bottom: 7px;
+    padding: 6px 10px;
+    font-size: 1.1em;
+}
+
+.trophy input#pTypeTROPHY2,
+.trophy input#pTypeTROPHY3 {
+    margin-left: 22%;
+}
+
+.Responsive .evouchercontain .s-productextras-column-1 {
+    padding: 5px;
+}
+
+.Responsive .evouchercontain .s-productextras-column-2-3 {
+    padding: 0 5px 5px;
+}
+
+.evouchercontain {
+    padding: 10px 5px 0;
+}
+
+.evouchercontain > div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Responsive .evouchercontain .s-productextras-column-2-3 input,
+.Responsive .evouchercontain .s-productextras-column-2-3 textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 1.1em;
+}
+
+.Responsive .evouchercontain .s-productextras-column-2-3 input::placeholder,
+.Responsive .evouchercontain .s-productextras-column-2-3 textarea::placeholder {
+    color: #aaa;
+}
+
+.s-productextras-column-1 {
+    float: left;
+    padding: 10px 0;
+    line-height: 1.6em;
+}
+
+.s-productextras-column-1 label {
+    margin: 0;
+}
+
+.s-productextras-column-2-3 {
+    float: left;
+}
+
+.s-productextras-column-2-3 span {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+#divMyIdPersonalisation {
+    overflow: hidden;
+}
+
+.myIdShirtNumber label {
+    font-size: 11em !important;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Montserrat-Bold", sans-serif;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.6) !important;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.Radikal,
+.Radikal23 {
+    .myIdShirtNumber label {
+        display: none;
+    }
+}
+
+.myIdShirtNumber ul {
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    display: none;
+    transform: scale(0.75);
+    top: 27%;
+    left: 0%;
+    width: 100%;
+}
+
+.Radikal,
+.Radikal23,
+.England22,
+.England24 {
+    .myIdShirtNumber ul {
+        display: block;
+    }
+}
+
+.myIdShirtName label {
+    font-size: 1.3em !important;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.4) !important;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    letter-spacing: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .myIdShirtName label {
+        font-size: 1em !important;
+    }
+}
+
+@media screen and (min-width: 1022px) {
+    .myIdShirtName label {
+        font-size: 1.2em !important;
+    }
+
+    .myIdShirtNumber ul {
+        transform: scale(0.65);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .myIdShirtName label {
+        font-size: 1.1em !important;
+    }
+
+    .myIdShirtNumber ul {
+        transform: scale(0.5);
+        top: 20%;
+    }
+}
+
+.Radikal,
+.Radikal23 {
+    .myIdShirtNumber ul {
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        transform: scale(1) !important;
+        margin: 0 4px;
+    }
+
+    .myIdShirtName label {
+        font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif !important;
+    }
+}
+
+.England22 .myIdShirtName label,
+.England24 .myIdShirtName label {
+    font-family: "England24", Arial, Helvetica, sans-serif !important;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.England22 .myIdShirtName label div,
+.England22 .myIdShirtName label span,
+.England24 .myIdShirtName label div,
+.England24 .myIdShirtName label span {
+    font-weight: 400 !important;
+}
+
+.myIdShirtName label div,
+.myIdShirtName label span {
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.myIdRemoveButton {
+    text-align: center;
+    border: 1px solid #aaa;
+    border-top: none;
+}
+
+.myIdRemoveButton a {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: block;
+    transition: background-color ease-in-out 500ms;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.myIdRemoveButton a:hover {
+    background-color: #eee;
+}
+
+#PersonalisationHelpModel .modal-body {
+    padding-top: 15px;
+}
+
+.RadikalNum,
+.Radikal23Num {
+    height: 155px;
+    margin: 0 3px;
+    width: 89px;
+    background-image: url("/images/core/prem-shirt-numbers-01.png");
+    background-size: 1022px 1312px !important;
+    display: inline-block;
+
+    /* White */
+    &.colFFFFFF-0 {
+        background-position: -17px 0;
+    }
+
+    &.colFFFFFF-1 {
+        background-position: -122px 0;
+        width: 49px;
+    }
+
+    &.colFFFFFF-2 {
+        background-position: -193px 0;
+    }
+
+    &.colFFFFFF-3 {
+        background-position: -286px 0;
+    }
+
+    &.colFFFFFF-4 {
+        background-position: -386px 0;
+    }
+
+    &.colFFFFFF-5 {
+        background-position: -486px 0;
+    }
+
+    &.colFFFFFF-6 {
+        background-position: -597px 0;
+    }
+
+    &.colFFFFFF-7 {
+        background-position: -707px 0;
+    }
+
+    &.colFFFFFF-8 {
+        background-position: -811px 0;
+    }
+
+    &.colFFFFFF-9 {
+        background-position: -913px 0;
+    }
+
+    /* Black */
+    &.col1D1D1D-0,
+    &.col231F20-0 {
+        background-position: -17px -289px;
+    }
+
+    &.col1D1D1D-1,
+    &.col231F20-1 {
+        background-position: -122px -289px;
+        width: 49px;
+    }
+
+    &.col1D1D1D-2,
+    &.col231F20-2 {
+        background-position: -193px -289px;
+    }
+
+    &.col1D1D1D-3,
+    &.col231F20-3 {
+        background-position: -286px -289px;
+    }
+
+    &.col1D1D1D-4,
+    &.col231F20-4 {
+        background-position: -386px -289px;
+    }
+
+    &.col1D1D1D-5,
+    &.col231F20-5 {
+        background-position: -486px -289px;
+    }
+
+    &.col1D1D1D-6,
+    &.col231F20-6 {
+        background-position: -597px -289px;
+    }
+
+    &.col1D1D1D-7,
+    &.col231F20-7 {
+        background-position: -707px -289px;
+    }
+
+    &.col1D1D1D-8,
+    &.col231F20-8 {
+        background-position: -811px -289px;
+    }
+
+    &.col1D1D1D-9,
+    &.col231F20-9 {
+        background-position: -913px -289px;
+    }
+
+    /* Yellow */
+    &.colE2E71F-0,
+    &.colFFCD0A-0 {
+        background-position: -17px -577px;
+    }
+
+    &.colE2E71F-1,
+    &.colFFCD0A-1 {
+        background-position: -122px -577px;
+        width: 49px;
+    }
+
+    &.colE2E71F-2,
+    &.colFFCD0A-2 {
+        background-position: -193px -577px;
+    }
+
+    &.colE2E71F-3,
+    &.colFFCD0A-3 {
+        background-position: -286px -577px;
+    }
+
+    &.colE2E71F-4,
+    &.colFFCD0A-4 {
+        background-position: -386px -577px;
+    }
+
+    &.colE2E71F-5,
+    &.colFFCD0A-5 {
+        background-position: -486px -577px;
+    }
+
+    &.colE2E71F-6,
+    &.colFFCD0A-6 {
+        background-position: -597px -577px;
+    }
+
+    &.colE2E71F-7,
+    &.colFFCD0A-7 {
+        background-position: -707px -577px;
+    }
+
+    &.colE2E71F-8,
+    &.colFFCD0A-8 {
+        background-position: -811px -577px;
+    }
+
+    &.colE2E71F-9,
+    &.colFFCD0A-9 {
+        background-position: -913px -577px;
+    }
+
+    /* Red */
+    &.colEB0029-0,
+    &.colEC2229-0 {
+        background-position: -17px -866px;
+    }
+
+    &.colEB0029-1,
+    &.colEC2229-1 {
+        background-position: -122px -866px;
+        width: 49px;
+    }
+
+    &.colEB0029-2,
+    &.colEC2229-2 {
+        background-position: -193px -866px;
+    }
+
+    &.colEB0029-3,
+    &.colEC2229-3 {
+        background-position: -286px -866px;
+    }
+
+    &.colEB0029-4,
+    &.colEC2229-4 {
+        background-position: -386px -866px;
+    }
+
+    &.colEB0029-5,
+    &.colEC2229-5 {
+        background-position: -486px -866px;
+    }
+
+    &.colEB0029-6,
+    &.colEC2229-6 {
+        background-position: -597px -866px;
+    }
+
+    &.colEB0029-7,
+    &.colEC2229-7 {
+        background-position: -707px -866px;
+    }
+
+    &.colEB0029-8,
+    &.colEC2229-8 {
+        background-position: -811px -866px;
+    }
+
+    &.colEB0029-9,
+    &.colEC2229-9 {
+        background-position: -913px -866px;
+    }
+
+    /* Navy */
+    &.col131C4E-0,
+    &.col1A315C-0 {
+        background-position: -17px -1155px;
+    }
+
+    &.col131C4E-1,
+    &.col1A315C-1 {
+        background-position: -122px -1155px;
+        width: 49px;
+    }
+
+    &.col131C4E-2,
+    &.col1A315C-2 {
+        background-position: -193px -1155px;
+    }
+
+    &.col131C4E-3,
+    &.col1A315C-3 {
+        background-position: -286px -1155px;
+    }
+
+    &.col131C4E-4,
+    &.col1A315C-4 {
+        background-position: -386px -1155px;
+    }
+
+    &.col131C4E-5,
+    &.col1A315C-5 {
+        background-position: -486px -1155px;
+    }
+
+    &.col131C4E-6,
+    &.col1A315C-6 {
+        background-position: -597px -1155px;
+    }
+
+    &.col131C4E-7,
+    &.col1A315C-7 {
+        background-position: -707px -1155px;
+    }
+
+    &.col131C4E-8,
+    &.col1A315C-8 {
+        background-position: -811px -1155px;
+    }
+
+    &.col131C4E-9,
+    &.col1A315C-9 {
+        background-position: -913px -1155px;
+    }
+}
+
+.England22Num {
+    height: 155px;
+    margin: 0;
+    width: 75px;
+    background-image: url("/images/core/eng-shirt-numbers-22.png");
+    background-size: 900px 1000px;
+    display: inline-block;
+}
+
+.England24Num {
+    background-image: url("/images/core/england-2024.png");
+    background-size: auto auto;
+    display: inline-block;
+    height: 200px;
+    margin: 0;
+    width: 95px;
+}
+
+.England22Num .myIdShirtCointainWrap #PersImage,
+.England24Num .myIdShirtCointainWrap #PersImage,
+.sdDetails .myIdShirtContainWrap #PersImage {
+    width: 120%;
+    margin-left: -10%;
+    max-width: 120%;
+}
+
+.England22 .myIdShirtNumber ul,
+.England24 .myIdShirtNumber ul {
+    left: 0;
+    width: 100%;
+}
+
+.England22.colour-6bb1de .myIdShirtName label,
+.England22.colour-6BB1DE .myIdShirtName label {
+    -webkit-text-stroke: 1px #2a2337;
+}
+
+/* Navy */
+.England22Num.col2A2337-0 {
+    background-position: -11px -7px;
+}
+
+.England22Num.col2A2337-1 {
+    background-position: -101px -7px;
+    width: 49px;
+}
+
+.England22Num.col2A2337-2 {
+    background-position: -162px -7px;
+}
+
+.England22Num.col2A2337-3 {
+    background-position: -251px -7px;
+}
+
+.England22Num.col2A2337-4 {
+    background-position: -344px -7px;
+    width: 89px;
+}
+
+.England22Num.col2A2337-5 {
+    background-position: -449px -7px;
+}
+
+.England22Num.col2A2337-6 {
+    background-position: -538px -7px;
+}
+
+.England22Num.col2A2337-7 {
+    background-position: -631px -7px;
+}
+
+.England22Num.col2A2337-8 {
+    background-position: -725px -7px;
+}
+
+.England22Num.col2A2337-9 {
+    background-position: -814px -7px;
+}
+
+/* Blue */
+.England22Num.col6BB1DE-0 {
+    background-position: -11px -213px;
+}
+
+.England22Num.col6BB1DE-1 {
+    background-position: -101px -213px;
+    width: 49px;
+}
+
+.England22Num.col6BB1DE-2 {
+    background-position: -162px -213px;
+}
+
+.England22Num.col6BB1DE-3 {
+    background-position: -251px -213px;
+}
+
+.England22Num.col6BB1DE-4 {
+    background-position: -344px -213px;
+    width: 89px;
+}
+
+.England22Num.col6BB1DE-5 {
+    background-position: -449px -213px;
+}
+
+.England22Num.col6BB1DE-6 {
+    background-position: -538px -213px;
+}
+
+.England22Num.col6BB1DE-7 {
+    background-position: -631px -213px;
+}
+
+.England22Num.col6BB1DE-8 {
+    background-position: -725px -213px;
+}
+
+.England22Num.col6BB1DE-9 {
+    background-position: -814px -213px;
+}
+
+/* White */
+.England22Num.colFFFFFF-0 {
+    background-position: -11px -842px;
+}
+
+.England22Num.colFFFFFF-1 {
+    background-position: -101px -842px;
+    width: 49px;
+}
+
+.England22Num.colFFFFFF-2 {
+    background-position: -162px -842px;
+}
+
+.England22Num.colFFFFFF-3 {
+    background-position: -251px -842px;
+}
+
+.England22Num.colFFFFFF-4 {
+    background-position: -344px -842px;
+    width: 89px;
+}
+
+.England22Num.colFFFFFF-5 {
+    background-position: -449px -842px;
+}
+
+.England22Num.colFFFFFF-6 {
+    background-position: -538px -842px;
+}
+
+.England22Num.colFFFFFF-7 {
+    background-position: -631px -842px;
+}
+
+.England22Num.colFFFFFF-8 {
+    background-position: -725px -842px;
+}
+
+.England22Num.colFFFFFF-9 {
+    background-position: -814px -842px;
+}
+
+/* Navy England 24 */
+.England24Num.col181938-0 {
+    background-position: -23px -20px;
+}
+
+.England24Num.col181938-1 {
+    background-position: -153px -20px;
+    width: 75px;
+}
+
+.England24Num.col181938-2 {
+    background-position: -263px -20px;
+}
+
+.England24Num.col181938-3 {
+    background-position: -383px -20px;
+}
+
+.England24Num.col181938-4 {
+    background-position: -500px -20px;
+    width: 100px;
+}
+
+.England24Num.col181938-5 {
+    background-position: -623px -20px;
+}
+
+.England24Num.col181938-6 {
+    background-position: -743px -20px;
+}
+
+.England24Num.col181938-7 {
+    background-position: -863px -20px;
+}
+
+.England24Num.col181938-8 {
+    background-position: -983px -20px;
+}
+
+.England24Num.col181938-9 {
+    background-position: -1103px -20px;
+}
+
+/* Gold England 24 */
+.England24Num.colD1B894-0 {
+    background-position: -23px -240px;
+}
+
+.England24Num.colD1B894-1 {
+    background-position: -153px -240px;
+    width: 75px;
+}
+
+.England24Num.colD1B894-2 {
+    background-position: -263px -240px;
+}
+
+.England24Num.colD1B894-3 {
+    background-position: -383px -240px;
+}
+
+.England24Num.colD1B894-4 {
+    background-position: -500px -240px;
+    width: 100px;
+}
+
+.England24Num.colD1B894-5 {
+    background-position: -623px -240px;
+}
+
+.England24Num.colD1B894-6 {
+    background-position: -743px -240px;
+}
+
+.England24Num.colD1B894-7 {
+    background-position: -863px -240px;
+}
+
+.England24Num.colD1B894-8 {
+    background-position: -983px -240px;
+}
+
+.England24Num.colD1B894-9 {
+    background-position: -1103px -240px;
+}
+
+@media (min-width: 1600px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 2.6em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(1.1);
+        top: 28%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.7);
+        top: 21%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.6em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.85);
+            top: 23%;
+        }
+    }
+
+    .myIdShirtName label {
+        font-size: 1.8em !important;
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 26%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 2.25em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.6);
+        top: 17%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.4em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.65);
+            top: 20%;
+        }
+    }
+
+    .myIdShirtName label {
+        font-size: 1.8em !important;
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 26%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1439px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 2.75em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(1.05);
+        top: 27%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.7);
+        top: 21%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.8em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.85);
+            top: 25%;
+        }
+    }
+
+    .myIdShirtName label {
+        font-size: 1.45em !important;
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 26%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1299px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 2.3em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(0.95);
+        top: 26%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.65);
+        top: 18%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.5em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.65);
+            top: 20%;
+        }
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 26%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 1022px) and (max-width: 1149px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 1.9em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(0.75);
+        top: 20%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.55);
+        top: 15%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.25em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.65);
+            top: 18%;
+        }
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 26%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1021px) {
+    .England22 .myIdShirtName label {
+        font-size: 1.8em !important;
+        -webkit-text-stroke: 0.5px #6bb1de;
+    }
+
+    .England24 .myIdShirtName label {
+        font-size: 1.8em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(0.75);
+        top: 20%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.5);
+        top: 12%;
+    }
+
+    .England22.colour-6bb1de .myIdShirtName label {
+        -webkit-text-stroke: 0.5px #2a2337;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.4em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.65);
+            top: 18%;
+        }
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 26%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+    .England22 .myIdShirtName label {
+        font-size: 1.5em !important;
+        -webkit-text-stroke: 0.5px #6bb1de;
+    }
+
+    .England24 .myIdShirtName label {
+        font-size: 1.5em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(0.6);
+        top: 15%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.4);
+        top: 6%;
+    }
+
+    .England22.colour-6bb1de .myIdShirtName label {
+        -webkit-text-stroke: 0.5px #2a2337;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.1em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.5);
+            top: 11%;
+        }
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2.1em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 27%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 767px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 4.6em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(1.8);
+        top: 34%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(1.2);
+        top: 30%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 2.9em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(1.5);
+            top: 32%;
+        }
+    }
+
+    .myIdShirtName label {
+        font-size: 2.9em !important;
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2.1em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 27%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 3.8em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(1.4);
+        top: 30%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 28%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 2.4em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(1.25);
+            top: 30%;
+        }
+    }
+
+    .myIdShirtName label {
+        font-size: 2.4em !important;
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(1);
+        top: 27%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.3);
+        top: 30%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 25%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 3.1em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(1.2);
+        top: 28%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.8);
+        top: 23%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 2em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(1);
+            top: 28%;
+        }
+    }
+
+    .myIdShirtName label {
+        font-size: 2.2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 1.7em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(0.8);
+        top: 24%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 2.3em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(1.1);
+        top: 28%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.75);
+        top: 22%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 499px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 2.4em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(0.95);
+        top: 26%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.65);
+        top: 19%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.8em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.85);
+            top: 22%;
+        }
+    }
+
+    .myIdShirtName label {
+        font-size: 1.8em !important;
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 1.35em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(0.7);
+        top: 19%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 1.9em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 24%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.6);
+        top: 16%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 2.1em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(0.9);
+        top: 24%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.55);
+        top: 15%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtName label {
+            font-size: 1.6em !important;
+        }
+
+        .myIdShirtNumber ul {
+            transform: scale(0.65);
+            top: 18%;
+        }
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 1.2em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(0.65);
+        top: 17%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 1.7em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(0.8);
+        top: 21%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.55);
+        top: 13%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 374px) {
+    .England22 .myIdShirtName label,
+    .England24 .myIdShirtName label {
+        font-size: 1.75em !important;
+    }
+
+    .England22 .myIdShirtNumber ul {
+        transform: scale(0.7);
+        top: 20%;
+    }
+
+    .England24 .myIdShirtNumber ul {
+        transform: scale(0.45);
+        top: 10%;
+    }
+
+    .Radikal,
+    .Radikal23 {
+        .myIdShirtNumber ul {
+            transform: scale(0.55);
+            top: 17%;
+        }
+    }
+
+    .myIdShirtNumber label {
+        font-size: 8em !important;
+    }
+
+    #PersonalisationModal .myIdShirtName label {
+        font-size: 1em !important;
+    }
+
+    #PersonalisationModal .myIdShirtNumber ul {
+        transform: scale(0.5);
+        top: 12%;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtName label,
+    #PersonalisationModal .England24 .myIdShirtName label {
+        font-size: 1.35em !important;
+    }
+
+    #PersonalisationModal .England22 .myIdShirtNumber ul {
+        transform: scale(0.6);
+        top: 14%;
+    }
+
+    #PersonalisationModal .England24 .myIdShirtNumber ul {
+        transform: scale(0.4);
+        top: 2%;
+    }
+}
+
+@media (max-width: 1458px) {
+    .myIdShirtNumber label {
+        font-size: 11em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 2.05em !important;
+    }
+
+    .England22 .myIdShirtNumber label,
+    .England24 .myIdShirtNumber label {
+        font-size: 11.2em !important;
+    }
+}
+
+@media (max-width: 1367px) {
+    .myIdShirtNumber label {
+        font-size: 13em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.85em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.92);
+    }
+}
+
+@media (max-width: 1240px) {
+    .myIdShirtNumber label {
+        font-size: 10em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.6em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 1080px) {
+    .myIdShirtNumber label {
+        font-size: 9.2em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.45em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.71);
+    }
+}
+
+@media (max-width: 980px) {
+    .myIdShirtNumber label {
+        font-size: 7.8em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.25em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.63);
+    }
+}
+
+@media (max-width: 880px) {
+    .myIdShirtNumber label {
+        font-size: 6.5em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.05em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.52);
+    }
+}
+
+@media (max-width: 767px) {
+    .myIdShirtNumber label {
+        font-size: 15em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 2.05em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 570px) {
+    .myIdShirtNumber label {
+        font-size: 11.5em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.6em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.78);
+    }
+}
+
+@media (max-width: 480px) {
+    .myIdShirtNumber label {
+        font-size: 9.9em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.5em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.66);
+    }
+}
+
+@media (max-width: 440px) {
+    .myIdShirtNumber label {
+        font-size: 8.8em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.3em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.71);
+    }
+}
+
+@media (max-width: 400px) {
+    .myIdShirtNumber label {
+        font-size: 7.7em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.1em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.53);
+    }
+}
+
+@media (max-width: 370px) {
+    .myIdShirtNumber label {
+        font-size: 7.5em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1.05em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.51);
+    }
+}
+
+@media (max-width: 340px) {
+    .myIdShirtNumber label {
+        font-size: 7.2em !important;
+    }
+
+    .myIdShirtName label {
+        font-size: 1em !important;
+    }
+
+    .RadikalNum,
+    .Radikal23Num {
+        margin: 0;
+        transform: scale(0.49);
+    }
+}
+
+#productDetails .nonRefundableText {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#productDetails .PrintDetGroup .nonRefundableText {
+    padding-top: 5px;
+}
+
+#productDetails .nonRefundableText > span {
+    font-weight: 700;
+}
+
+.myIdPersonalisationContainer #myIdTabs .RadTabStrip.RadTabStrip_Vista_Dark .rtsLevel .myIdRtsSelected .rtsIn,
+.myIdPersonalisationContainer #myIdTabs .RadTabStrip .rtsIn,
+.myIdPersonalisationContainer #myIdTabs .RadTabStripVertical .rtsIn {
+    border-bottom: 0 !important;
+    border-top-color: #aaa;
+}
+
+.playersOnly .myIdPersonalisationContainer li.customNameContain,
+.playersOnly .myIdPersonalisation .numbersWrap .dropdownPers {
+    display: none;
+}
+
+.playersOnly .myIdPersonalisation .playerNameWrap,
+.playersOnly .myIdPersonalisation .numbersWrap {
+    width: 100%;
+}
+
+.playersOnly .myIdPersonalisation .playerNameWrap {
+    margin-bottom: 0;
+}
+
+.playersOnly .myIdPersonalisation .numbersWrap input {
+    display: none;
+}
+
+.playersOnly .PrintDetGroup #divListClubPlayer {
+    padding-bottom: 0;
+}
+
+.playersOnly .PrintDetGroup #divLetters .labelPersLine,
+.playersOnly .PrintDetGroup #divNumbers .labelPersLine,
+.playersOnly .PrintDetGroup #divLetters .dropdownPers,
+.playersOnly .PrintDetGroup #divNumbers .dropdownPers {
+    display: none;
+}
+
+.playersOnly .PrintDetGroup #divLetters,
+.playersOnly .PrintDetGroup #divNumbers {
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.playersOnly #productDetails .PrintDetGroup .nonRefundableText {
+    padding-top: 10px;
+}
+
+.no-players-visual-print .PrintDetGroup #divListClubPlayer {
+    display: none;
+}
+
+.no-players-visual-print .myIdPersonalisationContainer #myIdTabs .rtsLI {
+    pointer-events: none;
+}
+
+.no-players-visual-print .myIdPersonalisationContainer #myIdTabs .rtsLI.playerPickContain {
+    display: none;
+}
+
+.no-players-visual-print .myIdPersonalisationContainer #myIdTabs .customNameContain .rtsIn {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.no-players-visual-print .myIdPersonalisationContainer #myIdTabs .customNameWrap {
+    visibility: visible !important;
+    display: block !important;
+}
+
+.no-players-visual-print .myIdPersonalisationContainer #myIdTabs .playerNameWrap {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+/* Personalisation fix */
+
+.RadTabStrip .rtsUL,
+.RadTabStripVertical .rtsUL {
+    display: flex;
+}
+
+.RadTabStrip .rtsLI,
+.RadTabStripVertical .rtsLI {
+    overflow: auto;
+}
+
+.RadTabStrip .rtsLI {
+    float: none;
+}
+
+.RadTabStrip .rtsLink {
+    white-space: initial;
+}
+
+.sdDetails .myIdTabs .RadTabStrip .rtsLevel .rtsIn {
+    padding: 12px 4px;
+}
+
+#productDetails .myIdPersonalisation input,
+#productDetails .myIdPersonalisation select {
+    padding: 8px;
+}
+
+.sdDetails .myIdShirtContainer {
+    overflow: hidden;
+}

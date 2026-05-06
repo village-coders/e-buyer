@@ -1,0 +1,98 @@
+.SzQuantGroup .sizeButtons li a {
+    border: 1px solid var(--site-mid-grey);
+    min-height: 44px;
+    line-height: 44px;
+    color: var(--site-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--site-cta-border-radius) !important;
+}
+
+.sdDetails .sizeButtons li a:hover,
+.sdDetails .sizeButtons li a:focus {
+    border: 1px solid var(--site-black);
+    background: var(--site-white);
+}
+
+.s-productextras-column-1 span,
+.s-productextras-column-1 label,
+.s-productextras-checkbox-column-1 label {
+    font-weight: var(--font-weight-regular);
+    letter-spacing: normal;
+}
+
+.SzQuantGroup {
+    margin-top: 25px;
+}
+
+.SzQuantGroup .SizeGuideText {
+    color: #728082;
+    font-size: 12px;
+    font-weight: var(--font-weight-regular);
+}
+
+.SzQuantGroup .sizeButtons li {
+    margin: 0;
+    padding: 0 var(--padding-unit) var(--padding-unit) var(--padding-unit);
+    width: 33.333333%;
+    height: auto;
+    background-color: transparent;
+    font-size: 1.2em;
+}
+
+.SzQuantGroup .sizeButtons li:first-child:nth-last-child(2),
+.SzQuantGroup .sizeButtons li:first-child:nth-last-child(2) ~ li {
+    width: 25%;
+}
+
+.SzQuantGroup .sizeButtons li.sizeVariantHighlight::before {
+    display: none;
+}
+
+.SzQuantGroup .sizeButtons li.sizeVariantHighlight a {
+    border: 1px solid var(--site-black);
+    background: var(--site-white);
+    color: var(--site-black);
+    font-weight: var(--font-weight-regular);
+}
+
+.SzQuantGroup .sizeButtons li a span {
+    line-height: 20px;
+    pointer-events: none;
+}
+
+.SzQuantGroup .sizeButtons li.greyOut a {
+    background: var(--site-light-grey);
+    color: var(--site-black);
+    border: 1px solid var(--site-mid-grey) !important;
+}
+
+.SzQuantGroup .sizeButtons li.greyOut a:hover,
+.SzQuantGroup .sizeButtons li.greyOut a:focus {
+    background: #f8f8f8;
+    border: 1px solid #e7eaec;
+}
+
+#BuySizeText {
+    font-size: var(--body-font-size);
+    font-weight: var(--font-weight-bold);
+    &.sizeerror {
+        color: var(--site-red);
+        font-size: var(--body-font-size);
+    }
+}
+
+#divPopupSizeGuide {
+    .sizeslink {
+        .SizeGuideText {
+            color: var(--site-black);
+            font-size: var(--body-font-size);
+            text-decoration: none;
+        }
+
+        &:hover .SizeGuideText {
+            text-decoration: underline;
+        }
+    }
+}

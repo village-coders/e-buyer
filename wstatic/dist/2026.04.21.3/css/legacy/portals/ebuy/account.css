@@ -1,0 +1,435 @@
+.ControlWrap {
+    .bagWishBlock,
+    .accountBlock,
+    .accountBlock .login,
+    .accountBlock .AccountLink,
+    .accountBlock .SignInLink {
+        height: 100%;
+    }
+
+    .accountBlock .login {
+        display: block;
+        line-height: 70px;
+    }
+
+    .accountBlock .login .ico {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 11px;
+    }
+
+    .accountBlock .login .hidden-xs {
+        display: none;
+    }
+}
+
+.SignInLink .login .userLoginContainer {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.Login {
+    h1 {
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: var(--font-weight-extra-bold);
+    }
+
+    .tcLogin {
+        font-size: var(--body-font-size);
+        text-align: left;
+
+        a {
+            color: var(--site-black);
+            text-decoration: none;
+        }
+    }
+
+    .innerBorder {
+        border: 1px solid var(--site-mid-grey);
+        margin: 10px;
+    }
+
+    .loginContainer .ForgotPass {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .newCustomer {
+        background-color: var(--site-white);
+        border-top: none;
+        border-bottom: none;
+
+        h1 {
+            text-transform: capitalize;
+        }
+        .innerBorder {
+            background-color: var(--site-lightest-grey);
+        }
+    }
+
+    .newlogin .myAccLogin {
+        .row {
+            padding: 15px 0px;
+
+            @media (min-width: 1022px) {
+                padding: 12px 0px;
+            }
+        }
+
+        .logIcon {
+            background-position: -11px -187px;
+        }
+
+        .logText {
+            width: calc(100% - 24px);
+            font-size: var(--body-font-size);
+            line-height: 22px;
+        }
+    }
+
+    label,
+    h2,
+    .strongTitle,
+    .tcLogin a {
+        font-weight: var(--font-weight-regular);
+    }
+
+    input {
+        color: var(--site-black);
+    }
+
+    .innerBorder select,
+    .innerBorder input {
+        border-radius: var(--product-line-item-border-radius);
+    }
+
+    .SignupConfirm > input[type="checkbox"] {
+        width: 18px;
+    }
+
+    @media (min-width: 768px) {
+        .Login .innerBorder {
+            padding-bottom: 114px;
+        }
+    }
+}
+
+input#Registration_IsSubscriber[type="checkbox"]:checked {
+    accent-color: var(--site-accent);
+}
+
+.SignupConfirm .NewsletterFree,
+.SignupConfirm em,
+.SignupConfirm a {
+    font-weight: var(--font-weight-bold);
+}
+
+.login {
+    &::before {
+        width: 80%;
+        background-position: -6px -202px;
+    }
+
+    &:hover::before {
+        background-position: -70px -201px;
+    }
+}
+
+.loginContainer {
+    .ForgotPass a.ForgotPasswordLinkButton {
+        font-size: var(--body-font-size);
+        font-weight: var(--font-weight-regular);
+        color: var(--site-black);
+        text-decoration: none;
+    }
+    label {
+        font-size: var(--subtitle-font-size);
+        min-height: 16px;
+        margin-top: 10px;
+    }
+    input {
+        border-radius: var(--product-line-item-border-radius);
+    }
+}
+
+#accountMenu {
+    .sidebar-nav li.active a,
+    .cprefs section h2 {
+        color: var(--site-dark-grey);
+    }
+
+    ul.sidebar-nav li.FirstOptionAcc a {
+        font-weight: var(--font-weight-bold);
+
+        &:hover {
+            background-color: var(--site-white);
+        }
+    }
+
+    .sidebar-nav li.active a,
+    .sidebar-nav li a {
+        font-weight: var(--font-weight-regular);
+    }
+
+    ul.sidebar-nav li.SignOutAcc a {
+        font-size: var(--body-font-size) !important;
+
+        &:hover {
+            background-color: var(--site-cta-background);
+            color: var(--site-cta-text-hover);
+        }
+    }
+}
+
+#accountMenu .sidebar-nav li.active a::before,
+#accountMenu ul.sidebar-nav li.SignOutAcc a,
+.cprefs .yesnoSelect label.selected,
+.cprefs .cprefsFrequency label.selected {
+    background-color: var(--site-cta-background);
+    color: var(--site-black);
+}
+
+.Profile .Sharebutton a {
+    background-color: var(--site-cta-background);
+    color: var(--site-cta-text) !important;
+}
+
+.ProfileWrap input,
+.innerPref select.form-control {
+    border-radius: var(--product-line-item-border-radius);
+}
+
+.NewCustWrap {
+    .ImgButWrap {
+        background-color: var(--site-cta-background);
+        border: 1px solid var(--site-cta-background);
+        transition: all 0.3s ease-in;
+        border-radius: 25px;
+
+        &:hover {
+            background-color: var(--site-accent);
+            a span {
+                color: var(--site-cta-text-hover);
+            }
+        }
+
+        a {
+            border-radius: 4px;
+            padding: 16px;
+
+            span {
+                text-transform: none;
+                color: var(--site-white);
+                font-family: var(--default-font-family);
+            }
+
+            &::after {
+                display: none !important;
+            }
+        }
+    }
+
+    .Login & {
+        max-width: 230px;
+
+        @media (min-width: 768px) {
+            bottom: 34px;
+            left: 30px;
+        }
+    }
+
+    .OrderCompleteLogin & .ImgButWrap {
+        display: inline-block;
+
+        a {
+            color: var(--site-cta-text);
+        }
+    }
+}
+
+.ProfileWrap {
+    h1,
+    h2,
+    label {
+        font-weight: var(--font-weight-regular);
+    }
+
+    label {
+        font-size: var(--body-font-size);
+    }
+
+    .cprefsAccountCreated,
+    .cprefsSuccessfullyUpdated {
+        background-color: var(--site-cta-background);
+        color: var(--site-cta-text);
+    }
+
+    .saveBtn #btnSaveChanges {
+        background-color: var(--site-cta-background);
+        color: var(--site-cta-text);
+        border: 1px solid var(--site-cta-background);
+        padding: 14px 60px;
+        border-radius: 25px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color: var(--site-white);
+            color: var(--site-black);
+        }
+    }
+}
+
+.Profile {
+    .ImgButWrap a {
+        border-radius: 25px;
+    }
+
+    .ImgButWrap.SignOutAcc a {
+        border-radius: 0;
+    }
+
+    .ImgButWrap a,
+    #hypEditAddress {
+        background-color: var(--site-cta-background);
+        color: var(--site-black);
+        border: 1px solid var(--site-cta-background);
+        transition: all 0.3s ease-in-out;
+        padding: 14px 60px;
+        border-radius: var(--site-cta-border-radius);
+        &:hover {
+            color: var(--site-cta-text-hover);
+        }
+    }
+
+    .cprefs label.optOut.selected,
+    button.cprefsRemoveMe {
+        background-color: var(--site-cta-background) !important;
+        color: var(--site-cta-text);
+    }
+
+    #BasketDiv .BagandCheckoutBtn .secondary2 a {
+        background-color: var(--site-cta-background) !important;
+        color: var(--site-black) !important;
+        border: 1px solid var(--site-cta-background);
+        transition: all 0.3s ease-in-out;
+        border-radius: var(--site-cta-border-radius);
+    }
+
+    #BasketDiv .BagandCheckoutBtn .secondary2 a:hover {
+        background-color: var(--site-white) !important;
+        color: var(--site-black) !important;
+    }
+
+    .accountWrapper {
+        .accountBox h1 {
+            color: var(--site-black);
+            font-weight: var(--font-weight-bold);
+        }
+
+        .logoutBox h1 {
+            color: var(--site-white);
+            font-weight: var(--font-weight-bold);
+        }
+
+        .accountBox:hover,
+        .logoutBox:hover {
+            background-color: var(--site-accent);
+
+            h1,
+            p {
+                color: var(--site-white);
+            }
+        }
+
+        @media (max-width: 767px) {
+            .logoutBox {
+                background-color: var(--site-cta-background);
+            }
+        }
+
+        .accountBox {
+            .personalInfo {
+                background-position: 250px -461px;
+
+                @media (min-width: 768px) {
+                    background-position: -90px -298px;
+                }
+            }
+
+            .addressBook {
+                background-position: 216px -461px;
+
+                @media (min-width: 768px) {
+                    background-position: -157px -298px;
+                }
+            }
+
+            .orderHistory {
+                background-position: 142px -459px;
+
+                @media (min-width: 768px) {
+                    background-position: -290px -298px;
+                }
+            }
+
+            .changePassword {
+                background-position: 43px -462px;
+
+                @media (min-width: 768px) {
+                    background-position: -470px -298px;
+                }
+            }
+
+            .wishList {
+                background-position: 178px -460px;
+
+                @media (min-width: 768px) {
+                    background-position: -224px -298px;
+                }
+            }
+
+            .contactPreferences {
+                background-position: 107px -462px;
+
+                @media (min-width: 768px) {
+                    background-position: -358px -298px;
+                }
+            }
+        }
+    }
+}
+
+#addressForm {
+    label {
+        font-weight: var(--font-weight-bold);
+        font-size: var(--body-font-size);
+    }
+}
+
+.OrderHistorySummaryRange li a:hover,
+.OrderHistorySummaryRange li.selected a,
+.NoOrdersFound {
+    color: var(--site-black);
+    font-weight: var(--font-weight-bold);
+}
+
+.wishItemContentWrap-move-to-bag,
+.product-line-card__description-remove-button,
+.product-line-card__bottom-quantity-button {
+    border: none;
+}
+
+.OrderGroup .OrderColC .ButtonOrder a {
+    background-color: var(--site-cta-background);
+    border-radius: 25px;
+
+    &:hover {
+        background-color: var(--site-cta-background-hover);
+    }
+}
+
+.dnnFormItem input:disabled {
+    background-color: rgb(255, 255, 255);
+}

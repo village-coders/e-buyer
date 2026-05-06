@@ -1,0 +1,45 @@
+#V12FinanceModal .PopUpModal .close {
+    background-position: -349px -308px !important;
+}
+
+#V12FinanceModal .PopUpModal .modal-header {
+    background-color: #005a54;
+}
+
+#V12FinanceModal .PopUpModal .header-text {
+    color: #fff;
+}
+
+#financeOptionsGenericWrapper.calc-link {
+    margin-top: 10px;
+}
+
+#financeOptionsGenericWrapper.calc-link .viewFinanceContainer {
+    padding: 5px 10px;
+    background-color: #cde0de;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005a54;
+}
+
+#financeOptionsGenericWrapper.calc-link .viewFinanceContainer .sViewFinanceWrapper {
+    width: 80%;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.finance-strong {
+    font-weight: bold;
+    color: #005a54;
+}
+
+.finance-strong.finance-tc-link {
+    color: #005a54 !important;
+}
+
+#viewFinanceLinkWrapper #viewFinanceContainer #aViewFinance {
+    text-decoration: underline;
+}

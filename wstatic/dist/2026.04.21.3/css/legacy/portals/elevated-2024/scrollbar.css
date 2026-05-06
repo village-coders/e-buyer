@@ -1,0 +1,24 @@
+#innerfiltercontainer,
+.popupFullscreen .modal-body {
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: var(--site-light-grey);
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: var(--site-mid-grey);
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: var(--site-dark-grey);
+    }
+}
+
+.order-summary .product-gallery .swiper-scrollbar .swiper-scrollbar-drag {
+    background-color: var(--site-dark-grey);
+}

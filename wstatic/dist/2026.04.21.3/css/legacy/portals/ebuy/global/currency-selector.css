@@ -1,0 +1,325 @@
+.LanguageCurrency {
+    margin: 0;
+}
+
+.currencyLanguageSelector .spanCurrencyLanguageSelector {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+        justify-content: flex-start;
+    }
+
+    .languageRoot {
+        padding: 0 8px;
+        font-size: var(--subtitle-font-size);
+        font-weight: var(--font-weight-bold);
+        color: var(--site-black);
+        display: none;
+        order: 1;
+    }
+
+    .editCountryCurrency {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        text-indent: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        background-image: var(--spritesheet);
+        background-size: 650px 650px;
+        background-position: -230px -311px;
+        transform: rotate(90deg);
+        order: 3;
+    }
+
+    p {
+        float: none;
+        font-size: var(--body-font-size);
+        padding: 0 10px;
+        order: 2;
+        line-height: normal;
+        color: var(--site-black);
+    }
+}
+
+.currencySelector li {
+    position: relative;
+    width: 33%;
+
+    @media (min-width: 768px) {
+        width: 20%;
+    }
+}
+
+.currencySelector li label {
+    font-size: 1.1em;
+}
+
+.currencySelector .languageSwitcherRadioButton {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 13px !important;
+}
+
+.currencySelector .languageSwitcherLabel {
+    position: relative;
+    padding-left: 32px;
+    font-size: 14px;
+}
+
+.currencySelector .languageSwitcherLabel::before,
+.currencySelector .languageSwitcherLabel::after,
+.languageSelector li a::before,
+.languageSelector li a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.currencySelector .languageSwitcherLabel::before,
+.languageSelector li a::before {
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    background-color: var(--site-white);
+    border: 1px solid var(--site-dark-grey);
+}
+
+.currencySelector .languageSwitcherLabel::after,
+.languageSelector li a::after {
+    left: 4px;
+    width: 13px;
+    height: 13px;
+    opacity: 0;
+    background-color: var(--site-black);
+}
+
+.currencySelector .languageSwitcherLabel::after {
+    top: 4px;
+}
+
+.languageSelector li a::after {
+    top: 3px;
+}
+
+.currencySelector .languageSwitcherRadioButton:hover + .currencySelector .languageSwitcherLabel::after,
+.currencySelector .languageSwitcherLabel:hover::after,
+.languageSelector li a:hover::after {
+    opacity: 0.5;
+}
+
+.currencySelector .activeHover .languageSwitcherLabel::before,
+.currencySelector .languageSwitcherLabel:hover::before,
+.languageSelector li a.isActive::before,
+.languageSelector li a:hover::before {
+    border: 1px solid var(--site-dark-grey);
+}
+
+.currencySelector .activeHover .languageSwitcherLabel,
+.currencySelector .languageSwitcherLabel:hover {
+    text-decoration: underline;
+    color: var(--site-dark-grey);
+}
+
+.currencySelector .languageSwitcherRadioButton:checked + .currencySelector .languageSwitcherLabel::after,
+.currencySelector .activeHover .languageSwitcherLabel::after,
+.languageSelector li a.isActive::after {
+    opacity: 1;
+}
+
+.currencyCountryHeader {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.currencyLanguageSlider #divCurrencySelector {
+    border-bottom: 1px solid #e7ebed;
+    padding-bottom: 20px;
+}
+
+.currencyLanguageSlider #divCurrencySelector .currencyHeader,
+#divLanguageSelector span.languageHeader {
+    font-size: 16px;
+    text-transform: inherit;
+    border-bottom: none;
+    display: block;
+}
+
+.languageSelector li {
+    width: 20%;
+}
+
+#languageCurrencySelectModel .modal-dialog {
+    width: 100%;
+    max-width: 970px;
+}
+
+#languageCurrencySelectModel .modal-header {
+    background-color: transparent;
+    border: 0;
+}
+
+#languageCurrencySelectModel .modal-body {
+    padding: 0 15px 30px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: var(--site-white);
+}
+
+.languageSelector li a {
+    position: relative;
+    padding: 0;
+}
+
+.languageSelector a:hover {
+    text-decoration: underline;
+    color: var(--site-dark-grey);
+}
+
+.languageSelector .isActive .countryName {
+    text-decoration: underline;
+    color: var(--site-dark-grey);
+}
+
+.languageSelector span.countryName {
+    font-size: 14px;
+    padding-left: 32px;
+    width: 100%;
+}
+
+#divCurrencyLanguageSliding {
+    width: 100%;
+}
+
+.currencyLanguageSlider {
+    top: 0;
+    border: 0;
+    box-shadow: none;
+    position: relative;
+}
+
+#divLanguageSelector .languageSelector a span.flag,
+.MobileMenuContentWrap #liMobileLanguageSelector span.flag {
+    display: none;
+    background: none;
+}
+
+#currencyLanguageSelector {
+    background: none transparent;
+    border: 0;
+    height: 100%;
+    min-width: 100%;
+    max-width: 110px;
+}
+
+.currencySelectorMobile li > .currencyOption {
+    box-shadow: inset 0 -1px rgba(208, 207, 205, 0.8);
+}
+
+.currencySelectorMobile li:last-of-type > .currencyOption,
+.lanugageSelectorMobile li a:last-of-type {
+    box-shadow: none;
+}
+
+@media (max-width: 1021px) {
+    .currency-eur .MobileMenuContentWrap li#liMobileCurrencySelector > a::before {
+        background-position: -73px -240px;
+    }
+
+    .currency-aud .MobileMenuContentWrap li#liMobileCurrencySelector > a::before,
+    .currency-usd .MobileMenuContentWrap li#liMobileCurrencySelector > a::before,
+    .currency-nzd .MobileMenuContentWrap li#liMobileCurrencySelector > a::before,
+    .currency-sgd .MobileMenuContentWrap li#liMobileCurrencySelector > a::before {
+        background-position: -173px -240px;
+    }
+
+    .currency-czk .MobileMenuContentWrap li#liMobileCurrencySelector > a::before {
+        background-position: -106px -240px;
+    }
+
+    .currency-huf .MobileMenuContentWrap li#liMobileCurrencySelector > a::before {
+        background-position: -206px -240px;
+    }
+
+    .currency-isk .MobileMenuContentWrap li#liMobileCurrencySelector > a::before {
+        background-position: -240px -240px;
+    }
+
+    .currency-myr .MobileMenuContentWrap li#liMobileCurrencySelector > a::before {
+        background-position: -306px -240px;
+    }
+
+    .currency-pln .MobileMenuContentWrap li#liMobileCurrencySelector > a::before {
+        background-position: -273px -240px;
+    }
+
+    #liMobileLanguageSelector a {
+        color: var(--site-black);
+    }
+
+    #liMobileLanguageSelector a.mp-back {
+        display: inline-block;
+        position: absolute;
+        background-color: var(--site-white);
+        left: 0;
+        top: 7px;
+    }
+
+    #liMobileLanguageSelector a.mp-back::before {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        background-size: 600px 600px;
+        background-position: -300px -130px;
+    }
+
+    #liMobileLanguageSelector a.mp-back span,
+    #liMobileCurrencySelector a.mp-back span {
+        font-size: 20px;
+        color: var(--site-black);
+        display: none;
+    }
+
+    #liMobileCurrencySelector .currencyOption label,
+    #liMobileCurrencySelector .currencyOption input {
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+        padding-right: 5px;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    #liMobileCurrencySelector .currencyOption label {
+        margin-left: 14px;
+    }
+}
+
+.currencySelectorMobile input[type="radio"] {
+    accent-color: var(--fras-black);
+}
+
+@media (min-width: 768px) {
+    :lang(en-au) .footerLanguageSwitcher,
+    :lang(en-au) .footerInfoSection #topLinkMenu,
+    :lang(en-nz) .footerLanguageSwitcher,
+    :lang(en-nz) .footerInfoSection #topLinkMenu,
+    :lang(en-us) .footerLanguageSwitcher,
+    :lang(en-us) .footerInfoSection #topLinkMenu {
+        width: 50%;
+    }
+}

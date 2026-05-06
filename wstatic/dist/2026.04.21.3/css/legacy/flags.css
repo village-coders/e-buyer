@@ -1,0 +1,152 @@
+.flag {
+    width: 22px;
+    height: 22px;
+    background-image: url("/images/flags/sd-sprite-sheet-unitedkingdom.svg");
+    background-size: 70px 70px;
+    background-position: -38px 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.flag.au {
+    background-image: url("/images/flags/sd-sprite-sheet-australia.svg");
+}
+
+.flag.at {
+    background-image: url("/images/flags/sd-sprite-sheet-austria.svg");
+}
+
+.flag.be {
+    background-image: url("/images/flags/sd-sprite-sheet-belgium.svg");
+}
+
+.flag.bg {
+    background-image: url("/images/flags/sd-sprite-sheet-bulgaria.svg");
+}
+
+.flag.hr {
+    background-image: url("/images/flags/sd-sprite-sheet-croatia.svg");
+}
+
+.flag.cz {
+    background-image: url("/images/flags/sd-sprite-sheet-czech.svg");
+}
+
+.flag.ee {
+    background-image: url("/images/flags/sd-sprite-sheet-estonia.svg");
+}
+
+.flag.fi {
+    background-image: url("/images/flags/sd-sprite-sheet-finland.svg");
+}
+
+.flag.fr {
+    background-image: url("/images/flags/sd-sprite-sheet-france.svg");
+}
+
+.flag.de {
+    background-image: url("/images/flags/sd-sprite-sheet-germany.svg");
+}
+
+.flag.gr {
+    background-image: url("/images/flags/sd-sprite-sheet-greece.svg");
+}
+
+.flag.hu {
+    background-image: url("/images/flags/sd-sprite-sheet-hungary.svg");
+}
+
+.flag.is {
+    background-image: url("/images/flags/sd-sprite-sheet-iceland.svg");
+}
+
+.flag.ie {
+    background-image: url("/images/flags/sd-sprite-sheet-ireland.svg");
+}
+
+.flag.it {
+    background-image: url("/images/flags/sd-sprite-sheet-italy.svg");
+}
+
+.flag.lv {
+    background-image: url("/images/flags/sd-sprite-sheet-latvia.svg");
+}
+
+.flag.lt {
+    background-image: url("/images/flags/sd-sprite-sheet-lithuania.svg");
+}
+
+.flag.lu {
+    background-image: url("/images/flags/sd-sprite-sheet-luxembourg.svg");
+}
+
+.flag.my {
+    background-image: url("/images/flags/sd-sprite-sheet-malaysia.svg");
+}
+
+.flag.mt {
+    background-image: url("/images/flags/sd-sprite-sheet-malta.svg");
+}
+
+.flag.md {
+    background-image: url("/images/flags/sd-sprite-sheet-moldova.svg");
+}
+
+.flag.nz {
+    background-image: url("/images/flags/sd-sprite-sheet-newzealand.svg");
+}
+
+.flag.no {
+    background-image: url("/images/flags/sd-sprite-sheet-norway.svg");
+}
+
+.flag.pl {
+    background-image: url("/images/flags/sd-sprite-sheet-poland.svg");
+}
+
+.flag.pt {
+    background-image: url("/images/flags/sd-sprite-sheet-portugal.svg");
+}
+
+.flag.ro {
+    background-image: url("/images/flags/sd-sprite-sheet-romania.svg");
+}
+
+.flag.rs {
+    background-image: url("/images/flags/sd-sprite-sheet-serbia.png");
+    background-size: auto auto;
+}
+
+.flag.sg {
+    background-image: url("/images/flags/sd-sprite-sheet-singapore.svg");
+}
+
+.flag.sk {
+    background-image: url("/images/flags/sd-sprite-sheet-slovakia.svg");
+}
+
+.flag.si {
+    background-image: url("/images/flags/sd-sprite-sheet-slovenia.svg");
+}
+
+.flag.es {
+    background-image: url("/images/flags/sd-sprite-sheet-spain.png");
+    background-size: auto auto;
+}
+
+.flag.se {
+    background-image: url("/images/flags/sd-sprite-sheet-sweden.svg");
+}
+
+.flag.ch {
+    background-image: url("/images/flags/sd-sprite-sheet-switzerland.svg");
+}
+
+.flag.ua {
+    background-image: url("/images/flags/sd-sprite-sheet-ukraine.svg");
+}
+
+.flag.us {
+    background-image: url("/images/flags/sd-sprite-sheet-unitedstates.svg");
+}
